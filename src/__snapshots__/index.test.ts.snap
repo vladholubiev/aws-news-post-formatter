@@ -4,7 +4,7 @@ exports[`should format a table w/o unnecessary styles 1`] = `
 "<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &nbsp;</p>
 <p>
 </p>
-<table cellspacing="0" cellpadding="0" border="1">
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
  <tbody><tr>
   <td width="114" valign="top">
   <p align="center"><b><span>Size</span></b></p>
@@ -150,7 +150,7 @@ exports[`should format a table w/o unnecessary styles 1`] = `
 <p></p>
 <p><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
 <p>&nbsp;</p>
-<table cellspacing="0" cellpadding="0" border="1">
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
 <tbody><tr><td width="114" valign="top"><p><b><span>Size</span></b></p>
 </td>
 <td width="66" valign="top"><p><b><span>vCPUs</span></b></p>
@@ -248,7 +248,7 @@ exports[`should return a formatted html 1`] = `
 "<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &nbsp;</p>
 <p>
 </p>
-<table cellspacing="0" cellpadding="0" border="1">
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
  <tbody><tr>
   <td width="114" valign="top">
   <p align="center"><b><span>Size</span></b></p>
@@ -394,7 +394,7 @@ exports[`should return a formatted html 1`] = `
 <p></p>
 <p><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
 <p>&nbsp;</p>
-<table cellspacing="0" cellpadding="0" border="1">
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
 <tbody><tr><td width="114" valign="top"><p><b><span>Size</span></b></p>
 </td>
 <td width="66" valign="top"><p><b><span>vCPUs</span></b></p>
@@ -494,150 +494,150 @@ exports[`should return a formatted html 2`] = `
 <p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL.  The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. </p>
 <p>For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:</p>
 <p><b>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance </b></p>
-<table align="center" border="0" cellspacing="0" cellpadding="0" width="348"><tbody><tr><td>
-<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" bgcolor="#999"><tbody>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;"><tbody><tr><td>
+<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" style="width: 100%;"><tbody>
 <tr valign="top">
-<td valign="top" width="25%;" bgcolor="#fff"><span>Region</span></td>
-		<td width="25%;" bgcolor="#fff"><span>Old Price</span></td>
-		<td width="25%;" bgcolor="#fff"><span>New Price</span></td>
-	       <td width="25%;" bgcolor="#fff"><span>Savings</span></td>
+<td valign="top" width="25%;"><span>Region</span></td>
+		<td width="25%;"><span>Old Price</span></td>
+		<td width="25%;"><span>New Price</span></td>
+	       <td width="25%;"><span>Savings</span></td>
         </tr>
 <tr>
-<td bgcolor="#fff"><span>US East (Northern Virginia)</span></td>
-		<td bgcolor="#fff"><span>$0.090</span></td>
-		<td bgcolor="#fff"><span>$0.080</span></td>
-	       <td bgcolor="#fff"><span>11%</span></td>
+<td><span>US East (Northern Virginia)</span></td>
+		<td><span>$0.090</span></td>
+		<td><span>$0.080</span></td>
+	       <td><span>11%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Northern California)</span></td>
-		<td bgcolor="#fff"><span>$0.098</span></td>
-		<td bgcolor="#fff"><span>$0.085</span></td>
-	       <td bgcolor="#fff"><span>13%</span></td>
+<td><span>US West (Northern California)</span></td>
+		<td><span>$0.098</span></td>
+		<td><span>$0.085</span></td>
+	       <td><span>13%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Oregon)</span></td>
-		<td bgcolor="#fff"><span>$0.090</span></td>
-		<td bgcolor="#fff"><span>$0.080</span></td>
-	       <td bgcolor="#fff"><span>11%</span></td>
+<td><span>US West (Oregon)</span></td>
+		<td><span>$0.090</span></td>
+		<td><span>$0.080</span></td>
+	       <td><span>11%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>AWS GovCloud (US)</span></td>
-		<td bgcolor="#fff"><span>$0.110</span></td>
-		<td bgcolor="#fff"><span>$0.090</span></td>
-	       <td bgcolor="#fff"><span>18%</span></td>
+<td><span>AWS GovCloud (US)</span></td>
+		<td><span>$0.110</span></td>
+		<td><span>$0.090</span></td>
+	       <td><span>18%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Europe (Ireland)</span></td>
-		<td bgcolor="#fff"><span>$0.098</span></td>
-		<td bgcolor="#fff"><span>$0.085</span></td>
-	       <td bgcolor="#fff"><span>13%</span></td>
+<td><span>Europe (Ireland)</span></td>
+		<td><span>$0.098</span></td>
+		<td><span>$0.085</span></td>
+	       <td><span>13%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Singapore)</span></td>
-		<td bgcolor="#fff"><span>$0.115</span></td>
-		<td bgcolor="#fff"><span>$0.100</span></td>
-	       <td bgcolor="#fff"><span>13%</span></td>
+<td><span>Asia Pacific (Singapore)</span></td>
+		<td><span>$0.115</span></td>
+		<td><span>$0.100</span></td>
+	       <td><span>13%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Tokyo)</span></td>
-		<td bgcolor="#fff"><span>$0.120</span></td>
-		<td bgcolor="#fff"><span>$0.110</span></td>
-	       <td bgcolor="#fff"><span>8%</span></td>
+<td><span>Asia Pacific (Tokyo)</span></td>
+		<td><span>$0.120</span></td>
+		<td><span>$0.110</span></td>
+	       <td><span>8%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Sydney)</span></td>
-		<td bgcolor="#fff"><span>$0.115</span></td>
-		<td bgcolor="#fff"><span>$0.100</span></td>
-	       <td bgcolor="#fff"><span>13%</span></td>
+<td><span>Asia Pacific (Sydney)</span></td>
+		<td><span>$0.115</span></td>
+		<td><span>$0.100</span></td>
+	       <td><span>13%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>South America (Sao Paulo)</span></td>
-		<td bgcolor="#fff"><span>$0.120</span></td>
-		<td bgcolor="#fff"><span>$0.100</span></td>
-	       <td bgcolor="#fff"><span>17%</span></td>
+<td><span>South America (Sao Paulo)</span></td>
+		<td><span>$0.120</span></td>
+		<td><span>$0.100</span></td>
+	       <td><span>17%</span></td>
        
        </tr>
 </tbody></table>
 </td></tr></tbody></table>
 <br>
 <p><b>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</b></p>
-<table align="center" border="0" cellspacing="0" cellpadding="0" width="348"><tbody><tr><td>
-<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" bgcolor="#999"><tbody>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;"><tbody><tr><td>
+<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" style="width: 100%;"><tbody>
 <tr valign="top">
-<td valign="top" width="25%;" bgcolor="#fff"><span>Region</span></td>
-		<td width="25%;" bgcolor="#fff"><span>Old Price</span></td>
-		<td width="25%;" bgcolor="#fff"><span>New Price</span></td>
-	       <td width="25%;" bgcolor="#fff"><span>Savings</span></td>
+<td valign="top" width="25%;"><span>Region</span></td>
+		<td width="25%;"><span>Old Price</span></td>
+		<td width="25%;"><span>New Price</span></td>
+	       <td width="25%;"><span>Savings</span></td>
         </tr>
 <tr>
-<td bgcolor="#fff"><span>US East (Northern Virginia)</span></td>
-		<td bgcolor="#fff"><span>$4,441</span></td>
-		<td bgcolor="#fff"><span>$3,507</span></td>
-	       <td bgcolor="#fff"><span>21%</span></td>
+<td><span>US East (Northern Virginia)</span></td>
+		<td><span>$4,441</span></td>
+		<td><span>$3,507</span></td>
+	       <td><span>21%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Northern California)</span></td>
-		<td bgcolor="#fff"><span>$6,044</span></td>
-		<td bgcolor="#fff"><span>$4,410</span></td>
-	       <td bgcolor="#fff"><span>27%</span></td>
+<td><span>US West (Northern California)</span></td>
+		<td><span>$6,044</span></td>
+		<td><span>$4,410</span></td>
+	       <td><span>27%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Oregon)</span></td>
-		<td bgcolor="#fff"><span>$4,441</span></td>
-		<td bgcolor="#fff"><span>$3,507</span></td>
-	       <td bgcolor="#fff"><span>21%</span></td>
+<td><span>US West (Oregon)</span></td>
+		<td><span>$4,441</span></td>
+		<td><span>$3,507</span></td>
+	       <td><span>21%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>AWS GovCloud (US)</span></td>
-		<td bgcolor="#fff"><span>$4,835</span></td>
-		<td bgcolor="#fff"><span>$4,217</span></td>
-	       <td bgcolor="#fff"><span>13%</span></td>
+<td><span>AWS GovCloud (US)</span></td>
+		<td><span>$4,835</span></td>
+		<td><span>$4,217</span></td>
+	       <td><span>13%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Europe (Ireland)</span></td>
-		<td bgcolor="#fff"><span>$6,044</span></td>
-		<td bgcolor="#fff"><span>$4,444</span></td>
-	       <td bgcolor="#fff"><span>26%</span></td>
+<td><span>Europe (Ireland)</span></td>
+		<td><span>$6,044</span></td>
+		<td><span>$4,444</span></td>
+	       <td><span>26%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Singapore)</span></td>
-		<td bgcolor="#fff"><span>$6,044</span></td>
-		<td bgcolor="#fff"><span>$4,820</span></td>
-	       <td bgcolor="#fff"><span>20%</span></td>
+<td><span>Asia Pacific (Singapore)</span></td>
+		<td><span>$6,044</span></td>
+		<td><span>$4,820</span></td>
+	       <td><span>20%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Tokyo)</span></td>
-		<td bgcolor="#fff"><span>$6,569</span></td>
-		<td bgcolor="#fff"><span>$5,129</span></td>
-	       <td bgcolor="#fff"><span>22%</span></td>
+<td><span>Asia Pacific (Tokyo)</span></td>
+		<td><span>$6,569</span></td>
+		<td><span>$5,129</span></td>
+	       <td><span>22%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Sydney)</span></td>
-		<td bgcolor="#fff"><span>$6,044</span></td>
-		<td bgcolor="#fff"><span>$4,820</span></td>
-	       <td bgcolor="#fff"><span>20%</span></td>
+<td><span>Asia Pacific (Sydney)</span></td>
+		<td><span>$6,044</span></td>
+		<td><span>$4,820</span></td>
+	       <td><span>20%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>South America (Sao Paulo)</span></td>
-		<td bgcolor="#fff"><span>$8,437</span></td>
-		<td bgcolor="#fff"><span>$6,517</span></td>
-	       <td bgcolor="#fff"><span>23%</span></td>
+<td><span>South America (Sao Paulo)</span></td>
+		<td><span>$8,437</span></td>
+		<td><span>$6,517</span></td>
+	       <td><span>23%</span></td>
        
        </tr>
 </tbody></table>
@@ -661,7 +661,7 @@ exports[`should return a formatted html 2`] = `
 exports[`should return a formatted html 3`] = `
 "<p>                 Starting today, <a href="https://aws.amazon.com/ec2/instance-types/c5/" target="_blank">Amazon EC2 C5 instances</a> will be available in new 12xlarge, 24xlarge, and Bare Metal sizes. These new instances will be powered by custom 2nd Generation Intel Xeon Scalable Processors (based on the Cascade Lake architecture) with sustained all-core turbo frequency of 3.6 GHz and maximum single core turbo frequency of 3.9 GHz. New Cascade Lake processors enable a new feature called Intel DL Boost which will help speed up typical machine learning operations like convolution, and automatically improve inference performance over a wide range of deep learning workloads. The specifications for the new sizes are in the table below.    &nbsp;</p>
 <p>&nbsp;</p>
-<table cellspacing="0" cellpadding="0" border="1">
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
 <tbody><tr><td width="104" valign="top"><p><b><span>Size</span></b></p>
 </td>
 <td width="58" valign="top"><p><b><span>vCPUs</span></b></p>
@@ -725,75 +725,75 @@ exports[`should return a formatted html 4`] = `
 <p>Today, many customers run production workloads on Amazon RDS as Multi-AZ deployments. However, we also know that there are many customers who‘ve wanted to run Amazon RDS Multi-AZ but haven’t  been able to do so yet at the current price.  So, we’re excited to lower our  Amazon RDS Multi-AZ to make it even easier for customers to run production databases on Amazon RDS as Multi-AZ deployments. </p>
 <p>For your quick reference, new pricing for an M1.Small instance for On-demand MySQL and Oracle (BYOL) Multi-AZ deployments is shown in table 1 below. </p>
 <p><b>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Multi-AZ Deployment Prices for M1.Small DB Instance</b></p>
-<table align="center" border="0" cellspacing="0" cellpadding="0" width="348"><tbody><tr><td>
-<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" bgcolor="#999"><tbody>
+<table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;"><tbody><tr><td>
+<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" style="width: 100%;"><tbody>
 <tr valign="top">
-<td valign="top" width="25%;" bgcolor="#fff"><span>Region</span></td>
-		<td width="25%;" bgcolor="#fff"><span>Old Price</span></td>
-		<td width="25%;" bgcolor="#fff"><span>New Price</span></td>
-	       <td width="25%;" bgcolor="#fff"><span>Savings</span></td>
+<td valign="top" width="25%;"><span>Region</span></td>
+		<td width="25%;"><span>Old Price</span></td>
+		<td width="25%;"><span>New Price</span></td>
+	       <td width="25%;"><span>Savings</span></td>
         </tr>
 <tr>
-<td bgcolor="#fff"><span>US East (Northern Virginia)</span></td>
-		<td bgcolor="#fff"><span>$0.180</span></td>
-		<td bgcolor="#fff"><span>$0.153</span></td>
-	       <td bgcolor="#fff"><span>15%</span></td>
+<td><span>US East (Northern Virginia)</span></td>
+		<td><span>$0.180</span></td>
+		<td><span>$0.153</span></td>
+	       <td><span>15%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Northern California)</span></td>
-		<td bgcolor="#fff"><span>$0.230</span></td>
-		<td bgcolor="#fff"><span>$0.167</span></td>
-	       <td bgcolor="#fff"><span>27%</span></td>
+<td><span>US West (Northern California)</span></td>
+		<td><span>$0.230</span></td>
+		<td><span>$0.167</span></td>
+	       <td><span>27%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>US West (Oregon)</span></td>
-		<td bgcolor="#fff"><span>$0.180</span></td>
-		<td bgcolor="#fff"><span>$0.153</span></td>
-	       <td bgcolor="#fff"><span>15%</span></td>
+<td><span>US West (Oregon)</span></td>
+		<td><span>$0.180</span></td>
+		<td><span>$0.153</span></td>
+	       <td><span>15%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>AWS GovCloud (US)</span></td>
-		<td bgcolor="#fff"><span>$0.240</span></td>
-		<td bgcolor="#fff"><span>$0.187</span></td>
-	       <td bgcolor="#fff"><span>22%</span></td>
+<td><span>AWS GovCloud (US)</span></td>
+		<td><span>$0.240</span></td>
+		<td><span>$0.187</span></td>
+	       <td><span>22%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Europe (Ireland)</span></td>
-		<td bgcolor="#fff"><span>$0.230</span></td>
-		<td bgcolor="#fff"><span>$0.167</span></td>
-	       <td bgcolor="#fff"><span>27%</span></td>
+<td><span>Europe (Ireland)</span></td>
+		<td><span>$0.230</span></td>
+		<td><span>$0.167</span></td>
+	       <td><span>27%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Singapore)</span></td>
-		<td bgcolor="#fff"><span>$0.230</span></td>
-		<td bgcolor="#fff"><span>$0.196</span></td>
-	       <td bgcolor="#fff"><span>15%</span></td>
+<td><span>Asia Pacific (Singapore)</span></td>
+		<td><span>$0.230</span></td>
+		<td><span>$0.196</span></td>
+	       <td><span>15%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Tokyo)</span></td>
-		<td bgcolor="#fff"><span>$0.240</span></td>
-		<td bgcolor="#fff"><span>$0.204</span></td>
-	       <td bgcolor="#fff"><span>15%</span></td>
+<td><span>Asia Pacific (Tokyo)</span></td>
+		<td><span>$0.240</span></td>
+		<td><span>$0.204</span></td>
+	       <td><span>15%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>Asia Pacific (Sydney)</span></td>
-		<td bgcolor="#fff"><span>$0.230</span></td>
-		<td bgcolor="#fff"><span>$0.196</span></td>
-	       <td bgcolor="#fff"><span>15%</span></td>
+<td><span>Asia Pacific (Sydney)</span></td>
+		<td><span>$0.230</span></td>
+		<td><span>$0.196</span></td>
+	       <td><span>15%</span></td>
        
        </tr>
 <tr>
-<td bgcolor="#fff"><span>South America (Sao Paulo)</span></td>
-		<td bgcolor="#fff"><span>$0.300</span></td>
-		<td bgcolor="#fff"><span>$0.204</span></td>
-	       <td bgcolor="#fff"><span>32%</span></td>
+<td><span>South America (Sao Paulo)</span></td>
+		<td><span>$0.300</span></td>
+		<td><span>$0.204</span></td>
+	       <td><span>32%</span></td>
        
        </tr>
 </tbody></table>
@@ -2474,7 +2474,7 @@ exports[`should return a formatted html 63`] = `
 </p>
 <p>AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities.&nbsp;</p>
 <p>To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the <a href="/content/aws.amazon.com/live/en_US/launchwizard.html">Launch Wizard page</a>, <a href="/content/aws.amazon.com/live/en_US/launchwizard/faq.html">FAQ</a>, and <a href="https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html">overview documentation</a>.</p>
-<table>
+<table style="width: 100%;">
 <tbody><tr><td><br>
 <b><b>Operating system version</b></b></td>
 <td><b>Single-Instance deployment</b></td>
@@ -2806,7 +2806,7 @@ exports[`should return a formatted html 72`] = `
 </p>
 <p>You can launch D2 instances through the <a target="_blank" href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="/content/aws.amazon.com/live/en_US/cli.html">AWS Command Line Interface</a>, and the <a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html">Amazon EC2 API</a>. You can also use D2 instances with software purchased through the <a target="_blank" href="https://aws.amazon.com/marketplace/">AWS Marketplace</a>. You can purchase D2 instances as On-Demand Instances, Reserved Instances, or Spot Instances. D2 instance are available in US East (N. Virginia), US West (Oregon), EU (Ireland), EU (Frankfurt), Asia Pacific (Tokyo), Asia Pacific (Singapore), and Asia Pacific (Sydney) regions.</p>
 <p>To learn more about D2 and other Amazon EC2 instances, visit the <a href="/content/aws.amazon.com/live/en_US/ec2/instance-types.html">Amazon EC2 Instances page</a> and the Amazon EC2 User Guide's <a target="_blank" href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/d2-instances.html">section</a> on D2 instances.</p>
-<table width="100%" border="0" cellspacing="0" cellpadding="1" jcr:primarytype="nt:unstructured">
+<table width="100%" border="0" cellspacing="0" cellpadding="1" jcr:primarytype="nt:unstructured" style="width: 100%;">
 <tbody><tr><th valign="top"><b>Instance Size</b></th>
 <th valign="top"><b># vCPUs</b></th>
 <th valign="top"><b>Memory (GiB)</b></th>
@@ -2920,7 +2920,7 @@ exports[`should return a formatted html 78`] = `
 <p>Elastic Beanstalk for Ruby 2.0 comes with a choice of Passenger Standalone or Puma web server for Ruby with Nginx as a reverse proxy. This highly requested combination allows you to utilize all the virtual cores available on the instance type running your environment. To get started using Elastic Beanstalk for Ruby 2.0, visit the <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&amp;C=1JOK9Z3SS71FV&amp;H=QDAZ7OFCC78QZCDWJITKKNLFYN4A&amp;T=TC&amp;U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate_deploy_Ruby.html%3Fref_%3Dpe_411040_115389660">AWS Elastic Beanstalk Developer Guide</a> or check out the walkthroughs for how to deploy <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&amp;C=1JOK9Z3SS71FV&amp;H=HCSSGDXD9JHYCEUQTSY3OL0KNDQA&amp;T=TC&amp;U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate_deploy_Ruby_rails.html%3Fref_%3Dpe_411040_115389660">Rails</a> and <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&amp;C=1JOK9Z3SS71FV&amp;H=XSI14UGWGAJMLZADOKL3ET1Y4WCA&amp;T=TC&amp;U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate_deploy_Ruby_sinatra.html%3Fref_%3Dpe_411040_115389660">Sinatra</a> applications on Elastic Beanstalk.</p>
 <p>To launch a sample application click on 'Launch Now' (will present the AWS Elastic Beanstalk launch application wizard) below:<br>
 </p>
-<table border="0">
+<table border="0" style="width: 100%;">
 <tbody><tr><td valign="middle"><p>Sample Sinatra application</p>
 </td>
 <td width="15%" valign="middle" align="center"><p><a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&amp;C=1JOK9Z3SS71FV&amp;H=IC5KJJTZZVUGHZ1C9SBIJRBLB6WA&amp;T=TC&amp;U=https%3A%2F%2Fconsole.aws.amazon.com%2Felasticbeanstalk%2F%3Fregion%3Dus-west-2%26ref_%3Dpe_411040_115389660%23%2FnewApplication%3FapplicationName%3DSinatraSampleApp%26solutionStackName%3DRuby">Launch Now</a></p>

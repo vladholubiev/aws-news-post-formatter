@@ -15,5 +15,10 @@ export function getFormattedHTML(rawHTML: string): string {
     $(element).css('width', '100%');
   });
 
+  // remove bgcolor from <td> and <table>
+  $('td,table').each((_, element) => {
+    $(element).removeAttr('bgcolor');
+  });
+
   return $('body').html() || '';
 }
