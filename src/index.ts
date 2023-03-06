@@ -50,6 +50,15 @@ export function getFormattedHTML(rawHTML: string): string {
     }
   });
 
+  // remove double <b> tags
+  $('b').each((_, element) => {
+    const parent = $(element).parent();
+
+    if (parent.is('b')) {
+      $(element).contents().unwrap();
+    }
+  });
+
   const finalHTML = $('body').html() || '';
 
   return jsBeautify.html(finalHTML, {indent_size: 2, wrap_line_length: 0});

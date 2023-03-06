@@ -2697,23 +2697,23 @@ exports[`should return a formatted html 63`] = `
   <tbody>
     <tr>
       <td><br>
-        <b><b>Operating system version</b></b>
+        <b>Operating system version</b>
       </td>
       <td><b>Single-Instance deployment</b></td>
       <td><br>
-        <b><b>ASCS</b></b>
+        <b>ASCS</b>
       </td>
       <td><br>
-        <b><b>ERS</b></b>
+        <b>ERS</b>
       </td>
       <td><br>
-        <b><b>PAS</b></b>
+        <b>PAS</b>
       </td>
       <td><br>
-        <b><b>SAP HANA database</b></b>
+        <b>SAP HANA database</b>
       </td>
       <td><br>
-        <b><b>SAP HANA database in HA cluster</b></b>
+        <b>SAP HANA database in HA cluster</b>
       </td>
     </tr>
     <tr>
