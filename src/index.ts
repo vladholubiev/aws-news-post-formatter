@@ -1,3 +1,3 @@
-export function getFoo(): string {
-  return 'bar';
+export function getFormattedHTML(rawHTML: string): string {
+  return rawHTML;
 }

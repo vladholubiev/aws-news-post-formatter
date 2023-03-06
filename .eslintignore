@@ -2,3 +2,6 @@ coverage/
 lib/
 renovate.json
 tsconfig.json
+test-data/*.json
+src/__snapshots__/*.snap
+

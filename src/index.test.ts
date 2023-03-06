@@ -1,18 +1,28 @@
 import 'expect-puppeteer';
-import {getFoo} from './index';
+import rawData from '../test-data/raw.json';
+import {getFormattedHTML} from './index';
 
-it('should return bar', () => {
-  expect(getFoo()).toEqual('bar');
-});
+type RawData = {
+  post_body: string;
+  count: number;
+};
 
-describe('google', () => {
-  beforeAll(async () => {
-    await page.goto('https://google.com');
-  });
+it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
+  'should return a formatted html',
+  (rawHTML: string) => {
+    const formattedHTML = getFormattedHTML(rawHTML);
 
-  it('should be titled "Google"', async () => {
-    const image = await page.screenshot({type: 'png'});
+    expect(formattedHTML).toMatchSnapshot();
+  }
+);
+
+it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
+  'should render a good-looking html',
+  async (rawHTML: string) => {
+    await page.goto('about:blank');
+    await page.setContent(rawHTML);
+    const image = await page.screenshot({type: 'png', fullPage: true});
 
     expect(image).toMatchImageSnapshot();
-  });
-});
+  }
+);
