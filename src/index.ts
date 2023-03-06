@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import * as jsBeautify from 'js-beautify';
 
 export function getFormattedHTML(rawHTML: string): string {
   const $ = load(rawHTML);
@@ -49,5 +50,7 @@ export function getFormattedHTML(rawHTML: string): string {
     }
   });
 
-  return $('body').html() || '';
+  const finalHTML = $('body').html() || '';
+
+  return jsBeautify.html(finalHTML, {indent_size: 2, wrap_line_length: 0});
 }
