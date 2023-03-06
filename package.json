@@ -1,6 +1,6 @@
 {
   "name": "@vladholubiev/aws-news-post-formatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Formats & fixes HTML from AWS News API",
   "license": "MIT",
   "author": {
