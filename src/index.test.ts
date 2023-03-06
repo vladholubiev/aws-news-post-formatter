@@ -14,6 +14,17 @@ it('should format a table w/o unnecessary styles', () => {
   expect(formattedHTML).toMatchSnapshot();
 });
 
+it('should render a table w/o unnecessary styles', async () => {
+  const rawHTML = (rawData as RawData[])[0].post_body;
+  const formattedHTML = getFormattedHTML(rawHTML);
+
+  await page.goto('about:blank');
+  await page.setContent(formattedHTML);
+  const image = await page.screenshot({type: 'png', fullPage: true});
+
+  expect(image).toMatchImageSnapshot();
+});
+
 it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
   'should return a formatted html',
   (rawHTML: string) => {
@@ -27,7 +38,7 @@ it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
   'should render a good-looking html',
   async (rawHTML: string) => {
     await page.goto('about:blank');
-    await page.setContent(rawHTML);
+    await page.setContent(getFormattedHTML(rawHTML));
     const image = await page.screenshot({type: 'png', fullPage: true});
 
     expect(image).toMatchImageSnapshot();

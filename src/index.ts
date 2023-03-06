@@ -10,5 +10,10 @@ export function getFormattedHTML(rawHTML: string): string {
 
   $('style').remove();
 
+  // set tables to full width
+  $('table').each((_, element) => {
+    $(element).css('width', '100%');
+  });
+
   return $('body').html() || '';
 }
