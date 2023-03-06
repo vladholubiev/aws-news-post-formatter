@@ -27,5 +27,20 @@ export function getFormattedHTML(rawHTML: string): string {
     }
   });
 
+  // fix relative urls
+  $('a').each(function () {
+    const href = $(this).attr('href');
+
+    if (href?.includes('/content/aws.amazon.com/live/en_US/')) {
+      const urlPath = href.split('/content/aws.amazon.com/live/en_US')[1].split('.html')[0];
+      $(this).attr('href', `https://aws.amazon.com${urlPath}`);
+    }
+
+    if (href?.includes('/content/aws.amazon.com/staging/en_US/')) {
+      const urlPath = href.split('/content/aws.amazon.com/staging/en_US/')[1].split('.html')[0];
+      $(this).attr('href', `https://aws.amazon.com${urlPath}`);
+    }
+  });
+
   return $('body').html() || '';
 }
