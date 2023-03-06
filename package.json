@@ -1,12 +1,12 @@
 {
-  "name": "@shelf/xxxxxx",
+  "name": "@vladholubiev/aws-news-post-formatter",
   "version": "0.0.0",
   "description": "xxxxxx",
   "license": "MIT",
   "author": {
     "name": "Vlad Holubiev",
-    "email": "vlad@shelf.io",
-    "url": "https://shelf.io"
+    "email": "hello@vladholubiev.com",
+    "url": "https://vladholubiev.com"
   },
   "main": "lib",
   "types": "lib/index.d.ts",
