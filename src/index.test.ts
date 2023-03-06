@@ -1,5 +1,5 @@
 import 'expect-puppeteer';
-import rawData from '../test-data/raw.json';
+import rawDataJSON from '../test-data/raw.json';
 import {getFormattedHTML} from './index';
 
 type RawData = {
@@ -7,29 +7,31 @@ type RawData = {
   count: number;
 };
 
+const rawData = rawDataJSON as RawData[];
+
 it('should format a table w/o unnecessary styles', () => {
-  const rawHTML = (rawData as RawData[])[0].post_body;
+  const rawHTML = rawData[0].post_body;
   const formattedHTML = getFormattedHTML(rawHTML);
 
   expect(formattedHTML).toMatchSnapshot();
 });
 
 it('should fix formatting of a bullet list', () => {
-  const rawHTML = (rawData as RawData[])[20].post_body;
+  const rawHTML = rawData[20].post_body;
   const formattedHTML = getFormattedHTML(rawHTML);
 
   expect(formattedHTML).toMatchSnapshot();
 });
 
 it('should fix formatting of a bullet list with bullet list inside single tag', () => {
-  const rawHTML = (rawData as RawData[])[9].post_body;
+  const rawHTML = rawData[9].post_body;
   const formattedHTML = getFormattedHTML(rawHTML);
 
   expect(formattedHTML).toMatchSnapshot();
 });
 
 it('should render a table w/o unnecessary styles', async () => {
-  const rawHTML = (rawData as RawData[])[0].post_body;
+  const rawHTML = rawData[0].post_body;
   const formattedHTML = getFormattedHTML(rawHTML);
 
   await page.goto('about:blank');
@@ -39,7 +41,7 @@ it('should render a table w/o unnecessary styles', async () => {
   expect(image).toMatchImageSnapshot();
 });
 
-it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
+it.each(rawData.map(r => r.post_body).slice(0, 100))(
   'should return a formatted html',
   (rawHTML: string) => {
     const formattedHTML = getFormattedHTML(rawHTML);
@@ -48,7 +50,7 @@ it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
   }
 );
 
-it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
+it.each(rawData.map(r => r.post_body).slice(0, 100))(
   'should render a good-looking html',
   async (rawHTML: string) => {
     await page.goto('about:blank');
