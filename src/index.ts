@@ -20,9 +20,16 @@ export function getFormattedHTML(rawHTML: string): string {
     $(element).removeAttr('bgcolor');
   });
 
-  // remove empty <p> and <span> blocks like "<p>&nbsp;</p>"
-  $('p,span,a').each((_, element) => {
+  // remove empty <p> and <a> blocks like "<p>&nbsp;</p>"
+  $('p,a').each((_, element) => {
     if ($(element).text().trim() === '') {
+      $(element).remove();
+    }
+  });
+
+  // remove empty <span> with exception of "<span>&nbsp;</span>"
+  $('span').each((_, element) => {
+    if ($(element).text().trim() === '' && $(element).html() !== '&nbsp;') {
       $(element).remove();
     }
   });

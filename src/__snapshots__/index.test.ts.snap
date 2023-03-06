@@ -3213,7 +3213,7 @@ exports[`should return a formatted html 98`] = `
 exports[`should return a formatted html 99`] = `
 "<div>
 <p><span>We are excited to announce the immediate availability of a new
-feature:<b>Amazon Machine Image
+feature:<span>&nbsp;</span><b>Amazon Machine Image
 (AMI) Copy</b>. AMI Copy enables you to easily copy your AMIs across AWS
 regions, enabling the following scenarios:</span></p>
 <p><b><span>Consistent and Simple
@@ -3234,11 +3234,11 @@ availability.</span></p>
 <p><span>To use AMI Copy, simply select the AMI to be copied from within
 the AWS Management Console, choose the destination region, and start the copy.&nbsp;
 AMI Copy can also be accessed via the EC2 Command Line Interface or EC2 API as
-described in the</span><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html"><span>EC2 User’s Guide.</span></a><span> Once
+described in the<span>&nbsp;</span></span><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html"><span>EC2 User’s Guide.</span></a><span> Once
 the copy is complete, the new AMI can be used to launch new EC2 instances in
 the destination region.</span></p>
 <p><span>There are no additional charges for using AMI Copy, but you will
-be chargedto transfer the AMI out
+be charged<span>&nbsp;</span>to transfer the AMI out
 of the source region and to store the copied AMI in the destination region. </span></p>
 <p><span>We recently launched Amazon </span><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-copy-snapshot.html"><span>EBS Snapshot Copy</span></a><span>, which
 enables you to copy EBS Snapshots across AWS regions, and last month we
