@@ -1,7 +1,8 @@
 {
   "extends": "@shelf/tsconfig/backend",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "typeRoots": ["node_modules/@types", "./types-3rd-party"]
   },
   "exclude": ["node_modules"],
   "include": ["src"]

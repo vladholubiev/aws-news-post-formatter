@@ -2,5 +2,11 @@
   "root": true,
   "extends": [
     "@shelf/eslint-config/typescript"
-  ]
+  ],
+  "globals": {
+    "page": true,
+    "browser": true,
+    "context": true,
+    "jestPuppeteer": true
+  }
 }
