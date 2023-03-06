@@ -4,7 +4,7 @@ import {getFormattedHTML} from './index';
 
 type RawData = {
   post_body: string;
-  count: number;
+  size: number;
 };
 
 const rawData = rawDataJSON as RawData[];
