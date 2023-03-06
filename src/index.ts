@@ -64,6 +64,15 @@ export function getFormattedHTML(rawHTML: string): string {
     $(element).replaceWith(`<strong>${$(element).html()}</strong>`);
   });
 
+  // replace ● with •
+  $('p').each((_, element) => {
+    const elHTML = $(element).html();
+
+    if (elHTML) {
+      $(element).html(elHTML.replace(/●/g, '•'));
+    }
+  });
+
   const finalHTML = $('body').html() || '';
 
   return jsBeautify.html(finalHTML, {indent_size: 2, wrap_line_length: 0});

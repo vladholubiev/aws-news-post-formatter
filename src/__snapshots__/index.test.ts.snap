@@ -1488,20 +1488,20 @@ exports[`should return a formatted html 21`] = `
   Use the IpAddress attribute to return the IPv4 address of the mount target.</p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html">AWS::ElasticLoadBalancingV2::ListenerRule</a></p>
 <p>In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticloadbalancingv2-listenerrule-conditions.html">RuleCondition</a> property type:</p>
-<p>● Use the HostHeaderConfig property to specify information for a host header condition.</p>
-<p>● Use the HttpHeaderConfig property to specify information for an HTTP header condition.</p>
-<p>● Use the HttpRequestMethodConfig property to specify information for an HTTP method condition.</p>
-<p>● Use the PathPatternConfig property to specify information for a path pattern condition.</p>
-<p>● Use the QueryStringConfig property to specify information for a query string condition.</p>
-<p>● Use the SourceIpConfig property to specify information for a source IP condition.</p>
+<p>• Use the HostHeaderConfig property to specify information for a host header condition.</p>
+<p>• Use the HttpHeaderConfig property to specify information for an HTTP header condition.</p>
+<p>• Use the HttpRequestMethodConfig property to specify information for an HTTP method condition.</p>
+<p>• Use the PathPatternConfig property to specify information for a path pattern condition.</p>
+<p>• Use the QueryStringConfig property to specify information for a query string condition.</p>
+<p>• Use the SourceIpConfig property to specify information for a source IP condition.</p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html">AWS::EMR::Cluster</a><br>
   In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-jobflowinstancesconfig.html">JobFlowInstancesConfig</a> property type, use the Ec2SubnetIdsproperty to specify multiple EC2 subnet IDs.</p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-extendeds3destinationconfiguration.html">AWS::KinesisFirehose::DeliveryStream</a><br>
   In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-extendeds3destinationconfiguration.html">ExtendedS3DestinationConfiguration</a> property type:<br>
 </p>
-<p>● Use the DataFormatConversionConfiguration property to specify the serializer, deserializer, and schema for converting data from the JSON format to the Parquet or ORC format before writing it to Amazon S3.</p>
-<p>● Use the ErrorOutputPrefix property to specify a prefix that Kinesis Data Firehose evaluates and adds to failed records before writing them to S3.</p>
-<p>●The Prefix property is no longer required.</p>
+<p>• Use the DataFormatConversionConfiguration property to specify the serializer, deserializer, and schema for converting data from the JSON format to the Parquet or ORC format before writing it to Amazon S3.</p>
+<p>• Use the ErrorOutputPrefix property to specify a prefix that Kinesis Data Firehose evaluates and adds to failed records before writing them to S3.</p>
+<p>•The Prefix property is no longer required.</p>
 <p>In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-s3destinationconfiguration.html">S3DestinationConfiguration</a> property type, use the ErrorOutputPrefix property to specify a prefix that Kinesis Data Firehose evaluates and adds to failed records before writing them to S3.</p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS::S3::Bucket<br>
   </a>Use the ObjectLockConfiguration property to specify an object lock configuration for the specified bucket.</p>
