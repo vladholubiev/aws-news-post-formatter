@@ -14,6 +14,20 @@ it('should format a table w/o unnecessary styles', () => {
   expect(formattedHTML).toMatchSnapshot();
 });
 
+it('should fix formatting of a bullet list', () => {
+  const rawHTML = (rawData as RawData[])[20].post_body;
+  const formattedHTML = getFormattedHTML(rawHTML);
+
+  expect(formattedHTML).toMatchSnapshot();
+});
+
+it('should fix formatting of a bullet list with bullet list inside single tag', () => {
+  const rawHTML = (rawData as RawData[])[9].post_body;
+  const formattedHTML = getFormattedHTML(rawHTML);
+
+  expect(formattedHTML).toMatchSnapshot();
+});
+
 it('should render a table w/o unnecessary styles', async () => {
   const rawHTML = (rawData as RawData[])[0].post_body;
   const formattedHTML = getFormattedHTML(rawHTML);

@@ -1,5 +1,96 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should fix formatting of a bullet list 1`] = `
+"<p><a href="https://aws.amazon.com/cloudformation">AWS CloudFormation</a> provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. It allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts.&nbsp;</p>
+<p>The following resources were updated as part of this release: AWS::EC2::Host, AWS::EC2::Route, AWS::EC2::VPNConnection, AWS::ECS::Cluster, AWS::ECS::Service, AWS::ECS::TaskDefinition, AWS::EFS::MountTarget, AWS::ElasticLoadBalancingV2::ListenerRule, AWS::EMR::Cluster, AWS::KinesisFirehose::DeliveryStream, AWS::S3::Bucket.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html">AWS::EC2::Host</a><br>
+  Use the HostRecovery property to indicates whether to enable or disable host recovery for the Dedicated Host.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html">AWS::EC2::Route</a><br>
+  Use the TransitGatewayId property to specify the ID of a transit gateway.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html">AWS::EC2::VPNConnection</a><br>
+  Use the TransitGatewayId property to specify the ID of the transit gateway associated with the VPN connection.</p>
+<p>Use the VpnGatewayId property to specify the ID of the virtual private gateway at the AWS side of the VPN connection.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html">AWS::ECS::Cluster</a><br>
+  Use the Tags property to apply metadata to clusters to help you categorize and organize them.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html">AWS::ECS::Service</a><br>
+  Use the EnableECSManagedTags property to specify whether to enable Amazon ECS managed tags for the tasks within the service.</p>
+<p>Use the PropagateTags property to specify whether to propagate the tags from the task definition or the service to the tasks in the service.</p>
+<p>Use the Tags property to apply metadata to services to help you categorize and organize them.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html">AWS::ECS::TaskDefinition</a><br>
+  In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html">ContainerDefinition</a> property type, use the ResourceRequirementsproperty to specify the type and amount of a resource to assign to a container. The only supported resource is a GPU.</p>
+<p>In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html">ContainerDefinition</a> property type, use the Secrets property to specify the secrets to pass to the container.</p>
+<p>Use the Tags property to apply metadata to task definitions to help you categorize and organize them.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html">AWS::EFS::MountTarget</a><br>
+  Use the IpAddress attribute to return the IPv4 address of the mount target.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html">AWS::ElasticLoadBalancingV2::ListenerRule</a></p>
+<p>In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticloadbalancingv2-listenerrule-conditions.html">RuleCondition</a> property type:</p>
+<p>• Use the HostHeaderConfig property to specify information for a host header condition.</p>
+<p>• Use the HttpHeaderConfig property to specify information for an HTTP header condition.</p>
+<p>• Use the HttpRequestMethodConfig property to specify information for an HTTP method condition.</p>
+<p>• Use the PathPatternConfig property to specify information for a path pattern condition.</p>
+<p>• Use the QueryStringConfig property to specify information for a query string condition.</p>
+<p>• Use the SourceIpConfig property to specify information for a source IP condition.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html">AWS::EMR::Cluster</a><br>
+  In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-jobflowinstancesconfig.html">JobFlowInstancesConfig</a> property type, use the Ec2SubnetIdsproperty to specify multiple EC2 subnet IDs.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-extendeds3destinationconfiguration.html">AWS::KinesisFirehose::DeliveryStream</a><br>
+  In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-extendeds3destinationconfiguration.html">ExtendedS3DestinationConfiguration</a> property type:<br>
+</p>
+<p>• Use the DataFormatConversionConfiguration property to specify the serializer, deserializer, and schema for converting data from the JSON format to the Parquet or ORC format before writing it to Amazon S3.</p>
+<p>• Use the ErrorOutputPrefix property to specify a prefix that Kinesis Data Firehose evaluates and adds to failed records before writing them to S3.</p>
+<p>•The Prefix property is no longer required.</p>
+<p>In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-kinesisfirehose-deliverystream-s3destinationconfiguration.html">S3DestinationConfiguration</a> property type, use the ErrorOutputPrefix property to specify a prefix that Kinesis Data Firehose evaluates and adds to failed records before writing them to S3.</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS::S3::Bucket<br>
+  </a>Use the ObjectLockConfiguration property to specify an object lock configuration for the specified bucket.</p>
+<p>Use the ObjectLockEnabled property to specify whether this bucket has an object lock configuration enabled.</p>"
+`;
+
+exports[`should fix formatting of a bullet list with bullet list inside single tag 1`] = `
+"<p> You can now provision the following AWS resources using CloudFormation.</p>
+<p>• <strong>AWS::EMR::SecurityConfiguration</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html">Create</a> an Amazon EMR security configuration, which is stored in the service and can be specified when a cluster is created.</p>
+<p>CloudFormation has also updated support for the following resources:</p>
+<p>• <strong>AWS::AutoScaling::LifecycleHook</strong></p>
+<p>o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-notificationtargetarn">NotificationTargetARN</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-rolearn">RoleARN</a> properties are now optional for <a href="https://aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html">AWS::AutoScaling::LifecycleHook</a>.</p>
+<p>• <strong>AWS::CloudWatch::Alarm</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html">Create</a> a CloudWatch alarm using the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-evaluatelowsamplecountpercentile">EvaluateLowSampleCountPercentile</a>, <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-extendedstatistic">ExtendedStatistic</a>, and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-treatmissingdata">TreatMissingData</a> properties.</p>
+<p>• <strong>AWS::EC2::SpotFleet</strong></p>
+<p>o Now CloudFormation supports mutable changes to Spot fleet properties. The following properties of the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a> property support&nbsp;Replacement&nbsp;updates:</p>
+<p>•&nbsp;AllocationStrategy<br>
+  •&nbsp;IamFleetRole<br>
+  •&nbsp;LaunchSpecifications<br>
+  •&nbsp;SpotPrice<br>
+  •&nbsp;TerminateInstancesWithExpiration<br>
+  •&nbsp;ValidFrom<br>
+  •&nbsp;ValidUntil</p>
+<p>o The following properties of the&nbsp;<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a>&nbsp;property support&nbsp;No interruption&nbsp;updates:</p>
+<p>•&nbsp;ExcessCapacityTerminationPolicy<br>
+  •&nbsp;TargetCapacity</p>
+<p>• <strong>AWS::EMR::InstanceGroupConfig</strong></p>
+<p>o Use <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy">AutoScalingPolicy</a> property to support Auto Scaling for Amazon EMR task instance groups.</p>
+<p>• <strong>AWS::Events::Rule</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-rolearn">RoleArn</a> property on the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html">Target</a> data type to specify the IAM role. The&nbsp;RoleArn&nbsp;property is deprecated on the&nbsp;Rule&nbsp;resource.</p>
+<p>• <strong>AWS::Kinesis::Stream</strong></p>
+<p>o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-shardcount">ShardCount</a> property for <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html?shortFooter=truel">AWS::Kinesis::Stream</a> now supports No interruption updates. Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-retentionperiodhourst">RetentionPeriodHours</a> property to configure the number of hours for the data records stored in shards to remain accessible</p>
+<p>• <strong>AWS::Lambda::Function</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig">TracingConfig</a> property to configure tracing settings for your AWS Lambda function. For more information about tracing Lambda functions, see <a href="http://docs.aws.amazon.com/lambda/latest/dg/lambda-x-ray.html#using-x-ray">Tracing Lambda-Based Applications with AWS X-Ray</a> in the AWS Lambda Developer Guide.</p>
+<p>• <strong>AWS::Redshift::Cluster</strong></p>
+<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Tags</a> property to specify tags to associate with the Amazon Redshift cluster resource.</p>
+<p>• <strong>AWS::Redshift::ClusterParameterGroup</strong></p>
+<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html">Tags</a> property to specify tags to associate with the Amazon Redshift parameter group resource.</p>
+<p>• <strong>AWS::Redshift::ClusterSecurityGroup</strong></p>
+<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group. </p>
+<p>• <strong>AWS::Redshift::ClusterSubnetGroup</strong></p>
+<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html">Tags</a> property to specify resource tags on an Amazon Redshift subnet group.</p>
+<p>• <strong>AWS::RDS::DBCluster</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html">Added</a> the ReadEndpoint.Address attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
+<p>• <strong>AWS::S3::Bucket</strong></p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html">Added</a> the Amazon Resource Name ( Arn) attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
+<p>Please visit our website for more information on AWS CloudFormation:<br>
+  • <a href="https://aws.amazon.com/cloudformation">Product Page</a><br>
+  • <a href="https://aws.amazon.com/documentation/cloudformation">Documentation</a><br>
+  • <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html">Supported AWS Resources</a>&nbsp;</p>"
+`;
+
 exports[`should format a table w/o unnecessary styles 1`] = `
 "<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &nbsp;</p>
 
