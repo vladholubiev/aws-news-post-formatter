@@ -1,5 +1,249 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should format a table w/o unnecessary styles 1`] = `
+"<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &nbsp;</p>
+<p>
+</p>
+<table cellspacing="0" cellpadding="0" border="1">
+ <tbody><tr>
+  <td width="114" valign="top">
+  <p align="center"><b><span>Size</span></b></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><b><span>vCPUs</span></b></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><b><span>Memory</span></b></p>
+  <p align="center"><b><span>(GiB)</span></b></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><b><span>Storage (GB)</span></b></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><b><span>Network Bandwidth (Gbps)</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5.8xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>5</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>10</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5a.8xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>3.5</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>Up to 10</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5d.8xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>2 x 600 NVMe SSD</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>5</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>10</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5.16xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>10</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>20</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5a.16xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>7</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>12</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5d.16xlarge</span></p>
+  </td>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
+  </td>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
+  </td>
+  <td width="149" valign="top">
+  <p align="center"><span>4 x 600 NVMe SSD</span></p>
+  </td>
+  <td width="114" valign="top">
+  <p align="center"><span>10</span></p>
+  </td>
+  <td width="109" valign="top">
+  <p align="center"><span>20</span></p>
+  </td>
+ </tr>
+</tbody></table>
+<p></p>
+<p><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
+<p>&nbsp;</p>
+<table cellspacing="0" cellpadding="0" border="1">
+<tbody><tr><td width="114" valign="top"><p><b><span>Size</span></b></p>
+</td>
+<td width="66" valign="top"><p><b><span>vCPUs</span></b></p>
+</td>
+<td width="72" valign="top"><p><b><span>Memory</span></b></p>
+<p><b><span>(GiB)</span></b></p>
+</td>
+<td width="149" valign="top"><p><b><span>Storage (GB)</span></b></p>
+</td>
+<td width="114" valign="top"><p><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+</td>
+<td width="109" valign="top"><p><b><span>Network Bandwidth (Gbps)</span></b></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5.8xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>32</span></p>
+</td>
+<td width="72" valign="top"><p><span>256</span></p>
+</td>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
+</td>
+<td width="114" valign="top"><p><span>5</span></p>
+</td>
+<td width="109" valign="top"><p><span>10</span></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5a.8xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>32</span></p>
+</td>
+<td width="72" valign="top"><p><span>256</span></p>
+</td>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
+</td>
+<td width="114" valign="top"><p><span>3.5</span></p>
+</td>
+<td width="109" valign="top"><p><span>Up to 10</span></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5d.8xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>32</span></p>
+</td>
+<td width="72" valign="top"><p><span>256</span></p>
+</td>
+<td width="149" valign="top"><p><span>2 x 600 NVMe SSD</span></p>
+</td>
+<td width="114" valign="top"><p><span>5</span></p>
+</td>
+<td width="109" valign="top"><p><span>10</span></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5.16xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>64</span></p>
+</td>
+<td width="72" valign="top"><p><span>512</span></p>
+</td>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
+</td>
+<td width="114" valign="top"><p><span>10</span></p>
+</td>
+<td width="109" valign="top"><p><span>20</span></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5a.16xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>64</span></p>
+</td>
+<td width="72" valign="top"><p><span>512</span></p>
+</td>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
+</td>
+<td width="114" valign="top"><p><span>7</span></p>
+</td>
+<td width="109" valign="top"><p><span>12</span></p>
+</td>
+</tr><tr><td width="114" valign="top"><p><span>r5d.16xlarge</span></p>
+</td>
+<td width="66" valign="top"><p><span>64</span></p>
+</td>
+<td width="72" valign="top"><p><span>512</span></p>
+</td>
+<td width="149" valign="top"><p><span>4 x 600 NVMe SSD</span></p>
+</td>
+<td width="114" valign="top"><p><span>10</span></p>
+</td>
+<td width="109" valign="top"><p><span>20</span></p>
+</td>
+</tr></tbody></table>
+<p>&nbsp;</p>
+<p><a href="https://aws.amazon.com/ec2/instance-types/r5/" target="_blank">R5, R5a, and R5d instances</a> are memory optimized instances and are ideal for high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.</p>
+<p>M5, M5a, M5d, R5, R5a, and R5d instances are now available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs and can be purchased as On-Demand, Reserved or Spot Instances. These instances are available in all the AWS Regions where the existing sizes are already available.<br>
+</p>
+<p><span>To get started, visit the&nbsp;</span><a><span></span></a><a href="https://console.aws.amazon.com/" target="_blank">AWS Management Console</a><span>,&nbsp;</span><a><span></span></a><a href="https://aws.amazon.com/cli/" target="_blank">AWS Command Line Interface (CLI)</a><span>, and&nbsp;</span><a><span></span></a><a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html" target="_blank">AWS SDKs</a><span>. To learn more, visit the&nbsp;</span><a><span></span></a><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">Amazon EC2 M5 instance page</a><span> or the </span><a><span></span></a><a href="https://aws.amazon.com/ec2/instance-types/r5/" target="_blank">Amazon EC2 R5 instance page</a><span>.</span></p>"
+`;
+
 exports[`should return a formatted html 1`] = `
 "<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &nbsp;</p>
 <p>

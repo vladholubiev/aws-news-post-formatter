@@ -7,6 +7,13 @@ type RawData = {
   count: number;
 };
 
+it('should format a table w/o unnecessary styles', () => {
+  const rawHTML = (rawData as RawData[])[0].post_body;
+  const formattedHTML = getFormattedHTML(rawHTML);
+
+  expect(formattedHTML).toMatchSnapshot();
+});
+
 it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
   'should return a formatted html',
   (rawHTML: string) => {
