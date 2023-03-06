@@ -59,6 +59,11 @@ export function getFormattedHTML(rawHTML: string): string {
     }
   });
 
+  // replace <b> with <strong>
+  $('b').each((_, element) => {
+    $(element).replaceWith(`<strong>${$(element).html()}</strong>`);
+  });
+
   const finalHTML = $('body').html() || '';
 
   return jsBeautify.html(finalHTML, {indent_size: 2, wrap_line_length: 0});

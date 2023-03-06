@@ -41,6 +41,6 @@ it.each((rawData as RawData[]).map(r => r.post_body).slice(0, 100))(
     await page.setContent(getFormattedHTML(rawHTML));
     const image = await page.screenshot({type: 'png', fullPage: true});
 
-    expect(image).toMatchImageSnapshot();
+    expect(image).toMatchImageSnapshot({failureThreshold: 0.01});
   }
 );

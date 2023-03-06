@@ -7,23 +7,23 @@ exports[`should format a table w/o unnecessary styles 1`] = `
   <tbody>
     <tr>
       <td width="114" valign="top">
-        <p align="center"><b><span>Size</span></b></p>
+        <p align="center"><strong><span>Size</span></strong></p>
       </td>
       <td width="66" valign="top">
-        <p align="center"><b><span>vCPUs</span></b></p>
+        <p align="center"><strong><span>vCPUs</span></strong></p>
       </td>
       <td width="72" valign="top">
-        <p align="center"><b><span>Memory</span></b></p>
-        <p align="center"><b><span>(GiB)</span></b></p>
+        <p align="center"><strong><span>Memory</span></strong></p>
+        <p align="center"><strong><span>(GiB)</span></strong></p>
       </td>
       <td width="149" valign="top">
-        <p align="center"><b><span>Storage (GB)</span></b></p>
+        <p align="center"><strong><span>Storage (GB)</span></strong></p>
       </td>
       <td width="114" valign="top">
-        <p align="center"><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+        <p align="center"><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
       </td>
       <td width="109" valign="top">
-        <p align="center"><b><span>Network Bandwidth (Gbps)</span></b></p>
+        <p align="center"><strong><span>Network Bandwidth (Gbps)</span></strong></p>
       </td>
     </tr>
     <tr>
@@ -155,23 +155,23 @@ exports[`should format a table w/o unnecessary styles 1`] = `
   <tbody>
     <tr>
       <td width="114" valign="top">
-        <p><b><span>Size</span></b></p>
+        <p><strong><span>Size</span></strong></p>
       </td>
       <td width="66" valign="top">
-        <p><b><span>vCPUs</span></b></p>
+        <p><strong><span>vCPUs</span></strong></p>
       </td>
       <td width="72" valign="top">
-        <p><b><span>Memory</span></b></p>
-        <p><b><span>(GiB)</span></b></p>
+        <p><strong><span>Memory</span></strong></p>
+        <p><strong><span>(GiB)</span></strong></p>
       </td>
       <td width="149" valign="top">
-        <p><b><span>Storage (GB)</span></b></p>
+        <p><strong><span>Storage (GB)</span></strong></p>
       </td>
       <td width="114" valign="top">
-        <p><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
       </td>
       <td width="109" valign="top">
-        <p><b><span>Network Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>Network Bandwidth (Gbps)</span></strong></p>
       </td>
     </tr>
     <tr>
@@ -310,23 +310,23 @@ exports[`should return a formatted html 1`] = `
   <tbody>
     <tr>
       <td width="114" valign="top">
-        <p align="center"><b><span>Size</span></b></p>
+        <p align="center"><strong><span>Size</span></strong></p>
       </td>
       <td width="66" valign="top">
-        <p align="center"><b><span>vCPUs</span></b></p>
+        <p align="center"><strong><span>vCPUs</span></strong></p>
       </td>
       <td width="72" valign="top">
-        <p align="center"><b><span>Memory</span></b></p>
-        <p align="center"><b><span>(GiB)</span></b></p>
+        <p align="center"><strong><span>Memory</span></strong></p>
+        <p align="center"><strong><span>(GiB)</span></strong></p>
       </td>
       <td width="149" valign="top">
-        <p align="center"><b><span>Storage (GB)</span></b></p>
+        <p align="center"><strong><span>Storage (GB)</span></strong></p>
       </td>
       <td width="114" valign="top">
-        <p align="center"><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+        <p align="center"><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
       </td>
       <td width="109" valign="top">
-        <p align="center"><b><span>Network Bandwidth (Gbps)</span></b></p>
+        <p align="center"><strong><span>Network Bandwidth (Gbps)</span></strong></p>
       </td>
     </tr>
     <tr>
@@ -458,23 +458,23 @@ exports[`should return a formatted html 1`] = `
   <tbody>
     <tr>
       <td width="114" valign="top">
-        <p><b><span>Size</span></b></p>
+        <p><strong><span>Size</span></strong></p>
       </td>
       <td width="66" valign="top">
-        <p><b><span>vCPUs</span></b></p>
+        <p><strong><span>vCPUs</span></strong></p>
       </td>
       <td width="72" valign="top">
-        <p><b><span>Memory</span></b></p>
-        <p><b><span>(GiB)</span></b></p>
+        <p><strong><span>Memory</span></strong></p>
+        <p><strong><span>(GiB)</span></strong></p>
       </td>
       <td width="149" valign="top">
-        <p><b><span>Storage (GB)</span></b></p>
+        <p><strong><span>Storage (GB)</span></strong></p>
       </td>
       <td width="114" valign="top">
-        <p><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
       </td>
       <td width="109" valign="top">
-        <p><b><span>Network Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>Network Bandwidth (Gbps)</span></strong></p>
       </td>
     </tr>
     <tr>
@@ -611,7 +611,7 @@ exports[`should return a formatted html 2`] = `
 <p> We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013. </p>
 <p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL. The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. </p>
 <p>For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:</p>
-<p><b>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance </b></p>
+<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance </strong></p>
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;">
   <tbody>
     <tr>
@@ -694,7 +694,7 @@ exports[`should return a formatted html 2`] = `
   </tbody>
 </table>
 <br>
-<p><b>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</b></p>
+<p><strong>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</strong></p>
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;">
   <tbody>
     <tr>
@@ -803,22 +803,22 @@ exports[`should return a formatted html 3`] = `
   <tbody>
     <tr>
       <td width="104" valign="top">
-        <p><b><span>Size</span></b></p>
+        <p><strong><span>Size</span></strong></p>
       </td>
       <td width="58" valign="top">
-        <p><b><span>vCPUs</span></b></p>
+        <p><strong><span>vCPUs</span></strong></p>
       </td>
       <td width="91" valign="top">
-        <p><b><span>Memory (GiB)</span></b></p>
+        <p><strong><span>Memory (GiB)</span></strong></p>
       </td>
       <td width="137" valign="top">
-        <p><b><span>Instance Storage (GB)</span></b></p>
+        <p><strong><span>Instance Storage (GB)</span></strong></p>
       </td>
       <td width="120" valign="top">
-        <p><b><span>EBS-Optimized Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
       </td>
       <td width="113" valign="top">
-        <p><b><span>Network Bandwidth (Gbps)</span></b></p>
+        <p><strong><span>Network Bandwidth (Gbps)</span></strong></p>
       </td>
     </tr>
     <tr>
@@ -896,7 +896,7 @@ exports[`should return a formatted html 4`] = `
 <p> <a href="https://aws.amazon.com/rds/multi-az"> Amazon RDS Multi-AZ </a> deployments offer enhanced availability for your production database workloads. When a database is run as a Multi-AZ deployment, Amazon RDS operates a standby instance which maintains an up-to-date copy of the primary database. In case of an instance, storage, or network failure, Amazon RDS automatically initiates a failover from the primary to the standby. This ensures minimal database availability impact to your application. </p>
 <p>Today, many customers run production workloads on Amazon RDS as Multi-AZ deployments. However, we also know that there are many customers who‘ve wanted to run Amazon RDS Multi-AZ but haven’t been able to do so yet at the current price. So, we’re excited to lower our Amazon RDS Multi-AZ to make it even easier for customers to run production databases on Amazon RDS as Multi-AZ deployments. </p>
 <p>For your quick reference, new pricing for an M1.Small instance for On-demand MySQL and Oracle (BYOL) Multi-AZ deployments is shown in table 1 below. </p>
-<p><b>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Multi-AZ Deployment Prices for M1.Small DB Instance</b></p>
+<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Multi-AZ Deployment Prices for M1.Small DB Instance</strong></p>
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="348" style="width: 100%;">
   <tbody>
     <tr>
@@ -1042,7 +1042,7 @@ exports[`should return a formatted html 7`] = `
 `;
 
 exports[`should return a formatted html 8`] = `
-"<p><b>CloudFormation has added support for the following new resources:</b><br>
+"<p><strong>CloudFormation has added support for the following new resources:</strong><br>
   <br>
   <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-resourcepolicy.html" target="_blank">AWS::SecretsManager::ResourcePolicy</a><br>
   Use the AWS::SecretsManager::ResourcePolicy resource to define a resource-based policy and attach it to a secret that's stored in Secrets Manager.<br>
@@ -1060,7 +1060,7 @@ exports[`should return a formatted html 8`] = `
   Use the AWS::DLM::LifecyclePolicy resource to create a lifecycle policy for Amazon Data Lifecycle Manager.</p>
 <p>Secrets Manager Dynamic reference:<br>
   Use the secretsmanager dynamic reference to retrieve entire secrets or secret values that are stored in AWS Secrets Manager for use in your templates.</p>
-<p><b>CloudFormation has updated support of following resource types:</b></p>
+<p><strong>CloudFormation has updated support of following resource types:</strong></p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html">AWS::ApiGateway::Deployment</a><br>
   In the StageDescription property type, use the TracingEnabled property to specify whether active tracing with X-ray is enabled for this stage.<br>
   <br>
@@ -1122,33 +1122,33 @@ exports[`should return a formatted html 9`] = `
 "<p> AWS CloudFormation has added support for four additional AWS services and several new features. </p>
 <p>You can now provision the following AWS services using CloudFormation. Visit <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html" target="_blank" rel="noopener">here</a> for a full list of supported services.</p>
 <ul>
-  <li><b>AWS CodePipeline:</b> You can now use CloudFormation to provision software release pipelines using <a href="https://aws.amazon.com/codepipeline">CodePipeline</a>, a continuous delivery service for fast and reliable application updates. Learn more <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html" target="_blank" rel="noopener">here</a>.</li>
-  <li><b>AWS Config:</b> You can use CloudFormation to provision Config resources to help you monitor changes to your AWS resources. <a href="https://aws.amazon.com/config">Config</a> is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance.<br>
+  <li><strong>AWS CodePipeline:</strong> You can now use CloudFormation to provision software release pipelines using <a href="https://aws.amazon.com/codepipeline">CodePipeline</a>, a continuous delivery service for fast and reliable application updates. Learn more <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html" target="_blank" rel="noopener">here</a>.</li>
+  <li><strong>AWS Config:</strong> You can use CloudFormation to provision Config resources to help you monitor changes to your AWS resources. <a href="https://aws.amazon.com/config">Config</a> is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance.<br>
     <ul>
       <li>You can now provision a function that assesses whether your AWS resources comply with your specified configurations. Learn <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html" target="_blank" rel="noopener">more</a>.</li>
       <li>You can now record configuration changes for the AWS resource types that you specify and direct where Config stores these changes. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationrecorder.html" rel="noopener">here</a>.</li>
     </ul>
   </li>
-  <li><b>AWS Key Management Service:</b> <a href="https://aws.amazon.com/kms">AWS KMS</a> is a managed service that makes it easy for you to create and control the encryption keys used to protect your data. You can now use CloudFormation to encrypt data stored in AWS services with KMS. Learn more about provisioning KMS with CloudFormation <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html" rel="noopener">here</a>. As a result, you can also use CloudFormation to provision encrypted resources for the following:<ul>
+  <li><strong>AWS Key Management Service:</strong> <a href="https://aws.amazon.com/kms">AWS KMS</a> is a managed service that makes it easy for you to create and control the encryption keys used to protect your data. You can now use CloudFormation to encrypt data stored in AWS services with KMS. Learn more about provisioning KMS with CloudFormation <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html" rel="noopener">here</a>. As a result, you can also use CloudFormation to provision encrypted resources for the following:<ul>
       <li>Amazon Elastic Block Store volumes <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html" rel="noopener">created</a> with Auto Scaling</li>
       <li>AWS CloudTrail <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html" rel="noopener">trails</a></li>
       <li>Amazon Redshift <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html" rel="noopener">clusters</a></li>
       <li>Amazon Elastic Block Store volumes used by <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html" rel="noopener">Amazon Workspaces</a></li>
     </ul>
   </li>
-  <li><b>Amazon EC2 Simple Systems Manager (SSM):</b> You can now provision SSM documents for EC2 Windows instances with CloudFormation. EC2 SSM&nbsp;enables you to run scripts or other common administrative tasks on your EC2 Windows instances. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html" rel="noopener">here</a>.<br>
+  <li><strong>Amazon EC2 Simple Systems Manager (SSM):</strong> You can now provision SSM documents for EC2 Windows instances with CloudFormation. EC2 SSM&nbsp;enables you to run scripts or other common administrative tasks on your EC2 Windows instances. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html" rel="noopener">here</a>.<br>
   </li>
 </ul>
 <p>You can now use the following new features using CloudFormation:</p>
 <ul>
-  <li><b>Auto Scaling policies:</b> You can now specify the <a target="_blank" href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-demand.html#as-scaling-types" rel="noopener">policy type</a> that dictates <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html" rel="noopener">how</a> an Auto Scaling group scales up or down in response to an Amazon CloudWatch alarm. You can also <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html" rel="noopener">set</a> the minimum threshold for signaling a successful update when an Auto Scaling group rolls out updates, whereas previously you could not change the threshold from the default setting of 100%.<br>
+  <li><strong>Auto Scaling policies:</strong> You can now specify the <a target="_blank" href="http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-demand.html#as-scaling-types" rel="noopener">policy type</a> that dictates <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html" rel="noopener">how</a> an Auto Scaling group scales up or down in response to an Amazon CloudWatch alarm. You can also <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html" rel="noopener">set</a> the minimum threshold for signaling a successful update when an Auto Scaling group rolls out updates, whereas previously you could not change the threshold from the default setting of 100%.<br>
   </li>
-  <li><b>AWS CloudTrail integration with Amazon CloudWatch:</b> You can now let CloudTrail stream logs into CloudWatch Logs using CloudFormation. Previously, you could not model this integration using CloudFormation.</li>
-  <li><b>AWS CodeDeploy custom names:</b> You can now create custom names for CodeDeploy components modeled with CloudFormation. You can specify a custom name for the CodeDeploy components for <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-application.html" rel="noopener">application revision</a>, <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html" rel="noopener">deployment configuration</a>, and <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html" rel="noopener">deployment group</a>.</li>
-  <li><b>Amazon DynamoDB Streams:</b> You can now use CloudFormation to provision DynamoDB Streams, which lets you capture a time ordered sequence of item level changes in DynamoDB tables. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html" rel="noopener">here</a>.</li>
-  <li><b>Amazon EC2 Spot fleet features:</b> You can now specify how to allocate target capacity across Spot fleets. You can also specify how instances are terminated if the target capacity is below the size of the Spot fleet. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html" rel="noopener">here</a>.</li>
-  <li><b>Increased stack limits:</b> You can now provision up to 200 stacks per account, up from the previous limit of 20 stacks.</li>
-  <li><b>Group parameters in the console:</b> You can now group resource parameters together in a logical manner that you specify. This makes it easier for users of your templates to input parameters in the console. Previously, the console would display an unsorted list of parameters, making parameter input time-consuming and difficult. You can define how the parameters are sorted in the template’s JSON file, after which the console will update with your new groupings. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html" rel="noopener">here</a>.</li>
+  <li><strong>AWS CloudTrail integration with Amazon CloudWatch:</strong> You can now let CloudTrail stream logs into CloudWatch Logs using CloudFormation. Previously, you could not model this integration using CloudFormation.</li>
+  <li><strong>AWS CodeDeploy custom names:</strong> You can now create custom names for CodeDeploy components modeled with CloudFormation. You can specify a custom name for the CodeDeploy components for <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-application.html" rel="noopener">application revision</a>, <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html" rel="noopener">deployment configuration</a>, and <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html" rel="noopener">deployment group</a>.</li>
+  <li><strong>Amazon DynamoDB Streams:</strong> You can now use CloudFormation to provision DynamoDB Streams, which lets you capture a time ordered sequence of item level changes in DynamoDB tables. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html" rel="noopener">here</a>.</li>
+  <li><strong>Amazon EC2 Spot fleet features:</strong> You can now specify how to allocate target capacity across Spot fleets. You can also specify how instances are terminated if the target capacity is below the size of the Spot fleet. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html" rel="noopener">here</a>.</li>
+  <li><strong>Increased stack limits:</strong> You can now provision up to 200 stacks per account, up from the previous limit of 20 stacks.</li>
+  <li><strong>Group parameters in the console:</strong> You can now group resource parameters together in a logical manner that you specify. This makes it easier for users of your templates to input parameters in the console. Previously, the console would display an unsorted list of parameters, making parameter input time-consuming and difficult. You can define how the parameters are sorted in the template’s JSON file, after which the console will update with your new groupings. Learn more <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html" rel="noopener">here</a>.</li>
 </ul>
 <p>Please visit our website for more information on AWS CloudFormation:</p>
 <ul>
@@ -1160,14 +1160,14 @@ exports[`should return a formatted html 9`] = `
 
 exports[`should return a formatted html 10`] = `
 "<p> You can now provision the following AWS resources using CloudFormation.</p>
-<p>• <b>AWS::EMR::SecurityConfiguration</b></p>
+<p>• <strong>AWS::EMR::SecurityConfiguration</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html">Create</a> an Amazon EMR security configuration, which is stored in the service and can be specified when a cluster is created.</p>
 <p>CloudFormation has also updated support for the following resources:</p>
-<p>• <b>AWS::AutoScaling::LifecycleHook</b></p>
+<p>• <strong>AWS::AutoScaling::LifecycleHook</strong></p>
 <p>o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-notificationtargetarn">NotificationTargetARN</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-rolearn">RoleARN</a> properties are now optional for <a href="https://aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html">AWS::AutoScaling::LifecycleHook</a>.</p>
-<p>• <b>AWS::CloudWatch::Alarm</b></p>
+<p>• <strong>AWS::CloudWatch::Alarm</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html">Create</a> a CloudWatch alarm using the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-evaluatelowsamplecountpercentile">EvaluateLowSampleCountPercentile</a>, <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-extendedstatistic">ExtendedStatistic</a>, and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-treatmissingdata">TreatMissingData</a> properties.</p>
-<p>• <b>AWS::EC2::SpotFleet</b></p>
+<p>• <strong>AWS::EC2::SpotFleet</strong></p>
 <p>o Now CloudFormation supports mutable changes to Spot fleet properties. The following properties of the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a> property support&nbsp;Replacement&nbsp;updates:</p>
 <p>•&nbsp;AllocationStrategy<br>
   •&nbsp;IamFleetRole<br>
@@ -1179,25 +1179,25 @@ exports[`should return a formatted html 10`] = `
 <p>o The following properties of the&nbsp;<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a>&nbsp;property support&nbsp;No interruption&nbsp;updates:</p>
 <p>•&nbsp;ExcessCapacityTerminationPolicy<br>
   •&nbsp;TargetCapacity</p>
-<p>• <b>AWS::EMR::InstanceGroupConfig</b></p>
+<p>• <strong>AWS::EMR::InstanceGroupConfig</strong></p>
 <p>o Use <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy">AutoScalingPolicy</a> property to support Auto Scaling for Amazon EMR task instance groups.</p>
-<p>• <b>AWS::Events::Rule</b></p>
+<p>• <strong>AWS::Events::Rule</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-rolearn">RoleArn</a> property on the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html">Target</a> data type to specify the IAM role. The&nbsp;RoleArn&nbsp;property is deprecated on the&nbsp;Rule&nbsp;resource.</p>
-<p>• <b>AWS::Kinesis::Stream</b></p>
+<p>• <strong>AWS::Kinesis::Stream</strong></p>
 <p>o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-shardcount">ShardCount</a> property for <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html?shortFooter=truel">AWS::Kinesis::Stream</a> now supports No interruption updates. Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-retentionperiodhourst">RetentionPeriodHours</a> property to configure the number of hours for the data records stored in shards to remain accessible</p>
-<p>• <b>AWS::Lambda::Function</b></p>
+<p>• <strong>AWS::Lambda::Function</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig">TracingConfig</a> property to configure tracing settings for your AWS Lambda function. For more information about tracing Lambda functions, see <a href="http://docs.aws.amazon.com/lambda/latest/dg/lambda-x-ray.html#using-x-ray">Tracing Lambda-Based Applications with AWS X-Ray</a> in the AWS Lambda Developer Guide.</p>
-<p>• <b>AWS::Redshift::Cluster</b></p>
+<p>• <strong>AWS::Redshift::Cluster</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Tags</a> property to specify tags to associate with the Amazon Redshift cluster resource.</p>
-<p>• <b>AWS::Redshift::ClusterParameterGroup</b></p>
+<p>• <strong>AWS::Redshift::ClusterParameterGroup</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html">Tags</a> property to specify tags to associate with the Amazon Redshift parameter group resource.</p>
-<p>• <b>AWS::Redshift::ClusterSecurityGroup</b></p>
+<p>• <strong>AWS::Redshift::ClusterSecurityGroup</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group. </p>
-<p>• <b>AWS::Redshift::ClusterSubnetGroup</b></p>
+<p>• <strong>AWS::Redshift::ClusterSubnetGroup</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html">Tags</a> property to specify resource tags on an Amazon Redshift subnet group.</p>
-<p>• <b>AWS::RDS::DBCluster</b></p>
+<p>• <strong>AWS::RDS::DBCluster</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html">Added</a> the ReadEndpoint.Address attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
-<p>• <b>AWS::S3::Bucket</b></p>
+<p>• <strong>AWS::S3::Bucket</strong></p>
 <p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html">Added</a> the Amazon Resource Name ( Arn) attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
 <p>Please visit our website for more information on AWS CloudFormation:<br>
   • <a href="https://aws.amazon.com/cloudformation">Product Page</a><br>
@@ -1235,7 +1235,7 @@ exports[`should return a formatted html 12`] = `
 
 exports[`should return a formatted html 13`] = `
 "<p>Internet Protocol Version 6 (IPv6) is a new version of the Internet Protocol that uses a larger address space than its predecessor IPv4. With IPv6 support, you will be able to meet the requirements for IPv6 adoption set by governments, remove the need for IPv6 to IPv4 translation software or systems, and benefit from IPv6 extensibility, simplicity in network management, and additional built-in support for security</p>
-<p><b>Amazon CloudFront</b><br>
+<p><strong>Amazon CloudFront</strong><br>
   We are pleased to announce that starting today you can use Amazon CloudFront to deliver your content both via IPv6 and IPv4 using HTTP/HTTPS with the same security, availability, performance and scalability you have come to expect from Amazon CloudFront. IPv6 will be enabled by default for all newly created Amazon CloudFront web distributions starting today. For existing web distributions, you can enable IPv6 through the Amazon CloudFront console or API. Viewers and networks that connect to Amazon CloudFront edge locations over IPv6 will automatically be served content over IPv6. Those that connect over IPv4 will continue to work. Connections to your origin servers will remain on IPv4. </p>
 <p> Starting today, AWS WAF also supports IPv6. If you use AWS WAF in conjunction with Amazon CloudFront, you can now update your web access control lists (WebACLs) and IP rulesets to blacklist/whitelist IPv6 address. If you use Amazon Route 53 for your DNS needs, you can create Amazon Route 53 alias records pointing to your Amazon CloudFront distribution to support both IPv4 and IPv6 by using “A” and “AAAA” record type respectively. <br>
 </p>
@@ -1244,10 +1244,10 @@ exports[`should return a formatted html 13`] = `
 <p>We are enabling IPv6 across&nbsp;every Autonomous System (AS) in a phased rollout starting today and expect to complete rollout across all networks over the next few weeks. To learn more about IPv6 support in Amazon CloudFront, see “<a href="http://docs.aws.amazon.com/console/cloudfront/ipv6">IPv6 support on Amazon CloudFront</a>” in the Amazon CloudFront Developer Guide and <a href="https://aws.amazon.com/cloudfront/faqs">FAQs</a>.<br>
 </p>
 <p>We would also like to invite you to join the upcoming webinar on “Delivering secure content with Amazon CloudFront”, in which we will cover how Amazon CloudFront automatically meets the new iOS App Transport Secure (ATS) requirements and enables easy, economical SSL/TLS management with the AWS Certificate Manager. This webinar will occur on Tuesday, October 18, 2016, 10:00AM PDT and you can register <a href="https://webservices.webex.com/webservices/onstage/g.php?MTID=e0cbff6ac2d898237002377681bcb92db" target="_blank">here</a>. You are also invited to join our monthly office hours on Tuesday, October 25, 2016, 10:00AM PDT and register <a href="https://webservices.webex.com/webservices/onstage/g.php?MTID=ebe5cdc3b56fa66698dbdbfaed77ba918" target="_blank">here</a>.</p>
-<p><b> AWS WAF</b><br>
+<p><strong> AWS WAF</strong><br>
   With AWS WAF, you can now inspect and act on HTTP/HTTPS requests coming from both IPv4 and IPv6 addresses. You can also setup new IPv6 match condition(s) for new and existing Web Access Control Lists (ACLs). You will be able to use all the existing features for traffic both over IPv6 and IPv4 without any changes to either performance, scalability or availability of the service. To learn more about IPv6 support in AWS WAF, see <a href="http://docs.aws.amazon.com/waf/latest/developerguide/web-acl-ip-conditions.html">here</a> in the AWS WAF Developer Guide.</p>
 <p>We would also like to invite you to join the upcoming AWS WAF webinar on “Setup Preconfigured Protections on AWS WAF” on Tuesday, November 8, 2016 10:30 AM PST. This session will introduce AWS WAF, how it integrates with other AWS services and how to use it to help protect your web applications. We will also demo how to deploy preconfigured rules and security automation on AWS WAF. Register <a href="https://connect.awswebcasts.com/nov16awswaf/event/registration.html?campaign-id=ServicePage" target="_blank">here</a>.</p>
-<p><b>Amazon S3 Transfer Acceleration</b><br>
+<p><strong>Amazon S3 Transfer Acceleration</strong><br>
   Your applications can now connect to Amazon S3 Transfer Acceleration endpoints for object storage over IPv6. This release follows Amazon S3’s recently added support for IPv6 <a href="https://aws.amazon.com/about-aws/whats-new/2016/08/internet-protocol-version-6-ipv6-support-for-amazon-s3/">announcement</a>. You can get started using this new feature by enabling Transfer Acceleration on a bucket and then pointing your application to Amazon S3 Transfer Acceleration’s new “dual-stack” endpoint (e.g., http://&lt;bucketname&gt;.s3-accelerate.dualstack.amazonaws.com), which supports access over both IPv4 and IPv6. In most cases, no further configuration is required for access over IPv6, because most network clients prefer IPv6 addresses by default. However, you must evaluate your bucket and Identity and Access Management (IAM) policies to ensure that you have the appropriate access configured for your new IPv6 addresses. To learn more about using IPv6 with Amazon S3 Transfer Acceleration, see <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html#transfer-acceleration-getting-started">Getting Started with Transfer Acceleration</a>.</p>
 <p>With these services and features, IPv6 will be available&nbsp;at no additional charge.<br>
 </p>
@@ -1376,12 +1376,12 @@ exports[`should return a formatted html 17`] = `
 exports[`should return a formatted html 18`] = `
 "<p>The new <a href="https://aws.amazon.com/inspector" target="_blank" rel="noopener">Amazon Inspector</a>&nbsp;is a vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure is generally available, globally. Amazon Inspector has been completely rearchitected to automate vulnerability management and deliver near real-time findings to minimize the time to discover new vulnerabilities.</p>
 <p>With the new Amazon Inspector you can now enable the service across your organization with a single click. Once enabled, Inspector automatically discovers all of your workloads and continually scans them for software vulnerabilities and unintended network exposure. Now that Inspector supports <a href="https://aws.amazon.com/ecr/" target="_blank" rel="noopener">Amazon Elastic Container Registry</a> (ECR), you gain a consolidated view of vulnerabilities across your Amazon EC2 instances and container images residing in ECR. Inspector now uses the widely-adopted Amazon Systems Manager (SSM) agent for EC2 vulnerability scanning. To intelligently prioritize vulnerability findings, the new Inspector introduces a highly contextualized Inspector risk score by correlating vulnerability information with environmental factors. The Inspector findings are also routed to Amazon Security Hub and pushed to Amazon EventBridge to automate with partner solutions to reduce mean time to resolution (MTTR).</p>
-<p><b>Uber</b><br>
+<p><strong>Uber</strong><br>
   “The new Amazon Inspector made it easy to adopt a cloud vulnerability management solution for our diverse AWS instances. By leveraging our already in use Systems Manager agents with Inspector, we automated continuous remediation and simplified operations with one-click onboarding, centralized controls, and operational visibility.”, Oliver Szimmetat, Security Engineering Manager II, Uber, “Additionally, Inspector’s auto trigger capability identifies recommended patches in near-real time. After patching, Inspector automatically rescans instances verifying that no new vulnerabilities were introduced. The use of Inspector has drastically reduced the mean time to remediate for Uber.”<br>
   &nbsp;</p>
-<p><b>Volkswagen Financial Services</b><br>
+<p><strong>Volkswagen Financial Services</strong><br>
   “The new Amazon Inspector made it very easy for us to adopt a vulnerability management solution to support our software patching program and to detect vulnerabilities that could lead to unauthorized AWS access.”, said Stefan Klünker and Crispin Weißfuß, Global AWS Platform Owners, Volkswagen Financial Services, “Enabling the service to scan both our EC2 and ECR environments for software vulnerabilities was made seamless using CloudFormation. In addition, since Inspector is integrated with AWS Organizations, our 1300+ existing and newly added accounts are automatically onboarded to the service. Inspector discovers all our workloads, continually scans them, consolidates a prioritized list of findings in its console, and it reduces our mean time to remediate with near-immediate notifications of new critical vulnerabilities. Furthermore, the Amazon EventBridge integration enables us to quickly inform development teams about the resources with critical vulnerabilities.”</p>
-<p><b>Canva</b><br>
+<p><strong>Canva</strong><br>
   "We have a dynamic AWS environment, with new accounts, configurations, and resources added and removed on a regular basis,” said Paul Clarke, Head of Security at Canva. “Historically, this made it a challenge to ensure we are continuously assessing all resources for vulnerabilities, requiring multiple products with a high maintenance overhead. The new Amazon Inspector helps address this problem, supporting vulnerability scanning for both EC2 instances and containers. Since Inspector integrates with AWS Organizations, all our existing and new accounts are also immediately using the service. The service discovers all our workloads, continually scans them using data from multiple vulnerability notification sources, consolidates a prioritized list of findings in its console, and allows us to focus on vulnerability remediation, rather than managing multiple discovery tools and configurations.”</p>
 <p>Amazon Inspector has partnered with Snyk to receive additional vulnerability intelligence for its vulnerability database. Many AWS Security ISV Partners have integrated their products to further help customers operationalize Inspector findings, including Axonius, Cavirin, FireEye, IBM Security, Palo Alto Networks, Rezilion, Sophos, SumoLogic, Vulcan Cyber, Wiz and XM Cyber*.* Additionally, AWS Level 1 MSSP Partners such as Cloudhesive, Deloitte offer their customers a service to manage Inspector findings.</p>
 <p>Amazon Inspector is now generally available globally across 19 commercial regions, Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Ireland), US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Hong Kong), Asia Pacific (Tokyo), Asia Pacific (Seoul), Asia Pacific (Mumbai), Canada (Central), Europe (Frankfurt), Europe (Stockholm), Europe (Milan), Europe (London), Europe (Paris), Middle East (Bahrain), South America (Sao Paulo), US West (N. California). Visit the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services" target="_blank" rel="noopener">AWS Regional Services list</a> for details. CloudFormation support will be coming soon. All accounts can scan their environment for vulnerabilities with a <a href="https://console.aws.amazon.com/inspector/home" target="_blank" rel="noopener">free 15-day trial</a> of the new Amazon Inspector.</p>
@@ -1398,17 +1398,17 @@ exports[`should return a formatted html 18`] = `
 exports[`should return a formatted html 19`] = `
 "<p><a href="https://aws.amazon.com/cloudformation">AWS CloudFormation</a> has updated support for the resource types listed below. CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This file serves as the single source of truth for your cloud environment.<br>
 </p>
-<p><b>The CloudFormation resource types that have been updated are: </b>&nbsp;</p>
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html" target="_blank"><b>AWS::ApiGateway::Deployment</b></a><br>
+<p><strong>The CloudFormation resource types that have been updated are: </strong>&nbsp;</p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html" target="_blank"><strong>AWS::ApiGateway::Deployment</strong></a><br>
   In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-apigateway-deployment-stagedescription.html" target="_blank">StageDescription</a> property type, use the Tags property to specify the AWS CloudFormation resource tags to associate with the stage.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html" target="_blank"><b>AWS::ApiGateway::Stage</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html" target="_blank"><strong>AWS::ApiGateway::Stage</strong></a><br>
   Use the Tags property to specify the AWS CloudFormation resource tags to associate with the stage.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html" target="_blank"><b>AWS::EC2::EIP</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html" target="_blank"><strong>AWS::EC2::EIP</strong></a><br>
   Use the PublicIpv4Pool property to specify the ID of an address pool that you own to let Amazon EC2 select an address from the address pool.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html" target="_blank"><b>AWS::ElasticLoadBalancingV2::Listener</b></a></p>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html" target="_blank"><strong>AWS::ElasticLoadBalancingV2::Listener</strong></a></p>
 <p>In the property type:<br>
 </p>
 <ul>
@@ -1418,30 +1418,30 @@ exports[`should return a formatted html 19`] = `
   <li>Use the RedirectConfig property to specify information about a redirect action.</li>
 </ul>
 <p><br>
-  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html" target="_blank"><b>AWS::AutoScaling::AutoScalingGroup</b></a><br>
+  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html" target="_blank"><strong>AWS::AutoScaling::AutoScalingGroup</strong></a><br>
   Use the MixedInstancesPolicy property to specify the mixed instances policy to use to launch instances. This parameter, a launch template, a launch configuration, or an Amazon EC2 instance must be specified.
 </p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-cluster.html" target="_blank"><b>AWS::EMR::Cluster</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-cluster.html" target="_blank"><strong>AWS::EMR::Cluster</strong></a><br>
   Use the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-hadoopjarstepconfig.html" target="_blank">Amazon EMR Cluster HadoopJarStepConfig</a> property type to specify a job flow step consisting of a JAR file whose main function will be executed.<br>
   Use the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-stepconfig.html" target="_blank">Amazon EMR Cluster StepConfig</a> property type to specify a cluster (job flow) step.<br>
   Use the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticmapreduce-cluster-keyvalue.html" target="_blank">Amazon EMR Cluster KeyValue</a> property type to specify a key value pair.<br>
   In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-emr-cluster-jobflowinstancesconfig.html" target="_blank">Amazon EMR Cluster JobFlowInstancesConfig</a> property type, use KeepJobFlowAliveWhenNoSteps property to specify whether the cluster should remain available after completing all steps.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html" target="_blank"><b>AWS OpsWorks VolumeConfiguration</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html" target="_blank"><strong>AWS OpsWorks VolumeConfiguration</strong></a><br>
   In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html" target="_blank">VolumeConfiguration</a> property type, use the Encryptedproperty to specify whether an Amazon EBS volume is encrypted.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html" target="_blank"><b>AWS::RDS::DBCluster</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html" target="_blank"><strong>AWS::RDS::DBCluster</strong></a><br>
   Use the DeletionProtection property to indicate whether the DB cluster should have deletion protection enabled. The database can't be deleted when this value is set to true. The default is false.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html" target="_blank"><b>AWS::RDS::DBInstance</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html" target="_blank"><strong>AWS::RDS::DBInstance</strong></a><br>
   Use the DeleteAutomatedBackups property to indicate whether automated backups should be deleted (true) or retained (false) when you delete a DB instance. The default is true.<br>
   Use the DeletionProtection property to indicate whether the DB instance should have deletion protection enabled. The database can't be deleted when this value is set to true. The default is false.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html" target="_blank"><b>AWS::S3::Bucket</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html" target="_blank"><strong>AWS::S3::Bucket</strong></a><br>
   Use the PublicAccessBlockConfiguration property to specify the public access configuration for an Amazon S3 bucket.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html"><b>AWS::SNS::Topic</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html"><strong>AWS::SNS::Topic</strong></a><br>
   Use the KmsMasterKeyId property to specify an AWS KMS key identifier. This can be a key ID, key ARN, or key alias.</p>
 
 <p>For a complete list of resources please click <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html" target="_blank">here</a><br>
@@ -1453,12 +1453,12 @@ exports[`should return a formatted html 20`] = `
 <p><a href="https://opensearch.org/" target="_blank" rel="noopener">OpenSearch</a> is a community-driven, open source search and analytics suite derived from Apache 2.0 licensed Elasticsearch 7.10.2 &amp; Kibana 7.10.2. It consists of a data store, search engine (OpenSearch), and a user interface for visualization (OpenSearch Dashboards) . See our <a href="https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch" target="_blank" rel="noopener">frequently asked questions</a> about OpenSearch.</p>
 <p>We launched OpenSearch 1.0 in September 2021 and renamed our service to Amazon OpenSearch Service. As part of OpenSearch 1.0 launch in OpenSearch Service, we maintained backward compatibility to ensure you can upgrade from legacy Elasticsearch versions (until v7.10) to OpenSearch seamlessly. For a summary of changes that we did as part of OpenSearch 1.0 launch and the renaming, please see <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/rename.html" target="_blank" rel="noopener">documentation</a>. We have added several new features and improvements as part of various OpenSearch versions since then, such as transforms, data streams, notebooks in OpenSearch Dashboards, cross-cluster replication, improvements to anomaly detection, k-NN, and observability. With OpenSearch 1.3 we are adding the following improvements and new features:</p>
 <ul>
-  <li><b>Observability</b>: Users can now create custom Observability Applications to view the availability status of all their systems by providing a single view of system health, empowering developers and IT Ops to resolve issues faster and with fewer escalations. Some of the new features include the ability to get a unified view of logs, traces, and metrics with <a href="https://opensearch.org/docs/1.3/observability-plugin/app-analytics/" target="_blank" rel="noopener">Application analytics dashboards</a>, the ability to use correlation ID (based on the <a href="https://opentelemetry.io/docs/reference/specification/logs/overview/#log-correlation" target="_blank" rel="noopener">OpenTelemetry specification</a>) to tie events together when viewing events and in-context visualisations, improvements to <a href="https://opensearch.org/docs/1.3/observability-plugin/event-analytics/" target="_blank" rel="noopener">event analysis</a> capabilities such as the ability to monitor a live tail of logs during an event, and view surrounding events to get a correlated picture of a metric. Refer to <a href="https://opensearch.org/docs/1.3/observability-plugin/index/" target="_blank" rel="noopener">observability documentation</a> for more information.</li>
-  <li><b>PPL and SQL Improvements</b>: PPL now supports run-time fields, which gives users the ability to define their schema when querying their index (instead of formatting during writing), allowing them to improve indexing time, and provides better presentation flexibility. In addition, we have several improvements to SQL and PPL capabilities such as support for ORDER BY and IN clause, ability to query multiple indices using comma separated values using PPL, and ability to change datatypes using CAST function in PPL. For a complete list of PPL and SQL improvements, see the OpenSearch 1.3 <a href="https://opensearch.org/blog/releases/2022/03/launch-announcement-1-3-0/" target="_blank" rel="noopener">release notes</a>. Refer to the <a href="https://opensearch.org/docs/1.3/observability-plugin/ppl/commands/" target="_blank" rel="noopener">PPL commands documentation</a> and <a href="https://opensearch.org/docs/1.3/search-plugins/sql/basic/#syntax" target="_blank" rel="noopener">SQL queries documentation</a> for more information.</li>
-  <li><b>Continuous Mode for Transforms</b>: You can now run transforms in a continuous mode based on a <a href="https://opensearch.org/docs/latest/im-plugin/index-transforms/index/#step-3-specify-a-schedule" target="_blank" rel="noopener">schedule</a>. This enables you to keep an incremental transform job running on a group of source indices actively ingesting new data. At each run, only the modified buckets will be transformed, reducing the overhead for users who want to their transform up to date.</li>
-  <li><b>Cluster Metric Monitors</b>: Users can now create monitors within Alerts which help administrators feel more confident about managing the health of their clusters. The new monitor reports on dimensions including, but not limited to CPU usage, Java Virtual Machine (JVM) memory usage, and total number of documents coming into the cluster. Refer to documentation on <a href="https://opensearch.org/docs/1.3/monitoring-plugins/alerting/monitors/#create-cluster-metrics-monitor" target="_blank" rel="noopener">cluster metrics monitoring</a> for more information.<br>
+  <li><strong>Observability</strong>: Users can now create custom Observability Applications to view the availability status of all their systems by providing a single view of system health, empowering developers and IT Ops to resolve issues faster and with fewer escalations. Some of the new features include the ability to get a unified view of logs, traces, and metrics with <a href="https://opensearch.org/docs/1.3/observability-plugin/app-analytics/" target="_blank" rel="noopener">Application analytics dashboards</a>, the ability to use correlation ID (based on the <a href="https://opentelemetry.io/docs/reference/specification/logs/overview/#log-correlation" target="_blank" rel="noopener">OpenTelemetry specification</a>) to tie events together when viewing events and in-context visualisations, improvements to <a href="https://opensearch.org/docs/1.3/observability-plugin/event-analytics/" target="_blank" rel="noopener">event analysis</a> capabilities such as the ability to monitor a live tail of logs during an event, and view surrounding events to get a correlated picture of a metric. Refer to <a href="https://opensearch.org/docs/1.3/observability-plugin/index/" target="_blank" rel="noopener">observability documentation</a> for more information.</li>
+  <li><strong>PPL and SQL Improvements</strong>: PPL now supports run-time fields, which gives users the ability to define their schema when querying their index (instead of formatting during writing), allowing them to improve indexing time, and provides better presentation flexibility. In addition, we have several improvements to SQL and PPL capabilities such as support for ORDER BY and IN clause, ability to query multiple indices using comma separated values using PPL, and ability to change datatypes using CAST function in PPL. For a complete list of PPL and SQL improvements, see the OpenSearch 1.3 <a href="https://opensearch.org/blog/releases/2022/03/launch-announcement-1-3-0/" target="_blank" rel="noopener">release notes</a>. Refer to the <a href="https://opensearch.org/docs/1.3/observability-plugin/ppl/commands/" target="_blank" rel="noopener">PPL commands documentation</a> and <a href="https://opensearch.org/docs/1.3/search-plugins/sql/basic/#syntax" target="_blank" rel="noopener">SQL queries documentation</a> for more information.</li>
+  <li><strong>Continuous Mode for Transforms</strong>: You can now run transforms in a continuous mode based on a <a href="https://opensearch.org/docs/latest/im-plugin/index-transforms/index/#step-3-specify-a-schedule" target="_blank" rel="noopener">schedule</a>. This enables you to keep an incremental transform job running on a group of source indices actively ingesting new data. At each run, only the modified buckets will be transformed, reducing the overhead for users who want to their transform up to date.</li>
+  <li><strong>Cluster Metric Monitors</strong>: Users can now create monitors within Alerts which help administrators feel more confident about managing the health of their clusters. The new monitor reports on dimensions including, but not limited to CPU usage, Java Virtual Machine (JVM) memory usage, and total number of documents coming into the cluster. Refer to documentation on <a href="https://opensearch.org/docs/1.3/monitoring-plugins/alerting/monitors/#create-cluster-metrics-monitor" target="_blank" rel="noopener">cluster metrics monitoring</a> for more information.<br>
   </li>
-  <li><b>New Detector Validation</b>: We have now added an additional validation when setting up a new anomaly detector. Parameters specified as part of the detector will be validated to ensure that the criteria can initialize and that the detector will perform. Refer to <a href="https://opensearch.org/docs/1.3/monitoring-plugins/ad/index/" target="_blank" rel="noopener">anomaly detection documentation</a> for more information.</li>
+  <li><strong>New Detector Validation</strong>: We have now added an additional validation when setting up a new anomaly detector. Parameters specified as part of the detector will be validated to ensure that the criteria can initialize and that the detector will perform. Refer to <a href="https://opensearch.org/docs/1.3/monitoring-plugins/ad/index/" target="_blank" rel="noopener">anomaly detection documentation</a> for more information.</li>
 </ul>
 <p>OpenSearch 1.3 is now available on Amazon OpenSearch Service across 26 regions globally. Please refer to the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services" target="_blank" rel="noopener">AWS Region Table</a> for more information about Amazon OpenSearch Service availability.</p>
 <p>To learn more about Amazon OpenSearch Service, please visit the <a href="https://aws.amazon.com/opensearch-service" target="_blank" rel="noopener">product page</a>.</p>"
@@ -1532,37 +1532,37 @@ exports[`should return a formatted html 23`] = `
 exports[`should return a formatted html 24`] = `
 "<p>CloudFormation updated support for new resources:</p>
 <ul>
-  <li><b>AWS::Cognito::IdentityPool</b>
+  <li><strong>AWS::Cognito::IdentityPool</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html">Create</a> an Amazon Cognito identity pool.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::IdentityPoolRoleAttachment</b>
+  <li><strong>AWS::Cognito::IdentityPoolRoleAttachment</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html">Manage</a> the role configuration for an Amazon Cognito identity pool.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::UserPool</b>
+  <li><strong>AWS::Cognito::UserPool</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html">Create</a> an Amazon Cognito user pool.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::UserPoolClient</b>
+  <li><strong>AWS::Cognito::UserPoolClient</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html">Create</a> an Amazon Cognito user pool client.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::UserPoolGroup</b>
+  <li><strong>AWS::Cognito::UserPoolGroup</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolgroup.html">Create</a> a user group in an Amazon Cognito user pool.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::UserPoolUser</b>
+  <li><strong>AWS::Cognito::UserPoolUser</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html">Create</a> an Amazon Cognito user pool user.</li>
     </ul>
   </li>
-  <li><b>AWS::Cognito::UserPoolUserToGroupAttachment</b>
+  <li><strong>AWS::Cognito::UserPoolUserToGroupAttachment</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolusertogroupattachment.html">Attach</a> a user to an Amazon Cognito user pool group.</li>
     </ul>
@@ -1570,20 +1570,20 @@ exports[`should return a formatted html 24`] = `
 </ul>
 <p>CloudFormation has also updated support for the following resources:</p>
 <ul>
-  <li><b>AWS::EC2::Volume</b>
+  <li><strong>AWS::EC2::Volume</strong>
     <ul>
       <li>CloudFormation now supports&nbsp;<a href="https://aws.amazon.com/blogs/aws/amazon-ebs-update-new-elastic-volumes-change-everything/">Elastic Volumes</a> for Amazon Elastic Block Store (Amazon EBS). We now support No interruption&nbsp;<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html">updates</a> on three properties:&nbsp;VolumeType,&nbsp;Size, and&nbsp;Iops.<br>
       </li>
     </ul>
   </li>
-  <li><b>AWS::EC2::SecurityGroup</b>
+  <li><strong>AWS::EC2::SecurityGroup</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html">Specify</a> the GroupName (the name of the security group) property for your Amazon EC2 security group.</li>
     </ul>
     <ul>
     </ul>
   </li>
-  <li><b>AWS::ECS::Service</b><br>
+  <li><strong>AWS::ECS::Service</strong><br>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html">Specify</a> placement strategies that determine how tasks for the service are placed with the PlacementStrategies property.</li>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html">Specify</a> the placement constraints for the tasks in the service to associate with an Amazon EC2 Container Service (Amazon ECS) service using the PlacementConstraints property.</li>
@@ -1594,30 +1594,30 @@ exports[`should return a formatted html 24`] = `
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html">Specify</a> the name of your service with the ServiceName property.</li>
     </ul>
   </li>
-  <li><b> AWS::ECS::TaskDefinition</b>
+  <li><strong> AWS::ECS::TaskDefinition</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html">Define</a> placement constraints for tasks in the service with the PlacementConstraints property.<br>
       </li>
     </ul>
   </li>
-  <li><b>AWS::ElasticLoadBalancingV2::LoadBalancer</b>
+  <li><strong>AWS::ElasticLoadBalancingV2::LoadBalancer</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html">Specify</a> the type of IP addresses that are used by the load balancer's subnets with the IpAddressType property.&nbsp;</li>
     </ul>
   </li>
-  <li><b>AWS::EMR::Cluster</b><br>
+  <li><strong>AWS::EMR::Cluster</strong><br>
     <ul>
       <li><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html">Specify</a> AWS Identity and Access Management (IAM) role for automatic scaling policies with the AutoScalingRole property.<br>
       </li>
       <li>CloudFormation now <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-emr-cluster-jobflowinstancesconfig-instancegroupconfig-autoscalingpolicy.html">supports</a> <a href="https://aws.amazon.com/blogs/aws/new-auto-scaling-for-emr-clusters/">Auto Scaling for EMR Clusters</a>.</li>
     </ul>
   </li>
-  <li><b>AWS::IAM::ManagedPolicy</b>
+  <li><strong>AWS::IAM::ManagedPolicy</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html">Specify</a> a custom name for your IAM managed policy with the ManagedPolicyName property.</li>
     </ul>
   </li>
-  <li><b>AWS::Lambda::Function</b>
+  <li><strong>AWS::Lambda::Function</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html">Add</a> tags to your Lambda function with Tags property.<br>
       </li>
@@ -1625,12 +1625,12 @@ exports[`should return a formatted html 24`] = `
       </li>
     </ul>
   </li>
-  <li><b>AWS::OpsWorks::UserProfile</b><br>
+  <li><strong>AWS::OpsWorks::UserProfile</strong><br>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-userprofile.html">Specify</a> a user's SSH name with the SshUsername property.</li>
     </ul>
   </li>
-  <li><b>AWS::Redshift::Cluster </b><br>
+  <li><strong>AWS::Redshift::Cluster </strong><br>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Specify</a> a list of one or more IAM roles that the Amazon Redshift cluster can use to access other AWS services with the IamRole property.<br>
       </li>
@@ -1802,11 +1802,11 @@ exports[`should return a formatted html 28`] = `
 exports[`should return a formatted html 29`] = `
 "<p>AWS IoT SiteWise now supports data ingestion using ModBus TCP and EtherNet/IP (EIP) protocols. You can do so by adding Modbus or EIP devices as data sources to your <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/choose-gateway-platform.html" target="_blank">SiteWise Gateway</a>. For data ingestion from OPC-UA data sources, you can now customize the scan mode and scan rate along with specifying deadbands. Lastly, you can provide a custom AWS IoT Greengrass StreamManager stream as a destination for protocol data.</p>
 <ul>
-  <li><b>Modbus TCP data sources: </b>For each Modbus TCP data source (such as a flow meter or a power meter), you can specify which Modbus registers to ingest data from along with the polling frequency (scan rate). For each tag, you can specify the Modbus TCP source data type you want to convert data from along with a AWS IoT SiteWise destination data type to convert data to. In order to add Modbus data sources, you need to ensure your edge device has the <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/modbus-tcp-connector.html">AWS IoT Greengrass Modbus connector</a> deployed. Refer to <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/config-modbus-console.html">this page</a> in the AWS IoT SiteWise user guide to review all supported configuration options.</li>
-  <li><b>EtherNet/IP data sources:</b> For each EtherNet/IP data source (such as a programmable logic controller), you can specify which tags (data streams) to ingest data from along with the polling frequency (scan rate). For each tag, you can specify which AWS IoT SiteWise destination data type to convert data to (source data type is automatically inferred from the protocol). In order to add EIP sources, you need to ensure your edge device has the <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/ethernet-ip-connector.html">AWS IoT Greengrass EtherNet/IP connector</a> deployed. Refer to <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/config-eip-console.html">this page</a> in the AWS IoT SiteWise user guide to review all supported configuration options.</li>
-  <li><b>Custom scan mode and scan rate for OPC-UA data sources:</b> For OPC-UA data sources, you can now choose between “Subscription” or “Polling” scan mode. In subscription mode, the OPC-UA server transmits data only when it changes. This mode is helpful in ingesting data from sources that have a high rate of change. In polling mode, the connector polls the OPC-UA server at a specified frequency to pull data points even if the values do not change. This is helpful in ensuring a constant rate of ingestion from sources that may have a low rate of change. For both these options, you can select a scan rate or polling frequency. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/opcua-data-acquisition.html#opcua-scanmode">refer to this section</a> in the AWS IoT SiteWise user guide.</li>
-  <li><b>Deadbanding for OPC-UA data sources:</b> For OPC-UA data sources, you can now specify deadband ranges, during which the OPC-UA server will only transmit new data if it falls outside of the specified deadband range, when compared to the last transmitted value. You can use this functionality to reduce ingestion rate as well as smoothen out a data stream by ensuring only changes beyond a certain threshold get transmitted. You can select an absolute value or percentage based dead-band range. For example, specifying a 10% deadband value on a sensor with a range 20 degree range (+40 degrees Fahrenheit to +60 degrees Fahrenheit) tells the server to only transmit data when the value changes by 2 degrees Fahrenheit or more compared to the last transmitted value. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/opcua-data-acquisition.html#opcua-deadbanding">refer to this section</a> in the AWS IoT SiteWise user guide.</li>
-  <li><b>AWS IoT Greengrass StreamManager stream destination for protocol data:</b> For all 3 protocol data sources (OPC-UA, Modbus and EIP), you can now select a custom AWS IoT Greengrass StreamManager stream as the destination for the data. Up until this point, all data would go to the “SiteWise Stream” that would then be routed to the AWS IoT SiteWise cloud service. By routing data to a custom stream, you can now author AWS Lambda functions that can perform local transformations or filtering, on the edge. For e.g. you can connect to a local on-premise ERP system to load information to enrich the data streams. You can also <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/stream-export-configurations.html" target="_blank">setup an export</a> on the custom stream to send data to AWS IoT Analytics, Amazon Kinesis Data Streams and Amazon S3. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/source-destination.html">refer to this page</a> in the AWS IoT SiteWise user guide.</li>
+  <li><strong>Modbus TCP data sources: </strong>For each Modbus TCP data source (such as a flow meter or a power meter), you can specify which Modbus registers to ingest data from along with the polling frequency (scan rate). For each tag, you can specify the Modbus TCP source data type you want to convert data from along with a AWS IoT SiteWise destination data type to convert data to. In order to add Modbus data sources, you need to ensure your edge device has the <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/modbus-tcp-connector.html">AWS IoT Greengrass Modbus connector</a> deployed. Refer to <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/config-modbus-console.html">this page</a> in the AWS IoT SiteWise user guide to review all supported configuration options.</li>
+  <li><strong>EtherNet/IP data sources:</strong> For each EtherNet/IP data source (such as a programmable logic controller), you can specify which tags (data streams) to ingest data from along with the polling frequency (scan rate). For each tag, you can specify which AWS IoT SiteWise destination data type to convert data to (source data type is automatically inferred from the protocol). In order to add EIP sources, you need to ensure your edge device has the <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/ethernet-ip-connector.html">AWS IoT Greengrass EtherNet/IP connector</a> deployed. Refer to <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/config-eip-console.html">this page</a> in the AWS IoT SiteWise user guide to review all supported configuration options.</li>
+  <li><strong>Custom scan mode and scan rate for OPC-UA data sources:</strong> For OPC-UA data sources, you can now choose between “Subscription” or “Polling” scan mode. In subscription mode, the OPC-UA server transmits data only when it changes. This mode is helpful in ingesting data from sources that have a high rate of change. In polling mode, the connector polls the OPC-UA server at a specified frequency to pull data points even if the values do not change. This is helpful in ensuring a constant rate of ingestion from sources that may have a low rate of change. For both these options, you can select a scan rate or polling frequency. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/opcua-data-acquisition.html#opcua-scanmode">refer to this section</a> in the AWS IoT SiteWise user guide.</li>
+  <li><strong>Deadbanding for OPC-UA data sources:</strong> For OPC-UA data sources, you can now specify deadband ranges, during which the OPC-UA server will only transmit new data if it falls outside of the specified deadband range, when compared to the last transmitted value. You can use this functionality to reduce ingestion rate as well as smoothen out a data stream by ensuring only changes beyond a certain threshold get transmitted. You can select an absolute value or percentage based dead-band range. For example, specifying a 10% deadband value on a sensor with a range 20 degree range (+40 degrees Fahrenheit to +60 degrees Fahrenheit) tells the server to only transmit data when the value changes by 2 degrees Fahrenheit or more compared to the last transmitted value. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/opcua-data-acquisition.html#opcua-deadbanding">refer to this section</a> in the AWS IoT SiteWise user guide.</li>
+  <li><strong>AWS IoT Greengrass StreamManager stream destination for protocol data:</strong> For all 3 protocol data sources (OPC-UA, Modbus and EIP), you can now select a custom AWS IoT Greengrass StreamManager stream as the destination for the data. Up until this point, all data would go to the “SiteWise Stream” that would then be routed to the AWS IoT SiteWise cloud service. By routing data to a custom stream, you can now author AWS Lambda functions that can perform local transformations or filtering, on the edge. For e.g. you can connect to a local on-premise ERP system to load information to enrich the data streams. You can also <a href="https://docs.aws.amazon.com/greengrass/latest/developerguide/stream-export-configurations.html" target="_blank">setup an export</a> on the custom stream to send data to AWS IoT Analytics, Amazon Kinesis Data Streams and Amazon S3. For more details, <a href="https://docs.aws.amazon.com/iot-sitewise/latest/userguide/source-destination.html">refer to this page</a> in the AWS IoT SiteWise user guide.</li>
 </ul>
 <p>AWS IoT SiteWise is a managed service that makes it easy to collect, store, organize and monitor data from industrial equipment at scale to help you make better, data-driven decisions. To get started, log into the AWS Management Console and navigate to AWS IoT SiteWise console and check out a demo to see what you can achieve with AWS IoT SiteWise. To learn more, please visit the AWS IoT SiteWise <a href="https://aws.amazon.com/iot-sitewise" target="_blank">website</a> or the <a href="https://docs.aws.amazon.com/iot-sitewise" target="_blank">developer guide</a>.</p>
 <p>Visit our <a href="https://aws.amazon.com/iot" target="_blank">AWS IoT website</a> to learn more about other AWS IoT services.</p>"
@@ -1820,7 +1820,7 @@ exports[`should return a formatted html 30`] = `
 <p>If you have feedback on the type of resources for which you want CloudFormation support, please refer to <a href="https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap" target="_blank">aws-cloudformation-coverage-roadmap</a>.</p>
 <p>Now you can configure, provision, and manage the following 79 resource types with CloudFormation.<br>
 </p>
-<p><b><u>AWS Resource Types</u></b><br>
+<p><strong><u>AWS Resource Types</u></strong><br>
   AWS::AppRunner::Service<br>
   AWS::AutoScaling::WarmPool<br>
   AWS::CloudFormation::PublicTypeVersion<br>
@@ -1878,7 +1878,7 @@ exports[`should return a formatted html 30`] = `
   AWS::XRay::Group<br>
   AWS::XRay::SamplingRule<br>
 </p>
-<p><b><u>APN Partner resource types</u></b><br>
+<p><strong><u>APN Partner resource types</u></strong><br>
   Aqua::Enterprise::Enforcer<br>
   Aqua::Enterprise::KubeEnforcer<br>
   Aqua::Enterprise::Scanner<br>
@@ -1968,21 +1968,21 @@ exports[`should return a formatted html 34`] = `
 <p>To receive the AWS Industrial Software Competency designation, APN Partners must undergo rigorous technical validation related to industry-specific technology, as well as an assessment of the security, performance, and reliability of their AWS solutions. This validation gives customers complete confidence in choosing top APN Partner solutions from the tens of thousands in the AWS Partner Network.</p>
 <p>APN Consulting Partners with the AWS Industrial Software Competency will support the following categories:</p>
 <ul>
-  <li><b>Product Design:</b> Applications and services used in the design phase, including Computer Aided Design (CAD), Computer Aided Engineering (CAE), Electronic Design Automation (EDA), Product Lifecycle Management (PLM), Product Data Management (PDM), and Civil Engineering</li>
-  <li><b>Production Design:</b> Applications for factory layout and Computer-Aided Manufacturing (CAM), Product Lifecycle Management (PLM), Product Data Management (PDM)</li>
-  <li><b>Production &amp; Operations:</b> Discrete and process industry applications like Manufacturing Execution Systems (MES), Manufacturing Operations Management (MOM), Plant Information Management System (PIMS), supply chain logistics, Industrial Internet of Things (IIoT), analytic applications for industrial use, and manufacturing specific Enterprise Resource Planning (ERP) solutions</li>
+  <li><strong>Product Design:</strong> Applications and services used in the design phase, including Computer Aided Design (CAD), Computer Aided Engineering (CAE), Electronic Design Automation (EDA), Product Lifecycle Management (PLM), Product Data Management (PDM), and Civil Engineering</li>
+  <li><strong>Production Design:</strong> Applications for factory layout and Computer-Aided Manufacturing (CAM), Product Lifecycle Management (PLM), Product Data Management (PDM)</li>
+  <li><strong>Production &amp; Operations:</strong> Discrete and process industry applications like Manufacturing Execution Systems (MES), Manufacturing Operations Management (MOM), Plant Information Management System (PIMS), supply chain logistics, Industrial Internet of Things (IIoT), analytic applications for industrial use, and manufacturing specific Enterprise Resource Planning (ERP) solutions</li>
 </ul>
 <p>Congratulations to the Advanced and Premier tier APN Partners that are paving the way for this new AWS Competency designation:</p>
-<p><b><a href="https://www.reply.com/storm-reply/en/?utm_source=AWSWebsite&amp;utm_medium=referral&amp;utm_campaign=AWSIndustrialCompetency&amp;utm_term=&amp;utm_content=" target="_blank" rel="noopener">Storm Reply</a></b></p>
+<p><strong><a href="https://www.reply.com/storm-reply/en/?utm_source=AWSWebsite&amp;utm_medium=referral&amp;utm_campaign=AWSIndustrialCompetency&amp;utm_term=&amp;utm_content=" target="_blank" rel="noopener">Storm Reply</a></strong></p>
 <p><i>Premier APN Consulting Partner based in Italy</i><br>
   With a deep knowledge of the business processes of industrial and manufacturing companies, Storm Reply supports customers to build Industrial IoT solutions and provides digital platform to process real time data coming from factories, providing services on top like Machine Learning training and computation, big data processing, data warehousing and business logic.</p>
-<p><a href="https://www2.deloitte.com/us/en/pages/about-deloitte/solutions/deloitte-aws-relationship.html" target="_blank" rel="noopener"><b>Deloitte</b></a></p>
+<p><a href="https://www2.deloitte.com/us/en/pages/about-deloitte/solutions/deloitte-aws-relationship.html" target="_blank" rel="noopener"><strong>Deloitte</strong></a></p>
 <p><i>Premier APN Consulting Partner based in US</i><br>
   The manufacturing industry is ever changing. Rapid globalization, technological advancements, changing consumer preferences, and evolving government policies are reshaping the manufacturing industry, exponentially accelerating the pace of competition and continually raising the bar on company performance. Deloitte serves more than 95% of the Fortune 500 Industrial Manufacturing companies and can help anticipate, plan for, and manage the dramatic swings that characterize this market.</p>
-<p><a href="https://www.accenture.com/us-en/industries/industrial-equipment-index" target="_blank" rel="noopener"><b>Accenture&nbsp;</b></a></p>
+<p><a href="https://www.accenture.com/us-en/industries/industrial-equipment-index" target="_blank" rel="noopener"><strong>Accenture&nbsp;</strong></a></p>
 <p><i>Premier APN Consulting Partner based in US</i><br>
   Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Accenture helps help Industrial Equipment companies digitally transform their business through smart, connected and living technologies, to become Industry X.0 businesses.</p>
-<p><a href="https://www.wipro.com/process-and-industrial-manufacturing/" target="_blank" rel="noopener"><b>Wipro&nbsp;</b></a></p>
+<p><a href="https://www.wipro.com/process-and-industrial-manufacturing/" target="_blank" rel="noopener"><strong>Wipro&nbsp;</strong></a></p>
 <p><i>Premier APN Consulting Partner based in India</i><br>
   Wipro helps Industrial and Manufacturing businesses in their digital transformation journey of achieving operational excellence and superior customer experience across the entire value chain through continuous innovation, leveraging a combination of its own IPs and Platforms and the power of an unparalleled ecosystem of partners like AWS.</p>
 <p>Contact your Partner Development Manager (PDM) to learn more about becoming an AWS Industrial Software Competency Partner!&nbsp;</p>
@@ -1992,15 +1992,15 @@ exports[`should return a formatted html 34`] = `
 exports[`should return a formatted html 35`] = `
 "<p>We're excited to announce new features through the AWS Activate program:</p>
 <ul>
-  <li><b>AWS Startup Blog and Startup Spotlight.</b> The new AWS Startup Blog will include technical tips from AWS experts, guidance from partners, and the Startup Spotlight series featuring stories, experiences, and lessons learned from startups building on AWS. We launched the blog as a collection on <a target="_blank" href="https://medium.com/" rel="noopener">Medium.com</a>, itself a startup on AWS, and our first Startup Spotlight is a Q&amp;A between our CTO Werner Vogels and their CTO Don Neufeld. <a target="_blank" href="https://medium.com/aws-activate-startup-blog/e339eadce0cf" rel="noopener">Read it here</a>. You can also read <a target="_blank" href="https://medium.com/aws-activate-startup-blog/72afccab49d7" rel="noopener">this post</a> from startup veteran turned AWS Solutions Architect Chris Munns on the importance of logs. You can find these and all future posts in <a target="_blank" href="https://medium.com/aws-activate-startup-blog" rel="noopener">our collection</a>.</li>
-  <li><b>New exclusive offers</b>. As a member of AWS Activate, you have access to exclusive offers from third parties that can add valuable tools to your startup. We've recenly added three new offers from <a target="_blank" href="http://cloudcheckr.com/" rel="noopener">CloudCheckr</a>, <a target="_blank" href="https://www.jumpcloud.com/" rel="noopener">JumpCloud</a>, and <a target="_blank" href="https://www.cloudlytics.com/" rel="noopener">Cloudlytics</a>. <a href="https://aws.amazon.com/activate/benefits/special-offers">Learn more about these offers</a>.</li>
-  <li><b>Amazon Toolbox</b>. In addition to offers from third parties, we are excited to announce exclusive offers from across the Amazon ecosystem. The Amazon Toolbox now includes offers from <a target="_blank" href="https://payments.amazon.com/business/api-integration?ld=AWS" rel="noopener">Amazon Payments</a> and <a href="https://aws.amazon.com/marketplace">AWS Marketplace</a>. With Amazon Payments, customers can easily login and pay on your site using the information already stored in their Amazon account. Members of AWS Activate are eligible to receive free payment processing on up to $100,000 in their first transactions over 12 months. AWS Marketplace is an online store that provides an easy way for companies to market and sell their software to AWS customers. Members of AWS Activate are eligible to receive up to $5,000 in co-marketing funding when they launch a paid AMI in Marketplace. <a href="http://aws.amazon.com/activate/benefits/toolbox/">Learn more about these offers</a>.</li>
+  <li><strong>AWS Startup Blog and Startup Spotlight.</strong> The new AWS Startup Blog will include technical tips from AWS experts, guidance from partners, and the Startup Spotlight series featuring stories, experiences, and lessons learned from startups building on AWS. We launched the blog as a collection on <a target="_blank" href="https://medium.com/" rel="noopener">Medium.com</a>, itself a startup on AWS, and our first Startup Spotlight is a Q&amp;A between our CTO Werner Vogels and their CTO Don Neufeld. <a target="_blank" href="https://medium.com/aws-activate-startup-blog/e339eadce0cf" rel="noopener">Read it here</a>. You can also read <a target="_blank" href="https://medium.com/aws-activate-startup-blog/72afccab49d7" rel="noopener">this post</a> from startup veteran turned AWS Solutions Architect Chris Munns on the importance of logs. You can find these and all future posts in <a target="_blank" href="https://medium.com/aws-activate-startup-blog" rel="noopener">our collection</a>.</li>
+  <li><strong>New exclusive offers</strong>. As a member of AWS Activate, you have access to exclusive offers from third parties that can add valuable tools to your startup. We've recenly added three new offers from <a target="_blank" href="http://cloudcheckr.com/" rel="noopener">CloudCheckr</a>, <a target="_blank" href="https://www.jumpcloud.com/" rel="noopener">JumpCloud</a>, and <a target="_blank" href="https://www.cloudlytics.com/" rel="noopener">Cloudlytics</a>. <a href="https://aws.amazon.com/activate/benefits/special-offers">Learn more about these offers</a>.</li>
+  <li><strong>Amazon Toolbox</strong>. In addition to offers from third parties, we are excited to announce exclusive offers from across the Amazon ecosystem. The Amazon Toolbox now includes offers from <a target="_blank" href="https://payments.amazon.com/business/api-integration?ld=AWS" rel="noopener">Amazon Payments</a> and <a href="https://aws.amazon.com/marketplace">AWS Marketplace</a>. With Amazon Payments, customers can easily login and pay on your site using the information already stored in their Amazon account. Members of AWS Activate are eligible to receive free payment processing on up to $100,000 in their first transactions over 12 months. AWS Marketplace is an online store that provides an easy way for companies to market and sell their software to AWS customers. Members of AWS Activate are eligible to receive up to $5,000 in co-marketing funding when they launch a paid AMI in Marketplace. <a href="http://aws.amazon.com/activate/benefits/toolbox/">Learn more about these offers</a>.</li>
 </ul>
 <p>We're excited to announce new features through the AWS Activate program:</p>
 <ul>
-  <li><b>AWS Startup Blog and Startup Spotlight.</b> The new AWS Startup Blog will include technical tips from AWS experts, guidance from partners, and the Startup Spotlight series featuring stories, experiences, and lessons learned from startups building on AWS. We launched the blog as a collection on <a target="_blank" href="https://medium.com/" rel="noopener">Medium.com</a>, itself a startup on AWS, and our first Startup Spotlight is a Q&amp;A between our CTO Werner Vogels and their CTO Don Neufeld. <a target="_blank" href="https://medium.com/aws-activate-startup-blog/e339eadce0cf" rel="noopener">Read it here</a>. You can also read <a target="_blank" href="https://medium.com/aws-activate-startup-blog/72afccab49d7" rel="noopener">this post</a> from startup veteran turned AWS Solutions Architect Chris Munns on the importance of logs. You can find these and all future posts in <a target="_blank" href="https://medium.com/aws-activate-startup-blog" rel="noopener">our collection</a>.</li>
-  <li><b>New exclusive offers</b>. As a member of AWS Activate, you have access to exclusive offers from third parties that can add valuable tools to your startup. We've recenly added three new offers from <a target="_blank" href="http://cloudcheckr.com/" rel="noopener">CloudCheckr</a>, <a target="_blank" href="https://www.jumpcloud.com/" rel="noopener">JumpCloud</a>, and <a target="_blank" href="https://www.cloudlytics.com/" rel="noopener">Cloudlytics</a>. <a href="https://aws.amazon.com/activate/benefits/special-offers">Learn more about these offers</a>.</li>
-  <li><b>Amazon Toolbox</b>. In addition to offers from third parties, we are excited to announce exclusive offers from across the Amazon ecosystem. The Amazon Toolbox now includes offers from <a target="_blank" href="https://payments.amazon.com/business/api-integration?ld=AWS" rel="noopener">Amazon Payments</a> and <a href="https://aws.amazon.com/marketplace">AWS Marketplace</a>. With Amazon Payments, customers can easily login and pay on your site using the information already stored in their Amazon account. Members of AWS Activate are eligible to receive free payment processing on up to $100,000 in their first transactions over 12 months. AWS Marketplace is an online store that provides an easy way for companies to market and sell their software to AWS customers. Members of AWS Activate are eligible to receive up to $5,000 in co-marketing funding when they launch a paid AMI in Marketplace. <a href="http://aws.amazon.com/activate/benefits/toolbox/">Learn more about these offers</a>.</li>
+  <li><strong>AWS Startup Blog and Startup Spotlight.</strong> The new AWS Startup Blog will include technical tips from AWS experts, guidance from partners, and the Startup Spotlight series featuring stories, experiences, and lessons learned from startups building on AWS. We launched the blog as a collection on <a target="_blank" href="https://medium.com/" rel="noopener">Medium.com</a>, itself a startup on AWS, and our first Startup Spotlight is a Q&amp;A between our CTO Werner Vogels and their CTO Don Neufeld. <a target="_blank" href="https://medium.com/aws-activate-startup-blog/e339eadce0cf" rel="noopener">Read it here</a>. You can also read <a target="_blank" href="https://medium.com/aws-activate-startup-blog/72afccab49d7" rel="noopener">this post</a> from startup veteran turned AWS Solutions Architect Chris Munns on the importance of logs. You can find these and all future posts in <a target="_blank" href="https://medium.com/aws-activate-startup-blog" rel="noopener">our collection</a>.</li>
+  <li><strong>New exclusive offers</strong>. As a member of AWS Activate, you have access to exclusive offers from third parties that can add valuable tools to your startup. We've recenly added three new offers from <a target="_blank" href="http://cloudcheckr.com/" rel="noopener">CloudCheckr</a>, <a target="_blank" href="https://www.jumpcloud.com/" rel="noopener">JumpCloud</a>, and <a target="_blank" href="https://www.cloudlytics.com/" rel="noopener">Cloudlytics</a>. <a href="https://aws.amazon.com/activate/benefits/special-offers">Learn more about these offers</a>.</li>
+  <li><strong>Amazon Toolbox</strong>. In addition to offers from third parties, we are excited to announce exclusive offers from across the Amazon ecosystem. The Amazon Toolbox now includes offers from <a target="_blank" href="https://payments.amazon.com/business/api-integration?ld=AWS" rel="noopener">Amazon Payments</a> and <a href="https://aws.amazon.com/marketplace">AWS Marketplace</a>. With Amazon Payments, customers can easily login and pay on your site using the information already stored in their Amazon account. Members of AWS Activate are eligible to receive free payment processing on up to $100,000 in their first transactions over 12 months. AWS Marketplace is an online store that provides an easy way for companies to market and sell their software to AWS customers. Members of AWS Activate are eligible to receive up to $5,000 in co-marketing funding when they launch a paid AMI in Marketplace. <a href="http://aws.amazon.com/activate/benefits/toolbox/">Learn more about these offers</a>.</li>
 </ul>
 <p>Join the AWS Activate program by signing up <a href="https://aws.amazon.com/activate">here</a>.</p>"
 `;
@@ -2094,9 +2094,9 @@ exports[`should return a formatted html 38`] = `
 <p>Today we are announcing the general availability of support for JSON, JSONL, and ORC file formats in Data Wrangler. You can now browse, preview, and import your data in these file formats using Data Wrangler. The ORC file format provides a highly efficient way to store Hive data, however it can be difficult to preview this data using a text editor. With support for the ORC file format in Data Wrangler, you can now easily browse data in an ORC file just as you would a csv file. To learn more about importing ORC files and preparing JSON data with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/prepare-and-analyze-json-and-orc-data-with-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.</p>
 <p>Additionally, we are announcing the general availability of several new transforms including: transforms to handle class imbalance in your data sets, transforms to process columns with arrays and JSON-formatted strings, and a similarity encoding transform to efficiently encode categorical data with high cardinality. These transforms add to Data Wrangler’s collection of over 300 transforms, which includes many transforms for processing time series data. Below is a detailed description of these new transforms:</p>
 <ul>
-  <li><b>Balance data.</b> Datasets can frequently be imbalanced favoring one target class over the other. The new balance transform can help you oversample a sparse minority class depending on your requirements. Additionally, you can now generate new samples of the minority class using the synthetic minority oversampling technique (SMOTE) now generally available in Data Wrangler. SMOTE automatically generates new observations of your minority class from groups of similar rows in your data set. To learn more about how to handle imbalanced data sets with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/balance-your-data-for-machine-learning-with-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.</li>
-  <li><b>Handle Structured Columns.</b> For columns that contain arrays, a new <b>explode array</b>&nbsp;transform generates a new row for each value in the array. For JSON-formatted strings, a new <b>flatten structured column</b>&nbsp;transform creates new columns for each key-value pair in the JSON-formatted string. To learn more about handling structured columns with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/prepare-and-analyze-json-and-orc-data-with-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.</li>
-  <li><b>Encode Categorical Variables.</b> Using a new <b><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-transform.html#data-wrangler-transform-cat-encode" target="_blank" rel="noopener">similarity encoding transform,</a></b>&nbsp;you can now efficiently encode categorical variables with high cardinality. Many data scientists frequently apply a one-hot encoding to their categorical variables, which converts each categorical value into a separate column. The process of one-hot encoding can turn a single column with US states into 50 new binary valued variables (one for each state). With similarity encoding now available in Data Wrangler, you can encode a categorical variable into a much smaller number of columns while retaining or possibly increasing model performance. </li>
+  <li><strong>Balance data.</strong> Datasets can frequently be imbalanced favoring one target class over the other. The new balance transform can help you oversample a sparse minority class depending on your requirements. Additionally, you can now generate new samples of the minority class using the synthetic minority oversampling technique (SMOTE) now generally available in Data Wrangler. SMOTE automatically generates new observations of your minority class from groups of similar rows in your data set. To learn more about how to handle imbalanced data sets with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/balance-your-data-for-machine-learning-with-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.</li>
+  <li><strong>Handle Structured Columns.</strong> For columns that contain arrays, a new <strong>explode array</strong>&nbsp;transform generates a new row for each value in the array. For JSON-formatted strings, a new <strong>flatten structured column</strong>&nbsp;transform creates new columns for each key-value pair in the JSON-formatted string. To learn more about handling structured columns with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/prepare-and-analyze-json-and-orc-data-with-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.</li>
+  <li><strong>Encode Categorical Variables.</strong> Using a new <strong><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-transform.html#data-wrangler-transform-cat-encode" target="_blank" rel="noopener">similarity encoding transform,</a></strong>&nbsp;you can now efficiently encode categorical variables with high cardinality. Many data scientists frequently apply a one-hot encoding to their categorical variables, which converts each categorical value into a separate column. The process of one-hot encoding can turn a single column with US states into 50 new binary valued variables (one for each state). With similarity encoding now available in Data Wrangler, you can encode a categorical variable into a much smaller number of columns while retaining or possibly increasing model performance. </li>
 </ul>
 <p>Finally, we are announcing the general availability of a one-click “Create job” experience to launch data processing jobs. Starting today, you can click a “Create job” button which allows you to start a data processing job using the steps specified in your Data Wrangler flow. You can still use the data processing notebooks in Data Wrangler to launch data processing jobs and integrate Data Wrangler into your MLOps pipelines. To learn more about how to launch a data processing job with Data Wrangler, read the <a href="https://aws.amazon.com/blogs/machine-learning/launch-processing-jobs-with-a-few-clicks-using-amazon-sagemaker-data-wrangler/" target="_blank" rel="noopener">blog</a>.&nbsp;<br>
 </p>
@@ -2116,27 +2116,27 @@ exports[`should return a formatted html 40`] = `
 <p> CloudFormation has also enabled the ability to namespace your exports for <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/walkthrough-crossstackref.html">cross-stack references</a>. You can now use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html">Fn::Join</a>, <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html">Fn::Sub</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html">Ref</a> functions to construct dynamic export names and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-importvalue.html">Fn::ImportValue</a> statements.</p>
 <p>CloudFormation has also added new resource support. You can now provision the following with CloudFormation:</p>
 <ul>
-  <li><b>AWS CodeCommit:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html">Provision</a> a hosted Git repository with <a href="https://aws.amazon.com/codecommit">CodeCommit</a></li>
+  <li><strong>AWS CodeCommit:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html">Provision</a> a hosted Git repository with <a href="https://aws.amazon.com/codecommit">CodeCommit</a></li>
 </ul>
 <ul>
 </ul>
 <ul>
-  <li><b>Amazon API Gateway usage plans:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html">Configure</a> a <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html">usage plan</a> with API Gateway to allow specified customers access to selected APIs at agreed-upon request rates and quotas</li>
+  <li><strong>Amazon API Gateway usage plans:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html">Configure</a> a <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-api-usage-plans.html">usage plan</a> with API Gateway to allow specified customers access to selected APIs at agreed-upon request rates and quotas</li>
 </ul>
 <p>CloudFormation has also updated support for several existing resources:</p>
 <ul>
-  <li><b>Amazon API Gateway</b><br>
+  <li><strong>Amazon API Gateway</strong><br>
     o Use Amazon Cognito user pools as API authorizers with the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-authorizer.html#cfn-apigateway-authorizer-providerarns">ProviderARNs</a> property<br>
     o Specify the update behavior of APIs with the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-mode">Mode</a> property<br>
     o You no longer need to specify a <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html#cfn-apigateway-deployment-stagename">StageName</a> property when you create an API Gateway deployment</li>
 </ul>
 <ul>
-  <li><b>Elastic Load Balancing</b><br>
+  <li><strong>Elastic Load Balancing</strong><br>
     o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">GetAtt</a> function to <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#d0e70387">retrieve ARNs</a> of load balancers that route traffic to the ELB target group</li>
-  <li><b>Amazon Relational Database Service (RDS) </b><br>
+  <li><strong>Amazon Relational Database Service (RDS) </strong><br>
     o Use Windows Authentication when users connect to an RDS instance with the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-domain">Domain</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-domainIAMRoleName">DomainIAMRole</a> name properties</li>
-  <li><b>Amazon EC2 Security Group Ingress/Egress Rules <br>
-    </b> o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html#cfn-ec2-securitygroupegress-destinationprefixlistid">Specify</a> the AWS service prefix of an Amazon VPC endpoint</li>
+  <li><strong>Amazon EC2 Security Group Ingress/Egress Rules <br>
+    </strong> o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html#cfn-ec2-securitygroupegress-destinationprefixlistid">Specify</a> the AWS service prefix of an Amazon VPC endpoint</li>
 </ul>
 <ul>
 </ul>
@@ -2150,14 +2150,14 @@ exports[`should return a formatted html 40`] = `
 
 exports[`should return a formatted html 41`] = `
 "<p>The <a href="https://aws.amazon.com/machine-learning/amis">AWS Deep Learning AMIs</a> for <a href="https://aws.amazon.com/marketplace/pp/B077GCH38C" target="_blank">Ubuntu</a> and <a href="https://aws.amazon.com/marketplace/pp/B077GF11NF" target="_blank">Amazon Linux</a> now come with a custom build of TensorFlow 1.9 optimized for high performance training, the latest Apache MXNet 1.2 that includes several performance and usability improvements, the new Keras 2-MXNet backend with high performance multi-GPU training support, and the new MXBoard tool for improved debugging and visualization of MXNet training models. &nbsp;</p>
-<p><b>Faster training with optimized TensorFlow 1.9</b></p>
+<p><strong>Faster training with optimized TensorFlow 1.9</strong></p>
 <p>Deep Learning AMIs include a compute-optimized build of <a href="https://github.com/tensorflow/tensorflow/releases/tag/v1.9.0" target="_blank">TensorFlow 1.9</a> custom-built directly from the source code to accelerate training performance on the Intel Xeon Platinum processors powering Amazon EC2 C5 instances. The AMIs also offer a GPU-optimized build of TensorFlow 1.9 configured with NVIDIA CUDA 9 and cuDNN 7 to take advantage of mixed precision training on the Volta V100 GPUs powering Amazon EC2 P3 instances. Deep Learning AMIs automatically deploy the high performance build of TensorFlow optimized for the EC2 instance of your choice when you activate the TensorFlow virtual environment for the first time. To learn more, see our <a href="https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-tensorflow.html" target="_blank">TensorFlow tutorial</a>.</p>
 <p>In addition,&nbsp;for developers looking to scale their TensorFlow training from single GPU to multiple GPUs, the AMIs come fully-configured with Horovod, which is a popular open-source distributed training framework. We have released several performance improvements and configurations in this pre-built version of Horovod that make it faster to run distributed training over clusters of Amazon EC2 P3 instances. For details, see our <a href="https://aws.amazon.com/blogs/machine-learning/aws-deep-learning-amis-now-with-optimized-tensorflow-1-9-and-apache-mxnet-1-2-with-keras-2-support-to-accelerate-deep-learning-on-amazon-ec2-instances/" target="_blank">blog post</a>.</p>
-<p><b>Apache MXNet 1.2 Improvements</b></p>
+<p><strong>Apache MXNet 1.2 Improvements</strong></p>
 <p>Deep Learning AMIs support the latest release of <a href="https://blogs.apache.org/mxnet/entry/apache-mxnet-1-2-0" target="_blank">Apache MXNet 1.2</a>, offering better ease-of-use and faster performance. MXNet 1.2 includes a new Scala-based, thread-safe, high-level inference API that makes it easier to perform predictions using deep learning models trained with MXNet. MXNet 1.2 also offers the new Intel MKL-DNN integration that accelerates neural network operators such as convolution, deconvolution, and pooling on compute-optimized C5 instances, and support for enhanced FP16 that accelerates mixed precision training on Tensor Cores of NVIDIA Volta V100 GPUs powering Amazon EC2 P3 instances. Lastly, MXNet 1.2 comes with a new Open Neural Network Exchange Format (<a href="https://onnx.ai/" target="_blank">ONNX</a>) module for importing ONNX models into the MXNet symbolic interface. ONNX is an open format for representing deep learning models that can be used to promote interoperability between deep learning frameworks.</p>
-<p><b>High performance multi-GPU training with MXNet backend for Keras 2</b></p>
+<p><strong>High performance multi-GPU training with MXNet backend for Keras 2</strong></p>
 <p>Deep Learning AMIs come pre-installed with the new <a href="https://aws.amazon.com/blogs/machine-learning/apache-mxnet-incubating-adds-support-for-keras-2/">Keras-MXNet deep learning backend</a>. Keras is a high-level, Python neural network API that is popular for its quick and easy prototyping of convolutional neural networks (CNNs) and recurrent neural networks (RNNs). Keras developers can now use MXNet as their backend deep engine for distributed training of CNNs and RNNs, and get higher performance. Developers can design in Keras, train with Keras-MXNet, and run inference with MxNet in large-scale production environments. To learn more see this <a href="https://aws.amazon.com/blogs/machine-learning/apache-mxnet-incubating-adds-support-for-keras-2/" target="_blank">blog post</a>.</p>
-<p><b>Improved debugging support with MXBoard</b></p>
+<p><strong>Improved debugging support with MXBoard</strong></p>
 <p>With <a href="https://github.com/awslabs/mxboard" target="_blank">MXBoard</a>, a Python package that provides APIs for logging MXNet data for visualization in TensorBoard, developers can easily debug and visualize their MXNet model training. MXBoard supports a range of visualizations including histograms, convolutional filters, visual embedding, and more.<br>
   &nbsp;</p>
 <p>You can quickly get started with AWS Deep Learning AMIs with our step-by-step <a href="https://aws.amazon.com/getting-started/tutorials/get-started-dlami/" target="_blank">tutorial</a> and the <a href="https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html" target="_blank">developer guide</a>. The latest AMIs are available on the AWS Marketplace. Subscribe to our <a href="https://forums.aws.amazon.com/forum.jspa?forumID=263" target="_blank">discussion forum</a> to get launch announcements and post your questions.</p>"
@@ -2212,17 +2212,17 @@ exports[`should return a formatted html 43`] = `
 exports[`should return a formatted html 44`] = `
 "<p>You can now provision the following AWS resources using CloudFormation.</p>
 <ul>
-  <li><b>AWS::ApiGateway::DomainName</b>
+  <li><strong>AWS::ApiGateway::DomainName</strong>
     <ul>
       <li>Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html">AWS::ApiGateway::DomainName</a> resource to specify a custom, friendly URL for your API that's deployed to Amazon API Gateway.</li>
     </ul>
   </li>
-  <li><b>AWS::EC2::EgressOnlyInternetGateway</b>
+  <li><strong>AWS::EC2::EgressOnlyInternetGateway</strong>
     <ul>
       <li>Create an egress-only Internet gateway for your VPC with the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-egressonlyinternetgateway.html">AWS::EC2::EgressOnlyInternetGateway</a> resource.</li>
     </ul>
   </li>
-  <li><b>AWS::EMR::InstanceFleetConfig</b>
+  <li><strong>AWS::EMR::InstanceFleetConfig</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html">Configure</a> a spot instance fleet for an Amazon EMR cluster using the InstanceFleetConfig resource.</li>
     </ul>
@@ -2230,55 +2230,55 @@ exports[`should return a formatted html 44`] = `
 </ul>
 <p>CloudFormation has also updated support for the following resources:</p>
 <ul>
-  <li><b>AWS::ApiGateway::RestApi</b>
+  <li><strong>AWS::ApiGateway::RestApi</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html">Specify</a> supported binary media types using the BinaryMediaTypes property.</li>
     </ul>
   </li>
-  <li><b>AWS::ApplicationAutoScaling::ScalingPolicy</b>
+  <li><strong>AWS::ApplicationAutoScaling::ScalingPolicy</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html">Specify</a> a target tracking scaling policy configuration using the TargetTrackingScalingPolicyConfiguration property.</li>
     </ul>
   </li>
-  <li><b>AWS::CloudTrail::Trail</b>
+  <li><strong>AWS::CloudTrail::Trail</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html">Specify</a> a custom name for an AWS CloudTrail resource using the TrailName property.</li>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html">Specify</a> resource tags using the Tags property.</li>
     </ul>
   </li>
-  <li><b>AWS::CodeDeploy::DeploymentGroup</b>
+  <li><strong>AWS::CodeDeploy::DeploymentGroup</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html">Configure</a> alarms for the deployment group using the Use the AlarmConfiguration property.</li>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html">Configure</a> notification triggers for the deployment group using the TriggerConfigurations property.</li>
     </ul>
   </li>
-  <li><b>AWS::EMR::Cluster</b>
+  <li><strong>AWS::EMR::Cluster</strong>
     <ul>
       <li><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html">Configure</a> the Spot instance fleet configuration for an Amazon EMR cluster using the CoreInstanceFleet and the MasterInstanceFleet properties in the Amazon EMR Cluster JobFlowInstancesConfig property</li>
     </ul>
   </li>
-  <li><b>AWS::DynamoDB::Table</b>
+  <li><strong>AWS::DynamoDB::Table</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html">Specify</a> the Time to Live (TTL) settings for an Amazon DynamoDB table using the TimeToLiveSpecification property.</li>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html">Specify</a> resource tags for a DynamoDB table using the Tags property.</li>
     </ul>
   </li>
-  <li><b>AWS::EC2::Instance</b>
+  <li><strong>AWS::EC2::Instance</strong>
     <ul>
       <li>The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html">IamInstanceProfile</a> property now supports No interruption updates</li>
     </ul>
   </li>
-  <li><b>AWS::Kinesis::Stream</b>
+  <li><strong>AWS::Kinesis::Stream</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html">Use</a> the RetentionPeriodHours property to specify the number of hours that data records stored in shards remain accessible.</li>
     </ul>
   </li>
-  <li><b>AWS::RDS::DBCluster</b>
+  <li><strong>AWS::RDS::DBCluster</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html">Use</a> the ReplicationSourceIdentifier property to create a DB cluster as a Read Replica of another DB cluster or Amazon RDS MySQL DB instance.</li>
     </ul>
   </li>
-  <li><b>AWS::Redshift::Cluster</b>
+  <li><strong>AWS::Redshift::Cluster</strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Create</a> audit log files and store them in Amazon S3 using the LoggingProperties property.</li>
     </ul>
@@ -2385,24 +2385,24 @@ exports[`should return a formatted html 48`] = `
 `;
 
 exports[`should return a formatted html 49`] = `
-"<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-device.html"><b>AWS::IoT1Click::Device</b></a><br>
+"<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-device.html"><strong>AWS::IoT1Click::Device</strong></a><br>
   Use the AWS::IoT1Click::Device resource to change the enabled state of an AWS IoT 1-Click compatible device.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html"><b>AWS::IoT1Click::Placement</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html"><strong>AWS::IoT1Click::Placement</strong></a><br>
   Use the AWS::IoT1Click::Placement resource to create an empty AWS IoT 1-Click placement.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html"><b>AWS::IoT1Click::Project</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html"><strong>AWS::IoT1Click::Project</strong></a><br>
   Use the AWS::IoT1Click::Project resource to create an empty project with a placement template.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html"><b>AWS::ApiGateway::UsagePlan</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html"><strong>AWS::ApiGateway::UsagePlan</strong></a><br>
   Support for new property “Throttle”, which allows users to specify throttling limits of the usage plan.</p>
 <p><br>
   <br>
-  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html"><b>AWS::ApiGateway::Deployment</b></a><br>
+  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html"><strong>AWS::ApiGateway::Deployment</strong></a><br>
   Support for new property DeploymentCanarySettings has been added. Users will be able to define the input configuration for the canary deployment when the deployment is a canary release deployment.<br>
 </p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html"><b>AWS::ApiGateway::Method</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html"><strong>AWS::ApiGateway::Method</strong></a><br>
   Support for following properties has been added:<br>
   “AuthorizationScopes” which is a list of authorization scopes configured on the method. The scopes are used with a COGNITO_USER_POOLS authorizer to authorize the method invocation.<br>
   “TimeoutInMillis”, users can define Custom timeout between 50 and 29,000 milliseconds.<br>
@@ -2410,26 +2410,26 @@ exports[`should return a formatted html 49`] = `
   “VpcLink” used for the integration when connectionType=VPC_LINK.</p>
 <p><br>
   <br>
-  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html"><b>AWS::ApiGateway::Stage</b></a><br>
+  <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html"><strong>AWS::ApiGateway::Stage</strong></a><br>
   Support for the following properties is added:<br>
   “AccessLogSetting”, user can modify settings for logging access in this stage.<br>
   “CanarySetting”, user can modify settings for the canary deployment in this stage. These 2 new feature will also be available inside AWS::ApiGateway::Deployment.
 </p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html"><b>AWS::ECS::Service</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html"><strong>AWS::ECS::Service</strong></a><br>
   Specify the type of service scheduling strategy using the SchedulingStrategy property.<br>
   Use the parameter containerName and containerPort of the property serviceRegistry to specify the container name and container port of the service discovery registries that are assigned to the service.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html"><b>AWS::ECS::TaskDefinition</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html"><strong>AWS::ECS::TaskDefinition</strong></a><br>
   Setting the value for the size of /dev/shm volume with the SharedMemorySize parameter of LinuxParamters property.<br>
   Setting the container path, mount options, and size of the tmpfs mount with the Tmpfs property.<br>
   Configure the volume for an Amazon ECS TaskDefinition using the dockerVolumeConfiguration property.<br>
   Setting the value for the parameter CredentialsParameter of RepositoryCredentials property with the full ARN of the secret that you created, which allows your tasks to use images from private repositories.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html"><b>AWS::ElastiCache::ReplicationGroup</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html"><strong>AWS::ElastiCache::ReplicationGroup</strong></a><br>
   Support for Online Cluster Resizing feature of ElastiCache for Redis has been added. As part of this feature, CFN presents a new update policy, which allows users to use the ModifyReplicationGroupShardConfiguration API to mutably update the number of nodes and node group configurations on an AWS::ElastiCache::ReplicationGroup resource.</p>
 
-<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html"><b>AWS::RDS::DBCluster</b></a><br>
+<p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html"><strong>AWS::RDS::DBCluster</strong></a><br>
   Two new properties “EngineMode” and “ScalingConfiguration” can be added and set for RDS DB Cluster resources to enable and configure the settings of the new Serverless mode.</p>
 <p>For a complete list of updated resources please click <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html">here</a>.</p>
 <p>To learn more about AWS CloudFormation, please visit our <a href="https://docs.aws.amazon.com/cloudformation/index.html#lang/en_us">documentation page</a>.</p>"
@@ -2452,7 +2452,7 @@ exports[`should return a formatted html 51`] = `
 </p>
 <p>AWS CloudFormation has also added support for new resources:</p>
 <ul>
-  <li><b><i>AWS::ApiGateway::UsagePlanKey</i></b>
+  <li><strong><i>AWS::ApiGateway::UsagePlanKey</i></strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplankey.html" target="_blank">Associate</a> an <a href="https://aws.amazon.com/api-gateway" target="_blank">Amazon API Gateway</a> API key with an API Gateway usage plan and determine which users the usage plan is applied to.</li>
     </ul>
@@ -2460,32 +2460,32 @@ exports[`should return a formatted html 51`] = `
 </ul>
 <p>CloudFormation has also updated support for existing functions and resources:</p>
 <ul>
-  <li><b><i>AWS::EC2::VPCPeeringConnection</i></b>
+  <li><strong><i>AWS::EC2::VPCPeeringConnection</i></strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html" target="_blank">Use</a> the <i>PeerOwnerId</i> property and the <i>PeerRoleArn</i> property to peer with a VPC in another AWS account.</li>
     </ul>
   </li>
-  <li><b><i>AWS::IAM::InstanceProfile</i></b>
+  <li><strong><i>AWS::IAM::InstanceProfile</i></strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html" target="_blank">Use</a> the <i>InstanceProfileName</i> property to configure an instance profile.</li>
     </ul>
   </li>
-  <li><i><b>AWS::Lambda::Function</b></i>
+  <li><i><strong>AWS::Lambda::Function</strong></i>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html" target="_blank">Use</a> the <i>DeadLetterConfig</i> property to configure how <a href="https://aws.amazon.com/lambda" target="_blank">AWS Lambda</a> handles events that it cannot process.</li>
     </ul>
   </li>
-  <li><i><b>AWS::Route53::HealthCheck</b></i>
+  <li><i><strong>AWS::Route53::HealthCheck</strong></i>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html" target="_blank">Use</a> seven new resource sub-property types for the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-healthcheck-healthcheckconfig.html" target="_blank">Amazon Route 53 HealthCheckConfig</a> <i>HealthCheckConfig</i> property: <i>AlarmIdentifier</i>, <i>ChildHealthChecks</i>, <i>EnableSNI</i>, <i>HealthThreshold</i>, <i>InsufficientDataHealthStatus</i>, <i>Inverted</i>, and <i>MeasureLatency</i>.</li>
     </ul>
   </li>
-  <li><i><b>AWS::SQS::Queue</b></i>
+  <li><i><strong>AWS::SQS::Queue</strong></i>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html" target="_blank">Use</a> the <i>ContentBasedDeduplication</i> and <i>FifoQueue</i> properties to create First-In-First-Out (FIFO) <a href="https://aws.amazon.com/sqs" target="_blank">Amazon Simple Queue Service</a> queues.</li>
     </ul>
   </li>
-  <li><b><i>AWS::S3::Bucket</i></b>
+  <li><strong><i>AWS::S3::Bucket</i></strong>
     <ul>
       <li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html" target="_blank">Specify</a> IPv6 domain names for your <a href="https://aws.amazon.com/s3" target="_blank">Amazon S3</a> buckets.</li>
     </ul>
@@ -2540,12 +2540,12 @@ exports[`should return a formatted html 54`] = `
 
 exports[`should return a formatted html 55`] = `
 "<p>Amazon Rekognition added three new features today: detection and recognition of text in images; real-time face recognition across tens of millions of faces; and detection of up to 100 faces in challenging crowded photos. Customers who are already using Amazon Rekognition for face verification and identification will experience up to a 10% accuracy improvement in most cases.&nbsp;</p>
-<p><b>Text in Image: </b>Customers using Amazon Rekognition to detect objects and faces in images have been asking us to recognize text embedded in images, such as street signs and license plates captured by traffic cameras, news, and captions on TV screens, or stylized quotes overlaid on phone-captured family pictures. Starting today, you can use Rekognition Text in Image to recognize and extract textual content from images. Text in Image is specifically built to work with real-world images rather than document images. It supports text in most Latin scripts and numbers embedded in a large variety of layouts, fonts, and styles, and overlaid on background objects at various orientation as banners and posters.</p>
+<p><strong>Text in Image: </strong>Customers using Amazon Rekognition to detect objects and faces in images have been asking us to recognize text embedded in images, such as street signs and license plates captured by traffic cameras, news, and captions on TV screens, or stylized quotes overlaid on phone-captured family pictures. Starting today, you can use Rekognition Text in Image to recognize and extract textual content from images. Text in Image is specifically built to work with real-world images rather than document images. It supports text in most Latin scripts and numbers embedded in a large variety of layouts, fonts, and styles, and overlaid on background objects at various orientation as banners and posters.</p>
 <p>For example, in image sharing and social media applications, you can now enable visual search based on an index of images that contain the same keywords. In media and entertainment applications, you can catalogue videos based on relevant text on screen, such as ads, news, sport scores, and captions. Additionally, in security and safety applications, you can identify vehicles based on license plate numbers from images taken by street cameras. </p>
 <p>“As a visually-driven platform, Pinterest relies heavily on the speed and quality of images, but the text behind those images is just as important, as it provides context and makes Pins actionable for our 200M+ active Pinners. In working with Amazon Rekognition Text in Image, we can better extract the rich text captured in images at scale and with low latency for the millions of Pins stored in Amazon S3. We look forward to continuing to develop the partnership with AWS for high quality and fast experiences for Pinners and businesses on Pinterest.” - Vanja Josifovski, CTO, Pinterest</p>
 <p>“Professional photographers often use SmugMug to share and sell photos containing text, for example, the numbers on marathon race bibs. Amazon Rekognition Text in Image allows us to programmatically extract bib numbers at scale and provide event photographers with even more functionality to quickly and easily share and monetize photos from these events. " - Don MacAskill, Co-founder, CEO &amp; Chief Geek at SmugMug<br>
   &nbsp;</p>
-<p><b>Face Search and Detection:</b> With Amazon Rekognition, you can now perform real-time face searches against collections with tens of millions of faces. This represents a 5-10X reduction in search latency, while simultaneously allowing for collections that can store 10-20X more faces than before.</p>
+<p><strong>Face Search and Detection:</strong> With Amazon Rekognition, you can now perform real-time face searches against collections with tens of millions of faces. This represents a 5-10X reduction in search latency, while simultaneously allowing for collections that can store 10-20X more faces than before.</p>
 <p>In security and safety applications, you can now identify people of interest against a collection of millions of faces in near real-time, enabling use cases such as timely and accurate crime prevention. The Washington County Sheriff’s Office is the primary first responder for 911 calls from the citizens in Oregon. The office also provides support for crime prevention to other city police departments countywide. The Sheriff’s Office had previously used Amazon Rekognition to reduce the identification time of suspects from 2-3 days down to minutes.</p>
 <p>“These improvements allow deputies in the field to receive the response to searches in near real time. This allows them to get the information they need and take action quickly. Seconds saved in the field can make the difference in saving a life.” Chris Adzima, Senior Information Systems Analyst for the Washington County Sheriff’s Office.</p>
 <p>Starting today, customers can also detect, analyze and index up to 100 faces (up from 15) in a single image. With this improvement, you can accurately capture demographics and analyze sentiments for all faces in group photos, crowded events and public locations such as airports and department stores. <br>
@@ -2593,7 +2593,7 @@ exports[`should return a formatted html 59`] = `
 <p>Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models. With these price reductions, customers can optimize their ML budgets and further reduce their costs to build machine learning and deep learning applications using accelerated compute instances.<br>
 </p>
 <p>The price reductions for the specific instance types are as follows:</p>
-<p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<b>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Instance Type &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Price Reduction</b></p>
+<p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<strong>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Instance Type &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Price Reduction</strong></p>
 <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ml.p2.xlarge &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 11%</p>
 <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; ml.p2.8xlarge &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 14%</p>
 <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;ml.p2.16xlarge &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;18%</p>
@@ -2666,9 +2666,9 @@ exports[`should return a formatted html 61`] = `
 
 exports[`should return a formatted html 62`] = `
 "<p>The Amazon <a href="https://aws.amazon.com/rds">Relational Database Service</a> (RDS) was designed to simplify one of the most complex of all common IT activities: managing and scaling a relational database while providing fast, predictable performance and high availability.</p>
-<p><b>Amazon RDS in Action</b><br>
+<p><strong>Amazon RDS in Action</strong><br>
   During the last 3.5 years in operation, a lot has happened. Amazon RDS is now being used in mission-critical deployments by tens of thousands of businesses of all sizes. We now process trillions of I/O requests each month for these customers. We're seeing strong adoption in enterprises such as Samsung and <a href="https://aws.amazon.com/solutions/case-studies/unilever">Unilever</a>, web-scale applications like Flipboard and <a href="https://aws.amazon.com/solutions/case-studies/airbnb">Airbnb</a>, and large-scale organizations like <a href="https://aws.amazon.com/solutions/case-studies/nasa-jpl-curiosity">NASA JPL</a> and <a href="https://aws.amazon.com/solutions/case-studies/obama">Obama for America</a>.</p>
-<p><b>Amazon RDS Innovation</b><br>
+<p><strong>Amazon RDS Innovation</strong><br>
   We have added support for three major database engines (MySQL, Oracle, and SQL Server), expanded support to all nine of the AWS Regions, and added more than 50 highly requested features. Following is the list of a few key features:</p>
 <ul>
   <li>Multiple database engines: Support for <a href="https://aws.amazon.com/rds/oracle">Oracle </a>and <a href="https://aws.amazon.com/rds/sqlserver">Microsoft SQL Server</a> in addition to <a href="https://aws.amazon.com/rds/mysql">MySQL</a>.</li>
@@ -2679,7 +2679,7 @@ exports[`should return a formatted html 62`] = `
   <li><a href="http://aws.typepad.com/aws/2013/02/relational-database-service-now-with-event-subscriptions.html">DB Notifications via e-mail and SMS</a>: You can subscribe to receive e-mail or SMS notifications when certain database events such as failover, low storage, replication state change etc. occur.</li>
 </ul>
 <p>These innovations are powering some of the world’s most popular applications that are used by millions of users.</p>
-<p><b>General Availability and Amazon RDS SLA</b><br>
+<p><strong>General Availability and Amazon RDS SLA</strong><br>
   We’re officially calling Amazon RDS “Generally Available” after adding several important features as noted above. With the strong level of customer adoption, numerous new features and plenty of operational experience behind us, we also have a Service Level Agreement (SLA) for Amazon RDS, with 99.95% availability for Multi-AZ database instances on a monthly basis. This SLA is available for Amazon RDS for MySQL and Oracle, which are currently the database engines with Multi-AZ deployment support. If availability falls below 99.95% for your Multi-AZ database instance (which is a maximum of 22 minutes of unavailability for a Multi-AZ database instance per month), you will be eligible to receive service credits. The new Amazon RDS SLA is designed to give you additional confidence to run the most demanding and mission critical workloads dependably in the AWS cloud. You can learn more by visiting the <a href="https://aws.amazon.com/rds-sla">Amazon RDS SLA page</a>.</p>"
 `;
 
@@ -2697,23 +2697,23 @@ exports[`should return a formatted html 63`] = `
   <tbody>
     <tr>
       <td><br>
-        <b>Operating system version</b>
+        <strong>Operating system version</strong>
       </td>
-      <td><b>Single-Instance deployment</b></td>
+      <td><strong>Single-Instance deployment</strong></td>
       <td><br>
-        <b>ASCS</b>
-      </td>
-      <td><br>
-        <b>ERS</b>
+        <strong>ASCS</strong>
       </td>
       <td><br>
-        <b>PAS</b>
+        <strong>ERS</strong>
       </td>
       <td><br>
-        <b>SAP HANA database</b>
+        <strong>PAS</strong>
       </td>
       <td><br>
-        <b>SAP HANA database in HA cluster</b>
+        <strong>SAP HANA database</strong>
+      </td>
+      <td><br>
+        <strong>SAP HANA database in HA cluster</strong>
       </td>
     </tr>
     <tr>
@@ -3069,13 +3069,13 @@ exports[`should return a formatted html 72`] = `
 <table width="100%" border="0" cellspacing="0" cellpadding="1" jcr:primarytype="nt:unstructured" style="width: 100%;">
   <tbody>
     <tr>
-      <th valign="top"><b>Instance Size</b></th>
-      <th valign="top"><b># vCPUs</b></th>
-      <th valign="top"><b>Memory (GiB)</b></th>
-      <th valign="top"><b>Instance Storage (HDD)</b></th>
-      <th valign="top"><b>Network Performance</b></th>
-      <th valign="top"><b>Disk Read (MBps with 2 MiB block size)</b></th>
-      <th valign="top"><b>Linux On-Demand Price*</b></th>
+      <th valign="top"><strong>Instance Size</strong></th>
+      <th valign="top"><strong># vCPUs</strong></th>
+      <th valign="top"><strong>Memory (GiB)</strong></th>
+      <th valign="top"><strong>Instance Storage (HDD)</strong></th>
+      <th valign="top"><strong>Network Performance</strong></th>
+      <th valign="top"><strong>Disk Read (MBps with 2 MiB block size)</strong></th>
+      <th valign="top"><strong>Linux On-Demand Price*</strong></th>
     </tr>
     <tr>
       <td valign="top">d2.xlarge</td>
@@ -3151,19 +3151,19 @@ exports[`should return a formatted html 76`] = `
 "<p> AWS CloudFormation has added support for four additional AWS services and several new features. </p>
 <p>You can now provision the following AWS services using CloudFormation. Visit <a target="_blank" href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html" rel="noopener">here</a> for a full list of supported services.</p>
 <ul>
-  <li><b>Network Address Translation (NAT) Gateway:</b> You can now provision a <a href="https://aws.amazon.com/about-aws/whats-new/2015/12/introducing-amazon-vpc-nat-gateway-a-managed-nat-service/">Network Address Translation (NAT) Gateway</a> using CloudFormation. NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-natgateway.html" target="_blank" rel="noopener">Learn more</a>.</li>
-  <li><b>Amazon EC2 Container Registry (Amazon ECR):</b> You can now use CloudFormation to provision <a href="https://aws.amazon.com/ecr/">Amazon ECR</a>, a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html" target="_blank" rel="noopener">Learn more</a>.</li>
-  <li><b>Amazon Elastic MapReduce (Amazon EMR):</b> You can now provision Amazon EMR&nbsp;using CloudFormation. Amazon EMR is a web service that makes it easy to quickly and cost-effectively process vast amounts of data using frameworks such as Hadoop, Apache Spark, and Presto.&nbsp;</li>
-  <li><b>Amazon Elasticsearch Service (Amazon ES):</b> You can now use CloudFormation to provision <a href="https://aws.amazon.com/elasticsearch-service/">Amazon ES</a>, a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters on AWS. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html" target="_blank" rel="noopener">Learn more</a>.</li>
+  <li><strong>Network Address Translation (NAT) Gateway:</strong> You can now provision a <a href="https://aws.amazon.com/about-aws/whats-new/2015/12/introducing-amazon-vpc-nat-gateway-a-managed-nat-service/">Network Address Translation (NAT) Gateway</a> using CloudFormation. NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-natgateway.html" target="_blank" rel="noopener">Learn more</a>.</li>
+  <li><strong>Amazon EC2 Container Registry (Amazon ECR):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/ecr/">Amazon ECR</a>, a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html" target="_blank" rel="noopener">Learn more</a>.</li>
+  <li><strong>Amazon Elastic MapReduce (Amazon EMR):</strong> You can now provision Amazon EMR&nbsp;using CloudFormation. Amazon EMR is a web service that makes it easy to quickly and cost-effectively process vast amounts of data using frameworks such as Hadoop, Apache Spark, and Presto.&nbsp;</li>
+  <li><strong>Amazon Elasticsearch Service (Amazon ES):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/elasticsearch-service/">Amazon ES</a>, a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters on AWS. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html" target="_blank" rel="noopener">Learn more</a>.</li>
 </ul>
 <p> You can now provision the following features using CloudFormation: </p>
 <ul>
-  <li> <b>AWS CloudTrail multi-region trail creation:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-ismultiregiontrail" target="_blank">Specify</a> whether newly created trails apply to the region in which your stack was created or to all regions. </li>
-  <li> <b>AWS Config global resource types:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configurationrecorder-recordinggroup.html" target="_blank">Indicate</a> whether AWS Config should automatically start recording newly added global resource types, such as IAM users, groups, roles, and customer managed policies. </li>
-  <li> <b>Amazon Relational Database Service (Amazon RDS) encryption:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-storageencrypted" target="_blank">Encrypt</a> Amazon RDS database instances using AWS Key Management System.</li>
-  <li><b>Edit tags when updating stacks:</b> Add, modify, or remove stack tags when you <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-stack.html" target="_blank">update</a> your stack. Previously, you could not make changes to tags when updating your stack.<br>
+  <li> <strong>AWS CloudTrail multi-region trail creation:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-ismultiregiontrail" target="_blank">Specify</a> whether newly created trails apply to the region in which your stack was created or to all regions. </li>
+  <li> <strong>AWS Config global resource types:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configurationrecorder-recordinggroup.html" target="_blank">Indicate</a> whether AWS Config should automatically start recording newly added global resource types, such as IAM users, groups, roles, and customer managed policies. </li>
+  <li> <strong>Amazon Relational Database Service (Amazon RDS) encryption:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-storageencrypted" target="_blank">Encrypt</a> Amazon RDS database instances using AWS Key Management System.</li>
+  <li><strong>Edit tags when updating stacks:</strong> Add, modify, or remove stack tags when you <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-stack.html" target="_blank">update</a> your stack. Previously, you could not make changes to tags when updating your stack.<br>
   </li>
-  <li> <b>Retain resources when deleting stacks:</b> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-delete-stack-fails" target="_blank">Specify</a> the AWS resources you would like to retain when deleting a stack. This is useful when your stack deletion has failed because it contains a resource that cannot be deleted, such as a non-empty Amazon S3 bucket. </li>
+  <li> <strong>Retain resources when deleting stacks:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-delete-stack-fails" target="_blank">Specify</a> the AWS resources you would like to retain when deleting a stack. This is useful when your stack deletion has failed because it contains a resource that cannot be deleted, such as a non-empty Amazon S3 bucket. </li>
 </ul>
 <p> Please visit our website for more information on AWS CloudFormation:</p>
 <ul>
@@ -3233,11 +3233,11 @@ exports[`should return a formatted html 80`] = `
 
 exports[`should return a formatted html 81`] = `
 "<p>Starting today, you can use three new capabilities with Lambda@Edge that can further help you build personalized content for your viewers while improving latency and simplifying your origin infrastructure. First, with content-based dynamic origin selection, you can route requests to different backend origin servers based on request attributes such as viewer location, viewer device type, HTTP headers, URL path, query string or cookies. Second, you can make remote network calls from Amazon CloudFront viewer-facing events. Third, you can generate binary data from your Lambda@Edge functions which lets you deliver richer, more customized content using Amazon CloudFront. We have also increased the limits for Lambda@Edge functions. You can choose up to 1536MB of memory, deploy larger packages up to 50MB, and implement Lambda@Edge functions with longer timeouts – up to 30 seconds. &nbsp;</p>
-<p><b>Content-based dynamic origin selection:</b> Previously with Lambda@Edge, you could only forward requests to a pre-defined origin that you configured for your CloudFront distribution. Now you can front multiple backend origin application services with Amazon CloudFront and use Lambda@Edge to route requests to the appropriate origin dynamically, based on the attributes of the request. For example, you could have multiple microservices based backend origins that your Lambda@Edge functions can dynamically route to by inspecting request attributes like query strings, headers or cookies. Or you can route your viewers to the most optimal origin for latency or data locality if you happen to run geographically distributed applications in different AWS regions. Content-based dynamic origin selection also lets you simplify your origin infrastructure by moving request routing logic from a fleet of reverse proxy servers that you would have had to manage to serverless Lambda@Edge functions.<br>
+<p><strong>Content-based dynamic origin selection:</strong> Previously with Lambda@Edge, you could only forward requests to a pre-defined origin that you configured for your CloudFront distribution. Now you can front multiple backend origin application services with Amazon CloudFront and use Lambda@Edge to route requests to the appropriate origin dynamically, based on the attributes of the request. For example, you could have multiple microservices based backend origins that your Lambda@Edge functions can dynamically route to by inspecting request attributes like query strings, headers or cookies. Or you can route your viewers to the most optimal origin for latency or data locality if you happen to run geographically distributed applications in different AWS regions. Content-based dynamic origin selection also lets you simplify your origin infrastructure by moving request routing logic from a fleet of reverse proxy servers that you would have had to manage to serverless Lambda@Edge functions.<br>
   <br>
-  <b>Network calls on viewer-facing events:</b> In addition to the remote network calls from origin-facing CloudFront events, Lambda@Edge now supports remote network calls from viewer-facing CloudFront events. For instance, you can now make remote calls to your authentication servers to verify user-privilege levels and serve premium vs. non-premium content based on what each user is authorized for.<br>
+  <strong>Network calls on viewer-facing events:</strong> In addition to the remote network calls from origin-facing CloudFront events, Lambda@Edge now supports remote network calls from viewer-facing CloudFront events. For instance, you can now make remote calls to your authentication servers to verify user-privilege levels and serve premium vs. non-premium content based on what each user is authorized for.<br>
   <br>
-  <b>Advanced response generation:</b> Now with support for binary responses (such as images) and higher Lambda function limits, you can move more complex logic to the edge than was possible previously. For example, with remote calls and binary response generation, you can now call services like <a href="https://aws.amazon.com/rekognition">Amazon Rekognition</a> to find interesting portions of images and resize, crop or compress them, add image watermarking or manipulate the images for optimal viewing experience on various viewer devices. As a content publisher, you can dynamically assemble content for each viewer from multiple external sources, run compute-intensive logic, and generate customized responses. Lambda@Edge makes all of this possible at low latencies for your viewers, and without the need to provision or manage your own servers.
+  <strong>Advanced response generation:</strong> Now with support for binary responses (such as images) and higher Lambda function limits, you can move more complex logic to the edge than was possible previously. For example, with remote calls and binary response generation, you can now call services like <a href="https://aws.amazon.com/rekognition">Amazon Rekognition</a> to find interesting portions of images and resize, crop or compress them, add image watermarking or manipulate the images for optimal viewing experience on various viewer devices. As a content publisher, you can dynamically assemble content for each viewer from multiple external sources, run compute-intensive logic, and generate customized responses. Lambda@Edge makes all of this possible at low latencies for your viewers, and without the need to provision or manage your own servers.
 </p>
 <p>There are no additional charges for using these new features. To learn more about Lambda@Edge, visit the <a href="https://aws.amazon.com/lambda/edge">product page</a>. For more information on how to use these capabilities, please see the resources below: &nbsp;</p>
 <ul>
@@ -3497,22 +3497,22 @@ exports[`should return a formatted html 98`] = `
 exports[`should return a formatted html 99`] = `
 "<div>
   <p><span>We are excited to announce the immediate availability of a new
-      feature:<span>&nbsp;</span><b>Amazon Machine Image
-        (AMI) Copy</b>. AMI Copy enables you to easily copy your AMIs across AWS
+      feature:<span>&nbsp;</span><strong>Amazon Machine Image
+        (AMI) Copy</strong>. AMI Copy enables you to easily copy your AMIs across AWS
       regions, enabling the following scenarios:</span></p>
-  <p><b><span>Consistent and Simple
-        Multi-Region Deployment</span></b><span> - You can copy an AMI from one region to
+  <p><strong><span>Consistent and Simple
+        Multi-Region Deployment</span></strong><span> - You can copy an AMI from one region to
       another, enabling you to easily launch consistent instances based on the same
       AMI into different regions.</span></p>
-  <p><b><span>Scalability</span></b><span> - You
+  <p><strong><span>Scalability</span></strong><span> - You
       can more easily design and build world-scale applications that meet the needs
       of your users, regardless of their location. </span></p>
-  <p><b><span>Performance</span></b><span> - You
+  <p><strong><span>Performance</span></strong><span> - You
       can increase performance by distributing your application and locating critical
       components of your application in closer proximity to your users. You can also
       take advantage of region-specific features such as instance types or other AWS
       services.</span></p>
-  <p><b><span>Even Higher Availability</span></b><span> - You
+  <p><strong><span>Even Higher Availability</span></strong><span> - You
       can design and deploy applications across AWS regions, to increase
       availability.</span></p>
   <p><span>To use AMI Copy, simply select the AMI to be copied from within
