@@ -1,6 +1,6 @@
 # aws-news-post-formatter [![CircleCI](https://circleci.com/gh/vladgolubev/aws-news-post-formatter/tree/master.svg?style=svg)](https://circleci.com/gh/shelfio/aws-news-post-formatter/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
-> Formats HTML from AWS News API
+> Formats & fixes HTML from AWS News API
 
 ## Install
 
