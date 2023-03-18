@@ -57,7 +57,7 @@ it.each`
   ${'AWS Network Firewall achieves PCI DSS Compliance'}                                                      | ${['pci-dss']}
   ${'Amazon MWAA is now PCI DSS compliant'}                                                                  | ${['pci-dss']}
   ${'AWS Achieves PCI DSS Level 1 Compliance'}                                                               | ${['pci-dss']}
-  ${'PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment'}                  | ${['pci-dss']}
+  ${'PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment'}                  | ${['pci-dss', 'quick-start']}
   ${'AWS WAF is now Included in the set of Services that are PCI DSS 3.2 Level 1 Compliant.'}                | ${['pci-dss']}
   ${'AWS Cloud Map achieves PCI DSS Certification'}                                                          | ${['pci-dss']}
   ${'AWS Security Hub Automated Response and Remediation adds support for PCI-DSS v3.2.1 Security Standard'} | ${['pci-dss']}
@@ -116,7 +116,7 @@ it.each`
   ${'Amazon RDS for Oracle Now Supports Data Pump'}                                                                                                                     | ${['oracle-db']}
   ${'Amazon RDS Custom for Oracle is now available in Asia Pacific (Seoul) and Asia Pacific (Osaka) AWS Regions'}                                                       | ${['oracle-db']}
   ${'AWS Database Migration Service Officially Supports SSL for Oracle databases'}                                                                                      | ${['oracle-db']}
-  ${'Oracle Database on the AWS Cloud: Quick Start Reference Deployment'}                                                                                               | ${['oracle-db']}
+  ${'Oracle Database on the AWS Cloud: Quick Start Reference Deployment'}                                                                                               | ${['oracle-db', 'quick-start']}
   ${'Amazon RDS now supports Oracle 12.1.0.2, April PSU patches, improved CloudHSM integration'}                                                                        | ${['oracle-db']}
   ${'AWS Schema Conversion Tool Adds Support for Migrating Oracle ETL Jobs to AWS Glue'}                                                                                | ${['oracle-db']}
   ${'SQLT Diagnostics Tool Version 12.2.180331 is Now Available for Amazon for Oracle'}                                                                                 | ${['oracle-db']}
@@ -132,6 +132,30 @@ it.each`
   headline                                                                         | expectedTags
   ${'AWS Well-Architected Tool improves workload discovery and speeds up reviews'} | ${['aws-well-architected']}
 `('returns expected aws-well-architected tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                                | expectedTags
+  ${'New Quick Start deploys Axomo on AWS'}                                                               | ${['quick-start']}
+  ${'Quick Start Update: Deploy NGINX Plus on the AWS Cloud'}                                             | ${['quick-start']}
+  ${'New Quick Start: Build a data lake on the AWS Cloud with Talend Big Data Platform and AWS services'} | ${['quick-start']}
+  ${'New Quick Start Implements Security Configurations to Support CIS AWS Foundations Benchmark'}        | ${['quick-start']}
+  ${'Deploy TIBCO Data Science on AWS with New Quick Start'}                                              | ${['quick-start']}
+  ${'Magento on the AWS Cloud: Quick Start Reference Deployment'}                                         | ${['quick-start']}
+  ${'Updated Quick Start for Tableau Server on the AWS Cloud Supports Linux'}                             | ${['quick-start']}
+  ${'New Quick Starts deploy JFrog Artifactory on AWS'}                                                   | ${['quick-start']}
+  ${'AWS AppSync Adds Quick Start for Amazon Aurora'}                                                     | ${['quick-start']}
+  ${'AWS Quick Starts for Atlassian products now auto-detect existing infrastructure'}                    | ${['quick-start']}
+  ${'Connect Your Git Repository to Amazon S3 and AWS Services Using Webhooks and New Quick Start'}       | ${['quick-start']}
+  ${'Deploy Aviatrix Next-Gen Global Transit Hub on the AWS Cloud with Updated Quick Start'}              | ${['quick-start']}
+  ${'Deploy WordPress High Availability by Bitnami with New AWS Quick Start'}                             | ${['quick-start']}
+  ${'New Heptio-Supported Quick Start for Kubernetes on the AWS Cloud'}                                   | ${['quick-start']}
+  ${'Quick Start for Portworx PX-Enterprise on Kubernetes on AWS'}                                        | ${['quick-start']}
+  ${'Trend Micro Deep Security on the AWS Cloud: Quick Start Update'}                                     | ${['quick-start']}
+`('returns expected quick-start tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
@@ -162,7 +186,7 @@ it.each`
   ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                              | ${['iso']}
   ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'} | ${['iso']}
   ${'Amazon Kendra is now IRAP assessed at PROTECTED level'}                                                                                                         | ${['irap']}
-  ${'New Quick Start deploys the Compliance IRAP PROTECTED Reference Architecture on the AWS Cloud'}                                                                 | ${['irap']}
+  ${'New Quick Start deploys the Compliance IRAP PROTECTED Reference Architecture on the AWS Cloud'}                                                                 | ${['irap', 'quick-start']}
   ${'Introducing new Amazon EC2 Windows Server AMIs for DISA STIG compliance'}                                                                                       | ${['disa-stig']}
   ${'AWS Private Certificate Authority publishes Matter PKI Compliance Customer Guide'}                                                                              | ${['pki']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
@@ -174,3 +198,4 @@ it.each`
 // quick start
 // solutions
 // consulting
+// sap

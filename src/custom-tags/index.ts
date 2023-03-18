@@ -14,6 +14,7 @@ import govcloud from './govcloud';
 import awsPopUp from './aws-pop-up';
 import awsWellArchitected from './aws-well-architected';
 import oracleDB from './oracle-db';
+import quickStart from './quick-start';
 
 type CustomTag = {
   tag: string;
@@ -87,6 +88,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'oracle-db',
     patterns: oracleDB,
+  },
+  {
+    tag: 'quick-start',
+    patterns: quickStart,
   },
 ];
 
