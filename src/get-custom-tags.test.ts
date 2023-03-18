@@ -103,7 +103,16 @@ it.each`
 it.each`
   headline                                 | expectedTags
   ${'New AWS Pop-up Loft Opens in Berlin'} | ${['aws-pop-up']}
-`('returns expected gxp tags given a headline', ({headline, expectedTags}) => {
+`('returns expected aws-pop-up tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                         | expectedTags
+  ${'AWS Well-Architected Tool improves workload discovery and speeds up reviews'} | ${['aws-well-architected']}
+`('returns expected aws-well-architected tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());

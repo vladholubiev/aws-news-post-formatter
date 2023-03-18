@@ -12,6 +12,7 @@ import pki from './pki';
 import gxp from './gxp';
 import govcloud from './govcloud';
 import awsPopUp from './aws-pop-up';
+import awsWellArchitected from './aws-well-architected';
 
 type CustomTag = {
   tag: string;
@@ -77,6 +78,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'aws-pop-up',
     patterns: awsPopUp,
+  },
+  {
+    tag: 'aws-well-architected',
+    patterns: awsWellArchitected,
   },
 ];
 
