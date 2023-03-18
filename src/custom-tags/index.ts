@@ -1,7 +1,7 @@
 import hipaa from './hipaa';
 import iso from './iso';
 import pciDSS from './pci-dss';
-import histrust from './histrust';
+import hitrust from './hitrust';
 import soc from './soc';
 
 type CustomTag = {
@@ -26,8 +26,8 @@ const CUSTOM_TAGS: CustomTag[] = [
     patterns: pciDSS,
   },
   {
-    tag: 'histrust',
-    patterns: histrust,
+    tag: 'hitrust',
+    patterns: hitrust,
   },
   {
     tag: 'soc',
