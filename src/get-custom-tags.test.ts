@@ -8,9 +8,9 @@ it.each`
   ${'Amazon EFS now a HIPAA-Eligible Service'}                                                    | ${['hipaa']}
   ${'AWS CloudShell is now Health Insurance Portability and Accountability Act (HIPAA) eligible'} | ${['hipaa']}
   ${'Amazon Timestream can now be used for workloads subject to HIPAA, ISO, and PCI DSS'}         | ${['hipaa', 'iso', 'pci-dss']}
-  ${'Amazon EMR Serverless now supports HIPAA, HITRUST, SOC, and PCI DSS workloads'}              | ${['hipaa', 'histrust', 'pci-dss']}
-`('returns $expected when $a is added to $b', ({headline, expectedTags}) => {
+  ${'Amazon EMR Serverless now supports HIPAA, HITRUST, SOC, and PCI DSS workloads'}              | ${['hipaa', 'histrust', 'soc', 'pci-dss']}
+`('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
-  expect(customTags).toEqual(expectedTags);
+  expect(customTags.sort()).toEqual(expectedTags.sort());
 });
