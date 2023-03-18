@@ -26,7 +26,7 @@ Some of the things this library does:
 - Removes empty paragraphs and links
 - Normalizes bullet points in lists
 - Fixes double `<b>` tags and replaces them with `<strong>` tags
-- Beautifies the output HTML
+- Minifies the output HTML
 
 ## See Also
 

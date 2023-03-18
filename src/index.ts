@@ -1,5 +1,5 @@
 import {load} from 'cheerio';
-import * as jsBeautify from 'js-beautify';
+import {minify} from 'html-minifier';
 
 export function getFormattedHTML(rawHTML: string): string {
   const $ = load(rawHTML);
@@ -128,5 +128,15 @@ export function getFormattedHTML(rawHTML: string): string {
 
   const finalHTML = $('body').html() || '';
 
-  return jsBeautify.html(finalHTML, {indent_size: 2, wrap_line_length: 0});
+  return minify(finalHTML, {
+    collapseBooleanAttributes: true,
+    collapseWhitespace: true,
+    decodeEntities: true,
+    minifyCSS: true,
+    removeAttributeQuotes: true,
+    removeComments: true,
+    removeEmptyAttributes: true,
+    removeOptionalTags: true,
+    removeRedundantAttributes: true,
+  });
 }
