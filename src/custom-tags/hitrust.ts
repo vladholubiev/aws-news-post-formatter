@@ -1,5 +1,6 @@
 export default [
   {
-    headlineMatches: [/supports.* HITRUST.*/i],
+    headlineIncludes: ['HITRUST architecture'],
+    headlineMatches: [/supports.* HITRUST.*/i, /HITRUST.* certified/],
   },
 ];

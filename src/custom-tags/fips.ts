@@ -1,5 +1,10 @@
 export default [
   {
-    headlineIncludes: ['Federal Information Processing Standard (FIPS) 140-2', ' FIPS 140-2 '],
+    headlineIncludes: [
+      ' FIPS 140-2 ',
+      ' FIPS Compliant ',
+      ' FIPS endpoints',
+      'Federal Information Processing Standard',
+    ],
   },
 ];
