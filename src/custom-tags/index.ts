@@ -18,6 +18,7 @@ import quickStart from './quick-start';
 import partnerNetwork from './partner-network';
 import awsCompetency from './aws-competency';
 import courses from './courses';
+import awsMarketplace from './aws-marketplace';
 
 type CustomTag = {
   tag: string;
@@ -107,6 +108,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'courses',
     patterns: courses,
+  },
+  {
+    tag: 'aws-marketplace',
+    patterns: awsMarketplace,
   },
 ];
 

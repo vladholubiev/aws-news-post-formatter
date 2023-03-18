@@ -147,6 +147,15 @@ it.each`
 });
 
 it.each`
+  headline                                                                                                                  | expectedTags
+  ${'AWS Marketplace launches Discovery API, making it easier to discover relevant third-party software and data products'} | ${['aws-marketplace']}
+`('returns aws-marketplace tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                            | expectedTags
   ${'Announcing Three New Digital Courses for AWS Snowcone'}                                                          | ${['courses']}
   ${'New Digital Course on edX for Building Applications That Use Amazon DynamoDB'}                                   | ${['courses']}
