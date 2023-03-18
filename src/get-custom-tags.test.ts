@@ -138,16 +138,36 @@ it.each`
 });
 
 it.each`
-  headline                                                                                     | expectedTags
-  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'}               | ${['partner-network', 'aws-competency']}
-  ${'APN Navigate Security Track'}                                                             | ${['partner-network']}
-  ${'APN Program 2019 Changes'}                                                                | ${['partner-network']}
-  ${'New APN Partners to help with database migrations to AWS'}                                | ${['partner-network']}
-  ${'Announcing the APN Foundations Advanced Navigate track'}                                  | ${['partner-network']}
-  ${'New AWS Professional Services Delivery Bootcamp for APN Partners'}                        | ${['partner-network']}
-  ${'Introducing the APN Navigate Foundations Path'}                                           | ${['partner-network']}
-  ${'Introducing a new benefit for APN Consulting Partners, APN Immersion Days'}               | ${['partner-network']}
-  ${'Announcing APN Service Delivery Program for AWS Partners with Service Catalog Expertise'} | ${['partner-network']}
+  headline                                                                                            | expectedTags
+  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'}                      | ${['partner-network', 'aws-competency']}
+  ${'APN Navigate Security Track'}                                                                    | ${['partner-network']}
+  ${'APN Program 2019 Changes'}                                                                       | ${['partner-network']}
+  ${'New APN Partners to help with database migrations to AWS'}                                       | ${['partner-network']}
+  ${'Announcing the APN Foundations Advanced Navigate track'}                                         | ${['partner-network']}
+  ${'New AWS Professional Services Delivery Bootcamp for APN Partners'}                               | ${['partner-network']}
+  ${'Introducing the APN Navigate Foundations Path'}                                                  | ${['partner-network']}
+  ${'Introducing a new benefit for APN Consulting Partners, APN Immersion Days'}                      | ${['partner-network']}
+  ${'Announcing APN Service Delivery Program for AWS Partners with Service Catalog Expertise'}        | ${['partner-network']}
+  ${'Introducing AWS Lambda Ready Partners'}                                                          | ${['partner-network']}
+  ${'Introducing AWS Graviton Delivery Partners'}                                                     | ${['partner-network']}
+  ${'Introducing Amazon RDS Ready Partners'}                                                          | ${['partner-network']}
+  ${'New partner integrations available for AWS Security Hub'}                                        | ${['partner-network']}
+  ${'New partner training on migration, cloud governance, and machine learning'}                      | ${['partner-network']}
+  ${'AWS Solutions Training for Partners: Foundations'}                                               | ${['partner-network']}
+  ${'AWS announces a new AWS Training Partner program'}                                               | ${['partner-network']}
+  ${'Amazon Lightsail Partners with GoDaddy to Simplify WordPress Management'}                        | ${['partner-network']}
+  ${'Announcing the AWS SaaS Partner Program'}                                                        | ${['partner-network']}
+  ${'New AWS GameDay Benefits for Differentiated Partners'}                                           | ${['partner-network']}
+  ${'AWS Security Hub adds five new partners'}                                                        | ${['partner-network']}
+  ${'AWS Security Hub releases integrations with 4 new partners'}                                     | ${['partner-network']}
+  ${'AWS Partners: Learn how to engage customers in ML and AI opportunities!'}                        | ${['partner-network']}
+  ${'AWS Direct Connect Service Delivery Partners'}                                                   | ${['partner-network']}
+  ${'AWS Security Hub launches five controls and one new integration partner'}                        | ${['partner-network']}
+  ${'Announcing AWS Outposts Ready Partners'}                                                         | ${['partner-network']}
+  ${'AWS Security Hub launches 13 controls and two partners for security posture monitoring'}         | ${['partner-network']}
+  ${'AWS PrivateLink Now Available for Customer and Partner Services'}                                | ${['partner-network']}
+  ${'AWS AI for data analytics (AIDA) partner solutions'}                                             | ${['partner-network']}
+  ${'AWS and partners of the Open 3D Foundation announce the first Stable release of Open 3D Engine'} | ${['partner-network']}
 `('returns expected partner-network tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -334,7 +354,7 @@ it.each`
 it.each`
   headline                                                                                   | expectedTags
   ${'AWS Container Competency'}                                                              | ${['aws-competency']}
-  ${'New AWS Competency Program differentiates AWS Partners with Energy Industry Expertise'} | ${['aws-competency']}
+  ${'New AWS Competency Program differentiates AWS Partners with Energy Industry Expertise'} | ${['aws-competency', 'partner-network']}
   ${'New End User Computing Competency Solutions'}                                           | ${['aws-competency']}
   ${'Introducing the Smart City Competency program'}                                         | ${['aws-competency']}
 `('returns expected aws-competency tags given a headline', ({headline, expectedTags}) => {
