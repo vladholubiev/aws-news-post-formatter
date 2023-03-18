@@ -27,6 +27,7 @@ export default [
       /available in (additional|new) regions?/i,
       /available in .+ (additional|new) regions?/i,
       /available in \d additional regions?/i,
+      /available in.+(Europe|Africa|Asia|Canada|Frankfurt|US|Japan|Singapore|Sydney|America|China|EU|Indonesia|Bahrain|Hong Kong|Osaka|Los Angeles|Ireland|Paris|Mumbai)/i,
       /available.+in.+AWS Regions?/i,
       /expands?.+to.+regions?/i,
       /introducing.+in.+regions?/i,

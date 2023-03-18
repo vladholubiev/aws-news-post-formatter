@@ -199,51 +199,68 @@ it.each`
 });
 
 it.each`
-  headline                                                                                             | expectedTags
-  ${'AWS App Mesh is now available in Europe (Milan) Region'}                                          | ${['regional-expansion']}
-  ${'Amazon EC2 G4 Instances with NVIDIA T4 Tensor Core GPUs, now available in 6 additional regions'}  | ${['regional-expansion']}
-  ${'Amazon Data Lifecycle Manager Now Available in the EU (Paris) Region'}                            | ${['regional-expansion']}
-  ${'Amazon Data Lifecycle Manager Now Available in the EU (Stockholm) Region'}                        | ${['regional-expansion']}
-  ${'Amazon EC2 D3 instances with dense local HDD storage now available in Europe (London) region'}    | ${['regional-expansion']}
-  ${'Amazon EC2 C6i instances are now available in an additional region'}                              | ${['regional-expansion']}
-  ${'Amazon EC2 C6i instances are now available in 10 additional regions'}                             | ${['regional-expansion']}
-  ${'Amazon EC2 M5d Instances are Now Available in Additional Regions'}                                | ${['regional-expansion']}
-  ${'Amazon EC2 R4 instances are now available in new regions'}                                        | ${['regional-expansion']}
-  ${'Amazon GuardDuty Now Available in AWS Middle East (Bahrain) Region'}                              | ${['regional-expansion']}
-  ${'Announcing the AWS China (Beijing) Region'}                                                       | ${['regional-expansion']}
-  ${'Announcing the AWS Europe (London) Region'}                                                       | ${['regional-expansion']}
-  ${'Announcing the new AWS Africa (Cape Town) Region'}                                                | ${['regional-expansion']}
-  ${'Announcing the newly expanded AWS Asia Pacific (Osaka) Region'}                                   | ${['regional-expansion']}
-  ${'Third AZ in EU (Frankfurt) Region'}                                                               | ${['regional-expansion']}
-  ${'Sixth AZ in US East (N. Virginia) Region'}                                                        | ${['regional-expansion']}
-  ${'AQUA for Amazon Redshift launches in three additional AWS regions'}                               | ${['regional-expansion']}
-  ${'AWS CloudTrail Adds S3 Data Events in Canada (Central) and EU (London) Regions'}                  | ${['regional-expansion']}
-  ${'Amazon Chime Voice Connector adds the US West (Oregon) AWS region and redundant call routing'}    | ${['regional-expansion']}
-  ${'Amazon RDS adds Multi-AZ support for SQL Server in US East Region'}                               | ${['regional-expansion']}
-  ${'AWS Console Mobile Application adds support for Asia Pacific (Jakarta) region'}                   | ${['regional-expansion']}
-  ${'AWS Elemental Link adds features and service regions'}                                            | ${['regional-expansion']}
-  ${'AWS Backup is now available for Amazon Elastic File System (Amazon EFS) in 4 additional regions'} | ${['regional-expansion']}
-  ${'AWS CloudTrail launch in Beijing China Region'}                                                   | ${['regional-expansion']}
-  ${'AWS Security Hub launches in AWS Europe (Milan) Region'}                                          | ${['regional-expansion']}
-  ${'Route 53 Resolver for Hybrid Cloud Expands to Seven New AWS Regions'}                             | ${['regional-expansion']}
-  ${'SageMaker Region expansion to Bahrain'}                                                           | ${['regional-expansion']}
-  ${'Introducing Amazon VPC Endpoints for Amazon S3 in China (Beijing) Region'}                        | ${['regional-expansion']}
-  ${'Coming Soon — Amazon Connect in the Asia Pacific (Tokyo) AWS Region'}                             | ${['regional-expansion']}
-  ${'AWS Asia Pacific (Mumbai) Region Adds Third Availability Zone'}                                   | ${['regional-expansion']}
-  ${'AWS Launches the Northern California Region'}                                                     | ${['regional-expansion']}
-  ${'AWS to Launch Standard AWS Region in Osaka in Early 2021'}                                        | ${['regional-expansion']}
-  ${'Amazon QuickSight supports Seoul region, dashboard printing and more'}                            | ${['regional-expansion']}
-  ${'EC2 Hibernation feature is now available to customers in the Middle East (Bahrain) AWS Region'}   | ${['regional-expansion']}
-  ${'Announcing the new US West (Oregon) Region'}                                                      | ${['regional-expansion']}
-  ${'PartiQL for DynamoDB now is supported in 23 AWS Regions'}                                         | ${['regional-expansion']}
-  ${'Amazon Chime now uses 14 AWS regions to host meetings closer to participants'}                    | ${['regional-expansion']}
-  ${'Amazon Sumerian Regional and Feature Expansion'}                                                  | ${['regional-expansion']}
-  ${'Announcing New Regions for Amazon WorkSpaces Application Manager'}                                | ${['regional-expansion']}
-  ${'Announcing New Region and Features for Amazon WorkSpaces Application Manager'}                    | ${['regional-expansion']}
-  ${'Announcing Second Availability Zone in Tokyo Region'}                                             | ${['regional-expansion']}
-  ${'Announcing Three New Additions to the South America (Sao Paulo) Region'}                          | ${['regional-expansion']}
-  ${'Announcing the South America (Sao Paulo) Region'}                                                 | ${['regional-expansion']}
-  ${'Announcing the availability of Snowball in EU (Frankfurt) region'}                                | ${['regional-expansion']}
+  headline                                                                                                                                                                          | expectedTags
+  ${'AWS App Mesh is now available in Europe (Milan) Region'}                                                                                                                       | ${['regional-expansion']}
+  ${'Amazon EC2 G4 Instances with NVIDIA T4 Tensor Core GPUs, now available in 6 additional regions'}                                                                               | ${['regional-expansion']}
+  ${'Amazon Data Lifecycle Manager Now Available in the EU (Paris) Region'}                                                                                                         | ${['regional-expansion']}
+  ${'Amazon Data Lifecycle Manager Now Available in the EU (Stockholm) Region'}                                                                                                     | ${['regional-expansion']}
+  ${'Amazon EC2 D3 instances with dense local HDD storage now available in Europe (London) region'}                                                                                 | ${['regional-expansion']}
+  ${'Amazon EC2 C6i instances are now available in an additional region'}                                                                                                           | ${['regional-expansion']}
+  ${'Amazon EC2 C6i instances are now available in 10 additional regions'}                                                                                                          | ${['regional-expansion']}
+  ${'Amazon EC2 M5d Instances are Now Available in Additional Regions'}                                                                                                             | ${['regional-expansion']}
+  ${'Amazon EC2 R4 instances are now available in new regions'}                                                                                                                     | ${['regional-expansion']}
+  ${'Amazon GuardDuty Now Available in AWS Middle East (Bahrain) Region'}                                                                                                           | ${['regional-expansion']}
+  ${'Announcing the AWS China (Beijing) Region'}                                                                                                                                    | ${['regional-expansion']}
+  ${'Announcing the AWS Europe (London) Region'}                                                                                                                                    | ${['regional-expansion']}
+  ${'Announcing the new AWS Africa (Cape Town) Region'}                                                                                                                             | ${['regional-expansion']}
+  ${'Announcing the newly expanded AWS Asia Pacific (Osaka) Region'}                                                                                                                | ${['regional-expansion']}
+  ${'Third AZ in EU (Frankfurt) Region'}                                                                                                                                            | ${['regional-expansion']}
+  ${'Sixth AZ in US East (N. Virginia) Region'}                                                                                                                                     | ${['regional-expansion']}
+  ${'AQUA for Amazon Redshift launches in three additional AWS regions'}                                                                                                            | ${['regional-expansion']}
+  ${'AWS CloudTrail Adds S3 Data Events in Canada (Central) and EU (London) Regions'}                                                                                               | ${['regional-expansion']}
+  ${'Amazon Chime Voice Connector adds the US West (Oregon) AWS region and redundant call routing'}                                                                                 | ${['regional-expansion']}
+  ${'Amazon RDS adds Multi-AZ support for SQL Server in US East Region'}                                                                                                            | ${['regional-expansion']}
+  ${'AWS Console Mobile Application adds support for Asia Pacific (Jakarta) region'}                                                                                                | ${['regional-expansion']}
+  ${'AWS Elemental Link adds features and service regions'}                                                                                                                         | ${['regional-expansion']}
+  ${'AWS Backup is now available for Amazon Elastic File System (Amazon EFS) in 4 additional regions'}                                                                              | ${['regional-expansion']}
+  ${'AWS CloudTrail launch in Beijing China Region'}                                                                                                                                | ${['regional-expansion']}
+  ${'AWS Security Hub launches in AWS Europe (Milan) Region'}                                                                                                                       | ${['regional-expansion']}
+  ${'Route 53 Resolver for Hybrid Cloud Expands to Seven New AWS Regions'}                                                                                                          | ${['regional-expansion']}
+  ${'SageMaker Region expansion to Bahrain'}                                                                                                                                        | ${['regional-expansion']}
+  ${'Introducing Amazon VPC Endpoints for Amazon S3 in China (Beijing) Region'}                                                                                                     | ${['regional-expansion']}
+  ${'Coming Soon — Amazon Connect in the Asia Pacific (Tokyo) AWS Region'}                                                                                                          | ${['regional-expansion']}
+  ${'AWS Asia Pacific (Mumbai) Region Adds Third Availability Zone'}                                                                                                                | ${['regional-expansion']}
+  ${'AWS Launches the Northern California Region'}                                                                                                                                  | ${['regional-expansion']}
+  ${'AWS to Launch Standard AWS Region in Osaka in Early 2021'}                                                                                                                     | ${['regional-expansion']}
+  ${'Amazon QuickSight supports Seoul region, dashboard printing and more'}                                                                                                         | ${['regional-expansion']}
+  ${'EC2 Hibernation feature is now available to customers in the Middle East (Bahrain) AWS Region'}                                                                                | ${['regional-expansion']}
+  ${'Announcing the new US West (Oregon) Region'}                                                                                                                                   | ${['regional-expansion']}
+  ${'PartiQL for DynamoDB now is supported in 23 AWS Regions'}                                                                                                                      | ${['regional-expansion']}
+  ${'Amazon Chime now uses 14 AWS regions to host meetings closer to participants'}                                                                                                 | ${['regional-expansion']}
+  ${'Amazon Sumerian Regional and Feature Expansion'}                                                                                                                               | ${['regional-expansion']}
+  ${'Announcing New Regions for Amazon WorkSpaces Application Manager'}                                                                                                             | ${['regional-expansion']}
+  ${'Announcing New Region and Features for Amazon WorkSpaces Application Manager'}                                                                                                 | ${['regional-expansion']}
+  ${'Announcing Second Availability Zone in Tokyo Region'}                                                                                                                          | ${['regional-expansion']}
+  ${'Announcing Three New Additions to the South America (Sao Paulo) Region'}                                                                                                       | ${['regional-expansion']}
+  ${'Announcing the South America (Sao Paulo) Region'}                                                                                                                              | ${['regional-expansion']}
+  ${'Announcing the availability of Snowball in EU (Frankfurt) region'}                                                                                                             | ${['regional-expansion']}
+  ${'AWS Amplify CLI and Admin UI is now generally available in US West (N. California), Europe (Paris), Europe (Stockholm), South America (São Paulo), and Middle East (Bahrain)'} | ${['regional-expansion']}
+  ${'VMware Cloud on AWS is now available in Africa (Cape Town)'}                                                                                                                   | ${['regional-expansion']}
+  ${'Amazon Polly NTTS voices now available in Canada (Central), and Asia Pacific (Seoul)'}                                                                                         | ${['regional-expansion']}
+  ${'Amazon Personalize is now available in Frankfurt'}                                                                                                                             | ${['regional-expansion']}
+  ${'Amazon Inspector is now available in US West (Northern California)'}                                                                                                           | ${['regional-expansion']}
+  ${'Amazon WorkSpaces Available in Japan'}                                                                                                                                         | ${['regional-expansion']}
+  ${'Amazon WorkSpaces Available in Singapore'}                                                                                                                                     | ${['regional-expansion']}
+  ${'Amazon WorkSpaces Available in Sydney!'}                                                                                                                                       | ${['regional-expansion']}
+  ${'Amazon Redshift and Amazon EC2 High Storage Instances available in EU West (Ireland)'}                                                                                         | ${['regional-expansion']}
+  ${'Amazon RDS Enhanced Monitoring is now available in South America (Sao Paulo) and China (Beijing)'}                                                                             | ${['regional-expansion']}
+  ${'AWS IoT Device Defender Now Available in AWS Middle East (Bahrain)'}                                                                                                           | ${['regional-expansion']}
+  ${'AWS Service Catalog is now available in (Jakarta) Indonesia'}                                                                                                                  | ${['regional-expansion']}
+  ${'AWS Service Catalog is now available in Hong Kong and Bahrain'}                                                                                                                | ${['regional-expansion']}
+  ${'AWS Service Catalog is now available in Osaka'}                                                                                                                                | ${['regional-expansion']}
+  ${'Amazon EMR is now available in the AWS Local Zone in Los Angeles'}                                                                                                             | ${['regional-expansion']}
+  ${'Amazon EKS Available in Ireland'}                                                                                                                                              | ${['regional-expansion']}
+  ${'Amazon MQ is Now Available in Mumbai and Paris'}                                                                                                                               | ${['regional-expansion']}
 `('returns regional-expansion tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -335,9 +352,9 @@ it.each`
   ${'Amazon SES is now in the AWS GovCloud (US-West) Region'}                                                                                                                    | ${['govcloud', 'regional-expansion']}
   ${'Amazon EC2 vCPU-based On-Demand Instance Limits are Now Available in GovCloud (US) Regions'}                                                                                | ${['govcloud', 'regional-expansion']}
   ${'AWS VPC Flow Logs now available in the GovCloud (US) region'}                                                                                                               | ${['govcloud', 'regional-expansion']}
-  ${'Amazon Athena is now available in GovCloud (US-East)'}                                                                                                                      | ${['govcloud']}
+  ${'Amazon Athena is now available in GovCloud (US-East)'}                                                                                                                      | ${['govcloud', 'regional-expansion']}
   ${'Amazon SQS FIFO Queues are Now Available in the AWS China Beijing (BJS) Region (Operated by SINNET), Asia Pacific (Hong Kong), GovCloud (US-East), and GovCloud (US-West)'} | ${['govcloud', 'regional-expansion']}
-  ${'AWS Storage Gateway Available in GovCloud (US)'}                                                                                                                            | ${['govcloud']}
+  ${'AWS Storage Gateway Available in GovCloud (US)'}                                                                                                                            | ${['govcloud', 'regional-expansion']}
   ${'Amazon RDS now supports M4 instances in GovCloud for MySQL, MariaDB, PostgreSQL, and Oracle engines'}                                                                       | ${['govcloud', 'oracle-db']}
   ${'Now Available: Hardware MFA for GovCloud'}                                                                                                                                  | ${['govcloud']}
 `('returns expected govcloud tags given a headline', ({headline, expectedTags}) => {
