@@ -138,6 +138,15 @@ it.each`
 });
 
 it.each`
+  headline                                                                       | expectedTags
+  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'} | ${['partner-network']}
+`('returns expected partner-network tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                | expectedTags
   ${'New Quick Start deploys Axomo on AWS'}                                                               | ${['quick-start']}
   ${'Quick Start Update: Deploy NGINX Plus on the AWS Cloud'}                                             | ${['quick-start']}

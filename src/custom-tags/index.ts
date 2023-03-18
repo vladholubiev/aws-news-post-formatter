@@ -15,6 +15,7 @@ import awsPopUp from './aws-pop-up';
 import awsWellArchitected from './aws-well-architected';
 import oracleDB from './oracle-db';
 import quickStart from './quick-start';
+import partnerNetwork from './partner-network';
 
 type CustomTag = {
   tag: string;
@@ -92,6 +93,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'quick-start',
     patterns: quickStart,
+  },
+  {
+    tag: 'partner-network',
+    patterns: partnerNetwork,
   },
 ];
 
