@@ -1,6 +1,6 @@
 export default [
   {
-    headlineIncludes: ['PCI Compliance'],
+    headlineIncludes: ['PCI Compliance', ' now PCI compliant'],
     headlineMatches: [
       /workloads subject to.*PCI DSS/i,
       /supports .* PCI DSS workloads/i,

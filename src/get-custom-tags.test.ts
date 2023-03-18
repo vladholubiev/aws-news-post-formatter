@@ -18,6 +18,10 @@ it.each`
   ${'Amazon Textract is now SOC and ISO Compliant'}                                                                                                                                  | ${['soc', 'iso']}
   ${'AWS Resource Access Manager achieves ISO and SOC compliance'}                                                                                                                   | ${['soc', 'iso']}
   ${'AWS Certificate Manager Now SOC & PCI Eligible'}                                                                                                                                | ${['soc', 'pci-dss']}
+  ${'Amazon FinSpace is now in scope for SOC 1, SOC 2, and SOC 3 compliance'}                                                                                                        | ${['soc']}
+  ${'Amazon MQ Introduces Support for SOC Compliance Program'}                                                                                                                       | ${['soc']}
+  ${'Amazon Timestream is now in scope for AWS SOC Reports'}                                                                                                                         | ${['soc']}
+  ${'Amazon Connect Customer Profiles is now PCI compliant and in scope for SOC 1 and SOC 2'}                                                                                        | ${['soc', 'pci-dss']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
