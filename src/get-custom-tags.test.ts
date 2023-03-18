@@ -82,7 +82,7 @@ it.each`
   ${'AWS Outposts now FedRAMP authorized'}                                                                                                      | ${['fedramp']}
   ${'AWS Security Hub achieves FedRAMP High authorization to enable security posture management for high-impact workloads'}                     | ${['fedramp']}
   ${'AWS Achieves FedRAMP℠ Compliance'}                                                                                                         | ${['fedramp']}
-  ${'New AWS Solutions Consulting Offer - Accelerated Cloud Engineering FedRAMP Launchpad'}                                                     | ${['fedramp']}
+  ${'New AWS Solutions Consulting Offer - Accelerated Cloud Engineering FedRAMP Launchpad'}                                                     | ${['fedramp', 'solution-consulting']}
   ${'AWS GovCloud (US) Receives FedRAMP High Baseline P-ATO from the JAB'}                                                                      | ${['fedramp', 'govcloud']}
 `('returns expected fedramp tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
@@ -141,6 +141,16 @@ it.each`
   headline                                                                       | expectedTags
   ${'AWS Partner Network Launches New Competency, Government Partner Solutions'} | ${['partner-network', 'aws-competency']}
 `('returns expected partner-network tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                              | expectedTags
+  ${'New AWS Solutions Consulting Offer - AMI Factory'} | ${['solution-consulting']}
+  ${'Introducing AWS Solutions Consulting Offers'}      | ${['solution-consulting']}
+`('returns solution-consulting tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
