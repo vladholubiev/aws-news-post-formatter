@@ -7,6 +7,7 @@ export default [
       'Health Insurance Portability and Accountability Act (HIPAA) eligible',
       'workloads subject to HIPAA',
       'supports HIPAA',
+      'Maintain HIPAA',
     ],
   },
 ];
