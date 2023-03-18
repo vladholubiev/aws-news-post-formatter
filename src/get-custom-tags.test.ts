@@ -68,12 +68,13 @@ it.each`
   ${'AWS Cloud Map achieves PCI DSS Certification'}                                                                                                                  | ${['pci-dss']}
   ${'AWS Security Hub Automated Response and Remediation adds support for PCI-DSS v3.2.1 Security Standard'}                                                         | ${['pci-dss']}
   ${'Amazon Textract is now PCI DSS certified and extracts even more data from tables and forms'}                                                                    | ${['pci-dss']}
-  ${'AWS SSO Expands Support for Customer Compliance with PCI-DSS and IRAP'}                                                                                         | ${['pci-dss']}
+  ${'AWS SSO Expands Support for Customer Compliance with PCI-DSS and IRAP'}                                                                                         | ${['pci-dss', 'irap']}
+  ${'Amazon Kendra is now IRAP assessed at PROTECTED level'}                                                                                                         | ${['irap']}
+  ${'New Quick Start deploys the Compliance IRAP PROTECTED Reference Architecture on the AWS Cloud'}                                                                 | ${['irap']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
 });
 
-// IRAP
 // quick start

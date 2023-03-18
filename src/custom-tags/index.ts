@@ -5,6 +5,7 @@ import hitrust from './hitrust';
 import soc from './soc';
 import fips from './fips';
 import nne from './nne';
+import irap from './irap';
 
 type CustomTag = {
   tag: string;
@@ -42,6 +43,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'nne',
     patterns: nne,
+  },
+  {
+    tag: 'irap',
+    patterns: irap,
   },
 ];
 
