@@ -41,7 +41,7 @@ it.each`
 
 it.each`
   headline                                                                                                                                                             | expectedTags
-  ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'}                                          | ${['fips']}
+  ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'}                                          | ${['fips', 'oracle-db']}
   ${'AWS Key Management Service now supports FIPS 140-2 enabled interface VPC endpoint'}                                                                               | ${['fips']}
   ${'AWS announces that all AWS Federal Information Processing Standard (FIPS) endpoints now only accept a minimum of Transport Layer Security (TLS) 1.2 connections'} | ${['fips']}
   ${'New AWS Service Catalog Connector for ServiceNow supports Budgets integration and FIPS endpoints'}                                                                | ${['fips']}
@@ -110,6 +110,25 @@ it.each`
 });
 
 it.each`
+  headline                                                                                                                                                              | expectedTags
+  ${'Amazon RDS now Supports Oracle Database 11.2.0.3'}                                                                                                                 | ${['oracle-db']}
+  ${'Amazon RDS Oracle on t1.micro, starting at just $30 a month'}                                                                                                      | ${['oracle-db']}
+  ${'Amazon RDS for Oracle Now Supports Data Pump'}                                                                                                                     | ${['oracle-db']}
+  ${'Amazon RDS Custom for Oracle is now available in Asia Pacific (Seoul) and Asia Pacific (Osaka) AWS Regions'}                                                       | ${['oracle-db']}
+  ${'AWS Database Migration Service Officially Supports SSL for Oracle databases'}                                                                                      | ${['oracle-db']}
+  ${'Oracle Database on the AWS Cloud: Quick Start Reference Deployment'}                                                                                               | ${['oracle-db']}
+  ${'Amazon RDS now supports Oracle 12.1.0.2, April PSU patches, improved CloudHSM integration'}                                                                        | ${['oracle-db']}
+  ${'AWS Schema Conversion Tool Adds Support for Migrating Oracle ETL Jobs to AWS Glue'}                                                                                | ${['oracle-db']}
+  ${'SQLT Diagnostics Tool Version 12.2.180331 is Now Available for Amazon for Oracle'}                                                                                 | ${['oracle-db']}
+  ${'Modifiable sqlnet.ora Parameters for RDS Oracle'}                                                                                                                  | ${['oracle-db']}
+  ${'AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization'} | ${['oracle-db']}
+`('returns expected oracle-db tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                         | expectedTags
   ${'AWS Well-Architected Tool improves workload discovery and speeds up reviews'} | ${['aws-well-architected']}
 `('returns expected aws-well-architected tags given a headline', ({headline, expectedTags}) => {
@@ -126,7 +145,7 @@ it.each`
   ${'Amazon Athena is now available in GovCloud (US-East)'}                                                                                                                      | ${['govcloud']}
   ${'Amazon SQS FIFO Queues are Now Available in the AWS China Beijing (BJS) Region (Operated by SINNET), Asia Pacific (Hong Kong), GovCloud (US-East), and GovCloud (US-West)'} | ${['govcloud']}
   ${'AWS Storage Gateway Available in GovCloud (US)'}                                                                                                                            | ${['govcloud']}
-  ${'Amazon RDS now supports M4 instances in GovCloud for MySQL, MariaDB, PostgreSQL, and Oracle engines'}                                                                       | ${['govcloud']}
+  ${'Amazon RDS now supports M4 instances in GovCloud for MySQL, MariaDB, PostgreSQL, and Oracle engines'}                                                                       | ${['govcloud', 'oracle-db']}
   ${'Now Available: Hardware MFA for GovCloud'}                                                                                                                                  | ${['govcloud']}
 `('returns expected govcloud tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
@@ -136,8 +155,8 @@ it.each`
 
 it.each`
   headline                                                                                                                                                           | expectedTags
-  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                        | ${['nne']}
-  ${'Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native Network Encryption'}                                                                  | ${['nne']}
+  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                        | ${['nne', 'oracle-db']}
+  ${'Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native Network Encryption'}                                                                  | ${['nne', 'oracle-db']}
   ${'Amazon Location Service is now HITRUST CSF certified'}                                                                                                          | ${['hitrust']}
   ${'AWS Network Firewall achieves ISO compliance'}                                                                                                                  | ${['iso']}
   ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                              | ${['iso']}

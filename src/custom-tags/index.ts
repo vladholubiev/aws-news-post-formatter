@@ -13,6 +13,7 @@ import gxp from './gxp';
 import govcloud from './govcloud';
 import awsPopUp from './aws-pop-up';
 import awsWellArchitected from './aws-well-architected';
+import oracleDB from './oracle-db';
 
 type CustomTag = {
   tag: string;
@@ -82,6 +83,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'aws-well-architected',
     patterns: awsWellArchitected,
+  },
+  {
+    tag: 'oracle-db',
+    patterns: oracleDB,
   },
 ];
 
