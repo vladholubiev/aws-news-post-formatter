@@ -1,6 +1,6 @@
 import 'expect-puppeteer';
 import rawDataJSON from '../test-data/raw.json';
-import {getFormattedHTML} from './index';
+import {getFormattedHTML} from './get-formatted-html';
 
 type RawData = {
   post_body: string;
