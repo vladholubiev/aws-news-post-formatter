@@ -91,6 +91,16 @@ it.each`
 });
 
 it.each`
+  headline                                                                       | expectedTags
+  ${'GxP Compliance Now on AWS'}                                                 | ${['gxp']}
+  ${'AWS Audit Manager now offers a new standard framework for GxP EU Annex 11'} | ${['gxp']}
+`('returns expected gxp tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                                                                           | expectedTags
   ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                        | ${['nne']}
   ${'Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native Network Encryption'}                                                                  | ${['nne']}

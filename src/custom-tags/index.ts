@@ -9,6 +9,7 @@ import irap from './irap';
 import fedramp from './fedramp';
 import disaStig from './disa-stig';
 import pki from './pki';
+import gxp from './gxp';
 
 type CustomTag = {
   tag: string;
@@ -62,6 +63,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'pki',
     patterns: pki,
+  },
+  {
+    tag: 'gxp',
+    patterns: gxp,
   },
 ];
 
