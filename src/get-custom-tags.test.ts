@@ -45,7 +45,7 @@ it.each`
   ${'AWS Key Management Service now supports FIPS 140-2 enabled interface VPC endpoint'}                                                                               | ${['fips']}
   ${'AWS announces that all AWS Federal Information Processing Standard (FIPS) endpoints now only accept a minimum of Transport Layer Security (TLS) 1.2 connections'} | ${['fips']}
   ${'New AWS Service Catalog Connector for ServiceNow supports Budgets integration and FIPS endpoints'}                                                                | ${['fips']}
-  ${'Four Additional AWS Services Now Offer FIPS Compliant End Points in AWS GovCloud (US)'}                                                                           | ${['fips']}
+  ${'Four Additional AWS Services Now Offer FIPS Compliant End Points in AWS GovCloud (US)'}                                                                           | ${['fips', 'govcloud']}
 `('returns expected fips tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -83,7 +83,7 @@ it.each`
   ${'AWS Security Hub achieves FedRAMP High authorization to enable security posture management for high-impact workloads'}                     | ${['fedramp']}
   ${'AWS Achieves FedRAMP℠ Compliance'}                                                                                                         | ${['fedramp']}
   ${'New AWS Solutions Consulting Offer - Accelerated Cloud Engineering FedRAMP Launchpad'}                                                     | ${['fedramp']}
-  ${'AWS GovCloud (US) Receives FedRAMP High Baseline P-ATO from the JAB'}                                                                      | ${['fedramp']}
+  ${'AWS GovCloud (US) Receives FedRAMP High Baseline P-ATO from the JAB'}                                                                      | ${['fedramp', 'govcloud']}
 `('returns expected fedramp tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -95,6 +95,22 @@ it.each`
   ${'GxP Compliance Now on AWS'}                                                 | ${['gxp']}
   ${'AWS Audit Manager now offers a new standard framework for GxP EU Annex 11'} | ${['gxp']}
 `('returns expected gxp tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                                                                                                       | expectedTags
+  ${'Amazon SES is now in the AWS GovCloud (US-West) Region'}                                                                                                                    | ${['govcloud']}
+  ${'Amazon EC2 vCPU-based On-Demand Instance Limits are Now Available in GovCloud (US) Regions'}                                                                                | ${['govcloud']}
+  ${'AWS VPC Flow Logs now available in the GovCloud (US) region'}                                                                                                               | ${['govcloud']}
+  ${'Amazon Athena is now available in GovCloud (US-East)'}                                                                                                                      | ${['govcloud']}
+  ${'Amazon SQS FIFO Queues are Now Available in the AWS China Beijing (BJS) Region (Operated by SINNET), Asia Pacific (Hong Kong), GovCloud (US-East), and GovCloud (US-West)'} | ${['govcloud']}
+  ${'AWS Storage Gateway Available in GovCloud (US)'}                                                                                                                            | ${['govcloud']}
+  ${'Amazon RDS now supports M4 instances in GovCloud for MySQL, MariaDB, PostgreSQL, and Oracle engines'}                                                                       | ${['govcloud']}
+  ${'Now Available: Hardware MFA for GovCloud'}                                                                                                                                  | ${['govcloud']}
+`('returns expected govcloud tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());

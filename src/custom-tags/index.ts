@@ -10,6 +10,7 @@ import fedramp from './fedramp';
 import disaStig from './disa-stig';
 import pki from './pki';
 import gxp from './gxp';
+import govcloud from './govcloud';
 
 type CustomTag = {
   tag: string;
@@ -67,6 +68,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'gxp',
     patterns: gxp,
+  },
+  {
+    tag: 'govcloud',
+    patterns: govcloud,
   },
 ];
 
