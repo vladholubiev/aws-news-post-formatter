@@ -138,8 +138,16 @@ it.each`
 });
 
 it.each`
-  headline                                                                       | expectedTags
-  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'} | ${['partner-network', 'aws-competency']}
+  headline                                                                                     | expectedTags
+  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'}               | ${['partner-network', 'aws-competency']}
+  ${'APN Navigate Security Track'}                                                             | ${['partner-network']}
+  ${'APN Program 2019 Changes'}                                                                | ${['partner-network']}
+  ${'New APN Partners to help with database migrations to AWS'}                                | ${['partner-network']}
+  ${'Announcing the APN Foundations Advanced Navigate track'}                                  | ${['partner-network']}
+  ${'New AWS Professional Services Delivery Bootcamp for APN Partners'}                        | ${['partner-network']}
+  ${'Introducing the APN Navigate Foundations Path'}                                           | ${['partner-network']}
+  ${'Introducing a new benefit for APN Consulting Partners, APN Immersion Days'}               | ${['partner-network']}
+  ${'Announcing APN Service Delivery Program for AWS Partners with Service Catalog Expertise'} | ${['partner-network']}
 `('returns expected partner-network tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -291,11 +299,11 @@ it.each`
   ${'New AWS Training Course - “Big Data on AWS”'}                                                                    | ${['courses']}
   ${'New AWS Fundamentals: Building Serverless Applications Course on Coursera'}                                      | ${['courses']}
   ${'Major Updates to Two AWS Classroom Training Courses'}                                                            | ${['courses']}
-  ${'New AWS Business Professional course for APN Partner Accreditation'}                                             | ${['courses']}
+  ${'New AWS Business Professional course for APN Partner Accreditation'}                                             | ${['courses', 'partner-network']}
   ${'Take AWS Training Courses on edX and Udemy'}                                                                     | ${['courses']}
   ${'Announcing New and Updated Exam Readiness Courses for AWS Certifications'}                                       | ${['courses']}
   ${'6 new training courses for Amazon Connect'}                                                                      | ${['courses']}
-  ${'APN Partner Accreditation Courses Available in More Languages'}                                                  | ${['courses']}
+  ${'APN Partner Accreditation Courses Available in More Languages'}                                                  | ${['courses', 'partner-network']}
   ${'New Courses Available to Help You Grow and Accelerate Your AWS Cloud Skills'}                                    | ${['courses']}
   ${'New course available: MLOps Engineering on AWS'}                                                                 | ${['courses']}
   ${'New instructor-led course: Developing Serverless Solutions on AWS'}                                              | ${['courses']}
@@ -304,10 +312,10 @@ it.each`
   ${'Announcing new AWS Developer Specializations on Coursera'}                                                       | ${['courses']}
   ${'Announcing new on-demand training courses for Media Services'}                                                   | ${['courses']}
   ${'Announcing the first technical course just for APN Technology Partners'}                                         | ${['courses']}
-  ${'Announcing 4 new and updated courses for APN Partners'}                                                          | ${['courses']}
-  ${'Announcing 3 new courses for APN Partners on IoT and data analytics'}                                            | ${['courses']}
+  ${'Announcing 4 new and updated courses for APN Partners'}                                                          | ${['courses', 'partner-network']}
+  ${'Announcing 3 new courses for APN Partners on IoT and data analytics'}                                            | ${['courses', 'partner-network']}
   ${'Introducing our new Solutions Training for Partners: Sales Best Practices courses'}                              | ${['courses']}
-  ${'3 New APN Partner Courses on Machine Learning, VMware & Containers'}                                             | ${['courses']}
+  ${'3 New APN Partner Courses on Machine Learning, VMware & Containers'}                                             | ${['courses', 'partner-network']}
   ${'AWS Educate: Students and Educators Can Access AWS Technology, Cloud Courses, Training and Collaboration Tools'} | ${['courses']}
   ${'AWS Training and Certification and edX Launch New Course on Amazon Sagemaker'}                                   | ${['courses']}
   ${'AWS and Coursera Offer New Course, AWS Fundamentals: Going Cloud-Native'}                                        | ${['courses']}
