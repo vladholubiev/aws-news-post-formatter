@@ -147,6 +147,50 @@ it.each`
 });
 
 it.each`
+  headline                                                                                                            | expectedTags
+  ${'Announcing Three New Digital Courses for AWS Snowcone'}                                                          | ${['courses']}
+  ${'New Digital Course on edX for Building Applications That Use Amazon DynamoDB'}                                   | ${['courses']}
+  ${'New Classroom Course: Media Essentials for IT Business Decision Makers'}                                         | ${['courses']}
+  ${'New digital training course for Amazon Managed Blockchain'}                                                      | ${['courses']}
+  ${'New self-paced course about designing data lakes on edX and Coursera'}                                           | ${['courses']}
+  ${'Updated Training Course: Big Data on AWS'}                                                                       | ${['courses']}
+  ${'New Course on edX: AWS IoT: Developing and Deploying an Internet of Things'}                                     | ${['courses']}
+  ${'New AWS Training Course - “Big Data on AWS”'}                                                                    | ${['courses']}
+  ${'New AWS Fundamentals: Building Serverless Applications Course on Coursera'}                                      | ${['courses']}
+  ${'Major Updates to Two AWS Classroom Training Courses'}                                                            | ${['courses']}
+  ${'New AWS Business Professional course for APN Partner Accreditation'}                                             | ${['courses']}
+  ${'Take AWS Training Courses on edX and Udemy'}                                                                     | ${['courses']}
+  ${'Announcing New and Updated Exam Readiness Courses for AWS Certifications'}                                       | ${['courses']}
+  ${'6 new training courses for Amazon Connect'}                                                                      | ${['courses']}
+  ${'APN Partner Accreditation Courses Available in More Languages'}                                                  | ${['courses']}
+  ${'New Courses Available to Help You Grow and Accelerate Your AWS Cloud Skills'}                                    | ${['courses']}
+  ${'New course available: MLOps Engineering on AWS'}                                                                 | ${['courses']}
+  ${'New instructor-led course: Developing Serverless Solutions on AWS'}                                              | ${['courses']}
+  ${'Major Updates to AWS Technical Essentials and Architecting on AWS Courses'}                                      | ${['courses']}
+  ${'New course for Amazon Elastic Kubernetes Service (Amazon EKS)'}                                                  | ${['courses']}
+  ${'Announcing new AWS Developer Specializations on Coursera'}                                                       | ${['courses']}
+  ${'Announcing new on-demand training courses for Media Services'}                                                   | ${['courses']}
+  ${'Announcing the first technical course just for APN Technology Partners'}                                         | ${['courses']}
+  ${'Announcing 4 new and updated courses for APN Partners'}                                                          | ${['courses']}
+  ${'Announcing 3 new courses for APN Partners on IoT and data analytics'}                                            | ${['courses']}
+  ${'Introducing our new Solutions Training for Partners: Sales Best Practices courses'}                              | ${['courses']}
+  ${'3 New APN Partner Courses on Machine Learning, VMware & Containers'}                                             | ${['courses']}
+  ${'AWS Educate: Students and Educators Can Access AWS Technology, Cloud Courses, Training and Collaboration Tools'} | ${['courses']}
+  ${'AWS Training and Certification and edX Launch New Course on Amazon Sagemaker'}                                   | ${['courses']}
+  ${'AWS and Coursera Offer New Course, AWS Fundamentals: Going Cloud-Native'}                                        | ${['courses']}
+  ${'AWS announces new course for practical decision making using no-code ML with Amazon SageMaker Canvas'}           | ${['courses']}
+  ${'New 4-course series on Coursera teaches vital product-management skills'}                                        | ${['courses']}
+  ${'Updated AWS Business Professional and Technical Professional Accreditation Courses'}                             | ${['courses']}
+  ${'AWS Developer Series Relaunched on edX'}                                                                         | ${['courses']}
+  ${'Announcing a new digital curriculum: Break Free of Legacy Databases'}                                            | ${['courses']}
+  ${'Announcing the AWS Game Tech Starter Pack Digital Training Curriculum'}                                          | ${['courses']}
+`('returns expected courses tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                   | expectedTags
   ${'AWS Container Competency'}                                                              | ${['aws-competency']}
   ${'New AWS Competency Program differentiates AWS Partners with Energy Industry Expertise'} | ${['aws-competency']}

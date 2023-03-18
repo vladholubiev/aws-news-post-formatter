@@ -17,6 +17,7 @@ import oracleDB from './oracle-db';
 import quickStart from './quick-start';
 import partnerNetwork from './partner-network';
 import awsCompetency from './aws-competency';
+import courses from './courses';
 
 type CustomTag = {
   tag: string;
@@ -102,6 +103,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'aws-competency',
     patterns: awsCompetency,
+  },
+  {
+    tag: 'courses',
+    patterns: courses,
   },
 ];
 
