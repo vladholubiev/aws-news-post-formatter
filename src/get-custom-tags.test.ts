@@ -14,6 +14,10 @@ it.each`
   ${'Amazon QuickSight adds support for Geospatial Visualizations, Tabular Reports, Private VPC Access, Calculations for SPICE datasets in analysis, and HIPAA compliant workloads'} | ${['hipaa']}
   ${'Quick Start deploys a reference architecture for HIPAA workloads on the AWS Cloud'}                                                                                             | ${['hipaa']}
   ${'Creating HIPAA-Compliant Medical Data Applications With AWS'}                                                                                                                   | ${['hipaa']}
+  ${'AWS Network Firewall is now SOC compliant'}                                                                                                                                     | ${['soc']}
+  ${'Amazon Textract is now SOC and ISO Compliant'}                                                                                                                                  | ${['soc', 'iso']}
+  ${'AWS Resource Access Manager achieves ISO and SOC compliance'}                                                                                                                   | ${['soc', 'iso']}
+  ${'AWS Certificate Manager Now SOC & PCI Eligible'}                                                                                                                                | ${['soc', 'pci-dss']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
