@@ -157,6 +157,39 @@ it.each`
 });
 
 it.each`
+  headline                                                                                            | expectedTags
+  ${'AWS Organizations Now Supports Tagging and Untagging of AWS Accounts'}                           | ${['tagging']}
+  ${'Introducing Tagging Support for AWS Storage Gateway'}                                            | ${['tagging']}
+  ${'Tag Your AWS Batch Spot Managed Compute Environments'}                                           | ${['tagging']}
+  ${'AWS IoT Now Supports Resource Tagging'}                                                          | ${['tagging']}
+  ${'AWS Elemental MediaConvert Now Supports Resource Tags'}                                          | ${['tagging']}
+  ${'Amazon EFS Now Supports Tag-on-Create'}                                                          | ${['tagging']}
+  ${'Amazon VPC Endpoints and Endpoint Services now support Tag-On Create'}                           | ${['tagging']}
+  ${'Amazon VPC Resources Now Support Tag on Create'}                                                 | ${['tagging']}
+  ${'AWS Support enables tagging capabilities for Trusted Advisor'}                                   | ${['tagging']}
+  ${'Announcing Tagging for AWS Elastic Beanstalk'}                                                   | ${['tagging']}
+  ${'Announcing Cost Allocation Tagging for AWS Directory Service'}                                   | ${['tagging']}
+  ${'Amazon DynamoDB now Supports Cost Allocation Tags'}                                              | ${['tagging']}
+  ${'Amazon EBS Adds Support for Tagging EBS Snapshots Upon Creation and Resource-Level Permissions'} | ${['tagging']}
+  ${'Now you can tag Amazon DynamoDB tables when you create them'}                                    | ${['tagging']}
+  ${'Amazon EC2 Dedicated Hosts now Supports Tags'}                                                   | ${['tagging']}
+  ${'Amazon ECR now allows Repository Tagging'}                                                       | ${['tagging']}
+  ${'Tagging now Available with the Amazon Machine Learning API'}                                     | ${['tagging']}
+  ${'Elastic Load Balancing Introduces Support for Tagging'}                                          | ${['tagging']}
+  ${'Copy Tags from an Amazon Aurora PostgreSQL Cluster to a Database Snapshot'}                      | ${['tagging']}
+  ${'AWS Service Catalog Announces Tag Updating'}                                                     | ${['tagging']}
+  ${'Now Use Tags to Track and Allocate Amazon SageMaker Studio Notebooks Costs'}                     | ${['tagging']}
+  ${'Resource Groups Tagging API Supports Additional AWS Services'}                                   | ${['tagging']}
+  ${'Resource Groups Tagging API launches ResourceARNList parameter for the GetResources operation'}  | ${['tagging']}
+  ${'Tag Auto Scaling Groups in the AWS Management Console'}                                          | ${['tagging']}
+  ${'Bottlerocket now supports network bonding and VLAN tagging'}                                     | ${['tagging']}
+`('returns tagging tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                                  | expectedTags
   ${'AWS Marketplace launches Discovery API, making it easier to discover relevant third-party software and data products'} | ${['aws-marketplace']}
 `('returns aws-marketplace tags given a headline', ({headline, expectedTags}) => {
