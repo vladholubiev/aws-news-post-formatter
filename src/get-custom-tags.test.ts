@@ -14,7 +14,7 @@ it.each`
   ${'Amazon QuickSight adds support for Geospatial Visualizations, Tabular Reports, Private VPC Access, Calculations for SPICE datasets in analysis, and HIPAA compliant workloads'} | ${['hipaa']}
   ${'Quick Start deploys a reference architecture for HIPAA workloads on the AWS Cloud'}                                                                                             | ${['hipaa']}
   ${'Creating HIPAA-Compliant Medical Data Applications With AWS'}                                                                                                                   | ${['hipaa']}
-`('returns expected custom tags for hipaa given a headline', ({headline, expectedTags}) => {
+`('returns expected hipaa tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
@@ -33,7 +33,7 @@ it.each`
   ${'Amazon Cloud Directory Demonstrates SOC and ISO Compliance'}                             | ${['soc', 'iso']}
   ${'Use AWS Secrets Manager to help maintain SOC compliance in the AWS cloud'}               | ${['soc']}
   ${'Amazon DocumentDB (with MongoDB compatibility) is now SOC 1, 2, and 3 compliant'}        | ${['soc']}
-`('returns expected custom tags for soc given a headline', ({headline, expectedTags}) => {
+`('returns expected soc tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
@@ -48,6 +48,9 @@ it.each`
   ${'Four Additional AWS Services Now Offer FIPS Compliant End Points in AWS GovCloud (US)'}                                                                           | ${['fips']}
   ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                          | ${['nne']}
   ${'Amazon Location Service is now HITRUST CSF certified'}                                                                                                            | ${['hitrust']}
+  ${'AWS Network Firewall achieves ISO compliance'}                                                                                                                    | ${['iso']}
+  ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                                | ${['iso']}
+  ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'}   | ${['iso']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
