@@ -14,6 +14,7 @@ export default [
       /Now SOC .* Eligible/i,
       /in scope for SOC \d.* compliance/,
       /in scope for SOC \d and SOC \d/,
+      /SOC .*Compliance/,
     ],
   },
 ];

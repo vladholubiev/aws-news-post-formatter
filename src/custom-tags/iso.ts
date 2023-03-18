@@ -5,6 +5,7 @@ export default [
       /workloads subject to .* ISO.*/i,
       / ISO Compliant/,
       /achieves ISO .* compliance/,
+      / ISO Compliance/,
     ],
   },
 ];

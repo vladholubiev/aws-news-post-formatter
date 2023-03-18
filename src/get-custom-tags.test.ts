@@ -22,6 +22,8 @@ it.each`
   ${'Amazon MQ Introduces Support for SOC Compliance Program'}                                                                                                                       | ${['soc']}
   ${'Amazon Timestream is now in scope for AWS SOC Reports'}                                                                                                                         | ${['soc']}
   ${'Amazon Connect Customer Profiles is now PCI compliant and in scope for SOC 1 and SOC 2'}                                                                                        | ${['soc', 'pci-dss']}
+  ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'}                                                        | ${['fips']}
+  ${'Amazon Cloud Directory Demonstrates SOC and ISO Compliance'}                                                                                                                    | ${['soc', 'iso']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
