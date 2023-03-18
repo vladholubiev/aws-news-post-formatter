@@ -101,6 +101,15 @@ it.each`
 });
 
 it.each`
+  headline                                 | expectedTags
+  ${'New AWS Pop-up Loft Opens in Berlin'} | ${['aws-pop-up']}
+`('returns expected gxp tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                                                                                       | expectedTags
   ${'Amazon SES is now in the AWS GovCloud (US-West) Region'}                                                                                                                    | ${['govcloud']}
   ${'Amazon EC2 vCPU-based On-Demand Instance Limits are Now Available in GovCloud (US) Regions'}                                                                                | ${['govcloud']}

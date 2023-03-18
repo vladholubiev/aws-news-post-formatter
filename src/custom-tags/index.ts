@@ -11,6 +11,7 @@ import disaStig from './disa-stig';
 import pki from './pki';
 import gxp from './gxp';
 import govcloud from './govcloud';
+import awsPopUp from './aws-pop-up';
 
 type CustomTag = {
   tag: string;
@@ -72,6 +73,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'govcloud',
     patterns: govcloud,
+  },
+  {
+    tag: 'aws-pop-up',
+    patterns: awsPopUp,
   },
 ];
 
