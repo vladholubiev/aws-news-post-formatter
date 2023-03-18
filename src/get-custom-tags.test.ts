@@ -14,19 +14,36 @@ it.each`
   ${'Amazon QuickSight adds support for Geospatial Visualizations, Tabular Reports, Private VPC Access, Calculations for SPICE datasets in analysis, and HIPAA compliant workloads'} | ${['hipaa']}
   ${'Quick Start deploys a reference architecture for HIPAA workloads on the AWS Cloud'}                                                                                             | ${['hipaa']}
   ${'Creating HIPAA-Compliant Medical Data Applications With AWS'}                                                                                                                   | ${['hipaa']}
-  ${'AWS Network Firewall is now SOC compliant'}                                                                                                                                     | ${['soc']}
-  ${'Amazon Textract is now SOC and ISO Compliant'}                                                                                                                                  | ${['soc', 'iso']}
-  ${'AWS Resource Access Manager achieves ISO and SOC compliance'}                                                                                                                   | ${['soc', 'iso']}
-  ${'AWS Certificate Manager Now SOC & PCI Eligible'}                                                                                                                                | ${['soc', 'pci-dss']}
-  ${'Amazon FinSpace is now in scope for SOC 1, SOC 2, and SOC 3 compliance'}                                                                                                        | ${['soc']}
-  ${'Amazon MQ Introduces Support for SOC Compliance Program'}                                                                                                                       | ${['soc']}
-  ${'Amazon Timestream is now in scope for AWS SOC Reports'}                                                                                                                         | ${['soc']}
-  ${'Amazon Connect Customer Profiles is now PCI compliant and in scope for SOC 1 and SOC 2'}                                                                                        | ${['soc', 'pci-dss']}
-  ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'}                                                        | ${['fips']}
-  ${'Amazon Cloud Directory Demonstrates SOC and ISO Compliance'}                                                                                                                    | ${['soc', 'iso']}
-  ${'Use AWS Secrets Manager to help maintain SOC compliance in the AWS cloud'}                                                                                                      | ${['soc']}
-  ${'Amazon DocumentDB (with MongoDB compatibility) is now SOC 1, 2, and 3 compliant'}                                                                                               | ${['soc']}
-  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                                        | ${['nne']}
+`('returns expected custom tags for hipaa given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                    | expectedTags
+  ${'AWS Network Firewall is now SOC compliant'}                                              | ${['soc']}
+  ${'Amazon Textract is now SOC and ISO Compliant'}                                           | ${['soc', 'iso']}
+  ${'AWS Resource Access Manager achieves ISO and SOC compliance'}                            | ${['soc', 'iso']}
+  ${'AWS Certificate Manager Now SOC & PCI Eligible'}                                         | ${['soc', 'pci-dss']}
+  ${'Amazon FinSpace is now in scope for SOC 1, SOC 2, and SOC 3 compliance'}                 | ${['soc']}
+  ${'Amazon MQ Introduces Support for SOC Compliance Program'}                                | ${['soc']}
+  ${'Amazon Timestream is now in scope for AWS SOC Reports'}                                  | ${['soc']}
+  ${'Amazon Connect Customer Profiles is now PCI compliant and in scope for SOC 1 and SOC 2'} | ${['soc', 'pci-dss']}
+  ${'Amazon Cloud Directory Demonstrates SOC and ISO Compliance'}                             | ${['soc', 'iso']}
+  ${'Use AWS Secrets Manager to help maintain SOC compliance in the AWS cloud'}               | ${['soc']}
+  ${'Amazon DocumentDB (with MongoDB compatibility) is now SOC 1, 2, and 3 compliant'}        | ${['soc']}
+`('returns expected custom tags for soc given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                                                    | expectedTags
+  ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'} | ${['fips']}
+  ${'AWS Key Management Service now supports FIPS 140-2 enabled interface VPC endpoint'}                                      | ${['fips']}
+  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'} | ${['nne']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
