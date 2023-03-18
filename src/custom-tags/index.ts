@@ -20,6 +20,7 @@ import awsCompetency from './aws-competency';
 import courses from './courses';
 import awsMarketplace from './aws-marketplace';
 import solutionConsulting from './solution-consulting';
+import regionalExpansion from './regional-expansion';
 
 type CustomTag = {
   tag: string;
@@ -117,6 +118,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'solution-consulting',
     patterns: solutionConsulting,
+  },
+  {
+    tag: 'regional-expansion',
+    patterns: regionalExpansion,
   },
 ];
 
