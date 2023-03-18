@@ -22,6 +22,7 @@ import awsMarketplace from './aws-marketplace';
 import solutionConsulting from './solution-consulting';
 import regionalExpansion from './regional-expansion';
 import tagging from './tagging';
+import languageExpansion from './language-expansion';
 
 type CustomTag = {
   tag: string;
@@ -127,6 +128,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'tagging',
     patterns: tagging,
+  },
+  {
+    tag: 'language-expansion',
+    patterns: languageExpansion,
   },
 ];
 

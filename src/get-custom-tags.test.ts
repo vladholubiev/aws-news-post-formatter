@@ -199,6 +199,18 @@ it.each`
 });
 
 it.each`
+  headline                                                                                            | expectedTags
+  ${'AWS IAM Console Now Available In German, Portuguese, Spanish, Italian, and Traditional Chinese'} | ${['language-expansion']}
+  ${'The AWS Organizations Console is Now Available in Eight New Languages'}                          | ${['language-expansion']}
+  ${'The Amazon Builders’ Library is Now Available in 16 Languages'}                                  | ${['language-expansion']}
+  ${'Amazon Connect adds support for seven new languages'}                                            | ${['language-expansion']}
+`('returns language-expansion tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                                                                                          | expectedTags
   ${'AWS App Mesh is now available in Europe (Milan) Region'}                                                                                                                       | ${['regional-expansion']}
   ${'Amazon EC2 G4 Instances with NVIDIA T4 Tensor Core GPUs, now available in 6 additional regions'}                                                                               | ${['regional-expansion']}
