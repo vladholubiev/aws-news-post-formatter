@@ -24,6 +24,9 @@ it.each`
   ${'Amazon Connect Customer Profiles is now PCI compliant and in scope for SOC 1 and SOC 2'}                                                                                        | ${['soc', 'pci-dss']}
   ${'Amazon RDS for Oracle now supports Federal Information Processing Standard (FIPS) 140-2 for Secure Sockets Layer (SSL)'}                                                        | ${['fips']}
   ${'Amazon Cloud Directory Demonstrates SOC and ISO Compliance'}                                                                                                                    | ${['soc', 'iso']}
+  ${'Use AWS Secrets Manager to help maintain SOC compliance in the AWS cloud'}                                                                                                      | ${['soc']}
+  ${'Amazon DocumentDB (with MongoDB compatibility) is now SOC 1, 2, and 3 compliant'}                                                                                               | ${['soc']}
+  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                                        | ${['nne']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
