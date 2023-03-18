@@ -53,6 +53,44 @@ it.each`
 });
 
 it.each`
+  headline                                                                                                   | expectedTags
+  ${'AWS Network Firewall achieves PCI DSS Compliance'}                                                      | ${['pci-dss']}
+  ${'Amazon MWAA is now PCI DSS compliant'}                                                                  | ${['pci-dss']}
+  ${'AWS Achieves PCI DSS Level 1 Compliance'}                                                               | ${['pci-dss']}
+  ${'PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment'}                  | ${['pci-dss']}
+  ${'AWS WAF is now Included in the set of Services that are PCI DSS 3.2 Level 1 Compliant.'}                | ${['pci-dss']}
+  ${'AWS Cloud Map achieves PCI DSS Certification'}                                                          | ${['pci-dss']}
+  ${'AWS Security Hub Automated Response and Remediation adds support for PCI-DSS v3.2.1 Security Standard'} | ${['pci-dss']}
+  ${'Amazon Textract is now PCI DSS certified and extracts even more data from tables and forms'}            | ${['pci-dss']}
+  ${'AWS SSO Expands Support for Customer Compliance with PCI-DSS and IRAP'}                                 | ${['pci-dss', 'irap']}
+`('returns expected pci-dss tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                                                                      | expectedTags
+  ${'AWS Transfer Family is now FedRAMP compliant'}                                                                                             | ${['fedramp']}
+  ${'AWS Storage Gateway achieves FedRAMP compliance'}                                                                                          | ${['fedramp']}
+  ${'AWS Network Firewall achieves FedRAMP High compliance'}                                                                                    | ${['fedramp']}
+  ${'Amazon Keyspaces now is in scope for FedRAMP Moderate compliance to help you run highly regulated Apache Cassandra workloads more easily'} | ${['fedramp']}
+  ${'Amazon EKS is now FedRAMP-High Compliant'}                                                                                                 | ${['fedramp']}
+  ${'Amazon MQ is now authorized as FedRAMP Moderate'}                                                                                          | ${['fedramp']}
+  ${'AWS Managed Services (AMS) achieves FedRAMP High Authorization'}                                                                           | ${['fedramp']}
+  ${'AWS AppConfig achieves FedRAMP High Authority To Operate'}                                                                                 | ${['fedramp']}
+  ${'AWS Outposts now FedRAMP authorized'}                                                                                                      | ${['fedramp']}
+  ${'AWS Security Hub achieves FedRAMP High authorization to enable security posture management for high-impact workloads'}                     | ${['fedramp']}
+  ${'AWS Achieves FedRAMP℠ Compliance'}                                                                                                         | ${['fedramp']}
+  ${'New AWS Solutions Consulting Offer - Accelerated Cloud Engineering FedRAMP Launchpad'}                                                     | ${['fedramp']}
+  ${'AWS GovCloud (US) Receives FedRAMP High Baseline P-ATO from the JAB'}                                                                      | ${['fedramp']}
+`('returns expected fedramp tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
   headline                                                                                                                                                           | expectedTags
   ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                        | ${['nne']}
   ${'Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native Network Encryption'}                                                                  | ${['nne']}
@@ -60,15 +98,6 @@ it.each`
   ${'AWS Network Firewall achieves ISO compliance'}                                                                                                                  | ${['iso']}
   ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                              | ${['iso']}
   ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'} | ${['iso']}
-  ${'AWS Network Firewall achieves PCI DSS Compliance'}                                                                                                              | ${['pci-dss']}
-  ${'Amazon MWAA is now PCI DSS compliant'}                                                                                                                          | ${['pci-dss']}
-  ${'AWS Achieves PCI DSS Level 1 Compliance'}                                                                                                                       | ${['pci-dss']}
-  ${'PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment'}                                                                          | ${['pci-dss']}
-  ${'AWS WAF is now Included in the set of Services that are PCI DSS 3.2 Level 1 Compliant.'}                                                                        | ${['pci-dss']}
-  ${'AWS Cloud Map achieves PCI DSS Certification'}                                                                                                                  | ${['pci-dss']}
-  ${'AWS Security Hub Automated Response and Remediation adds support for PCI-DSS v3.2.1 Security Standard'}                                                         | ${['pci-dss']}
-  ${'Amazon Textract is now PCI DSS certified and extracts even more data from tables and forms'}                                                                    | ${['pci-dss']}
-  ${'AWS SSO Expands Support for Customer Compliance with PCI-DSS and IRAP'}                                                                                         | ${['pci-dss', 'irap']}
   ${'Amazon Kendra is now IRAP assessed at PROTECTED level'}                                                                                                         | ${['irap']}
   ${'New Quick Start deploys the Compliance IRAP PROTECTED Reference Architecture on the AWS Cloud'}                                                                 | ${['irap']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
@@ -78,3 +107,5 @@ it.each`
 });
 
 // quick start
+// solutions
+// consulting

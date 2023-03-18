@@ -6,6 +6,7 @@ import soc from './soc';
 import fips from './fips';
 import nne from './nne';
 import irap from './irap';
+import fedramp from './fedramp';
 
 type CustomTag = {
   tag: string;
@@ -47,6 +48,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'irap',
     patterns: irap,
+  },
+  {
+    tag: 'fedramp',
+    patterns: fedramp,
   },
 ];
 
