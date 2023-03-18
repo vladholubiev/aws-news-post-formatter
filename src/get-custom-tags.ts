@@ -7,10 +7,20 @@ export function getCustomTags(headline?: string, html?: string): string[] {
   for (const customTag of CUSTOM_TAGS) {
     for (const pattern of customTag.patterns) {
       // headline
-      if (headline && pattern.headlineIncludes) {
-        for (const headlineIncludes of pattern.headlineIncludes) {
-          if (headline.includes(headlineIncludes)) {
-            tags.push(customTag.tag);
+      if (headline) {
+        if (pattern.headlineIncludes) {
+          for (const headlineIncludesPattern of pattern.headlineIncludes) {
+            if (headline.toLowerCase().includes(headlineIncludesPattern.toLowerCase())) {
+              tags.push(customTag.tag);
+            }
+          }
+        }
+
+        if (pattern.headlineMatches) {
+          for (const headlineMatchesPattern of pattern.headlineMatches) {
+            if (headlineMatchesPattern.test(headline)) {
+              tags.push(customTag.tag);
+            }
           }
         }
       }
@@ -19,7 +29,7 @@ export function getCustomTags(headline?: string, html?: string): string[] {
 
   if (html) {
     const $ = load(html);
-    console.log($('.asd').text());
+    $('.asd').text();
   }
 
   return tags;
