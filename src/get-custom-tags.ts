@@ -1,4 +1,4 @@
-import {load} from 'cheerio';
+// import {load} from 'cheerio';
 import CUSTOM_TAGS from './custom-tags';
 
 export function getCustomTags(headline?: string, html?: string): string[] {
@@ -28,8 +28,8 @@ export function getCustomTags(headline?: string, html?: string): string[] {
   }
 
   if (html) {
-    const $ = load(html);
-    $('.asd').text();
+    // const $ = load(html);
+    // $('.asd').text();
   }
 
   return Array.from(tags);

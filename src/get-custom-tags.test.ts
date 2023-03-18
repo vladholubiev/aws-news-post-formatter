@@ -46,13 +46,34 @@ it.each`
   ${'AWS announces that all AWS Federal Information Processing Standard (FIPS) endpoints now only accept a minimum of Transport Layer Security (TLS) 1.2 connections'} | ${['fips']}
   ${'New AWS Service Catalog Connector for ServiceNow supports Budgets integration and FIPS endpoints'}                                                                | ${['fips']}
   ${'Four Additional AWS Services Now Offer FIPS Compliant End Points in AWS GovCloud (US)'}                                                                           | ${['fips']}
-  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                          | ${['nne']}
-  ${'Amazon Location Service is now HITRUST CSF certified'}                                                                                                            | ${['hitrust']}
-  ${'AWS Network Firewall achieves ISO compliance'}                                                                                                                    | ${['iso']}
-  ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                                | ${['iso']}
-  ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'}   | ${['iso']}
+`('returns expected fips tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                                                                                           | expectedTags
+  ${'Amazon RDS for Oracle now supports ALLOW_WEAK_CRYPTO* parameters for the Oracle Native Network Encryption (NNE) option'}                                        | ${['nne']}
+  ${'Amazon RDS for Oracle Now Supports Transparent Data Encryption and Native Network Encryption'}                                                                  | ${['nne']}
+  ${'Amazon Location Service is now HITRUST CSF certified'}                                                                                                          | ${['hitrust']}
+  ${'AWS Network Firewall achieves ISO compliance'}                                                                                                                  | ${['iso']}
+  ${'AWS Wavelength is now ISO 9001, 27001, 27017 and 27018 compliant'}                                                                                              | ${['iso']}
+  ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'} | ${['iso']}
+  ${'AWS Network Firewall achieves PCI DSS Compliance'}                                                                                                              | ${['pci-dss']}
+  ${'Amazon MWAA is now PCI DSS compliant'}                                                                                                                          | ${['pci-dss']}
+  ${'AWS Achieves PCI DSS Level 1 Compliance'}                                                                                                                       | ${['pci-dss']}
+  ${'PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment'}                                                                          | ${['pci-dss']}
+  ${'AWS WAF is now Included in the set of Services that are PCI DSS 3.2 Level 1 Compliant.'}                                                                        | ${['pci-dss']}
+  ${'AWS Cloud Map achieves PCI DSS Certification'}                                                                                                                  | ${['pci-dss']}
+  ${'AWS Security Hub Automated Response and Remediation adds support for PCI-DSS v3.2.1 Security Standard'}                                                         | ${['pci-dss']}
+  ${'Amazon Textract is now PCI DSS certified and extracts even more data from tables and forms'}                                                                    | ${['pci-dss']}
+  ${'AWS SSO Expands Support for Customer Compliance with PCI-DSS and IRAP'}                                                                                         | ${['pci-dss']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
 });
+
+// IRAP
+// quick start
