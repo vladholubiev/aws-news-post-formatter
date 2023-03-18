@@ -1,5 +1,5 @@
 export default [
   {
-    headlineMatches: [/supports .* SOC /, /supports .* SOC,/],
+    headlineMatches: [/supports .* SOC /i, /supports .* SOC,/i],
   },
 ];

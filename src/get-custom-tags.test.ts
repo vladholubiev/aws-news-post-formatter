@@ -10,6 +10,7 @@ it.each`
   ${'Amazon Timestream can now be used for workloads subject to HIPAA, ISO, and PCI DSS'}                | ${['hipaa', 'iso', 'pci-dss']}
   ${'Amazon EMR Serverless now supports HIPAA, HITRUST, SOC, and PCI DSS workloads'}                     | ${['hipaa', 'hitrust', 'soc', 'pci-dss']}
   ${'Now You Can Use Amazon Cloud Directory to Help Maintain HIPAA and PCI Compliance in the AWS Cloud'} | ${['hipaa', 'pci-dss']}
+  ${'AWS Fargate Supports Container Workloads Regulated By ISO, PCI, SOC, and HIPAA'}                    | ${['iso', 'pci-dss', 'soc', 'hipaa']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 

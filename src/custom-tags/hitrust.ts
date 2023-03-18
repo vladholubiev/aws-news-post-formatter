@@ -1,5 +1,5 @@
 export default [
   {
-    headlineMatches: [/supports.* HITRUST.*/],
+    headlineMatches: [/supports.* HITRUST.*/i],
   },
 ];

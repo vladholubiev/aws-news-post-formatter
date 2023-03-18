@@ -9,5 +9,6 @@ export default [
       'supports HIPAA',
       'Maintain HIPAA',
     ],
+    headlineMatches: [/Regulated By .* PCI,/i],
   },
 ];
