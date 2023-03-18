@@ -100,6 +100,8 @@ it.each`
   ${'Amazon Keyspaces is now in scope for AWS ISO and CSA STAR certifications and services to help you run highly regulated Apache Cassandra workloads more easily'} | ${['iso']}
   ${'Amazon Kendra is now IRAP assessed at PROTECTED level'}                                                                                                         | ${['irap']}
   ${'New Quick Start deploys the Compliance IRAP PROTECTED Reference Architecture on the AWS Cloud'}                                                                 | ${['irap']}
+  ${'Introducing new Amazon EC2 Windows Server AMIs for DISA STIG compliance'}                                                                                       | ${['disa-stig']}
+  ${'AWS Private Certificate Authority publishes Matter PKI Compliance Customer Guide'}                                                                              | ${['pki']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 

@@ -7,6 +7,8 @@ import fips from './fips';
 import nne from './nne';
 import irap from './irap';
 import fedramp from './fedramp';
+import disaStig from './disa-stig';
+import pki from './pki';
 
 type CustomTag = {
   tag: string;
@@ -52,6 +54,14 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'fedramp',
     patterns: fedramp,
+  },
+  {
+    tag: 'disa-stig',
+    patterns: disaStig,
+  },
+  {
+    tag: 'pki',
+    patterns: pki,
   },
 ];
 
