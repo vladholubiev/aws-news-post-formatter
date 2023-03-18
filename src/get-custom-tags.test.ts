@@ -139,8 +139,20 @@ it.each`
 
 it.each`
   headline                                                                       | expectedTags
-  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'} | ${['partner-network']}
+  ${'AWS Partner Network Launches New Competency, Government Partner Solutions'} | ${['partner-network', 'aws-competency']}
 `('returns expected partner-network tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                   | expectedTags
+  ${'AWS Container Competency'}                                                              | ${['aws-competency']}
+  ${'New AWS Competency Program differentiates AWS Partners with Energy Industry Expertise'} | ${['aws-competency']}
+  ${'New End User Computing Competency Solutions'}                                           | ${['aws-competency']}
+  ${'Introducing the Smart City Competency program'}                                         | ${['aws-competency']}
+`('returns expected aws-competency tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
   expect(customTags.sort()).toEqual(expectedTags.sort());
