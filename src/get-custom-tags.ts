@@ -1,7 +1,6 @@
-// import {load} from 'cheerio';
 import CUSTOM_TAGS from './custom-tags';
 
-export function getCustomTags(headline?: string, html?: string): string[] {
+export function getCustomTags(headline?: string): string[] {
   const tags = new Set<string>();
 
   for (const customTag of CUSTOM_TAGS) {
@@ -25,11 +24,6 @@ export function getCustomTags(headline?: string, html?: string): string[] {
         }
       }
     }
-  }
-
-  if (html) {
-    // const $ = load(html);
-    // $('.asd').text();
   }
 
   return Array.from(tags);
