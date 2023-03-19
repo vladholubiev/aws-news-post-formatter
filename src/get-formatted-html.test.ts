@@ -1,5 +1,5 @@
 import 'expect-puppeteer';
-import rawDataJSON from '../test-data/raw.json';
+import rawDataJSON from './test-data-raw.test.json';
 import {getFormattedHTML} from './get-formatted-html';
 
 type RawData = {
