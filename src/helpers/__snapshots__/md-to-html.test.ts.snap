@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should convert complex markdown to html 1`] = `
+"AWS Launch Wizard now allows customers to deploy SAP workloads using Red Hat Enterprise Linux Version 8.1\\. 
+
+AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for SAP HANA and SAP HANA-based Netweaver systems with a purpose built, easy to use wizard. 
+
+On-boarding a new operating system version for an SAP application involves close collaboration between SAP and Operating System (OS) teams, who analyze SAP notes, configure the system, and test extensively before standardizing on the new OS. AWS Launch Wizard eliminates this heavy lifting. You select the OS you want to use from a dropdown menu, and it automatically creates a pre-configured environment aligned with AWS and SAP best practices. 
+
+Configuring RHEL 8.1 for SAP workloads manually requires several additional steps compared to RHEL 7, including installation of basic OS packages, C-shell, and SAP HANA High Availability cluster configuration commands. With AWS Launch Wizard, these tasks are automated, simplifying configuration and reducing time to deployment.  
+
+The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:   
+
+AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities. 
+
+To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the [Launch Wizard page](https://aws.amazon.com/launchwizard), [FAQ](https://aws.amazon.com/launchwizard/faq), and [overview documentation](https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html).
+
+| **Operating system version**                   | **Single-Instance deployment** | **ASCS** | **ERS** | **PAS** | **SAP HANA database** | **SAP HANA database in HA cluster** |
+| ---------------------------------------------- | ------------------------------ | -------- | ------- | ------- | --------------------- | ----------------------------------- |
+| Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-12-SP5-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-12-SP5-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-15-SP1-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |
+| SuSE-Linux-15-SP1-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-15-SP1-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM |                                |          |         |         |                       |                                     |
+| SuSE-Linux-15-HVM                              | ✓                              |          |         | ✓       | ✓                     |                                     |
+| SuSE-Linux-15-For-SAP-HVM                      | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-15-For-SAP-BYOS-HVM                 | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-12-SP4-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |
+| SuSE-Linux-12-SP4-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-12-SP4-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+| SuSE-Linux-12-SP5-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |"
+`;
+
+exports[`should convert complex markdown to html 2`] = `
+"<p>AWS Launch Wizard now allows customers to deploy SAP workloads using Red Hat Enterprise Linux Version 8.1. </p>
+<p>AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for SAP HANA and SAP HANA-based Netweaver systems with a purpose built, easy to use wizard. </p>
+<p>On-boarding a new operating system version for an SAP application involves close collaboration between SAP and Operating System (OS) teams, who analyze SAP notes, configure the system, and test extensively before standardizing on the new OS. AWS Launch Wizard eliminates this heavy lifting. You select the OS you want to use from a dropdown menu, and it automatically creates a pre-configured environment aligned with AWS and SAP best practices. </p>
+<p>Configuring RHEL 8.1 for SAP workloads manually requires several additional steps compared to RHEL 7, including installation of basic OS packages, C-shell, and SAP HANA High Availability cluster configuration commands. With AWS Launch Wizard, these tasks are automated, simplifying configuration and reducing time to deployment.  </p>
+<p>The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:   </p>
+<p>AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities. </p>
+<p>To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the <a href="https://aws.amazon.com/launchwizard">Launch Wizard page</a>, <a href="https://aws.amazon.com/launchwizard/faq">FAQ</a>, and <a href="https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html">overview documentation</a>.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Operating system version</strong></th>
+<th><strong>Single-Instance deployment</strong></th>
+<th><strong>ASCS</strong></th>
+<th><strong>ERS</strong></th>
+<th><strong>PAS</strong></th>
+<th><strong>SAP HANA database</strong></th>
+<th><strong>SAP HANA database in HA cluster</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+</tbody>
+</table>"
+`;
+
+exports[`should convert markdown tables to html 1`] = `
+"We are excited to announce today that [Amazon RDS](https://aws.amazon.com/rds) is lowering prices globally for Single-AZ and Multi-AZ deployments. These price reductions follow a series of innovations we have launched recently (described later in this announcement). 
+
+ We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013\\. 
+
+We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL. The new prices apply to Reserved Instance purchases made on or after June 11, 2013\\. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. 
+
+For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:
+
+**Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance** 
+
+| Region                        | Old Price | New Price | Savings |
+| ----------------------------- | --------- | --------- | ------- |
+| US East (Northern Virginia)   | $0.090    | $0.080    | 11%     |
+| US West (Northern California) | $0.098    | $0.085    | 13%     |
+| US West (Oregon)              | $0.090    | $0.080    | 11%     |
+| AWS GovCloud (US)             | $0.110    | $0.090    | 18%     |
+| Europe (Ireland)              | $0.098    | $0.085    | 13%     |
+| Asia Pacific (Singapore)      | $0.115    | $0.100    | 13%     |
+| Asia Pacific (Tokyo)          | $0.120    | $0.110    | 8%      |
+| Asia Pacific (Sydney)         | $0.115    | $0.100    | 13%     |
+| South America (Sao Paulo)     | $0.120    | $0.100    | 17%     |
+
+  
+**Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance**
+
+| Region                        | Old Price | New Price | Savings |
+| ----------------------------- | --------- | --------- | ------- |
+| US East (Northern Virginia)   | $4,441    | $3,507    | 21%     |
+| US West (Northern California) | $6,044    | $4,410    | 27%     |
+| US West (Oregon)              | $4,441    | $3,507    | 21%     |
+| AWS GovCloud (US)             | $4,835    | $4,217    | 13%     |
+| Europe (Ireland)              | $6,044    | $4,444    | 26%     |
+| Asia Pacific (Singapore)      | $6,044    | $4,820    | 20%     |
+| Asia Pacific (Tokyo)          | $6,569    | $5,129    | 22%     |
+| Asia Pacific (Sydney)         | $6,044    | $4,820    | 20%     |
+| South America (Sao Paulo)     | $8,437    | $6,517    | 23%     |
+
+  
+To learn more about our new prices, please visit [Amazon RDS Pricing](https://aws.amazon.com/rds/pricing). 
+
+ Not only do we constantly strive to drive costs down so as to pass those savings on to you, but we also innovate quickly with new features that enable your important use cases. Following is the list of a few key features:
+
+* [ Up to 30K of Provisioned IOPS ](https://aws.amazon.com/rds/#PIOPS) to meet the performance needs of I/O-intensive, transactional (OLTP) database workloads.
+* [ Data encryption at-rest using Oracle's Transparent Data Encryption ](https://aws.amazon.com/rds/oracle/#VPC) to satisfy enterprise security and compliance requirements.
+* [Read-replica promotion ](http://aws.typepad.com/aws/2012/10/amazon-rds-for-mysql-promote-read-replica.html) to enable disaster recovery in the event the master is degraded.
+* [ Point-and-click access to database logs ](http://aws.typepad.com/aws/2013/03/amazon-rds-access-to-database-log-files.html) to facilitate troubleshooting of database issues.
+
+These features are used by many of our customers who run production workloads on RDS today. And, last week’s announcement of the [RDS Service Level Agreement (SLA) ](https://aws.amazon.com/rds-sla) for Multi-AZ database instances was designed to give you additional confidence to run the most demanding and mission critical workloads dependably on RDS. "
+`;
+
+exports[`should convert markdown tables to html 2`] = `
+"<p>We are excited to announce today that <a href="https://aws.amazon.com/rds">Amazon RDS</a> is lowering prices globally for Single-AZ and Multi-AZ deployments. These price reductions follow a series of innovations we have launched recently (described later in this announcement). </p>
+<p>We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013. </p>
+<p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL. The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. </p>
+<p>For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:</p>
+<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Old Price</th>
+<th>New Price</th>
+<th>Savings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US East (Northern Virginia)</td>
+<td>$0.090</td>
+<td>$0.080</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>US West (Northern California)</td>
+<td>$0.098</td>
+<td>$0.085</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>US West (Oregon)</td>
+<td>$0.090</td>
+<td>$0.080</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>AWS GovCloud (US)</td>
+<td>$0.110</td>
+<td>$0.090</td>
+<td>18%</td>
+</tr>
+<tr>
+<td>Europe (Ireland)</td>
+<td>$0.098</td>
+<td>$0.085</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Singapore)</td>
+<td>$0.115</td>
+<td>$0.100</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Tokyo)</td>
+<td>$0.120</td>
+<td>$0.110</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Sydney)</td>
+<td>$0.115</td>
+<td>$0.100</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>South America (Sao Paulo)</td>
+<td>$0.120</td>
+<td>$0.100</td>
+<td>17%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</strong></p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>Old Price</th>
+<th>New Price</th>
+<th>Savings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US East (Northern Virginia)</td>
+<td>$4,441</td>
+<td>$3,507</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>US West (Northern California)</td>
+<td>$6,044</td>
+<td>$4,410</td>
+<td>27%</td>
+</tr>
+<tr>
+<td>US West (Oregon)</td>
+<td>$4,441</td>
+<td>$3,507</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>AWS GovCloud (US)</td>
+<td>$4,835</td>
+<td>$4,217</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>Europe (Ireland)</td>
+<td>$6,044</td>
+<td>$4,444</td>
+<td>26%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Singapore)</td>
+<td>$6,044</td>
+<td>$4,820</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Tokyo)</td>
+<td>$6,569</td>
+<td>$5,129</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>Asia Pacific (Sydney)</td>
+<td>$6,044</td>
+<td>$4,820</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>South America (Sao Paulo)</td>
+<td>$8,437</td>
+<td>$6,517</td>
+<td>23%</td>
+</tr>
+</tbody>
+</table>
+<p>To learn more about our new prices, please visit <a href="https://aws.amazon.com/rds/pricing">Amazon RDS Pricing</a>. </p>
+<p>Not only do we constantly strive to drive costs down so as to pass those savings on to you, but we also innovate quickly with new features that enable your important use cases. Following is the list of a few key features:</p>
+<ul>
+<li><a href="https://aws.amazon.com/rds/#PIOPS"> Up to 30K of Provisioned IOPS </a> to meet the performance needs of I/O-intensive, transactional (OLTP) database workloads.</li>
+<li><a href="https://aws.amazon.com/rds/oracle/#VPC"> Data encryption at-rest using Oracle's Transparent Data Encryption </a> to satisfy enterprise security and compliance requirements.</li>
+<li><a href="http://aws.typepad.com/aws/2012/10/amazon-rds-for-mysql-promote-read-replica.html">Read-replica promotion </a> to enable disaster recovery in the event the master is degraded.</li>
+<li><a href="http://aws.typepad.com/aws/2013/03/amazon-rds-access-to-database-log-files.html"> Point-and-click access to database logs </a> to facilitate troubleshooting of database issues.</li>
+</ul>
+<p>These features are used by many of our customers who run production workloads on RDS today. And, last week’s announcement of the <a href="https://aws.amazon.com/rds-sla">RDS Service Level Agreement (SLA) </a> for Multi-AZ database instances was designed to give you additional confidence to run the most demanding and mission critical workloads dependably on RDS. </p>"
+`;
+
+exports[`should convert markdown to html 1`] = `
+"<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. </p>
+<table>
+<thead>
+<tr>
+<th><strong>Size</strong></th>
+<th><strong>vCPUs</strong></th>
+<th><strong>Memory</strong> <strong>(GiB)</strong></th>
+<th><strong>Storage (GB)</strong></th>
+<th><strong>EBS-Optimized Bandwidth (Gbps)</strong></th>
+<th><strong>Network Bandwidth (Gbps)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m5.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>EBS Only</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>m5a.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>EBS Only</td>
+<td>3.5</td>
+<td>Up to 10</td>
+</tr>
+<tr>
+<td>m5d.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>2 x 600 NVMe SSD</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>m5.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr>
+<td>m5a.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>m5d.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>4 x 600 NVMe SSD</td>
+<td>10</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://aws.amazon.com/ec2/instance-types/m5/">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Size</strong></th>
+<th><strong>vCPUs</strong></th>
+<th><strong>Memory</strong> <strong>(GiB)</strong></th>
+<th><strong>Storage (GB)</strong></th>
+<th><strong>EBS-Optimized Bandwidth (Gbps)</strong></th>
+<th><strong>Network Bandwidth (Gbps)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r5.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>r5a.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>3.5</td>
+<td>Up to 10</td>
+</tr>
+<tr>
+<td>r5d.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>2 x 600 NVMe SSD</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>r5.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>EBS Only</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr>
+<td>r5a.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>EBS Only</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>r5d.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>4 x 600 NVMe SSD</td>
+<td>10</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://aws.amazon.com/ec2/instance-types/r5/">R5, R5a, and R5d instances</a> are memory optimized instances and are ideal for high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.</p>
+<p>M5, M5a, M5d, R5, R5a, and R5d instances are now available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs and can be purchased as On-Demand, Reserved or Spot Instances. These instances are available in all the AWS Regions where the existing sizes are already available.  </p>
+<p>To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli/">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/instance-types/m5/">Amazon EC2 M5 instance page</a> or the <a href="https://aws.amazon.com/ec2/instance-types/r5/">Amazon EC2 R5 instance page</a>.</p>"
+`;

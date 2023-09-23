@@ -15,6 +15,13 @@ it('should normalize complex html', () => {
   expect(formattedHTML).toMatchSnapshot();
 });
 
+it('should normalize complex table html', () => {
+  const rawHTML = RAW_DATA[1].post_body;
+  const formattedHTML = normalizeHTML(rawHTML);
+
+  expect(formattedHTML).toMatchSnapshot();
+});
+
 it('should fix formatting of a bullet list', () => {
   const rawHTML = RAW_DATA[20].post_body;
   const formattedHTML = normalizeHTML(rawHTML);

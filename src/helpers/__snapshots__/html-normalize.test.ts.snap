@@ -47,44 +47,44 @@ In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/a
 exports[`should fix formatting of a bullet list with bullet list inside single tag 1`] = `
 "<p>                 You can now provision the following AWS resources using CloudFormation.</p>
 <p>&#x2022; <strong>AWS::EMR::SecurityConfiguration</strong></p>
-<p style="margin-left: 40px;">o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html">Create</a> an Amazon EMR security configuration, which is stored in the service and can be specified when a cluster is created.</p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html">Create</a> an Amazon EMR security configuration, which is stored in the service and can be specified when a cluster is created.</p>
 <p>CloudFormation has also updated support for the following resources:</p>
 <p>&#x2022; <strong>AWS::AutoScaling::LifecycleHook</strong></p>
-<p style="margin-left: 40px;">o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-notificationtargetarn">NotificationTargetARN</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-rolearn">RoleARN</a> properties are now optional for <a href="https://aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html">AWS::AutoScaling::LifecycleHook</a>.</p>
+<p>o The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-notificationtargetarn">NotificationTargetARN</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html#cfn-as-lifecyclehook-rolearn">RoleARN</a> properties are now optional for <a href="https://aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html">AWS::AutoScaling::LifecycleHook</a>.</p>
 <p>&#x2022; <strong>AWS::CloudWatch::Alarm</strong></p>
-<p style="margin-left: 40px;">o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html">Create</a> a CloudWatch alarm using the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-evaluatelowsamplecountpercentile">EvaluateLowSampleCountPercentile</a>, <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-extendedstatistic">ExtendedStatistic</a>, and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-treatmissingdata">TreatMissingData</a> properties.</p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html">Create</a> a CloudWatch alarm using the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-evaluatelowsamplecountpercentile">EvaluateLowSampleCountPercentile</a>, <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-extendedstatistic">ExtendedStatistic</a>, and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-treatmissingdata">TreatMissingData</a> properties.</p>
 <p>&#x2022; <strong>AWS::EC2::SpotFleet</strong></p>
-<p style="margin-left: 40px;">o Now CloudFormation supports mutable changes to Spot fleet properties. The following properties of the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a> property support&#xa0;Replacement&#xa0;updates:</p>
-<p style="margin-left: 80px;">&#x2022;&#xa0;AllocationStrategy<br>
+<p>o Now CloudFormation supports mutable changes to Spot fleet properties. The following properties of the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a> property support&#xa0;Replacement&#xa0;updates:</p>
+<p>&#x2022;&#xa0;AllocationStrategy<br>
 &#x2022;&#xa0;IamFleetRole<br>
 &#x2022;&#xa0;LaunchSpecifications<br>
 &#x2022;&#xa0;SpotPrice<br>
 &#x2022;&#xa0;TerminateInstancesWithExpiration<br>
 &#x2022;&#xa0;ValidFrom<br>
 &#x2022;&#xa0;ValidUntil</p>
-<p style="margin-left: 40px;">o The following properties of the&#xa0;<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a>&#xa0;property support&#xa0;No interruption&#xa0;updates:</p>
-<p style="margin-left: 80px;">&#x2022;&#xa0;ExcessCapacityTerminationPolicy<br>
+<p>o The following properties of the&#xa0;<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-spotfleet-spotfleetrequestconfigdata.html">SpotFleetRequestConfigData</a>&#xa0;property support&#xa0;No interruption&#xa0;updates:</p>
+<p>&#x2022;&#xa0;ExcessCapacityTerminationPolicy<br>
 &#x2022;&#xa0;TargetCapacity</p>
 <p>&#x2022; <strong>AWS::EMR::InstanceGroupConfig</strong></p>
-<p style="margin-left: 40px;">o Use <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy">AutoScalingPolicy</a> property to support Auto Scaling for Amazon EMR task instance groups.</p>
+<p>o Use <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy">AutoScalingPolicy</a> property to support Auto Scaling for Amazon EMR task instance groups.</p>
 <p>&#x2022; <strong>AWS::Events::Rule</strong></p>
-<p style="margin-left: 40px;">o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-rolearn">RoleArn</a> property on the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html">Target</a> data type to specify the IAM role. The&#xa0;RoleArn&#xa0;property is deprecated on the&#xa0;Rule&#xa0;resource.</p>
+<p>o <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html#cfn-events-rule-target-rolearn">RoleArn</a> property on the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-events-rule-target.html">Target</a> data type to specify the IAM role. The&#xa0;RoleArn&#xa0;property is deprecated on the&#xa0;Rule&#xa0;resource.</p>
 <p>&#x2022;	<strong>AWS::Kinesis::Stream</strong></p>
-<p style="margin-left: 40px;">o	The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-shardcount">ShardCount</a> property for <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html?shortFooter=truel">AWS::Kinesis::Stream</a> now supports No interruption updates.  Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-retentionperiodhourst">RetentionPeriodHours</a> property to configure the number of hours for the data records stored in shards to remain accessible</p>
+<p>o	The <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-shardcount">ShardCount</a> property for <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html?shortFooter=truel">AWS::Kinesis::Stream</a> now supports No interruption updates.  Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-retentionperiodhourst">RetentionPeriodHours</a> property to configure the number of hours for the data records stored in shards to remain accessible</p>
 <p>&#x2022;	<strong>AWS::Lambda::Function</strong></p>
-<p style="margin-left: 40px;">o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig">TracingConfig</a> property to configure tracing settings for your AWS Lambda function. For more information about tracing Lambda functions, see <a href="http://docs.aws.amazon.com/lambda/latest/dg/lambda-x-ray.html#using-x-ray">Tracing Lambda-Based Applications with AWS X-Ray</a> in the AWS Lambda Developer Guide.</p>
+<p>o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html">Use</a> the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig">TracingConfig</a> property to configure tracing settings for your AWS Lambda function. For more information about tracing Lambda functions, see <a href="http://docs.aws.amazon.com/lambda/latest/dg/lambda-x-ray.html#using-x-ray">Tracing Lambda-Based Applications with AWS X-Ray</a> in the AWS Lambda Developer Guide.</p>
 <p>&#x2022;	<strong>AWS::Redshift::Cluster</strong></p>
-<p style="margin-left: 40px;">o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Tags</a> property to specify tags to associate with the Amazon Redshift cluster resource.</p>
+<p>o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html">Tags</a> property to specify tags to associate with the Amazon Redshift cluster resource.</p>
 <p>&#x2022;	<strong>AWS::Redshift::ClusterParameterGroup</strong></p>
-<p style="margin-left: 40px;">o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html">Tags</a> property to specify tags to associate with the Amazon Redshift parameter group resource.</p>
+<p>o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html">Tags</a> property to specify tags to associate with the Amazon Redshift parameter group resource.</p>
 <p>&#x2022;	<strong>AWS::Redshift::ClusterSecurityGroup</strong></p>
-<p style="margin-left: 40px;">o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group. </p>
+<p>o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group. </p>
 <p>&#x2022;	<strong>AWS::Redshift::ClusterSubnetGroup</strong></p>
-<p style="margin-left: 40px;">o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html">Tags</a> property to specify resource tags on an Amazon Redshift subnet group.</p>
+<p>o	Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html">Tags</a> property to specify resource tags on an Amazon Redshift subnet group.</p>
 <p>&#x2022;	<strong>AWS::RDS::DBCluster</strong></p>
-<p style="margin-left: 40px;">o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html">Added</a> the ReadEndpoint.Address attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
+<p>o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html">Added</a> the ReadEndpoint.Address attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
 <p>&#x2022;	<strong>AWS::S3::Bucket</strong></p>
-<p style="margin-left: 40px;">o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html">Added</a> the Amazon Resource Name ( Arn) attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
+<p>o	<a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html">Added</a> the Amazon Resource Name ( Arn) attribute to the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html">Fn::GetAtt</a> intrinsic function.</p>
 <p>Please visit our website for more information on AWS CloudFormation:<br>
 &#x2022;	<a href="https://aws.amazon.com/cloudformation">Product Page</a><br>
 &#x2022;	<a href="https://aws.amazon.com/documentation/cloudformation">Documentation</a><br>
@@ -94,322 +94,244 @@ exports[`should fix formatting of a bullet list with bullet list inside single t
 exports[`should format a table w/o unnecessary styles 1`] = `
 "<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. &#xa0;</p>
 
-<table class="MsoTableGrid" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" cellspacing="0" cellpadding="0" border="1">
- <tbody><thead><tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
-  <th><td style="width: 85.5pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Size</span></strong></p>
-  </td></th>
-  <th><td style="width: 49.7pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">vCPUs</span></strong></p>
-  </td></th>
-  <th><td style="width: .75in; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Memory</span></strong></p>
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">(GiB)</span></strong></p>
-  </td></th>
-  <th><td style="width: 1.55in; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Storage (GB)</span></strong></p>
-  </td></th>
-  <th><td style="width: 85.2pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS-Optimized Bandwidth (Gbps)</span></strong></p>
-  </td></th>
-  <th><td style="width: 81.5pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Network Bandwidth (Gbps)</span></strong></p>
-  </td></th>
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
+ <thead><tr>
+  <th>
+  <p align="center"><strong><span>Size</span></strong></p>
+  </th>
+  <th>
+  <p align="center"><strong><span>vCPUs</span></strong></p>
+  </th>
+  <th>
+  <p align="center"><strong><span>Memory</span></strong></p>
+  <p align="center"><strong><span>(GiB)</span></strong></p>
+  </th>
+  <th>
+  <p align="center"><strong><span>Storage (GB)</span></strong></p>
+  </th>
+  <th>
+  <p align="center"><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
+  </th>
+  <th>
+  <p align="center"><strong><span>Network Bandwidth (Gbps)</span></strong></p>
+  </th>
  </tr></thead>
- <tbody><tr style="mso-yfti-irow: 1;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5.8xlarge</span></p>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5.8xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">128</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">5</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>5</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>10</span></p>
   </td>
- </tr><tr style="mso-yfti-irow: 2;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5a.8xlarge</span></p>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5a.8xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">128</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">3.5</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>3.5</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Up to 10</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>Up to 10</span></p>
   </td>
- </tr><tr style="mso-yfti-irow: 3;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5d.8xlarge</span></p>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5d.8xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>32</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">128</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>128</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">2 x 600 NVMe SSD</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>2 x 600 NVMe SSD</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">5</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>5</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>10</span></p>
   </td>
- </tr><tr style="mso-yfti-irow: 4;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5.16xlarge</span></p>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5.16xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>10</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">20</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>20</span></p>
   </td>
- </tr><tr style="mso-yfti-irow: 5;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5a.16xlarge</span></p>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5a.16xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>EBS Only</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">7</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>7</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">12</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>12</span></p>
   </td>
- </tr><tr style="mso-yfti-irow: 6; mso-yfti-lastrow: yes;">
-  <td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">m5d.16xlarge</span></p>
+ </tr>
+ <tr>
+  <td width="114" valign="top">
+  <p><span>m5d.16xlarge</span></p>
   </td>
-  <td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+  <td width="66" valign="top">
+  <p align="center"><span>64</span></p>
   </td>
-  <td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+  <td width="72" valign="top">
+  <p align="center"><span>256</span></p>
   </td>
-  <td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">4 x 600 NVMe SSD</span></p>
+  <td width="149" valign="top">
+  <p align="center"><span>4 x 600 NVMe SSD</span></p>
   </td>
-  <td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+  <td width="114" valign="top">
+  <p align="center"><span>10</span></p>
   </td>
-  <td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top">
-  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">20</span></p>
+  <td width="109" valign="top">
+  <p align="center"><span>20</span></p>
   </td>
- </tr></tbody>
- 
- 
- 
- 
- 
-</tbody></table>
-<p><style>
-&lt;!--
- /* Font Definitions */
- @font-face
-	{font-family:&quot;Cambria Math&quot;;
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-536859905 -1073732485 9 0 511 0;}
-@font-face
-	{font-family:&quot;Amazon Ember&quot;;
-	panose-1:2 11 6 3 2 2 4 2 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1610611985 1342185563 40 0 159 0;}
-@font-face
-	{font-family:&quot;Malgun Gothic&quot;;
-	panose-1:2 11 5 3 2 0 0 2 0 4;
-	mso-font-charset:129;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
-@font-face
-	{font-family:&quot;\\@Malgun Gothic&quot;;
-	mso-font-charset:129;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-1879048145 701988091 18 0 524289 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:&quot;&quot;;
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:&quot;Calibri&quot;,sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:&quot;Malgun Gothic&quot;;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:&quot;Times New Roman&quot;;
-	mso-bidi-theme-font:minor-bidi;
-	mso-fareast-language:KO;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-family:&quot;Calibri&quot;,sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:&quot;Malgun Gothic&quot;;
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:&quot;Times New Roman&quot;;
-	mso-bidi-theme-font:minor-bidi;
-	mso-fareast-language:KO;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
---&gt;
-</style></p>
+ </tr>
+</table>
+
 <p><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
 
-<table class="MsoTableGrid" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" cellspacing="0" cellpadding="0" border="1">
-<tbody><thead><tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;"><th><td style="width: 85.5pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Size</span></strong></p>
-</td></th>
-<th><td style="width: 49.7pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">vCPUs</span></strong></p>
-</td></th>
-<th><td style="width: .75in; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Memory</span></strong></p>
-<p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">(GiB)</span></strong></p>
-</td></th>
-<th><td style="width: 1.55in; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Storage (GB)</span></strong></p>
-</td></th>
-<th><td style="width: 85.2pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS-Optimized Bandwidth (Gbps)</span></strong></p>
-</td></th>
-<th><td style="width: 81.5pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><strong><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Network Bandwidth (Gbps)</span></strong></p>
-</td></th>
-</tr></thead><tbody><tr style="mso-yfti-irow: 1;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5.8xlarge</span></p>
+<table cellspacing="0" cellpadding="0" border="1" style="width: 100%;">
+<thead><tr><th><p><strong><span>Size</span></strong></p>
+</th>
+<th><p><strong><span>vCPUs</span></strong></p>
+</th>
+<th><p><strong><span>Memory</span></strong></p>
+<p><strong><span>(GiB)</span></strong></p>
+</th>
+<th><p><strong><span>Storage (GB)</span></strong></p>
+</th>
+<th><p><strong><span>EBS-Optimized Bandwidth (Gbps)</span></strong></p>
+</th>
+<th><p><strong><span>Network Bandwidth (Gbps)</span></strong></p>
+</th>
+</tr></thead><tr><td width="114" valign="top"><p><span>r5.8xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+<td width="66" valign="top"><p><span>32</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+<td width="72" valign="top"><p><span>256</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">5</span></p>
+<td width="114" valign="top"><p><span>5</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+<td width="109" valign="top"><p><span>10</span></p>
 </td>
-</tr><tr style="mso-yfti-irow: 2;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5a.8xlarge</span></p>
+</tr><tr><td width="114" valign="top"><p><span>r5a.8xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+<td width="66" valign="top"><p><span>32</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+<td width="72" valign="top"><p><span>256</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">3.5</span></p>
+<td width="114" valign="top"><p><span>3.5</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">Up to 10</span></p>
+<td width="109" valign="top"><p><span>Up to 10</span></p>
 </td>
-</tr><tr style="mso-yfti-irow: 3;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5d.8xlarge</span></p>
+</tr><tr><td width="114" valign="top"><p><span>r5d.8xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">32</span></p>
+<td width="66" valign="top"><p><span>32</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">256</span></p>
+<td width="72" valign="top"><p><span>256</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">2 x 600 NVMe SSD</span></p>
+<td width="149" valign="top"><p><span>2 x 600 NVMe SSD</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">5</span></p>
+<td width="114" valign="top"><p><span>5</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+<td width="109" valign="top"><p><span>10</span></p>
 </td>
-</tr><tr style="mso-yfti-irow: 4;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5.16xlarge</span></p>
+</tr><tr><td width="114" valign="top"><p><span>r5.16xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+<td width="66" valign="top"><p><span>64</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">512</span></p>
+<td width="72" valign="top"><p><span>512</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+<td width="114" valign="top"><p><span>10</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">20</span></p>
+<td width="109" valign="top"><p><span>20</span></p>
 </td>
-</tr><tr style="mso-yfti-irow: 5;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5a.16xlarge</span></p>
+</tr><tr><td width="114" valign="top"><p><span>r5a.16xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+<td width="66" valign="top"><p><span>64</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">512</span></p>
+<td width="72" valign="top"><p><span>512</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">EBS Only</span></p>
+<td width="149" valign="top"><p><span>EBS Only</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">7</span></p>
+<td width="114" valign="top"><p><span>7</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">12</span></p>
+<td width="109" valign="top"><p><span>12</span></p>
 </td>
-</tr><tr style="mso-yfti-irow: 6; mso-yfti-lastrow: yes;"><td style="width: 85.5pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">r5d.16xlarge</span></p>
+</tr><tr><td width="114" valign="top"><p><span>r5d.16xlarge</span></p>
 </td>
-<td style="width: 49.7pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="66" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">64</span></p>
+<td width="66" valign="top"><p><span>64</span></p>
 </td>
-<td style="width: .75in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="72" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">512</span></p>
+<td width="72" valign="top"><p><span>512</span></p>
 </td>
-<td style="width: 1.55in; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="149" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">4 x 600 NVMe SSD</span></p>
+<td width="149" valign="top"><p><span>4 x 600 NVMe SSD</span></p>
 </td>
-<td style="width: 85.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="114" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">10</span></p>
+<td width="114" valign="top"><p><span>10</span></p>
 </td>
-<td style="width: 81.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;" width="109" valign="top"><p class="MsoNormal" style="text-align: center;"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">20</span></p>
+<td width="109" valign="top"><p><span>20</span></p>
 </td>
-</tr></tbody></tbody></table>
+</tr></table>
 
 <p><a href="https://aws.amazon.com/ec2/instance-types/r5/" target="_blank">R5, R5a, and R5d instances</a> are memory optimized instances and are ideal for high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.</p>
 <p>M5, M5a, M5d, R5, R5a, and R5d instances are now available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs and can be purchased as On-Demand, Reserved or Spot Instances. These instances are available in all the AWS Regions where the existing sizes are already available.<br>
 </p>
-<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">To get started, visit the&#xa0;</span><a href="https://console.aws.amazon.com/" target="_blank">AWS Management Console</a><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">,&#xa0;</span><a href="https://aws.amazon.com/cli/" target="_blank">AWS Command Line Interface (CLI)</a><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">, and&#xa0;</span><a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html" target="_blank">AWS SDKs</a><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">. To learn more, visit the&#xa0;</span><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">Amazon EC2 M5 instance page</a><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;"> or the </span><a href="https://aws.amazon.com/ec2/instance-types/r5/" target="_blank">Amazon EC2 R5 instance page</a><span style="font-size: 11.0pt; font-family: &quot;Amazon Ember&quot;,sans-serif; mso-fareast-font-family: &quot;Times New Roman&quot;; color: #333333;">.</span></p>"
+<p><span>To get started, visit the&#xa0;</span><a href="https://console.aws.amazon.com/" target="_blank">AWS Management Console</a><span>,&#xa0;</span><a href="https://aws.amazon.com/cli/" target="_blank">AWS Command Line Interface (CLI)</a><span>, and&#xa0;</span><a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html" target="_blank">AWS SDKs</a><span>. To learn more, visit the&#xa0;</span><a href="https://aws.amazon.com/ec2/instance-types/m5/" target="_blank">Amazon EC2 M5 instance page</a><span> or the </span><a href="https://aws.amazon.com/ec2/instance-types/r5/" target="_blank">Amazon EC2 R5 instance page</a><span>.</span></p>"
 `;
 
 exports[`should normalize complex html 1`] = `
@@ -422,21 +344,21 @@ exports[`should normalize complex html 1`] = `
 </p>
 <p>AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities.&#xa0;</p>
 <p>To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the <a href="https://aws.amazon.com/launchwizard">Launch Wizard page</a>, <a href="https://aws.amazon.com/launchwizard/faq">FAQ</a>, and <a href="https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html">overview documentation</a>.</p>
-<table>
-<tbody><thead><tr><th><td>
-<strong>Operating system version</strong></td></th>
-<th><td><strong>Single-Instance deployment</strong></td></th>
-<th><td>
-<strong>ASCS</strong></td></th>
-<th><td>
-<strong>ERS</strong></td></th>
-<th><td>
-<strong>PAS</strong></td></th>
-<th><td>
-<strong>SAP HANA database</strong></td></th>
-<th><td>
-<strong>SAP HANA database in HA cluster</strong></td></th>
-</tr></thead><tbody><tr><td>
+<table style="width: 100%;">
+<thead><tr><th>
+<strong>Operating system version</strong></th>
+<th><strong>Single-Instance deployment</strong></th>
+<th>
+<strong>ASCS</strong></th>
+<th>
+<strong>ERS</strong></th>
+<th>
+<strong>PAS</strong></th>
+<th>
+<strong>SAP HANA database</strong></th>
+<th>
+<strong>SAP HANA database in HA cluster</strong></th>
+</tr></thead><tr><td>
 Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
 <td>
 &#x2713;</td>
@@ -628,5 +550,171 @@ SuSE-Linux-12-SP5-HVM</td>
 <td>
 &#x2713;</td>
 <td>&#xa0;</td>
-</tr></tbody></tbody></table>"
+</tr></table>"
+`;
+
+exports[`should normalize complex table html 1`] = `
+"<p>We are excited to announce today that <a href="https://aws.amazon.com/rds">Amazon RDS</a> is lowering prices globally for Single-AZ and Multi-AZ deployments. These price reductions follow a series of innovations we have launched recently (described later in this announcement). </p>
+<p> We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013. </p>
+<p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL.  The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. </p>
+<p>For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:</p>
+<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance </strong></p>
+<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" style="width: 100%;">
+<thead><tr valign="top">
+<th><span>Region</span></th>
+		<th><span>Old Price</span></th>
+		<th><span>New Price</span></th>
+	       <th><span>Savings</span></th>
+        </tr></thead>
+<tr>
+<td><span>US East (Northern Virginia)</span></td>
+		<td><span>&#x24;0.090</span></td>
+		<td><span>&#x24;0.080</span></td>
+	       <td><span>11%</span></td>
+       
+       </tr>
+<tr>
+<td><span>US West (Northern California)</span></td>
+		<td><span>&#x24;0.098</span></td>
+		<td><span>&#x24;0.085</span></td>
+	       <td><span>13%</span></td>
+       
+       </tr>
+<tr>
+<td><span>US West (Oregon)</span></td>
+		<td><span>&#x24;0.090</span></td>
+		<td><span>&#x24;0.080</span></td>
+	       <td><span>11%</span></td>
+       
+       </tr>
+<tr>
+<td><span>AWS GovCloud (US)</span></td>
+		<td><span>&#x24;0.110</span></td>
+		<td><span>&#x24;0.090</span></td>
+	       <td><span>18%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Europe (Ireland)</span></td>
+		<td><span>&#x24;0.098</span></td>
+		<td><span>&#x24;0.085</span></td>
+	       <td><span>13%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Singapore)</span></td>
+		<td><span>&#x24;0.115</span></td>
+		<td><span>&#x24;0.100</span></td>
+	       <td><span>13%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Tokyo)</span></td>
+		<td><span>&#x24;0.120</span></td>
+		<td><span>&#x24;0.110</span></td>
+	       <td><span>8%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Sydney)</span></td>
+		<td><span>&#x24;0.115</span></td>
+		<td><span>&#x24;0.100</span></td>
+	       <td><span>13%</span></td>
+       
+       </tr>
+<tr>
+<td><span>South America (Sao Paulo)</span></td>
+		<td><span>&#x24;0.120</span></td>
+		<td><span>&#x24;0.100</span></td>
+	       <td><span>17%</span></td>
+       
+       </tr>
+</table>
+<br>
+<p><strong>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</strong></p>
+<table border="1" cellspacing="1" cellpadding="10" width="351" height="200" style="width: 100%;">
+<thead><tr valign="top">
+<th><span>Region</span></th>
+		<th><span>Old Price</span></th>
+		<th><span>New Price</span></th>
+	       <th><span>Savings</span></th>
+        </tr></thead>
+<tr>
+<td><span>US East (Northern Virginia)</span></td>
+		<td><span>&#x24;4,441</span></td>
+		<td><span>&#x24;3,507</span></td>
+	       <td><span>21%</span></td>
+       
+       </tr>
+<tr>
+<td><span>US West (Northern California)</span></td>
+		<td><span>&#x24;6,044</span></td>
+		<td><span>&#x24;4,410</span></td>
+	       <td><span>27%</span></td>
+       
+       </tr>
+<tr>
+<td><span>US West (Oregon)</span></td>
+		<td><span>&#x24;4,441</span></td>
+		<td><span>&#x24;3,507</span></td>
+	       <td><span>21%</span></td>
+       
+       </tr>
+<tr>
+<td><span>AWS GovCloud (US)</span></td>
+		<td><span>&#x24;4,835</span></td>
+		<td><span>&#x24;4,217</span></td>
+	       <td><span>13%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Europe (Ireland)</span></td>
+		<td><span>&#x24;6,044</span></td>
+		<td><span>&#x24;4,444</span></td>
+	       <td><span>26%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Singapore)</span></td>
+		<td><span>&#x24;6,044</span></td>
+		<td><span>&#x24;4,820</span></td>
+	       <td><span>20%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Tokyo)</span></td>
+		<td><span>&#x24;6,569</span></td>
+		<td><span>&#x24;5,129</span></td>
+	       <td><span>22%</span></td>
+       
+       </tr>
+<tr>
+<td><span>Asia Pacific (Sydney)</span></td>
+		<td><span>&#x24;6,044</span></td>
+		<td><span>&#x24;4,820</span></td>
+	       <td><span>20%</span></td>
+       
+       </tr>
+<tr>
+<td><span>South America (Sao Paulo)</span></td>
+		<td><span>&#x24;8,437</span></td>
+		<td><span>&#x24;6,517</span></td>
+	       <td><span>23%</span></td>
+       
+       </tr>
+</table>
+<br>
+<p>To learn more about our new prices, please visit <a href="https://aws.amazon.com/rds/pricing">Amazon RDS Pricing</a>. </p>
+<p> Not only do we constantly strive to drive costs down so as to pass those savings on to you, but we also innovate quickly with new features that enable your important use cases. Following is the list of a few key features:</p>
+<ul>
+<li>
+<a href="https://aws.amazon.com/rds/#PIOPS"> Up to 30K of Provisioned IOPS </a> to meet the performance needs of I/O-intensive, transactional (OLTP) database workloads.</li>
+<li>
+<a href="https://aws.amazon.com/rds/oracle/#VPC"> Data encryption at-rest using Oracle&apos;s Transparent Data Encryption </a> to satisfy enterprise security and compliance requirements.</li>
+<li>
+<a href="http://aws.typepad.com/aws/2012/10/amazon-rds-for-mysql-promote-read-replica.html">Read-replica promotion </a> to enable disaster recovery in the event the master is degraded.</li>
+<li>
+<a href="http://aws.typepad.com/aws/2013/03/amazon-rds-access-to-database-log-files.html"> Point-and-click access to database logs </a> to facilitate troubleshooting of database issues.</li>
+</ul>
+<p>These features are used by many of our customers who run production workloads on RDS today. And, last week&#x2019;s announcement of the <a href="https://aws.amazon.com/rds-sla">RDS Service Level Agreement (SLA) </a> for Multi-AZ database instances was designed to give you additional confidence to run the most demanding and mission critical workloads dependably on RDS. </p>"
 `;

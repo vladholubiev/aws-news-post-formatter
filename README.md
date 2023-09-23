@@ -28,6 +28,7 @@ getCustomTags('AWS Fargate Supports Container Workloads Regulated By ISO, PCI, S
 - **Normalizes relative URLs to absolute URLs**
 - Removes all `style` attributes, `style` tags, `class` attributes
 - Normalizes tables to be full width
+- Fixes table formatting to have headers
 - Removes empty paragraphs and links
 - Normalizes bullet points in lists
 - Fixes double `<b>` tags and replaces them with `<strong>` tags
