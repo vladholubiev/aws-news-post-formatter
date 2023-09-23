@@ -15,9 +15,14 @@ It is meant to be used to prettify outputs of HTML from [aws-news-api-client](ht
 It also parses custom tags based on the post headline.
 
 ```js
-const {getFormattedHTML, getCustomTags} = require('@vladholubiev/aws-news-post-formatter');
+const {
+  getFormattedHTML,
+  getCustomTags,
+  convertHTMLToText,
+} = require('@vladholubiev/aws-news-post-formatter');
 
 getFormattedHTML('<p>Some HTML</p>'); // returns formated and clean up HTML
+convertHTMLToText('<p>Some HTML</p>'); // returns well-formatted text from HTML
 
 getCustomTags('AWS Fargate Supports Container Workloads Regulated By ISO, PCI, SOC, and HIPAA'); // ['iso', 'pci-dss', 'soc', 'hipaa']
 ```

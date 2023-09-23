@@ -1,8 +1,8 @@
-import {load} from 'cheerio';
+import {load} from 'cheerio/lib/slim';
 import {minify} from 'html-minifier';
 
 export function getFormattedHTML(rawHTML: string): string {
-  const $ = load(rawHTML);
+  const $ = load(rawHTML, null, false);
 
   $('*').each((_, element) => {
     $(element).removeAttr('style');
@@ -126,7 +126,7 @@ export function getFormattedHTML(rawHTML: string): string {
   //     });
   // });
 
-  const finalHTML = $('body').html() || '';
+  const finalHTML = $.root().html() || '';
 
   return minify(finalHTML, {
     collapseBooleanAttributes: true,
