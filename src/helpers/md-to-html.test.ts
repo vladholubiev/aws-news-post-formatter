@@ -181,265 +181,178 @@ it('should convert complex markdown to html', () => {
       
     ****SAP HANA database in HA cluster**
 
-      
     Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP5-For-SAP-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP5-For-SAP-BYOS-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-15-SP1-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-15-SP1-For-SAP-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-15-SP1-For-SAP-BYOS-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM
 
-      
     SuSE-Linux-15-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-15-For-SAP-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-15-For-SAP-BYOS-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP4-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP4-For-SAP-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP4-For-SAP-BYOS-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓
 
-      
     SuSE-Linux-12-SP5-HVM
 
-      
     ✓
 
-      
     ✓
 
-      
     ✓"
   `);
 
