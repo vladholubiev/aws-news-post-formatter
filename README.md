@@ -18,7 +18,7 @@ It also parses custom tags based on the post headline.
 const {
   getFormattedHTML,
   getCustomTags,
-  convertHTMLToText,
+  htmlToText,
 } = require('@vladholubiev/aws-news-post-formatter');
 
 getFormattedHTML('<p>Some HTML</p>'); // returns formated and clean up HTML
