@@ -1,6 +1,7 @@
 # aws-news-post-formatter [![CircleCI](https://circleci.com/gh/vladgolubev/aws-news-post-formatter/tree/master.svg?style=svg)](https://circleci.com/gh/vladgolubev/aws-news-post-formatter/tree/master)![](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
-> Formats & fixes HTML from AWS News API; Extracts custom tags based on the headline
+> Fixes HTML from AWS News API and converts it to a clean html, markdown and text;
+> Extracts custom tags based on the headline
 
 ## Install
 
@@ -15,14 +16,9 @@ It is meant to be used to prettify outputs of HTML from [aws-news-api-client](ht
 It also parses custom tags based on the post headline.
 
 ```js
-const {
-  getFormattedHTML,
-  getCustomTags,
-  htmlToText,
-} = require('@vladholubiev/aws-news-post-formatter');
+const {getPostBody, getCustomTags} = require('@vladholubiev/aws-news-post-formatter');
 
-getFormattedHTML('<p>Some HTML</p>'); // returns formated and clean up HTML
-convertHTMLToText('<p>Some HTML</p>'); // returns well-formatted text from HTML
+getPostBody('<p>Some HTML</p>'); // returns {html, markdown, text}
 
 getCustomTags('AWS Fargate Supports Container Workloads Regulated By ISO, PCI, SOC, and HIPAA'); // ['iso', 'pci-dss', 'soc', 'hipaa']
 ```
@@ -35,7 +31,11 @@ getCustomTags('AWS Fargate Supports Container Workloads Regulated By ISO, PCI, S
 - Removes empty paragraphs and links
 - Normalizes bullet points in lists
 - Fixes double `<b>` tags and replaces them with `<strong>` tags
-- Minifies the output HTML
+
+### Moreover
+
+- Converts HTML to markdown with table support
+- Converts HTML to text with readable tables!
 
 ### Custom tags extraction
 

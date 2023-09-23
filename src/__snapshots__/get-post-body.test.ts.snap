@@ -1,120 +1,213 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should return a formatted html 1`] = `
-"<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. <strong>Size</strong> <strong>vCPUs</strong></p>
-<p><strong>Memory</strong></p>
-<p><strong>(GiB)</strong> <strong>Storage (GB)</strong> <strong>EBS-Optimized Bandwidth (Gbps)</strong> <strong>Network Bandwidth (Gbps)</strong>m5.8xlarge32128EBS Only510m5a.8xlarge32128EBS Only3.5Up to 10m5d.8xlarge321282 x 600 NVMe SSD510m5.16xlarge64256EBS Only1020m5a.16xlarge64256EBS Only712m5d.16xlarge642564 x 600 NVMe SSD10</p>
-<p>20</p>
-<p><a href="https://aws.amazon.com/ec2/instance-types/m5/">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.<strong>Size</strong> <strong>vCPUs</strong></p>
-<p><strong>Memory</strong></p>
-<p><strong>(GiB)</strong> <strong>Storage (GB)</strong> <strong>EBS-Optimized Bandwidth (Gbps)</strong> <strong>Network Bandwidth (Gbps)</strong>r5.8xlarge32256EBS Only510r5a.8xlarge32256EBS Only3.5Up to 10r5d.8xlarge322562 x 600 NVMe SSD510r5.16xlarge64512EBS Only1020r5a.16xlarge64512EBS Only712r5d.16xlarge645124 x 600 NVMe SSD10</p>
-<p>20</p>
+"<p>Starting today, Amazon EC2 M5, M5a, M5d, R5, R5a, and R5d instances will be available in new 8xlarge and 16xlarge sizes. The specifications for the new sizes are in the tables below. With these new instance sizes, customers who are currently using either m4.10xlarge, m4.16xlarge, r4.8xlarge, or r4.16xlarge now have an easy upgrade path to the latest generation of instances. </p>
+<table>
+<thead>
+<tr>
+<th><strong>Size</strong></th>
+<th><strong>vCPUs</strong></th>
+<th><strong>Memory</strong> <strong>(GiB)</strong></th>
+<th><strong>Storage (GB)</strong></th>
+<th><strong>EBS-Optimized Bandwidth (Gbps)</strong></th>
+<th><strong>Network Bandwidth (Gbps)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m5.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>EBS Only</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>m5a.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>EBS Only</td>
+<td>3.5</td>
+<td>Up to 10</td>
+</tr>
+<tr>
+<td>m5d.8xlarge</td>
+<td>32</td>
+<td>128</td>
+<td>2 x 600 NVMe SSD</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>m5.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr>
+<td>m5a.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>m5d.16xlarge</td>
+<td>64</td>
+<td>256</td>
+<td>4 x 600 NVMe SSD</td>
+<td>10</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://aws.amazon.com/ec2/instance-types/m5/">M5, M5a, and M5d instances</a> are general purpose instances and are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Size</strong></th>
+<th><strong>vCPUs</strong></th>
+<th><strong>Memory</strong> <strong>(GiB)</strong></th>
+<th><strong>Storage (GB)</strong></th>
+<th><strong>EBS-Optimized Bandwidth (Gbps)</strong></th>
+<th><strong>Network Bandwidth (Gbps)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r5.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>r5a.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>EBS Only</td>
+<td>3.5</td>
+<td>Up to 10</td>
+</tr>
+<tr>
+<td>r5d.8xlarge</td>
+<td>32</td>
+<td>256</td>
+<td>2 x 600 NVMe SSD</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>r5.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>EBS Only</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr>
+<td>r5a.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>EBS Only</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>r5d.16xlarge</td>
+<td>64</td>
+<td>512</td>
+<td>4 x 600 NVMe SSD</td>
+<td>10</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
 <p><a href="https://aws.amazon.com/ec2/instance-types/r5/">R5, R5a, and R5d instances</a> are memory optimized instances and are ideal for high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.</p>
 <p>M5, M5a, M5d, R5, R5a, and R5d instances are now available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs and can be purchased as On-Demand, Reserved or Spot Instances. These instances are available in all the AWS Regions where the existing sizes are already available.  </p>
 <p>To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli/">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/instance-types/m5/">Amazon EC2 M5 instance page</a> or the <a href="https://aws.amazon.com/ec2/instance-types/r5/">Amazon EC2 R5 instance page</a>.</p>"
 `;
 
 exports[`should return a formatted html 2`] = `
-"<p>We are excited to announce today that <a href="https://aws.amazon.com/rds">Amazon RDS</a> is lowering prices globally for Single-AZ and Multi-AZ deployments. These price reductions follow a series of innovations we have launched recently (described later in this announcement).</p>
-<p>We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013.</p>
-<p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL. The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings.</p>
+"<p>We are excited to announce today that <a href="https://aws.amazon.com/rds">Amazon RDS</a> is lowering prices globally for Single-AZ and Multi-AZ deployments. These price reductions follow a series of innovations we have launched recently (described later in this announcement). </p>
+<p>We have reduced the On-Demand prices by as much as 18% for MySQL and Oracle BYOL (Bring Your Own License) and 28% for SQL Server BYOL. All of your On-Demand usage will automatically be charged at the new and lower rates effective June 1, 2013. </p>
+<p>We have also reduced the Reserved Instance (RI) prices by as much as 27% for MySQL and Oracle BYOL. The new prices apply to Reserved Instance purchases made on or after June 11, 2013. With the new pricing, Reserved Instances will provide savings of up to 76% compared to On-Demand instances, so you may want to take this opportunity to review your usage and decide whether to purchase additional Reserved Instances to take advantage of these savings. </p>
 <p>For your quick reference, new On-Demand prices for an M1.Small DB instance, and Total Cost of Ownership (TCO) for an M2.Xlarge DB instance using a 3-Year Heavy Utilization RI are shown in the tables below:</p>
-<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance</strong></p>
-<p>Region</p>
-<p>Old Price</p>
-<p>New Price</p>
-<p>Savings</p>
-<p>US East (Northern Virginia)</p>
-<p>$0.090</p>
-<p>$0.080</p>
-<p>11%</p>
-<p>US West (Northern California)</p>
-<p>$0.098</p>
-<p>$0.085</p>
-<p>13%</p>
-<p>US West (Oregon)</p>
-<p>$0.090</p>
-<p>$0.080</p>
-<p>11%</p>
-<p>AWS GovCloud (US)</p>
-<p>$0.110</p>
-<p>$0.090</p>
-<p>18%</p>
-<p>Europe (Ireland)</p>
-<p>$0.098</p>
-<p>$0.085</p>
-<p>13%</p>
-<p>Asia Pacific (Singapore)</p>
-<p>$0.115</p>
-<p>$0.100</p>
-<p>13%</p>
-<p>Asia Pacific (Tokyo)</p>
-<p>$0.120</p>
-<p>$0.110</p>
-<p>8%</p>
-<p>Asia Pacific (Sydney)</p>
-<p>$0.115</p>
-<p>$0.100</p>
-<p>13%</p>
-<p>South America (Sao Paulo)</p>
-<p>$0.120</p>
-<p>$0.100</p>
-<p>17%</p>
+<p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Single-AZ Deployment Prices for M1.Small DB Instance</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Region Old Price New Price Savings US East (Northern Virginia) $0.090 $0.080 11% US West (Northern California) $0.098 $0.085 13% US West (Oregon) $0.090 $0.080 11% AWS GovCloud (US) $0.110 $0.090 18% Europe (Ireland) $0.098 $0.085 13% Asia Pacific (Singapore) $0.115 $0.100 13% Asia Pacific (Tokyo) $0.120 $0.110 8% Asia Pacific (Sydney) $0.115 $0.100 13% South America (Sao Paulo) $0.120 $0.100 17%</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 <p><strong>Table 2: Amazon RDS for MYSQL and Oracle BYOL Single-AZ Deployment 3-Year TCO for M2.Xlarge DB Instance</strong></p>
-<p>Region</p>
-<p>Old Price</p>
-<p>New Price</p>
-<p>Savings</p>
-<p>US East (Northern Virginia)</p>
-<p>$4,441</p>
-<p>$3,507</p>
-<p>21%</p>
-<p>US West (Northern California)</p>
-<p>$6,044</p>
-<p>$4,410</p>
-<p>27%</p>
-<p>US West (Oregon)</p>
-<p>$4,441</p>
-<p>$3,507</p>
-<p>21%</p>
-<p>AWS GovCloud (US)</p>
-<p>$4,835</p>
-<p>$4,217</p>
-<p>13%</p>
-<p>Europe (Ireland)</p>
-<p>$6,044</p>
-<p>$4,444</p>
-<p>26%</p>
-<p>Asia Pacific (Singapore)</p>
-<p>$6,044</p>
-<p>$4,820</p>
-<p>20%</p>
-<p>Asia Pacific (Tokyo)</p>
-<p>$6,569</p>
-<p>$5,129</p>
-<p>22%</p>
-<p>Asia Pacific (Sydney)</p>
-<p>$6,044</p>
-<p>$4,820</p>
-<p>20%</p>
-<p>South America (Sao Paulo)</p>
-<p>$8,437</p>
-<p>$6,517</p>
-<p>23%</p>
-<p>To learn more about our new prices, please visit <a href="https://aws.amazon.com/rds/pricing">Amazon RDS Pricing</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Region Old Price New Price Savings US East (Northern Virginia) $4,441 $3,507 21% US West (Northern California) $6,044 $4,410 27% US West (Oregon) $4,441 $3,507 21% AWS GovCloud (US) $4,835 $4,217 13% Europe (Ireland) $6,044 $4,444 26% Asia Pacific (Singapore) $6,044 $4,820 20% Asia Pacific (Tokyo) $6,569 $5,129 22% Asia Pacific (Sydney) $6,044 $4,820 20% South America (Sao Paulo) $8,437 $6,517 23%</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>To learn more about our new prices, please visit <a href="https://aws.amazon.com/rds/pricing">Amazon RDS Pricing</a>. </p>
 <p>Not only do we constantly strive to drive costs down so as to pass those savings on to you, but we also innovate quickly with new features that enable your important use cases. Following is the list of a few key features:</p>
 <ul>
-<li><a href="https://aws.amazon.com/rds/#PIOPS">Up to 30K of Provisioned IOPS </a>to meet the performance needs of I/O-intensive, transactional (OLTP) database workloads.</li>
-<li><a href="https://aws.amazon.com/rds/oracle/#VPC">Data encryption at-rest using Oracle's Transparent Data Encryption </a>to satisfy enterprise security and compliance requirements.</li>
-<li><a href="http://aws.typepad.com/aws/2012/10/amazon-rds-for-mysql-promote-read-replica.html">Read-replica promotion </a>to enable disaster recovery in the event the master is degraded.</li>
-<li><a href="http://aws.typepad.com/aws/2013/03/amazon-rds-access-to-database-log-files.html">Point-and-click access to database logs </a>to facilitate troubleshooting of database issues.</li>
+<li><a href="https://aws.amazon.com/rds/#PIOPS"> Up to 30K of Provisioned IOPS </a> to meet the performance needs of I/O-intensive, transactional (OLTP) database workloads.</li>
+<li><a href="https://aws.amazon.com/rds/oracle/#VPC"> Data encryption at-rest using Oracle's Transparent Data Encryption </a> to satisfy enterprise security and compliance requirements.</li>
+<li><a href="http://aws.typepad.com/aws/2012/10/amazon-rds-for-mysql-promote-read-replica.html">Read-replica promotion </a> to enable disaster recovery in the event the master is degraded.</li>
+<li><a href="http://aws.typepad.com/aws/2013/03/amazon-rds-access-to-database-log-files.html"> Point-and-click access to database logs </a> to facilitate troubleshooting of database issues.</li>
 </ul>
-<p>These features are used by many of our customers who run production workloads on RDS today. And, last week’s announcement of the <a href="https://aws.amazon.com/rds-sla">RDS Service Level Agreement (SLA) </a>for Multi-AZ database instances was designed to give you additional confidence to run the most demanding and mission critical workloads dependably on RDS.</p>"
+<p>These features are used by many of our customers who run production workloads on RDS today. And, last week’s announcement of the <a href="https://aws.amazon.com/rds-sla">RDS Service Level Agreement (SLA) </a> for Multi-AZ database instances was designed to give you additional confidence to run the most demanding and mission critical workloads dependably on RDS. </p>"
 `;
 
 exports[`should return a formatted html 3`] = `
-"<p>Starting today, <a href="https://aws.amazon.com/ec2/instance-types/c5/">Amazon EC2 C5 instances</a> will be available in new 12xlarge, 24xlarge, and Bare Metal sizes. These new instances will be powered by custom 2nd Generation Intel Xeon Scalable Processors (based on the Cascade Lake architecture) with sustained all-core turbo frequency of 3.6 GHz and maximum single core turbo frequency of 3.9 GHz. New Cascade Lake processors enable a new feature called Intel DL Boost which will help speed up typical machine learning operations like convolution, and automatically improve inference performance over a wide range of deep learning workloads. The specifications for the new sizes are in the table below. <strong>Size</strong> <strong>vCPUs</strong> <strong>Memory (GiB)</strong> <strong>Instance Storage (GB)</strong> <strong>EBS-Optimized Bandwidth (Gbps)</strong> <strong>Network Bandwidth (Gbps)</strong>c5.12xlarge4896EBS-Only712c5.24xlarge96192EBS-Only1425c5.metal96192EBS-Only14</p>
-<p>25</p>
+"<p>Starting today, <a href="https://aws.amazon.com/ec2/instance-types/c5/">Amazon EC2 C5 instances</a> will be available in new 12xlarge, 24xlarge, and Bare Metal sizes. These new instances will be powered by custom 2nd Generation Intel Xeon Scalable Processors (based on the Cascade Lake architecture) with sustained all-core turbo frequency of 3.6 GHz and maximum single core turbo frequency of 3.9 GHz. New Cascade Lake processors enable a new feature called Intel DL Boost which will help speed up typical machine learning operations like convolution, and automatically improve inference performance over a wide range of deep learning workloads. The specifications for the new sizes are in the table below. </p>
+<table>
+<thead>
+<tr>
+<th><strong>Size</strong></th>
+<th><strong>vCPUs</strong></th>
+<th><strong>Memory (GiB)</strong></th>
+<th><strong>Instance Storage (GB)</strong></th>
+<th><strong>EBS-Optimized Bandwidth (Gbps)</strong></th>
+<th><strong>Network Bandwidth (Gbps)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>c5.12xlarge</td>
+<td>48</td>
+<td>96</td>
+<td>EBS-Only</td>
+<td>7</td>
+<td>12</td>
+</tr>
+<tr>
+<td>c5.24xlarge</td>
+<td>96</td>
+<td>192</td>
+<td>EBS-Only</td>
+<td>14</td>
+<td>25</td>
+</tr>
+<tr>
+<td>c5.metal</td>
+<td>96</td>
+<td>192</td>
+<td>EBS-Only</td>
+<td>14</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
 <p>C5 instances are optimized for compute-intensive workloads and deliver cost-effective high performance at a low price per compute ratio. These instances are ideal for high-performance computing (HPC), machine learning, deep inference, distributed analytics, batch processing, and much more. With the new 24xlarge size, C5 instances increases available resources by 33% to provide even more resources and performance for those compute intensive workloads.</p>
 <p>Furthermore, the new C5 bare metal option provides your applications with direct access to the processor and memory resources of the underlying server. Bare metal instances are ideal for workloads that require access to the hardware feature set (such as Intel® VT-x), for applications that need to run in non-virtualized environments for licensing or support requirements, or for customers who wish to use their own hypervisor.</p>
 <p>c5.12xl, c5.24xl, and c5.metal instances are available today in the following AWS regions: US East (N. Virginia), US West (Oregon), Europe (Frankfurt, Ireland, London, Paris, Stockholm), Asia Pacific (Sydney), and AWS GovCloud (US). C5 instances are available in 8 sizes, with 2, 4, 8, 16, 36, 48, 72, and 96 vCPUs and are purchasable as On-Demand, Reserved, Spot and as Dedicated Instances.  </p>
@@ -122,52 +215,21 @@ exports[`should return a formatted html 3`] = `
 `;
 
 exports[`should return a formatted html 4`] = `
-"<p>We have good news to share. Effective at the beginning of this month (February 1, 2013), Amazon RDS is lowering Multi-AZ deployment prices globally for MySQL and Oracle editions.</p>
-<p><a href="https://aws.amazon.com/rds/multi-az">Amazon RDS Multi-AZ </a>deployments offer enhanced availability for your production database workloads. When a database is run as a Multi-AZ deployment, Amazon RDS operates a standby instance which maintains an up-to-date copy of the primary database. In case of an instance, storage, or network failure, Amazon RDS automatically initiates a failover from the primary to the standby. This ensures minimal database availability impact to your application.</p>
-<p>Today, many customers run production workloads on Amazon RDS as Multi-AZ deployments. However, we also know that there are many customers who‘ve wanted to run Amazon RDS Multi-AZ but haven’t been able to do so yet at the current price. So, we’re excited to lower our Amazon RDS Multi-AZ to make it even easier for customers to run production databases on Amazon RDS as Multi-AZ deployments.</p>
-<p>For your quick reference, new pricing for an M1.Small instance for On-demand MySQL and Oracle (BYOL) Multi-AZ deployments is shown in table 1 below.</p>
+"<p>We have good news to share. Effective at the beginning of this month (February 1, 2013), Amazon RDS is lowering Multi-AZ deployment prices globally for MySQL and Oracle editions. </p>
+<p><a href="https://aws.amazon.com/rds/multi-az"> Amazon RDS Multi-AZ </a> deployments offer enhanced availability for your production database workloads. When a database is run as a Multi-AZ deployment, Amazon RDS operates a standby instance which maintains an up-to-date copy of the primary database. In case of an instance, storage, or network failure, Amazon RDS automatically initiates a failover from the primary to the standby. This ensures minimal database availability impact to your application. </p>
+<p>Today, many customers run production workloads on Amazon RDS as Multi-AZ deployments. However, we also know that there are many customers who‘ve wanted to run Amazon RDS Multi-AZ but haven’t been able to do so yet at the current price. So, we’re excited to lower our Amazon RDS Multi-AZ to make it even easier for customers to run production databases on Amazon RDS as Multi-AZ deployments. </p>
+<p>For your quick reference, new pricing for an M1.Small instance for On-demand MySQL and Oracle (BYOL) Multi-AZ deployments is shown in table 1 below. </p>
 <p><strong>Table 1: Amazon RDS for MYSQL and Oracle BYOL On-Demand Multi-AZ Deployment Prices for M1.Small DB Instance</strong></p>
-<p>Region</p>
-<p>Old Price</p>
-<p>New Price</p>
-<p>Savings</p>
-<p>US East (Northern Virginia)</p>
-<p>$0.180</p>
-<p>$0.153</p>
-<p>15%</p>
-<p>US West (Northern California)</p>
-<p>$0.230</p>
-<p>$0.167</p>
-<p>27%</p>
-<p>US West (Oregon)</p>
-<p>$0.180</p>
-<p>$0.153</p>
-<p>15%</p>
-<p>AWS GovCloud (US)</p>
-<p>$0.240</p>
-<p>$0.187</p>
-<p>22%</p>
-<p>Europe (Ireland)</p>
-<p>$0.230</p>
-<p>$0.167</p>
-<p>27%</p>
-<p>Asia Pacific (Singapore)</p>
-<p>$0.230</p>
-<p>$0.196</p>
-<p>15%</p>
-<p>Asia Pacific (Tokyo)</p>
-<p>$0.240</p>
-<p>$0.204</p>
-<p>15%</p>
-<p>Asia Pacific (Sydney)</p>
-<p>$0.230</p>
-<p>$0.196</p>
-<p>15%</p>
-<p>South America (Sao Paulo)</p>
-<p>$0.300</p>
-<p>$0.204</p>
-<p>32%</p>
-<p>To learn more about Amazon RDS Multi-AZ and our new prices, please visit <a href="http://aws.amazon.com/rds/">Amazon RDS </a>.</p>
+<table>
+<thead>
+<tr>
+<th>Region Old Price New Price Savings US East (Northern Virginia) $0.180 $0.153 15% US West (Northern California) $0.230 $0.167 27% US West (Oregon) $0.180 $0.153 15% AWS GovCloud (US) $0.240 $0.187 22% Europe (Ireland) $0.230 $0.167 27% Asia Pacific (Singapore) $0.230 $0.196 15% Asia Pacific (Tokyo) $0.240 $0.204 15% Asia Pacific (Sydney) $0.230 $0.196 15% South America (Sao Paulo) $0.300 $0.204 32%</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>To learn more about Amazon RDS Multi-AZ and our new prices, please visit <a href="http://aws.amazon.com/rds/"> Amazon RDS </a>. </p>
 <p>Sincerely,<br />
 The Amazon Relational Database Service Team</p>"
 `;
@@ -282,7 +344,7 @@ Use the WorkspaceProperties property to specify information about a WorkSpace.  
 `;
 
 exports[`should return a formatted html 9`] = `
-"<p>AWS CloudFormation has added support for four additional AWS services and several new features.</p>
+"<p>AWS CloudFormation has added support for four additional AWS services and several new features. </p>
 <p>You can now provision the following AWS services using CloudFormation. Visit <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html">here</a> for a full list of supported services.</p>
 <ul>
 <li><strong>AWS CodePipeline:</strong> You can now use CloudFormation to provision software release pipelines using <a href="https://aws.amazon.com/codepipeline">CodePipeline</a>, a continuous delivery service for fast and reliable application updates. Learn more <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html">here</a>.</li>
@@ -348,7 +410,7 @@ exports[`should return a formatted html 10`] = `
 <p>• <strong>AWS::Redshift::ClusterParameterGroup</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html">Tags</a> property to specify tags to associate with the Amazon Redshift parameter group resource.</p>
 <p>• <strong>AWS::Redshift::ClusterSecurityGroup</strong></p>
-<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group.</p>
+<p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html">Tags</a> property to specify resource tags on an Amazon Redshift security group. </p>
 <p>• <strong>AWS::Redshift::ClusterSubnetGroup</strong></p>
 <p>o Use the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html">Tags</a> property to specify resource tags on an Amazon Redshift subnet group.</p>
 <p>• <strong>AWS::RDS::DBCluster</strong></p>
@@ -383,13 +445,13 @@ exports[`should return a formatted html 12`] = `
 exports[`should return a formatted html 13`] = `
 "<p>Internet Protocol Version 6 (IPv6) is a new version of the Internet Protocol that uses a larger address space than its predecessor IPv4. With IPv6 support, you will be able to meet the requirements for IPv6 adoption set by governments, remove the need for IPv6 to IPv4 translation software or systems, and benefit from IPv6 extensibility, simplicity in network management, and additional built-in support for security</p>
 <p><strong>Amazon CloudFront</strong><br />
-We are pleased to announce that starting today you can use Amazon CloudFront to deliver your content both via IPv6 and IPv4 using HTTP/HTTPS with the same security, availability, performance and scalability you have come to expect from Amazon CloudFront. IPv6 will be enabled by default for all newly created Amazon CloudFront web distributions starting today. For existing web distributions, you can enable IPv6 through the Amazon CloudFront console or API. Viewers and networks that connect to Amazon CloudFront edge locations over IPv6 will automatically be served content over IPv6. Those that connect over IPv4 will continue to work. Connections to your origin servers will remain on IPv4.</p>
-<p>Starting today, AWS WAF also supports IPv6. If you use AWS WAF in conjunction with Amazon CloudFront, you can now update your web access control lists (WebACLs) and IP rulesets to blacklist/whitelist IPv6 address. If you use Amazon Route 53 for your DNS needs, you can create Amazon Route 53 alias records pointing to your Amazon CloudFront distribution to support both IPv4 and IPv6 by using “A” and “AAAA” record type respectively.  </p>
+ We are pleased to announce that starting today you can use Amazon CloudFront to deliver your content both via IPv6 and IPv4 using HTTP/HTTPS with the same security, availability, performance and scalability you have come to expect from Amazon CloudFront. IPv6 will be enabled by default for all newly created Amazon CloudFront web distributions starting today. For existing web distributions, you can enable IPv6 through the Amazon CloudFront console or API. Viewers and networks that connect to Amazon CloudFront edge locations over IPv6 will automatically be served content over IPv6. Those that connect over IPv4 will continue to work. Connections to your origin servers will remain on IPv4. </p>
+<p>Starting today, AWS WAF also supports IPv6. If you use AWS WAF in conjunction with Amazon CloudFront, you can now update your web access control lists (WebACLs) and IP rulesets to blacklist/whitelist IPv6 address. If you use Amazon Route 53 for your DNS needs, you can create Amazon Route 53 alias records pointing to your Amazon CloudFront distribution to support both IPv4 and IPv6 by using “A” and “AAAA” record type respectively.   </p>
 <p>All existing features of Amazon CloudFront will continue to work on IPv6, though there are two changes you may need for internal IPv6 address processing before you turn on IPv6 for your distributions. First, if you have turned on Amazon CloudFront access logs, you will start seeing your viewer’s IPv6 address in the “c-ip” field and may need to verify that your log processing systems continue to work for IPv6. Second, when you enable IPv6 for your Amazon CloudFront distribution, you will get IPv6 addresses in the ‘X-Forwarded-For’ header that is sent to your origins. If your origin systems are only able to process IPv4 addresses, you may need to verify that your origin systems continue to work for IPv6. Additionally, if you use IP whitelists for Trusted Signers, you should use an IPv4-only distribution for your Trusted Signer URLs with IP whitelists and an IPv4 / IPv6 distribution for all other content. This model sidesteps an issue that would arise if the signing request arrived over an IPv4 address and was signed as such, only to have the request for the content arrive via a different IPv6 address that is not on the whitelist.  </p>
 <p>We are enabling IPv6 across every Autonomous System (AS) in a phased rollout starting today and expect to complete rollout across all networks over the next few weeks. To learn more about IPv6 support in Amazon CloudFront, see “<a href="http://docs.aws.amazon.com/console/cloudfront/ipv6">IPv6 support on Amazon CloudFront</a>” in the Amazon CloudFront Developer Guide and <a href="https://aws.amazon.com/cloudfront/faqs">FAQs</a>.  </p>
 <p>We would also like to invite you to join the upcoming webinar on “Delivering secure content with Amazon CloudFront”, in which we will cover how Amazon CloudFront automatically meets the new iOS App Transport Secure (ATS) requirements and enables easy, economical SSL/TLS management with the AWS Certificate Manager. This webinar will occur on Tuesday, October 18, 2016, 10:00AM PDT and you can register <a href="https://webservices.webex.com/webservices/onstage/g.php?MTID=e0cbff6ac2d898237002377681bcb92db">here</a>. You are also invited to join our monthly office hours on Tuesday, October 25, 2016, 10:00AM PDT and register <a href="https://webservices.webex.com/webservices/onstage/g.php?MTID=ebe5cdc3b56fa66698dbdbfaed77ba918">here</a>.</p>
 <p><strong>AWS WAF</strong><br />
-With AWS WAF, you can now inspect and act on HTTP/HTTPS requests coming from both IPv4 and IPv6 addresses. You can also setup new IPv6 match condition(s) for new and existing Web Access Control Lists (ACLs). You will be able to use all the existing features for traffic both over IPv6 and IPv4 without any changes to either performance, scalability or availability of the service. To learn more about IPv6 support in AWS WAF, see <a href="http://docs.aws.amazon.com/waf/latest/developerguide/web-acl-ip-conditions.html">here</a> in the AWS WAF Developer Guide.</p>
+ With AWS WAF, you can now inspect and act on HTTP/HTTPS requests coming from both IPv4 and IPv6 addresses. You can also setup new IPv6 match condition(s) for new and existing Web Access Control Lists (ACLs). You will be able to use all the existing features for traffic both over IPv6 and IPv4 without any changes to either performance, scalability or availability of the service. To learn more about IPv6 support in AWS WAF, see <a href="http://docs.aws.amazon.com/waf/latest/developerguide/web-acl-ip-conditions.html">here</a> in the AWS WAF Developer Guide.</p>
 <p>We would also like to invite you to join the upcoming AWS WAF webinar on “Setup Preconfigured Protections on AWS WAF” on Tuesday, November 8, 2016 10:30 AM PST. This session will introduce AWS WAF, how it integrates with other AWS services and how to use it to help protect your web applications. We will also demo how to deploy preconfigured rules and security automation on AWS WAF. Register <a href="https://connect.awswebcasts.com/nov16awswaf/event/registration.html?campaign-id=ServicePage">here</a>.</p>
 <p><strong>Amazon S3 Transfer Acceleration</strong><br />
 Your applications can now connect to Amazon S3 Transfer Acceleration endpoints for object storage over IPv6. This release follows Amazon S3’s recently added support for IPv6 <a href="https://aws.amazon.com/about-aws/whats-new/2016/08/internet-protocol-version-6-ipv6-support-for-amazon-s3/">announcement</a>. You can get started using this new feature by enabling Transfer Acceleration on a bucket and then pointing your application to Amazon S3 Transfer Acceleration’s new “dual-stack” endpoint (e.g., http://<bucketname>.s3-accelerate.dualstack.amazonaws.com), which supports access over both IPv4 and IPv6. In most cases, no further configuration is required for access over IPv6, because most network clients prefer IPv6 addresses by default. However, you must evaluate your bucket and Identity and Access Management (IAM) policies to ensure that you have the appropriate access configured for your new IPv6 addresses. To learn more about using IPv6 with Amazon S3 Transfer Acceleration, see <a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html#transfer-acceleration-getting-started">Getting Started with Transfer Acceleration</a>.</p>
@@ -419,13 +481,13 @@ exports[`should return a formatted html 14`] = `
 `;
 
 exports[`should return a formatted html 15`] = `
-"<p>Starting today, Amazon EC2 C5d, M5d, M5a, M5ad, R5, R5d, R5a, R5ad, T3, T3a, I3 instances are available in South America (Sao Paulo) region. In addition, C5 will now also be available in new 12xlarge, 24xlarge, and Bare Metal sizes and M5 instances will now be available as Bare Metal in South America (Sao Paulo) region.  </p>
-<p>The 3 new C5 instance sizes are powered by custom 2nd Generation Intel Xeon Scalable Processors (based on the Cascade Lake architecture) with sustained all-core turbo frequency of 3.6 GHz and maximum single core turbo frequency of 3.9 GHz. C5 instances are optimized for compute-intensive workloads and deliver cost-effective high performance at a low price per compute ratio. These instances are ideal for high-performance computing (HPC), machine learning, deep inference, distributed analytics, batch processing, and much more. With the new 24xlarge size, C5 instances increases available resources by 33% to provide even more resources and performance for those compute intensive workloads. Furthermore, the new C5 bare metal option provides your applications with direct access to the processor and memory resources of the underlying server. M5 instances offers a balance of compute, memory, and networking resources for a broad range of workloads including web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.  </p>
-<p>Amazon EC2 R5 instances are ideally suited for applications such as high-performance databases, distributed in-memory caches, in-memory databases, and big data analytics. R5 instances offer Intel Xeon Platinum 8000 series processors with a sustained all core frequency of up to 3.1 GHz, with up to 50% more vCPUs and 60% more memory over R4 instances. Amazon EC2 T3 instances are the latest generation Amazon Burstable Performance instance types. T3 instances offer a balance of compute, memory, and network resources and are ideal for database workloads with moderate CPU usage that experience temporary spikes in use. Amazon EC2 I3 instances are the latest generation of Storage Optimized High-I/O instances, designed for the most demanding High I/O workloads, featuring low-latency Non-Volatile Memory Express (NVMe) based SSDs. I3 instances are ideal for workloads like transactional processing systems, relational and NoSQL databases, data warehousing applications, analytics workloads and Elasticsearch workloads.  </p>
+"<p>Starting today, Amazon EC2 C5d, M5d, M5a, M5ad, R5, R5d, R5a, R5ad, T3, T3a, I3 instances are available in South America (Sao Paulo) region. In addition, C5 will now also be available in new 12xlarge, 24xlarge, and Bare Metal sizes and M5 instances will now be available as Bare Metal in South America (Sao Paulo) region.   </p>
+<p>The 3 new C5 instance sizes are powered by custom 2nd Generation Intel Xeon Scalable Processors (based on the Cascade Lake architecture) with sustained all-core turbo frequency of 3.6 GHz and maximum single core turbo frequency of 3.9 GHz. C5 instances are optimized for compute-intensive workloads and deliver cost-effective high performance at a low price per compute ratio. These instances are ideal for high-performance computing (HPC), machine learning, deep inference, distributed analytics, batch processing, and much more. With the new 24xlarge size, C5 instances increases available resources by 33% to provide even more resources and performance for those compute intensive workloads. Furthermore, the new C5 bare metal option provides your applications with direct access to the processor and memory resources of the underlying server. M5 instances offers a balance of compute, memory, and networking resources for a broad range of workloads including web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments.   </p>
+<p>Amazon EC2 R5 instances are ideally suited for applications such as high-performance databases, distributed in-memory caches, in-memory databases, and big data analytics. R5 instances offer Intel Xeon Platinum 8000 series processors with a sustained all core frequency of up to 3.1 GHz, with up to 50% more vCPUs and 60% more memory over R4 instances. Amazon EC2 T3 instances are the latest generation Amazon Burstable Performance instance types. T3 instances offer a balance of compute, memory, and network resources and are ideal for database workloads with moderate CPU usage that experience temporary spikes in use. Amazon EC2 I3 instances are the latest generation of Storage Optimized High-I/O instances, designed for the most demanding High I/O workloads, featuring low-latency Non-Volatile Memory Express (NVMe) based SSDs. I3 instances are ideal for workloads like transactional processing systems, relational and NoSQL databases, data warehousing applications, analytics workloads and Elasticsearch workloads.   </p>
 <p>Amazon EC2 C5d, M5d, and R5d all have local NVMe-based SSD block level storage physically connected to the host server. These instances are a great fit for applications that need access to high-speed, low latency local storage, to temporary storage of data such as batch and log processing, and to high-speed caches and scratch files. C5d instances are ideal for applications such as high performance web servers, high-performance computing (HPC), batch processing, ad serving, highly scalable multiplayer gaming, video encoding, scientific modelling, distributed analytics and machine/deep learning inference. M5d instances offers a balance of compute, memory, and networking resources for a broad range of workloads. This includes web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments. R5d instances are well suited for memory intensive applications such as high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications.  </p>
 <p>The AMD-based instances provide additional options for customers who are looking to achieve a 10% cost savings on their Amazon EC2 compute environment for a variety of workloads. M5a and M5ad instances are ideal for business-critical applications, web and application servers, back-end servers for enterprise applications, gaming servers, caching fleets, and app development environments. R5a and R5ad instances are ideal for high performance databases, distributed web scale in-memory caches, mid-size in-memory databases, real time big data analytics, and other enterprise applications. T3a instances offer a balance of compute, memory, and network resources for a broad spectrum of general purpose workloads including micro-services, low-latency interactive applications, small and medium databases, virtual desktops, development environments, code repositories, and business-critical applications.  </p>
 <p>R5, R5d, and M5d bare metal instances are now available in the South America (Sao Paulo) region. Amazon EC2 bare metal instances provide your applications with direct access to the Intel® Xeon® Scalable processor and memory resources of the underlying server. These instances are ideal for workloads that require access to the hardware feature set (such as Intel® VT-x), for applications that need to run in non-virtualized environments for licensing or support requirements, or for customers who wish to use their own hypervisor. Bare metal instances allow EC2 customers to run applications that benefit from deep performance analysis tools, specialized workloads that require direct access to bare metal infrastructure, legacy workloads not supported in virtual environments, and licensing-restricted Tier 1 business critical applications. Bare metal instances also make it possible for customers to run virtualization secured containers such as Clear Linux Containers. Workloads on bare metal instances continue to take advantage of all the comprehensive services and features of the AWS Cloud, such as Amazon Elastic Block Store (EBS), Elastic Load Balancer (ELB) and Amazon Virtual Private Cloud (VPC).  </p>
-<p>C5d instances are available in 7 sizes, with 2, 4, 8, 16, 36, 72 vCPUs and bare metal. M5d instances are available in 9 sizes, with 2, 4, 8, 16, 32, 48, 64, 96 vCPUs and bare metal. R5 and R5d instances are available in 9 sizes, with 2, 4, 8, 16, 32, 48, 64, 96 vCPUs and bare metal. M5a, M5ad, R5a and R5ad instances are available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs, and T3a instances are available in 7 sizes, with 2, 4 and 8 vCPUs. I3 instances will come in six sizes, with 2, 4, 8, 16, 32 and 64 vCPUs. These new instances can be purchased as On-Demand, Reserved or Spot Instances.  </p>
+<p>C5d instances are available in 7 sizes, with 2, 4, 8, 16, 36, 72 vCPUs and bare metal. M5d instances are available in 9 sizes, with 2, 4, 8, 16, 32, 48, 64, 96 vCPUs and bare metal. R5 and R5d instances are available in 9 sizes, with 2, 4, 8, 16, 32, 48, 64, 96 vCPUs and bare metal. M5a, M5ad, R5a and R5ad instances are available in 8 sizes, with 2, 4, 8, 16, 32, 48, 64, and 96 vCPUs, and T3a instances are available in 7 sizes, with 2, 4 and 8 vCPUs. I3 instances will come in six sizes, with 2, 4, 8, 16, 32 and 64 vCPUs. These new instances can be purchased as On-Demand, Reserved or Spot Instances.   </p>
 <p>To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/amd">AMD Instances Page</a>.</p>"
 `;
 
@@ -525,7 +587,7 @@ exports[`should return a formatted html 18`] = `
 
 exports[`should return a formatted html 19`] = `
 "<p><a href="https://aws.amazon.com/cloudformation">AWS CloudFormation</a> has updated support for the resource types listed below. CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This file serves as the single source of truth for your cloud environment.  </p>
-<p><strong>The CloudFormation resource types that have been updated are:</strong> </p>
+<p><strong>The CloudFormation resource types that have been updated are:</strong>  </p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html"><strong>AWS::ApiGateway::Deployment</strong></a><br />
 In the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-apigateway-deployment-stagedescription.html">StageDescription</a> property type, use the Tags property to specify the AWS CloudFormation resource tags to associate with the stage.</p>
 <p><a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html"><strong>AWS::ApiGateway::Stage</strong></a><br />
@@ -623,18 +685,18 @@ exports[`should return a formatted html 22`] = `
 "<p>Starting today, Amazon EC2 M6g, C6g, and R6g instances are available in EU (Stockholm) region. Additionally, Amazon EC2 M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are now available in US West (Northern California), and Asia Pacific (Tokyo) regions. </p>
 <p>Amazon EC2 M6g, C6g, and R6g instances, and their disk variants with local NVMe-based SSD storage deliver up to 40% better price/performance over comparable x86-based instances for a broad spectrum of workloads, including application servers, micro-services, high-performance computing, CPU-based machine learning inference, electronic design automation, gaming, open-source databases, and in-memory caches. Amazon EC2 M6gd, C6gd and R6gd instances provide 50% more NVMe storage GB/vCPU over comparable x86-based instances. The local SSD storage provided on these instances is ideal for applications that need access to high-speed, low latency storage, as well as for temporary storage of data such as batch and log processing, and for high-speed caches and scratch files.</p>
 <p>Amazon EC2 M6g, C6g and R6g instances and their disk variants are powered by <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton2</a> processors that are built utilizing 64-bit Arm Neoverse cores and custom silicon designed by AWS. AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors.</p>
-<p>Graviton2 instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances provide up to 19 Gbps Elastic Block Store (EBS) bandwidth and up to 25 Gbps network bandwidth and are supported by a broad ecosystem of operating systems and services from Independent Software Vendors (ISVs) as well as AWS. These include popular Linux distributions (Amazon Linux 2, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, Ubuntu, CentOS, Debian, and Fedora), FreeBSD/NetBSD, OpenJDK and the Amazon Corretto distribution of OpenJDK, container services (Amazon ECR, Amazon ECS, Amazon EKS, Docker, and Rancher), agents (Amazon CloudWatch, AWS Systems Manager, Amazon Inspector, Crowdstrike, Datadog, Dynatrace, Honeycomb.io, Grafana, Lacework, New Relic, Qualys, Rapid7, Snyk, Splunk universal forwarder, Tenable, Trend Micro, and Wazuh), and developer/automation tools (AWS Code Suite, Buildkite, Chef, CircleCI, GitHub, GitLab, Drone.io, HashiCorp Consul, Terraform, and Vault, Jenkins, Puppet, Teleport, and TravisCI).</p>
-<p>With this regional expansion, Amazon EC2 M6g, C6g, and R6g instances are now available across US East (N. Virginia, Ohio), US West (Northern California, Oregon), Europe (Ireland, Frankfurt, London, Stockhom), South America (Sao Paulo), AWS GovCloud (US) regions, Canada (Central), Asia Pacific (Mumbai, Singapore, Sydney, Tokyo, Seoul, Hong Kong), and China (Ningxia and Beijing) regions. Additionally, M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are available in the AWS US East (N. Virginia, Ohio), US West (Oregon, Northern California), Asia Pacific (Singapore, Sydney, Tokyo) and Europe (Ireland, Frankfurt) regions. All instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option, and are purchasable as part of Savings Plans, On-Demand, as Reserved instances, or as Spot instances. C6gn instances, delivering up to 100 Gbps network bandwidth, are available in the AWS US East (N. Virginia, Ohio), US West (Oregon), and Europe (Ireland) regions.</p>
+<p>Graviton2 instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances provide up to 19 Gbps Elastic Block Store (EBS) bandwidth and up to 25 Gbps network bandwidth and are supported by a broad ecosystem of operating systems and services from Independent Software Vendors (ISVs) as well as AWS. These include popular Linux distributions (Amazon Linux 2, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, Ubuntu, CentOS, Debian, and Fedora), FreeBSD/NetBSD, OpenJDK and the Amazon Corretto distribution of OpenJDK, container services (Amazon ECR, Amazon ECS, Amazon EKS, Docker, and Rancher), agents (Amazon CloudWatch, AWS Systems Manager, Amazon Inspector, Crowdstrike, Datadog, Dynatrace, Honeycomb.io, Grafana, Lacework, New Relic, Qualys, Rapid7, Snyk, Splunk universal forwarder, Tenable, Trend Micro, and Wazuh), and developer/automation tools (AWS Code Suite, Buildkite, Chef, CircleCI, GitHub, GitLab, Drone.io, HashiCorp Consul, Terraform, and Vault, Jenkins, Puppet, Teleport, and TravisCI). </p>
+<p>With this regional expansion, Amazon EC2 M6g, C6g, and R6g instances are now available across US East (N. Virginia, Ohio), US West (Northern California, Oregon), Europe (Ireland, Frankfurt, London, Stockhom), South America (Sao Paulo), AWS GovCloud (US) regions, Canada (Central), Asia Pacific (Mumbai, Singapore, Sydney, Tokyo, Seoul, Hong Kong), and China (Ningxia and Beijing) regions. Additionally, M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are available in the AWS US East (N. Virginia, Ohio), US West (Oregon, Northern California), Asia Pacific (Singapore, Sydney, Tokyo) and Europe (Ireland, Frankfurt) regions. All instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option, and are purchasable as part of Savings Plans, On-Demand, as Reserved instances, or as Spot instances. C6gn instances, delivering up to 100 Gbps network bandwidth, are available in the AWS US East (N. Virginia, Ohio), US West (Oregon), and Europe (Ireland) regions. </p>
 <p>Since launch, <a href="https://aws.amazon.com/ec2/graviton">many customers and partners</a> are realizing significant price performance benefits of AWS Graviton2 based instances with minimal effort. Additionally, AWS services such as <a href="https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-elasticache-now-supports-m6g-and-r6g-graviton2-based-instances">Amazon ElastiCache</a> deliver up to 45% better price/performance and <a href="https://aws.amazon.com/about-aws/whats-new/2020/10/achieve-up-to-52-percent-better-price-performance-with-amazon-rds-using-new-graviton2-instances">Amazon RDS</a> (MariaDB, MySQL, and Postgres) deliver up to 52% better price/performance benefits through Graviton2-based instances. <a href="https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-emr-now-provides-up-to-30-lower-cost-and-up-to-15-improved-performance">Amazon EMR</a> provides up to 30% lower cost and up to 15% improved performance for Spark workloads on Graviton2-based instances. Graviton2-based database instances are now available in <a href="https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-amazon-aurora-r6g-instance-types-powered-by-aws-graviton-2-processors-in-preview">preview</a> for Amazon Aurora with PostgreSQL and MySQL compatibility.</p>
 <p>Customers can use the AWS Graviton2 based general purpose burstable t4g.micro instances free for up to 750 hours per month until March 31st 2021. To get started with AWS Graviton2-based Amazon EC2 M6g, C6g, R6g, M6gd, C6gd, R6gd, C6gn and T4g instances, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/https://%28ec2/graviton">AWS Graviton page</a>.</p>
 <p>Modified 9/27/2021 – In an effort to ensure a great experience, expired links in this post have been updated or removed from the original post.</p>"
 `;
 
 exports[`should return a formatted html 23`] = `
-"<p>Starting today, Amazon EC2 M6g, C6g, and R6g instances are available in Asia Pacific (Seoul), and Asia Pacific (Hong Kong) regions. Additionally, Amazon EC2 M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are now available in EU (Frankfurt), Asia Pacific (Singapore), and Asia Pacific (Sydney) regions.</p>
+"<p>Starting today, Amazon EC2 M6g, C6g, and R6g instances are available in Asia Pacific (Seoul), and Asia Pacific (Hong Kong) regions. Additionally, Amazon EC2 M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are now available in EU (Frankfurt), Asia Pacific (Singapore), and Asia Pacific (Sydney) regions. </p>
 <p>Amazon EC2 M6g, C6g, and R6g instances, and their disk variants with local NVMe-based SSD storage deliver up to 40% better price/performance over comparable x86-based instances for a broad spectrum of workloads, including application servers, micro-services, high-performance computing, CPU-based machine learning inference, electronic design automation, gaming, open-source databases, and in-memory caches. Amazon EC2 M6gd, C6gd and R6gd instances provide 50% more NVMe storage GB/vCPU over comparable x86-based instances. The local SSD storage provided on these instances is ideal for applications that need access to high-speed, low latency storage, as well as for temporary storage of data such as batch and log processing, and for high-speed caches and scratch files.</p>
 <p>Amazon EC2 M6g, C6g and R6g instances and their disk variants are powered by<a href="https://aws.amazon.com/ec2/graviton"> AWS Graviton2</a> processors that are built utilizing 64-bit Arm Neoverse cores and custom silicon designed by AWS. AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors.</p>
-<p>Graviton2 instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances provide up to 19 Gbps Elastic Block Store (EBS) bandwidth and up to 25 Gbps network bandwidth and are supported by a broad ecosystem of operating systems and services from Independent Software Vendors (ISVs) as well as AWS. These include popular Linux distributions (Amazon Linux 2, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, Ubuntu, CentOS, Debian, and Fedora), FreeBSD/NetBSD, OpenJDK and the Amazon Corretto distribution of OpenJDK, container services (Amazon ECR, Amazon ECS, Amazon EKS, Docker, and Rancher), agents (Amazon CloudWatch, AWS Systems Manager, Amazon Inspector, Crowdstrike, Datadog, Dynatrace, Honeycomb.io, Grafana, Lacework, New Relic, Qualys, Rapid7, Snyk, Splunk universal forwarder, Tenable, Trend Micro, and Wazuh), and developer/automation tools (AWS Code Suite, Buildkite, Chef, CircleCI, GitHub, GitLab, Harness (Drone.io), HashiCorp (Consul, Terraform, and Vault), Jenkins, Puppet, Teleport, and TravisCI).</p>
+<p>Graviton2 instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances provide up to 19 Gbps Elastic Block Store (EBS) bandwidth and up to 25 Gbps network bandwidth and are supported by a broad ecosystem of operating systems and services from Independent Software Vendors (ISVs) as well as AWS. These include popular Linux distributions (Amazon Linux 2, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, Ubuntu, CentOS, Debian, and Fedora), FreeBSD/NetBSD, OpenJDK and the Amazon Corretto distribution of OpenJDK, container services (Amazon ECR, Amazon ECS, Amazon EKS, Docker, and Rancher), agents (Amazon CloudWatch, AWS Systems Manager, Amazon Inspector, Crowdstrike, Datadog, Dynatrace, Honeycomb.io, Grafana, Lacework, New Relic, Qualys, Rapid7, Snyk, Splunk universal forwarder, Tenable, Trend Micro, and Wazuh), and developer/automation tools (AWS Code Suite, Buildkite, Chef, CircleCI, GitHub, GitLab, Harness (Drone.io), HashiCorp (Consul, Terraform, and Vault), Jenkins, Puppet, Teleport, and TravisCI). </p>
 <p>With this regional expansion, Amazon EC2 M6g, C6g, and R6g instances are now available across US East (N. Virginia, Ohio), US West (Northern California, Oregon), Europe (Ireland, Frankfurt, London), South America (Sao Paulo), AWS GovCloud (US) regions, Canada (Central), Asia Pacific (Mumbai, Singapore, Sydney, Tokyo, Seoul, Hong Kong), and China (Ningxia and Beijing) regions. Additionally, M6gd, C6gd and R6gd instances with local NVMe-based SSD storage are available in the AWS US East (N. Virginia, Ohio), US West (Oregon), Asia Pacific (Singapore, Sydney) and Europe (Ireland, Frankfurt) regions. All instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option, and are purchasable as part of Savings Plans, On-Demand, as Reserved instances, or as Spot instances. C6gn instances, delivering up to 100 Gbps network bandwidth, are also available in the AWS US East (N. Virginia, Ohio), US West (Oregon), and Europe (Ireland) regions.</p>
 <p>Since launch, <a href="https://aws.amazon.com/ec2/graviton">many customers and partners</a> are realizing significant price performance benefits of AWS Graviton2 based instances with minimal effort. Additionally, AWS services such as <a href="https://aws.amazon.com/about-aws/whats-new/2020/10/amazon-elasticache-now-supports-m6g-and-r6g-graviton2-based-instances">Amazon ElastiCache</a> deliver up to 45% better price/performance and <a href="https://aws.amazon.com/about-aws/whats-new/2020/10/achieve-up-to-52-percent-better-price-performance-with-amazon-rds-using-new-graviton2-instances">Amazon RDS</a> (MariaDB, MySQL, and Postgres) deliver up to 52% better price/performance benefits through Graviton2-based instances. <a href="https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-emr-now-provides-up-to-30-lower-cost-and-up-to-15-improved-performance">Amazon EMR</a> provides up to 30% lower cost and up to 15% improved performance for Spark workloads on Graviton2-based instances. Graviton2-based database instances are now available in <a href="https://aws.amazon.com/about-aws/whats-new/2020/12/introducing-amazon-aurora-r6g-instance-types-powered-by-aws-graviton-2-processors-in-preview">preview</a> for Amazon Aurora with PostgreSQL and MySQL compatibility.</p>
 <p>Customers can use the AWS Graviton2 based general purpose burstable t4g.micro instances free for up to 750 hours per month until March 31st 2021. To get started with AWS Graviton2-based Amazon EC2 M6g, C6g, R6g, M6gd, C6gd, R6gd, C6gn and T4g instances, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton page</a> or the <a href="https://github.com/aws/aws-graviton-gettting-started">Getting Started Github page</a>.</p>"
@@ -841,91 +903,91 @@ exports[`should return a formatted html 29`] = `
 `;
 
 exports[`should return a formatted html 30`] = `
-"<p>Since our last update in <a href="https://aws.amazon.com/blogs/mt/2020-in-review-for-aws-cloudformation/">March 2021</a>, AWS CloudFormation has expanded the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html">CloudFormation Registry </a>to support 79 new resource types between April and July 2021 (see the complete list at the end of this post). A resource type includes schema (resource properties and handler permissions) and handlers that control API interactions with the underlying AWS or third-party services. Out of these 79, AWS has published 56 and AWS Partner Network (APN) Partners have 23. Customers can now configure, provision, and manage these newly supported resources through CloudFormation in a predictable and reliable way. Among the AWS resources, we are pleased to announce that 8 new AWS services added launch day CloudFormation support. These services include: Amazon Interactive Video Service (IVS), Amazon Nimble Studio, AWS IoT Device Management, Amazon FinSpace, Amazon Fraud Detector, Amazon Location Services, AWS App Runner, and Amazon Lookout for Equipment. CloudFormation now supports <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html">775 AWS resource types across 160 AWS services</a>.  </p>
-<p>Customers can now centrally discover the schema associated with these 79 new resource types on the CloudFormation Registry. With the addition of these resource types to the Registry, customers get additional benefits from other CloudFormation features such as resource import and drift detection. For example, if you create App Runner service resource through the AWS console or the Command Line Interface (CLI), you can simply import that resource into CloudFormation and leverage added benefits of CloudFormation such as easily identifying resource drift in the stack containing App Runner resource. Customers can also use AWS Config to manage the compliance for all these 79 resource types. These resource types will be automatically tracked in AWS Config as Configuration Items, if you create, update, or delete these resources using CloudFormation and if you have configured AWS Config to record all resource types.  </p>
+"<p>Since our last update in <a href="https://aws.amazon.com/blogs/mt/2020-in-review-for-aws-cloudformation/">March 2021</a>, AWS CloudFormation has expanded the <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html">CloudFormation Registry </a>to support 79 new resource types between April and July 2021 (see the complete list at the end of this post). A resource type includes schema (resource properties and handler permissions) and handlers that control API interactions with the underlying AWS or third-party services. Out of these 79, AWS has published 56 and AWS Partner Network (APN) Partners have 23. Customers can now configure, provision, and manage these newly supported resources through CloudFormation in a predictable and reliable way. Among the AWS resources, we are pleased to announce that 8 new AWS services added launch day CloudFormation support. These services include: Amazon Interactive Video Service (IVS), Amazon Nimble Studio, AWS IoT Device Management, Amazon FinSpace, Amazon Fraud Detector, Amazon Location Services, AWS App Runner, and Amazon Lookout for Equipment. CloudFormation now supports <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html">775 AWS resource types across 160 AWS services</a>.   </p>
+<p>Customers can now centrally discover the schema associated with these 79 new resource types on the CloudFormation Registry. With the addition of these resource types to the Registry, customers get additional benefits from other CloudFormation features such as resource import and drift detection. For example, if you create App Runner service resource through the AWS console or the Command Line Interface (CLI), you can simply import that resource into CloudFormation and leverage added benefits of CloudFormation such as easily identifying resource drift in the stack containing App Runner resource. Customers can also use AWS Config to manage the compliance for all these 79 resource types. These resource types will be automatically tracked in AWS Config as Configuration Items, if you create, update, or delete these resources using CloudFormation and if you have configured AWS Config to record all resource types.   </p>
 <p>If you have feedback on the type of resources for which you want CloudFormation support, please refer to <a href="https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap">aws-cloudformation-coverage-roadmap</a>.</p>
 <p>Now you can configure, provision, and manage the following 79 resource types with CloudFormation.  </p>
 <p><strong>AWS Resource Types</strong><br />
 AWS::AppRunner::Service<br />
-AWS::AutoScaling::WarmPool<br />
-AWS::CloudFormation::PublicTypeVersion<br />
-AWS::CloudFormation::Publisher<br />
-AWS::CloudFormation::TypeActivation<br />
-AWS::CloudFront::Function<br />
-AWS::CloudWatch::MetricStream<br />
-AWS::Connect::QuickConnect<br />
-AWS::CUR::ReportDefinition<br />
-AWS::DynamoDB::GlobalTable<br />
-AWS::EC2::EnclaveCertificateIamRoleAssociation<br />
-AWS::EC2::TransitGatewayPeeringAttachment<br />
-AWS::FinSpace::Environment<br />
-AWS::FraudDetector::Detector<br />
-AWS::FraudDetector::EntityType<br />
-AWS::FraudDetector::EventType<br />
-AWS::FraudDetector::Label<br />
-AWS::FraudDetector::Outcome<br />
-AWS::FraudDetector::Variable<br />
-AWS::IoTCoreDeviceAdvisor::SuiteDefinition<br />
-AWS::IoTFleetHub::Application<br />
-AWS::IoTWireless::PartnerAccount<br />
-AWS::IoTWireless::TaskDefinition<br />
-AWS::IVS::RecordingConfiguration<br />
-AWS::KMS::ReplicaKey<br />
-AWS::Location::GeofenceCollection<br />
-AWS::Location::Map<br />
-AWS::Location::PlaceIndex<br />
-AWS::Location::RouteCalculator<br />
-AWS::Location::Tracker<br />
-AWS::Location::TrackerConsumer<br />
-AWS::Logs::QueryDefinition<br />
+ AWS::AutoScaling::WarmPool<br />
+ AWS::CloudFormation::PublicTypeVersion<br />
+ AWS::CloudFormation::Publisher<br />
+ AWS::CloudFormation::TypeActivation<br />
+ AWS::CloudFront::Function<br />
+ AWS::CloudWatch::MetricStream<br />
+ AWS::Connect::QuickConnect<br />
+ AWS::CUR::ReportDefinition<br />
+ AWS::DynamoDB::GlobalTable<br />
+ AWS::EC2::EnclaveCertificateIamRoleAssociation<br />
+ AWS::EC2::TransitGatewayPeeringAttachment<br />
+ AWS::FinSpace::Environment<br />
+ AWS::FraudDetector::Detector<br />
+ AWS::FraudDetector::EntityType<br />
+ AWS::FraudDetector::EventType<br />
+ AWS::FraudDetector::Label<br />
+ AWS::FraudDetector::Outcome<br />
+ AWS::FraudDetector::Variable<br />
+ AWS::IoTCoreDeviceAdvisor::SuiteDefinition<br />
+ AWS::IoTFleetHub::Application<br />
+ AWS::IoTWireless::PartnerAccount<br />
+ AWS::IoTWireless::TaskDefinition<br />
+ AWS::IVS::RecordingConfiguration<br />
+ AWS::KMS::ReplicaKey<br />
+ AWS::Location::GeofenceCollection<br />
+ AWS::Location::Map<br />
+ AWS::Location::PlaceIndex<br />
+ AWS::Location::RouteCalculator<br />
+ AWS::Location::Tracker<br />
+ AWS::Location::TrackerConsumer<br />
+ AWS::Logs::QueryDefinition<br />
 AWS::Logs::ResourcePolicy<br />
 AWS::LookoutEquipment::InferenceScheduler<br />
-AWS::NimbleStudio::LaunchProfile<br />
-AWS::NimbleStudio::StreamingImage<br />
-AWS::NimbleStudio::Studio<br />
-AWS::NimbleStudio::StudioComponent<br />
-AWS::Route53Resolver::FirewallDomainList<br />
-AWS::Route53Resolver::FirewallRuleGroup<br />
-AWS::Route53Resolver::FirewallRuleGroupAssociation<br />
+ AWS::NimbleStudio::LaunchProfile<br />
+ AWS::NimbleStudio::StreamingImage<br />
+ AWS::NimbleStudio::Studio<br />
+ AWS::NimbleStudio::StudioComponent<br />
+ AWS::Route53Resolver::FirewallDomainList<br />
+ AWS::Route53Resolver::FirewallRuleGroup<br />
+ AWS::Route53Resolver::FirewallRuleGroupAssociation<br />
 AWS::Route53RecoveryControl::Cluster,<br />
 AWS::Route53RecoveryControl::ControlPanel,<br />
 AWS::Route53RecoveryControl::RoutingControl,<br />
 AWS::Route53RecoveryControl::SafetyRule<br />
 AWS::Route53RecoveryReadiness::Cell<br />
 AWS::Route53RecoveryReadiness::ReadinessCheck<br />
-AWS::Route53RecoveryReadiness::RecoveryGroup<br />
+ AWS::Route53RecoveryReadiness::RecoveryGroup<br />
 AWS::Route53RecoveryReadiness::ResourceSet<br />
-AWS::SES::ContactList<br />
-AWS::SSMContacts::Contact<br />
-AWS::SSMContacts::ContactChannel<br />
-AWS::SSMIncidents::ReplicationSet<br />
-AWS::SSMIncidents::ResponsePlan<br />
-AWS::XRay::Group<br />
-AWS::XRay::SamplingRule  </p>
+ AWS::SES::ContactList<br />
+ AWS::SSMContacts::Contact<br />
+ AWS::SSMContacts::ContactChannel<br />
+ AWS::SSMIncidents::ReplicationSet<br />
+ AWS::SSMIncidents::ResponsePlan<br />
+ AWS::XRay::Group<br />
+ AWS::XRay::SamplingRule  </p>
 <p><strong>APN Partner resource types</strong><br />
 Aqua::Enterprise::Enforcer<br />
-Aqua::Enterprise::KubeEnforcer<br />
-Aqua::Enterprise::Scanner<br />
-Aqua::Enterprise::Server<br />
-Atlassian::Opsgenie::Integration<br />
-Atlassian::Opsgenie::Team<br />
-Atlassian::Opsgenie::User<br />
-Datadog::Dashboards::Dashboard<br />
-Datadog::Integrations::AWS<br />
-Datadog::Monitors::Downtime<br />
-Datadog::Monitors::Monitor<br />
-Datadog::SLOs::SLO<br />
-FireEye::CloudIntegrations::Cloudwatch<br />
-Gremlin::Agent::Helm<br />
-MongoDB::Atlas::Cluster<br />
-MongoDB::Atlas::DatabaseUser<br />
-MongoDB::Atlas::NetworkPeering<br />
-MongoDB::Atlas::Project<br />
-MongoDB::Atlas::ProjectIpAccessList<br />
-Snyk::Container::Helm<br />
-Spot::Elastigroup::Group<br />
-Sysdig::Helm::Agent<br />
-TrendMicro::CloudOneContainer::Helm  </p>"
+ Aqua::Enterprise::KubeEnforcer<br />
+ Aqua::Enterprise::Scanner<br />
+ Aqua::Enterprise::Server<br />
+ Atlassian::Opsgenie::Integration<br />
+ Atlassian::Opsgenie::Team<br />
+ Atlassian::Opsgenie::User<br />
+ Datadog::Dashboards::Dashboard<br />
+ Datadog::Integrations::AWS<br />
+ Datadog::Monitors::Downtime<br />
+ Datadog::Monitors::Monitor<br />
+ Datadog::SLOs::SLO<br />
+ FireEye::CloudIntegrations::Cloudwatch<br />
+ Gremlin::Agent::Helm<br />
+ MongoDB::Atlas::Cluster<br />
+ MongoDB::Atlas::DatabaseUser<br />
+ MongoDB::Atlas::NetworkPeering<br />
+ MongoDB::Atlas::Project<br />
+ MongoDB::Atlas::ProjectIpAccessList<br />
+ Snyk::Container::Helm<br />
+ Spot::Elastigroup::Group<br />
+ Sysdig::Helm::Agent<br />
+ TrendMicro::CloudOneContainer::Helm  </p>"
 `;
 
 exports[`should return a formatted html 31`] = `
@@ -949,7 +1011,7 @@ exports[`should return a formatted html 31`] = `
 <p>We have added two of these controls (OpenSearch.1 and OpenSearch.2) to Security Hub’s standard for the <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-pcidss.html">Payment Card Industry Data Security Standard (PCI DSS) v3.2.1</a>.   </p>
 <p>Security Hub also added two <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-partner-providers.html">integration partners</a>, which brings Security Hub up to 75 total partners. The new integration partners include Sonrai and Fugue. <a href="https://sonraisecurity.com/blog/monitor-privilege-escalation-risk-of-identities-from-aws-security-hub-with-integration-from-sonrai/">Sonrai Dig</a> sends findings to Security Hub and monitors and remediates cloud misconfigurations and policy violations to help customers improve their security and compliance posture. <a href="https://www.fugue.co/aws-security-hub-integration">Fugue</a> is an agent-less, scalable cloud-native platform that automates the continuous validation of infrastructure-as-code and cloud runtime environments using the same policies—and delivers those findings to Security Hub.</p>
 <p>AWS Security Hub is <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-regions.html">available globally</a> and is designed to give you a comprehensive view of your security posture across your AWS accounts. With Security Hub, you now have a single place that aggregates, organizes, and prioritizes your security alerts, or findings, from multiple AWS services, including Amazon GuardDuty, Amazon Inspector, Amazon Macie, AWS Firewall Manager, AWS Systems Manager Patch Manager, AWS Config, AWS Health, AWS IAM Access Analyzer, as well as from over <a href="https://aws.amazon.com/security-hub/partners">60 AWS Partner Network (APN) solutions</a>. You can also continuously monitor your environment using automated security checks based on standards, such as <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp.html">AWS Foundational Security Best Practices</a>, the CIS AWS Foundations Benchmark, and the Payment Card Industry Data Security Standard. In addition, you can take action on these findings by investigating findings in Amazon Detective or AWS Systems Manager OpsCenter or by sending them to AWS Audit Manager or AWS Chatbot. You can also use Amazon EventBridge rules to send the findings to ticketing, chat, Security Information and Event Management (SIEM), response and remediation workflows, and incident management tools. </p>
-<p>You can enable your 30-day free trial of AWS Security Hub with a single-click in the AWS Management console. To learn more about AWS Security Hub capabilities, see the AWS Security Hub <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html">documentation</a>, and to start your 30-day free trial see the AWS Security Hub <a href="https://aws.amazon.com/security-hub/pricing">free trial page</a>.</p>"
+<p>You can enable your 30-day free trial of AWS Security Hub with a single-click in the AWS Management console. To learn more about AWS Security Hub capabilities, see the AWS Security Hub <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html">documentation</a>, and to start your 30-day free trial see the AWS Security Hub <a href="https://aws.amazon.com/security-hub/pricing">free trial page</a>. </p>"
 `;
 
 exports[`should return a formatted html 32`] = `
@@ -1108,11 +1170,11 @@ exports[`should return a formatted html 38`] = `
 `;
 
 exports[`should return a formatted html 39`] = `
-"<p>Starting today, Amazon EC2 C6g and C6gd instances are available in Asia Pacific (Osaka) region. Additionally, M6gd instances are now available in Europe (Stockholm) region. C6g and C6gd instances are ideal for compute-intensive workloads such as high performance computing (HPC), batch processing, ad serving, video encoding, gaming, scientific modelling, distributed analytics, and CPU-based machine learning inference. M6gd instances are ideal for general purpose applications such as application servers, microservices, mid-size data stores, and caching fleets. C6gd and M6gd instances offer up to 50% more NVMe storage GB/vCPU over comparable x86-based instances and are ideal for applications that need high-speed, low latency local storage.</p>
+"<p>Starting today, Amazon EC2 C6g and C6gd instances are available in Asia Pacific (Osaka) region. Additionally, M6gd instances are now available in Europe (Stockholm) region. C6g and C6gd instances are ideal for compute-intensive workloads such as high performance computing (HPC), batch processing, ad serving, video encoding, gaming, scientific modelling, distributed analytics, and CPU-based machine learning inference. M6gd instances are ideal for general purpose applications such as application servers, microservices, mid-size data stores, and caching fleets. C6gd and M6gd instances offer up to 50% more NVMe storage GB/vCPU over comparable x86-based instances and are ideal for applications that need high-speed, low latency local storage. </p>
 <p>These instances are powered by AWS Graviton2 processors. The AWS Graviton processors are custom-designed by AWS to enable the best price performance in Amazon EC2. AWS Graviton2 processors are the second-generation Graviton processors and deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors. These instances are built on the AWS Nitro System, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances offer up to 25 Gbps of network bandwidth, and up to 19 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS). The C6gd and M6gd instances also offer up to 3.8 TB of NVMe-based SSD storage.</p>
 <p>AWS Graviton processors are supported by many Linux operating systems including Amazon Linux 2, Red Hat Enterprise Linux, SUSE, and Ubuntu. Many popular applications and services for security, monitoring and management, containers, and continuous integration and delivery (CI/CD) from AWS and software partners also support AWS Graviton-based instances. The AWS Graviton Ready program provides customers with certified solutions from partner software vendors that can be used on AWS Graviton-based instances. Many AWS services also support Graviton-based instances, making it quick and easy for you to realize the price performance gains. AWS services that support Graviton-based instances include Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), AWS Lambda, AWS Fargate, Amazon Aurora, Amazon Relational Database Service (Amazon RDS), Amazon EMR, and Amazon ElastiCache.</p>
 <p>With this regional expansion, Amazon EC2 C6g is now available across US East (Ohio), US East (N. Virginia), US West (Northern California), US West (Oregon), Europe (Ireland), Europe (Frankfurt), Europe (London), Europe (Stockholm), Europe (Milan), Europe (Paris), South America (Sao Paulo), AWS GovCloud (US) regions, Canada (Central), Asia Pacific (Mumbai), Asia Pacific (Osaka), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), Asia Pacific (Hong Kong), Middle East (Bahrain), China (Beijing, operated by Sinnet) and China (Ningxia, operated by NWCD) . Amazon EC2 C6gd is now available across AWS US East (Ohio), US East (N. Virginia), US West (Oregon), US West (San Francisco), Asia Pacific (Mumbai), Asia Pacific (Osaka), Asia Pacific (Tokyo), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Canada (Central), Europe (Frankfurt), Europe (Ireland), and Europe (London) Regions. Amazon EC2 M6gd is now available across AWS US East (Ohio), US East (N. Virginia), US West (Oregon), US West (San Francisco), Asia Pacific (Mumbai), Asia Pacific (Tokyo), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), Europe (Ireland), Europe (London), and Europe (Stockholm) regions. All instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option. These instances are purchasable On-Demand, as Reserved instances, as Spot instances, or as part of Savings Plans.</p>
-<p>To get started with AWS Graviton2-based instances, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. You can also get started with Graviton-based instances for no charge with the <a href="https://aws.amazon.com/ec2/instance-types/t4">T4g free trial</a>, which provides up to 750 hours per month with the t4g.small instances through December 31, 2022. To learn more, visit the <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton page</a> or the <a href="https://github.com/aws/aws-graviton-gettting-started">Getting Started Github page</a>.</p>"
+<p>To get started with AWS Graviton2-based instances, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. You can also get started with Graviton-based instances for no charge with the <a href="https://aws.amazon.com/ec2/instance-types/t4">T4g free trial</a>, which provides up to 750 hours per month with the t4g.small instances through December 31, 2022. To learn more, visit the <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton page</a> or the <a href="https://github.com/aws/aws-graviton-gettting-started">Getting Started Github page</a>. </p>"
 `;
 
 exports[`should return a formatted html 40`] = `
@@ -1190,8 +1252,8 @@ exports[`should return a formatted html 42`] = `
 `;
 
 exports[`should return a formatted html 43`] = `
-"<p>Today we are excited to announce the general availability of <a href="https://aws.amazon.com/augmented-ai">Amazon Augmented AI</a> (Amazon A2I), a new service that makes it easy to implement human reviews of machine learning (ML) predictions. Amazon A2I brings human review capabilities to all developers by removing the undifferentiated heavy lifting associated with building and managing human review systems.  </p>
-<p>Many machine learning use cases require human judgement to get high confidence predictions, or to audit predictions on an on-going basis. For example, extracting information from scanned mortgage application forms might require human review due to low-quality scans or poor handwriting. Building human review systems to do this work can be time consuming and expensive because it involves implementing complex processes or workflows, writing custom software to manage review tasks and results, and in many cases, managing a large workforce of reviewers.  </p>
+"<p>Today we are excited to announce the general availability of <a href="https://aws.amazon.com/augmented-ai">Amazon Augmented AI</a> (Amazon A2I), a new service that makes it easy to implement human reviews of machine learning (ML) predictions. Amazon A2I brings human review capabilities to all developers by removing the undifferentiated heavy lifting associated with building and managing human review systems.   </p>
+<p>Many machine learning use cases require human judgement to get high confidence predictions, or to audit predictions on an on-going basis. For example, extracting information from scanned mortgage application forms might require human review due to low-quality scans or poor handwriting. Building human review systems to do this work can be time consuming and expensive because it involves implementing complex processes or workflows, writing custom software to manage review tasks and results, and in many cases, managing a large workforce of reviewers.   </p>
 <p>Amazon A2I provides built-in human review workflows for common ML use cases like content moderation (with <a href="https://aws.amazon.com/rekognition">Amazon Rekognition</a>) and text extraction (with <a href="https://aws.amazon.com/textract">Amazon Textract</a>). There is also an option to create human review workflows for custom ML models including those built on <a href="https://aws.amazon.com/sagemaker">Amazon SageMaker</a>. You can use a pool of reviewers from within your own organization, or you can access the workforce of over 500,000 independent contractors who are already performing machine learning tasks through Amazon Mechanical Turk. Alternatively, if your data requires confidentiality or special skills, there is a workforce of vendors who are experienced with review projects and pre-screened by AWS for quality and security procedures, including iVision, CapeStart Inc., Cogito, and iMerit  </p>
 <p>Below are a few examples of how Amazon A2I works with Amazon Textract, Amazon Rekognition and custom models in SageMaker: </p>
 <p>Amazon A2I with Amazon Textract: Amazon Textract is a service that automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables. This service allows you to define the conditions in which a human reviewer is needed by using the Amazon Textract form data extraction API and Amazon A2I. The conditions can be adjusted at any time to achieve the right balance between accuracy and cost-effectiveness. With this you can specify which form fields are important in the documents and send those to human review. You can also choose to send a random sample of Amazon Textract predictions to human reviewers, using those results to learn more about the model’s performance and to audit model inferences. <a href="https://aws.amazon.com/blogs/machine-learning/using-amazon-textract-with-amazon-augmented-ai-for-processing-critical-documents/">Learn more about Amazon Textract and A2I</a>.  </p>
@@ -1269,7 +1331,7 @@ exports[`should return a formatted html 47`] = `
 `;
 
 exports[`should return a formatted html 48`] = `
-"<p>Twenty-three new or updated Amazon Web Services (AWS) public datasets from the National Center for Bioinformatics, Johns Hopkins University, University of Texas at Southwestern, National Oceanic and Atmospheric Administration (NOAA), the National Cancer Institute, National Herbarium of New South Wales, and others are now available in the following categories:  </p>
+"<p>Twenty-three new or updated Amazon Web Services (AWS) public datasets from the National Center for Bioinformatics, Johns Hopkins University, University of Texas at Southwestern, National Oceanic and Atmospheric Administration (NOAA), the National Cancer Institute, National Herbarium of New South Wales, and others are now available in the following categories:   </p>
 <p>COVID-19 response:</p>
 <ul>
 <li><a href="https://registry.opendata.aws/molssi-covid19-hub/">COVID-19 Molecular Structure and Therapeutics Hub</a> from the Molecular Sciences Software Institute</li>
@@ -1401,9 +1463,9 @@ exports[`should return a formatted html 52`] = `
 <p>Amazon SageMaker Model Monitor currently supports detecting data quality drift by tracking the difference between data that was used to train the models versus the data that is being presented to the model to score and alerting you of deviations to help you take timely actions such as auditing data or retraining models. Today, we are adding three new capabilities to SageMaker Model Monitor, enabling you to detect drift in model quality, model bias, and feature importance.  </p>
 <p>With model quality monitoring, you can monitor model characteristics (such as precision, accuracy, recall, and more) of your ML models in real time. SageMaker Model monitor reports how well a ML model is predicting outcomes by comparing model prediction to ground truth data. As the model is monitored, you can view exportable reports and graphs detailing model quality in <a href="https://aws.amazon.com/s3">Amazon S3</a>, <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio.html">Amazon SageMaker Studio</a>, and <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html">SageMaker Notebook instance</a>. You can also configure <a href="https://aws.amazon.com/cloudwatch">Amazon CloudWatch</a> to receive notifications if drift in model quality is observed.  </p>
 <p>Bias monitoring helps you detect bias in your ML models on a regular basis. SageMaker Model Monitor periodically determines when bias metrics drift into levels that statistically exceed preset thresholds. With bias monitoring capabilities in Model Monitor, you can view metrics and visualize the results in SageMaker Studio. You can also configure automated alerts so that you can immediately know when your model exceeds bias metric thresholds you have set.</p>
-<p>After models are deployed in production, the importance and impact of certain features in the model can change over time. Model explainablility monitoring helps you understand and interpret whether the predictions made by your ML models are based on the same features, and in the same proportion, as when your model was trained. When you enable explainability tracking, SageMaker Model Monitor automatically detects drift in relative importance of features, enables you to visualize these changes in SageMaker Studio, and, like all other SageMaker Model Monitor features, can be configured with Amazon CloudWatch to proactively alert you when drift is detected.  </p>
+<p>After models are deployed in production, the importance and impact of certain features in the model can change over time. Model explainablility monitoring helps you understand and interpret whether the predictions made by your ML models are based on the same features, and in the same proportion, as when your model was trained. When you enable explainability tracking, SageMaker Model Monitor automatically detects drift in relative importance of features, enables you to visualize these changes in SageMaker Studio, and, like all other SageMaker Model Monitor features, can be configured with Amazon CloudWatch to proactively alert you when drift is detected.   </p>
 <p>Amazon SageMaker Model Monitor can be enabled for new or existing real-time inference endpoints. Once enabled, SageMaker Model Monitor saves prediction requests and responses in Amazon S3, compares the model predictions with actuals or ground truth you provide, runs built-in or custom rules to detect drift against a baseline, and alerts you when there are deviations. As a result, you can monitor hundreds of models for drift in data quality, model quality, model bias, and feature importance in a standardized way across your organization without having to build any additional tooling. Monitoring jobs can be scheduled to run at a regular cadence (for example hourly or daily) and push reports as well as metrics to <a href="https://aws.amazon.com/cloudwatch">Amazon CloudWatch</a> and <a href="https://aws.amazon.com/s3">Amazon S3</a>. The monitoring results are also available in <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio.htm">Amazon SageMaker Studio</a> for visual inspection and you can also further analyze the results using an <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html">Amazon SageMaker Notebook Instance</a>. </p>
-<p>Amazon SageMaker Model Monitor is available in <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services">all commercial regions</a> where Amazon SageMaker is available. You also get up to 30 hours of monitoring aggregated across all endpoints each month, at no charge, when you use built-in monitoring rules with the default ml.m5.xlarge instance. Read the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html">documentation</a> for more information and for sample notebooks.  </p>"
+<p>Amazon SageMaker Model Monitor is available in <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services">all commercial regions</a> where Amazon SageMaker is available. You also get up to 30 hours of monitoring aggregated across all endpoints each month, at no charge, when you use built-in monitoring rules with the default ml.m5.xlarge instance. Read the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html">documentation</a> for more information and for sample notebooks.   </p>"
 `;
 
 exports[`should return a formatted html 53`] = `
@@ -1432,13 +1494,13 @@ exports[`should return a formatted html 54`] = `
 exports[`should return a formatted html 55`] = `
 "<p>Amazon Rekognition added three new features today: detection and recognition of text in images; real-time face recognition across tens of millions of faces; and detection of up to 100 faces in challenging crowded photos. Customers who are already using Amazon Rekognition for face verification and identification will experience up to a 10% accuracy improvement in most cases. </p>
 <p><strong>Text in Image:</strong> Customers using Amazon Rekognition to detect objects and faces in images have been asking us to recognize text embedded in images, such as street signs and license plates captured by traffic cameras, news, and captions on TV screens, or stylized quotes overlaid on phone-captured family pictures. Starting today, you can use Rekognition Text in Image to recognize and extract textual content from images. Text in Image is specifically built to work with real-world images rather than document images. It supports text in most Latin scripts and numbers embedded in a large variety of layouts, fonts, and styles, and overlaid on background objects at various orientation as banners and posters.</p>
-<p>For example, in image sharing and social media applications, you can now enable visual search based on an index of images that contain the same keywords. In media and entertainment applications, you can catalogue videos based on relevant text on screen, such as ads, news, sport scores, and captions. Additionally, in security and safety applications, you can identify vehicles based on license plate numbers from images taken by street cameras.</p>
+<p>For example, in image sharing and social media applications, you can now enable visual search based on an index of images that contain the same keywords. In media and entertainment applications, you can catalogue videos based on relevant text on screen, such as ads, news, sport scores, and captions. Additionally, in security and safety applications, you can identify vehicles based on license plate numbers from images taken by street cameras. </p>
 <p>“As a visually-driven platform, Pinterest relies heavily on the speed and quality of images, but the text behind those images is just as important, as it provides context and makes Pins actionable for our 200M+ active Pinners. In working with Amazon Rekognition Text in Image, we can better extract the rich text captured in images at scale and with low latency for the millions of Pins stored in Amazon S3. We look forward to continuing to develop the partnership with AWS for high quality and fast experiences for Pinners and businesses on Pinterest.” - Vanja Josifovski, CTO, Pinterest</p>
 <p>“Professional photographers often use SmugMug to share and sell photos containing text, for example, the numbers on marathon race bibs. Amazon Rekognition Text in Image allows us to programmatically extract bib numbers at scale and provide event photographers with even more functionality to quickly and easily share and monetize photos from these events. " - Don MacAskill, Co-founder, CEO &amp; Chief Geek at SmugMug  </p>
 <p><strong>Face Search and Detection:</strong> With Amazon Rekognition, you can now perform real-time face searches against collections with tens of millions of faces. This represents a 5-10X reduction in search latency, while simultaneously allowing for collections that can store 10-20X more faces than before.</p>
 <p>In security and safety applications, you can now identify people of interest against a collection of millions of faces in near real-time, enabling use cases such as timely and accurate crime prevention. The Washington County Sheriff’s Office is the primary first responder for 911 calls from the citizens in Oregon. The office also provides support for crime prevention to other city police departments countywide. The Sheriff’s Office had previously used Amazon Rekognition to reduce the identification time of suspects from 2-3 days down to minutes.</p>
 <p>“These improvements allow deputies in the field to receive the response to searches in near real time. This allows them to get the information they need and take action quickly. Seconds saved in the field can make the difference in saving a life.” Chris Adzima, Senior Information Systems Analyst for the Washington County Sheriff’s Office.</p>
-<p>Starting today, customers can also detect, analyze and index up to 100 faces (up from 15) in a single image. With this improvement, you can accurately capture demographics and analyze sentiments for all faces in group photos, crowded events and public locations such as airports and department stores.  </p>
+<p>Starting today, customers can also detect, analyze and index up to 100 faces (up from 15) in a single image. With this improvement, you can accurately capture demographics and analyze sentiments for all faces in group photos, crowded events and public locations such as airports and department stores.   </p>
 <p>To get started with Text in Image, Face Search and Face Detection, download the <a href="https://aws.amazon.com/rekognition/developers">latest SDK</a> or simply log in to the <a href="https://console.aws.amazon.com/rekognition/">Amazon Rekognition Console</a> to try out this feature with the supplied sample images, or your own images. For more information, please refer to the <a href="https://aws.amazon.com/documentation/rekognition/?icmpid=docs%5Fmenu">Amazon Rekognition documentation</a> for Text in Image, Detecting Faces and Searching Faces.</p>"
 `;
 
@@ -1452,8 +1514,8 @@ exports[`should return a formatted html 56`] = `
 `;
 
 exports[`should return a formatted html 57`] = `
-"<p><a href="https://aws.amazon.com/security-hub">AWS Security Hub</a> is now integrated with <a href="https://aws.amazon.com/macie">Amazon Macie</a> to automatically ingest sensitive data findings from Macie. Security Hub previously ingested policy findings from Macie, and this integration adds sensitive data findings. All of Security Hub’s findings are automatically normalized using the AWS Security Finding Format (ASFF), enabling you to more easily search, correlate, and operationalize them. To get started, visit the Settings page in the Macie <a href="https://console.aws.amazon.com/securityhub/home">console</a> and select Security Hub as a publish destination for sensitive data findings. You can also learn more about how to discover sensitive data in the Macie <a href="https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html">documentation</a>.  </p>
-<p>Within Security Hub, you can search for which Amazon S3 buckets have policy violations via findings from Macie, threat detections via findings from Amazon GuardDuty, or misconfigurations via findings from Security Hub’s automated security checks. You can now also see if those S3 buckets have sensitive data in them via Macie’s sensitive data findings, which helps you further prioritize these findings for action. All findings in Security Hub, including Macie’s sensitive data findings, are also automatically sent to Amazon EventBridge. Since all Security Hub findings use ASFF as a common data schema, you can more simply build EventBridge rules that leverage this common schema to route findings to response and remediation tools and workflows.  </p>
+"<p><a href="https://aws.amazon.com/security-hub">AWS Security Hub</a> is now integrated with <a href="https://aws.amazon.com/macie">Amazon Macie</a> to automatically ingest sensitive data findings from Macie. Security Hub previously ingested policy findings from Macie, and this integration adds sensitive data findings. All of Security Hub’s findings are automatically normalized using the AWS Security Finding Format (ASFF), enabling you to more easily search, correlate, and operationalize them. To get started, visit the Settings page in the Macie <a href="https://console.aws.amazon.com/securityhub/home">console</a> and select Security Hub as a publish destination for sensitive data findings. You can also learn more about how to discover sensitive data in the Macie <a href="https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html">documentation</a>.   </p>
+<p>Within Security Hub, you can search for which Amazon S3 buckets have policy violations via findings from Macie, threat detections via findings from Amazon GuardDuty, or misconfigurations via findings from Security Hub’s automated security checks. You can now also see if those S3 buckets have sensitive data in them via Macie’s sensitive data findings, which helps you further prioritize these findings for action. All findings in Security Hub, including Macie’s sensitive data findings, are also automatically sent to Amazon EventBridge. Since all Security Hub findings use ASFF as a common data schema, you can more simply build EventBridge rules that leverage this common schema to route findings to response and remediation tools and workflows.   </p>
 <p>Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect your sensitive data in AWS. Getting started with Amazon Macie is fast and easy with one-click in the AWS Management Console or a single API call, including multi-account support using AWS Organizations to allow for enablement across all AWS accounts in an organization with a few clicks. The service maintains a large and growing list of managed sensitive data types, including personal identifiable information (PII) such as names, addresses, credit card numbers, and country identification numbers as well as supports the creation of custom sensitive data types that can be used to detect sensitive data that may be unique to a given business or use case. </p>
 <p>AWS Security Hub is <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-regions.html">available globally</a> and is designed to give you a comprehensive view of your security posture across your AWS accounts. With Security Hub, you now have a single place that aggregates, organizes, and prioritizes your security alerts, or findings, from multiple AWS services, including Amazon GuardDuty, Amazon Inspector, Amazon Macie, AWS Firewall Manager, AWS Systems Manager Patch Manager, AWS Chatbot, AWS Config, AWS IAM Access Analyzer, as well as from over 50 APN solutions. You can also continuously monitor your environment using automated security checks based on standards, such as <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp.html">AWS Foundational Security Best Practices</a>, the CIS AWS Foundations Benchmark, and the Payment Card Industry Data Security Standard. You can also take action on these findings by investigating findings in Amazon Detective or sending them to AWS Audit Manager. You can also use Amazon EventBridge rules to send the findings to ticketing, chat, Security Information and Event Management (SIEM), response and remediation workflows, and incident management tools. </p>
 <p>You can enable your 30-day free trial of AWS Security Hub with a single-click in the AWS Management console. To learn more about AWS Security Hub capabilities, see the AWS Security Hub <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html">documentation</a>, and to start your 30-day free trial see the AWS Security Hub <a href="https://aws.amazon.com/security-hub/pricing">free trial page</a>. Amazon Macie also comes with a 30-day free trial for S3 bucket level inventory and evaluation of access control and encryption. Sensitive data discovery is free for the first 1 GB per account per region each month, with additional scanning charges according to the Amazon Macie <a href="https://aws.amazon.com/macie/pricing">pricing</a> plan. To learn more, see the Amazon Macie <a href="https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html">documentation</a> page.  </p>"
@@ -1470,7 +1532,7 @@ exports[`should return a formatted html 58`] = `
 `;
 
 exports[`should return a formatted html 59`] = `
-"<p>Today we are announcing a price reduction of up to 18% on all ml.p3 and ml.p2 instances in <a href="https://aws.amazon.com/sagemaker">Amazon SageMaker</a>, making them an even more cost-effective solution to meet your machine learning needs. The new price reductions will be effective Oct 1st 2020 and will apply to ml.p3 and ml.p2 instances for SageMaker Studio Notebooks, On-Demand Notebooks, Processing, Training, Real-Time Inference, and Batch Transform.  </p>
+"<p>Today we are announcing a price reduction of up to 18% on all ml.p3 and ml.p2 instances in <a href="https://aws.amazon.com/sagemaker">Amazon SageMaker</a>, making them an even more cost-effective solution to meet your machine learning needs. The new price reductions will be effective Oct 1st 2020 and will apply to ml.p3 and ml.p2 instances for SageMaker Studio Notebooks, On-Demand Notebooks, Processing, Training, Real-Time Inference, and Batch Transform.   </p>
 <p>Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models. With these price reductions, customers can optimize their ML budgets and further reduce their costs to build machine learning and deep learning applications using accelerated compute instances.  </p>
 <p>The price reductions for the specific instance types are as follows:</p>
 <p><strong>Instance Type Price Reduction</strong></p>
@@ -1481,7 +1543,7 @@ exports[`should return a formatted html 59`] = `
 <p>ml.p3.8xlarge 14%</p>
 <p>ml.p3.16xlarge 18%</p>
 <p>m.p3dn.24xlarge 18%</p>
-<p>The ml.p2 instances are general-purpose GPU compute applications suited for machine learning. The ml.p3 instances are optimized for distributed machine learning and can significantly accelerate machine learning and deep learning applications to reduce training and processing times, from days to minutes. The ml.p3 instances offer up to 8 of the most powerful GPU's available in the cloud with up to 64 vCPUs, 488 GB of RAM and 25 Gbps networking throughput. The ml.p3dn.24xlarge instances provide up to 100 Gbps of networking throughput, significantly improving the throughput and scalability of deep learning training models, which leads to faster results.  </p>
+<p>The ml.p2 instances are general-purpose GPU compute applications suited for machine learning. The ml.p3 instances are optimized for distributed machine learning and can significantly accelerate machine learning and deep learning applications to reduce training and processing times, from days to minutes. The ml.p3 instances offer up to 8 of the most powerful GPU's available in the cloud with up to 64 vCPUs, 488 GB of RAM and 25 Gbps networking throughput. The ml.p3dn.24xlarge instances provide up to 100 Gbps of networking throughput, significantly improving the throughput and scalability of deep learning training models, which leads to faster results.   </p>
 <p>The price reductions are available in the following AWS regions: US East (N. Virginia), US East (Ohio), US West (Oregon), EU (Ireland), EU (Frankfurt), EU (London), Canada (Central), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Seoul), Asia Pacific (Tokyo), Asia Pacific (Mumbai), and AWS GovCloud (US-Gov-West).</p>
 <p>Visit the Amazon SageMaker <a href="https://aws.amazon.com/sagemaker">product pages</a> for more information and the <a href="https://aws.amazon.com/sagemaker/pricing">pricing pages</a> for the latest pricing information. </p>"
 `;
@@ -1489,7 +1551,7 @@ exports[`should return a formatted html 59`] = `
 exports[`should return a formatted html 60`] = `
 "<p>Today, the <a href="https://aws.amazon.com/panorama">AWS Panorama Appliance</a> is generally available. The AWS Panorama Appliance is a new device that enables customers to improve their operations and reduce costs by using existing on-premises cameras and analyzing video streams locally with computer vision.  </p>
 <p>Customers in industrial, hospitality, logistics, retail and other industries want to use computer vision to make decisions faster and optimize their operations. For example, these organizations often need to perform physical inspections of production lines to spot defects in manufacturing products, monitor drive-through queues at quick-service restaurants to enhance customer experience, or optimize the layout of their physical locations by improving product placement. These customers typically have cameras installed onsite to support their businesses, but they often resort to manual processes like watching video feeds in real time to extract value from their network of cameras, which is tedious, expensive, and difficult to scale. While some smart cameras can provide real-time visual inspection, replacing existing cameras with new smart cameras can be cost prohibitive. Even then, smart cameras are often ineffective because they are limited to specific use cases and require additional effort to fine-tune. For example, updating a smart camera due to a simple change in the environment (e.g. lighting, camera placement, or production line speed) means that a customer often has to contact their vendor for support which can be costly and time-consuming. Alternatively, some customers send video feeds from existing on-premises cameras to third party servers, but often the required internet bandwidth is costly or facilities are in remote locations where internet connectivity can be slow, all of which degrades the usefulness and practicality of the analysis. Consequently, most customers are stuck using slow, expensive, error-prone, or manual processes for visual monitoring and inspection tasks that do not scale and can lead to missed defects or operational inefficiencies.  </p>
-<p>The AWS Panorama Appliance helps customers to solve these challenges by enabling them to improve operations and reduce costs by using existing on-premises cameras and analyzing video streams locally with computer vision. Customers can get started in minutes by connecting the AWS Panorama Appliance to their network and identifying the video feeds for analysis. Because the computer vision processing happens locally on the AWS Panorama Appliance at the edge, customers can save on bandwidth costs and use it in locations with limited internet bandwidth. Additionally, the AWS Panorama Appliance is integrated with Amazon SageMaker (an AWS service that makes it easy for data scientists and developers to build, train, and deploy machine learning models), so customers can update their computer vision application in Amazon SageMaker and deploy the model to the AWS Panorama Appliance themselves.</p>
+<p>The AWS Panorama Appliance helps customers to solve these challenges by enabling them to improve operations and reduce costs by using existing on-premises cameras and analyzing video streams locally with computer vision. Customers can get started in minutes by connecting the AWS Panorama Appliance to their network and identifying the video feeds for analysis. Because the computer vision processing happens locally on the AWS Panorama Appliance at the edge, customers can save on bandwidth costs and use it in locations with limited internet bandwidth. Additionally, the AWS Panorama Appliance is integrated with Amazon SageMaker (an AWS service that makes it easy for data scientists and developers to build, train, and deploy machine learning models), so customers can update their computer vision application in Amazon SageMaker and deploy the model to the AWS Panorama Appliance themselves. </p>
 <p>For customers that do not want to build their own computer vision applications, AWS Panorama Partners like Deloitte, TaskWatch, Vistry, Sony, and Accenture provide a wide range of solutions that can address unique use cases across manufacturing, construction, hospitality, retail, and other industries. For example, customers in the retail industry have used AWS Panorama Partners to develop computer vision applications that can analyze foot traffic to help optimize store layout and product placement, analyze peak times when additional staffing is needed to assist customers, and quantify inventory levels.  </p>
 <p>Customers like The Vancouver Fraser Port Authority, Tyson Foods, Inc., and The Cincinnati/Northern Kentucky International Airport are are working with AWS Panorama Partners to use AWS Panorama to improve quality control, optimize supply chain, and enhance consumer experiences at the edge.  </p>
 <p>The AWS Panorama Appliance is available for sale on <a href="https://us-west-2.console.aws.amazon.com/elemental-appliances-software/home?region=us-west-2#/quotelist">AWS Elemental</a> in the United States, Canada, United Kingdom, and most of the European Union. The AWS Panorama service is available today in US East (N. Virginia), US West (Oregon), Canada (Central), and Europe (Ireland), with availability in additional AWS Regions in the coming months. To learn more and get started, visit the AWS Panorama <a href="https://aws.amazon.com/panorama">product page</a>.  </p>"
@@ -1562,110 +1624,166 @@ exports[`should return a formatted html 63`] = `
 <p>AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for SAP HANA and SAP HANA-based Netweaver systems with a purpose built, easy to use wizard. </p>
 <p>On-boarding a new operating system version for an SAP application involves close collaboration between SAP and Operating System (OS) teams, who analyze SAP notes, configure the system, and test extensively before standardizing on the new OS. AWS Launch Wizard eliminates this heavy lifting. You select the OS you want to use from a dropdown menu, and it automatically creates a pre-configured environment aligned with AWS and SAP best practices. </p>
 <p>Configuring RHEL 8.1 for SAP workloads manually requires several additional steps compared to RHEL 7, including installation of basic OS packages, C-shell, and SAP HANA High Availability cluster configuration commands. With AWS Launch Wizard, these tasks are automated, simplifying configuration and reducing time to deployment.  </p>
-<p>The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:  </p>
+<p>The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:   </p>
 <p>AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities. </p>
 <p>To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the <a href="https://aws.amazon.com/launchwizard">Launch Wizard page</a>, <a href="https://aws.amazon.com/launchwizard/faq">FAQ</a>, and <a href="https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html">overview documentation</a>.</p>
-<p><strong>Operating system version</strong></p>
-<p><strong>Single-Instance deployment</strong></p>
-<p><strong>ASCS</strong></p>
-<p><strong>ERS</strong></p>
-<p><strong>PAS</strong></p>
-<p><strong>SAP HANA database</strong></p>
-<p><strong>SAP HANA database in HA cluster</strong></p>
-<p>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP5-For-SAP-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP5-For-SAP-BYOS-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-15-SP1-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-15-SP1-For-SAP-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-15-SP1-For-SAP-BYOS-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</p>
-<p>SuSE-Linux-15-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-15-For-SAP-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-15-For-SAP-BYOS-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP4-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP4-For-SAP-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP4-For-SAP-BYOS-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>
-<p>SuSE-Linux-12-SP5-HVM</p>
-<p>✓</p>
-<p>✓</p>
-<p>✓</p>"
+<table>
+<thead>
+<tr>
+<th><strong>Operating system version</strong></th>
+<th><strong>Single-Instance deployment</strong></th>
+<th><strong>ASCS</strong></th>
+<th><strong>ERS</strong></th>
+<th><strong>PAS</strong></th>
+<th><strong>SAP HANA database</strong></th>
+<th><strong>SAP HANA database in HA cluster</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-SP1-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-15-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-For-SAP-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP4-For-SAP-BYOS-HVM</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SuSE-Linux-12-SP5-HVM</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+</tbody>
+</table>"
 `;
 
 exports[`should return a formatted html 64`] = `
 "<p><a href="https://aws.amazon.com/step-functions">AWS Step Functions</a> now integrates with the AWS SDK, expanding the number of supported AWS Services from 17 to over 200 and AWS API Actions from 46 to over 9,000.</p>
 <p><a href="https://aws.amazon.com/step-functions">AWS Step Functions</a> is a low-code, visual workflow service that developers use to build distributed applications, automate IT and business processes, and build data and machine learning pipelines using AWS services. Developers define workflows visually using the <a href="https://docs.aws.amazon.com/step-functions/latest/dg/workflow-studio.html">Workflow Studio</a>, in their programming language of choice using the <a href="https://docs.aws.amazon.com/cdk/api/latest/docs/aws-stepfunctions-readme.html">CDK</a>, or in Python using the <a href="https://github.com/aws/aws-step-functions-data-science-sdk-python">AWS Step Functions Data Science SDK</a>. These workflows use <a href="https://docs.aws.amazon.com/step-functions/latest/dg/concepts-service-integrations.html">Step Functions Service Integrations</a> to compose code (running in <a href="https://aws.amazon.com/lambda">AWS Lambda</a> or <a href="https://aws.amazon.com/ecs">Amazon ECS</a>) or AWS Resources (including DynamoDB Tables, AWS Glue Jobs, and AWS EventBridge event buses) into components of modern applications.</p>
 <p>Now, with the AWS SDK integration, it’s even simpler to build on AWS. SaaS developers can take data stored in Amazon S3, augment it with information stored in <a href="https://aws.amazon.com/dynamodb">Amazon DynamoDB</a>, then process with AWS machine learning services such as <a href="https://aws.amazon.com/textract">Amazon Textract</a> or <a href="https://aws.amazon.com/comprehend">Amazon Comprehend</a> to add new capabilities for their users. Security operations engineers can build reliable, observable, and auditable workflows that react to events from <a href="https://aws.amazon.com/eventbridge">Amazon EventBridge</a> then execute actions in <a href="https://aws.amazon.com/ec2">Amazon EC2</a> to enforce IT controls. Mobile application developers can build a synchronous API that uses <a href="https://aws.amazon.com/personalize">Amazon Personalize</a>, <a href="https://aws.amazon.com/location">Amazon Location Service</a>, and <a href="https://aws.amazon.com/pinpoint">Amazon Pinpoint</a> to enrich the experience of their users. These solutions can be faster to build, easier to scale, and cheaper to maintain because Step Functions manages the complexity, so developers can focus on business logic. And developers gain this advantage with the full selection of AWS Services.</p>
-<p>The AWS SDK integration is generally available in the following regions: US East (Ohio and N. Virginia), US West (Oregon and N. California), Canada (Central), EU (Ireland and Frankfurt), and Asia Pacific (Tokyo). It will be generally available in all other commercial regions where Step Functions is available in the coming days. For a complete list of regions and service offerings, see <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services">AWS Regions</a>.  </p>
+<p>The AWS SDK integration is generally available in the following regions: US East (Ohio and N. Virginia), US West (Oregon and N. California), Canada (Central), EU (Ireland and Frankfurt), and Asia Pacific (Tokyo). It will be generally available in all other commercial regions where Step Functions is available in the coming days. For a complete list of regions and service offerings, see <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services">AWS Regions</a>.   </p>
 <p>To learn more about these new integrations, read the <a href="https://aws.amazon.com/blogs/aws/now-aws-step-functions-supports-200-aws-services-to-enable-easier-workflow-automation/">launch blog</a>, view the <a href="https://docs.aws.amazon.com/step-functions/latest/dg/supported-services-awssdk.html">Developer Guide</a>, and try building a state machine using our <a href="https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-gather-s3-bucket-info-using-aws-sdk-service-integrations.html">AWS SDK integration tutorial</a>.  </p>"
 `;
 
@@ -1736,9 +1854,9 @@ exports[`should return a formatted html 68`] = `
 `;
 
 exports[`should return a formatted html 69`] = `
-"<p>You can now run OpenSearch and OpenSearch Dashboards version 1.2 on Amazon OpenSearch Service. This version includes a new observability interface in OpenSearch Dashboards, improvements to several other features such as anomaly detection, k-NN, and SQL/PPL.</p>
+"<p>You can now run OpenSearch and OpenSearch Dashboards version 1.2 on Amazon OpenSearch Service. This version includes a new observability interface in OpenSearch Dashboards, improvements to several other features such as anomaly detection, k-NN, and SQL/PPL. </p>
 <p>Amazon OpenSearch Service lets you run and scale OpenSearch and open-source Elasticsearch (up to version 7.10) clusters with ease. <a href="https://opensearch.org/">OpenSearch</a> is a community-driven, open source search and analytics suite, originally derived from Apache 2.0 licensed Elasticsearch 7.10.2 &amp; Kibana 7.10.2. It consists of a search engine, OpenSearch, and visualization capabilities powered by OpenSearch Dashboards.</p>
-<p>We launched support for <a href="https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-elasticsearch-service-amazon-opensearch-service-opensearch-1-0">OpenSearch 1.0</a> on Amazon OpenSearch Service in September 2021, and for <a href="https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-opensearch-supports-version-1-1">OpenSearch 1.1</a> in January 2022. The support included features such as transforms, data streams, notebooks, cross-cluster replication, and improvements to anomaly detection and alerting. We are now adding support for OpenSearch 1.2 with the following new features:</p>
+<p>We launched support for <a href="https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-elasticsearch-service-amazon-opensearch-service-opensearch-1-0">OpenSearch 1.0</a> on Amazon OpenSearch Service in September 2021, and for <a href="https://aws.amazon.com/about-aws/whats-new/2022/01/amazon-opensearch-supports-version-1-1">OpenSearch 1.1</a> in January 2022. The support included features such as transforms, data streams, notebooks, cross-cluster replication, and improvements to anomaly detection and alerting. We are now adding support for OpenSearch 1.2 with the following new features: </p>
 <ul>
 <li>New observability interface: The new observability capabilities allows developers and devops engineers to more easily analyze trace data and log data in a single interface. A <a href="https://aws.amazon.com/blogs/big-data/using-pipes-to-explore-discover-and-find-data-in-amazon-opensearch-service-with-piped-processing-language/">Piped Processing Language (PPL) based</a> event explorer helps developers interactively explore log data and visualize the results in simple to configure charts. Developers can save their PPL-based visualization and view multiple saved visualizations on a custom operational panel. Also integrated into the new observability interface is <a href="https://aws.amazon.com/about-aws/whats-new/2021/09/opensearch-dashboards-notebooks-amazon-opensearch-service">OpenSearch Notebooks</a>. With notebooks, developers can interactively and collaboratively develop rich reports that combine markdown, SQL/PPL queries, and visualizations with support for multi-timelines and live data so that users can easily tell a story. For more information about this feature, please see the <a href="https://opensearch.org/docs/latest/observability-plugin/index/">documentation</a>.</li>
 <li>Feature Attribution in Anomaly Detection: You can now provide an attribution ratio for each input feature to help you understand how they contributed to an anomaly. With this data, you can quickly identify the cause of the anomaly. For more information, please see documentation <a href="https://opensearch.org/docs/latest/monitoring-plugins/ad/result-mapping/">here</a>.</li>
@@ -1762,7 +1880,7 @@ exports[`should return a formatted html 71`] = `
 "<p>Amazon Elasticsearch Service Reserved Instances (RIs) offer significant discounts compared to standard On-Demand Instances. Starting today, you can use AWS Budgets to set custom utilization and coverage budgets based on your Amazon Elasticsearch RIs that alert you when you fall below the threshold you define.</p>
 <p>RI utilization budgets track the percentage of Amazon Elasticsearch RI hours used relative to the total RI hours purchased, while RI coverage budgets monitor the percentage of your total Amazon Elasticsearch running hours that are charged at RI rates. Using AWS Budgets, you can set budgets at an aggregate level (e.g., monthly utilization of your entire Amazon Elasticsearch RI fleet) or at a more granular level of detail (e.g., daily utilization of c4.large Elasticsearch instances running in the US East (N. Virginia) region) and receive alerts when your utilization or coverage fall below the threshold you define (e.g., 85%). From there, AWS Budgets will automatically monitor your RIs and alert you whenever your utilization or coverage falls below the threshold you have set. </p>
 <p>Please note that you can access all budget creation and management functionality via the <a href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API%5FOperations%5FAWS%5FBudgets.html">AWS Budgets API</a>.</p>
-<p>To learn more about managing your reservations, visit the <a href="https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/">Reserved Instance Reporting</a> webpages or refer to the <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html">Managing your Costs with Budgets</a> user guide. You can get started using AWS Budgets <a href="https://console.aws.amazon.com/billing/home?#/budgets">here</a>.  </p>"
+<p>To learn more about managing your reservations, visit the <a href="https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/">Reserved Instance Reporting</a>  webpages or refer to the <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html">Managing your Costs with Budgets</a>  user guide. You can get started using AWS Budgets <a href="https://console.aws.amazon.com/billing/home?#/budgets">here</a>.   </p>"
 `;
 
 exports[`should return a formatted html 72`] = `
@@ -1771,41 +1889,57 @@ exports[`should return a formatted html 72`] = `
 <p>* <em>Pricing for US East (N. Virginia) and US West (Oregon). For pricing in other regions, please visit the <a href="https://aws.amazon.com/ec2/pricing">Amazon EC2 pricing</a> page</em>  </p>
 <p>You can launch D2 instances through the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface</a>, and the <a href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html">Amazon EC2 API</a>. You can also use D2 instances with software purchased through the <a href="https://aws.amazon.com/marketplace/">AWS Marketplace</a>. You can purchase D2 instances as On-Demand Instances, Reserved Instances, or Spot Instances. D2 instance are available in US East (N. Virginia), US West (Oregon), EU (Ireland), EU (Frankfurt), Asia Pacific (Tokyo), Asia Pacific (Singapore), and Asia Pacific (Sydney) regions.</p>
 <p>To learn more about D2 and other Amazon EC2 instances, visit the <a href="https://aws.amazon.com/ec2/instance-types">Amazon EC2 Instances page</a> and the Amazon EC2 User Guide's <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/d2-instances.html">section</a> on D2 instances.</p>
-<p><strong>Instance Size</strong></p>
-<p><strong># vCPUs</strong></p>
-<p><strong>Memory (GiB)</strong></p>
-<p><strong>Instance Storage (HDD)</strong></p>
-<p><strong>Network Performance</strong></p>
-<p><strong>Disk Read (MBps with 2 MiB block size)</strong></p>
-<p><strong>Linux On-Demand Price*</strong></p>
-<p>d2.xlarge</p>
-<p>4</p>
-<p>30.5</p>
-<p>3 x 2 TB</p>
-<p>Moderate</p>
-<p>438</p>
-<p>$0.69</p>
-<p>d2.2xlarge</p>
-<p>8</p>
-<p>61</p>
-<p>6 x 2 TB</p>
-<p>High</p>
-<p>875</p>
-<p>$1.38</p>
-<p>d2.4xlarge</p>
-<p>16</p>
-<p>122</p>
-<p>12 x 2 TB</p>
-<p>High</p>
-<p>1,750</p>
-<p>$2.76</p>
-<p>d2.8xlarge</p>
-<p>36</p>
-<p>244</p>
-<p>24 x 2 TB</p>
-<p>10 Gbps</p>
-<p>3,500</p>
-<p>$5.52</p>"
+<table>
+<thead>
+<tr>
+<th><strong>Instance Size</strong></th>
+<th><strong># vCPUs</strong></th>
+<th><strong>Memory (GiB)</strong></th>
+<th><strong>Instance Storage (HDD)</strong></th>
+<th><strong>Network Performance</strong></th>
+<th><strong>Disk Read (MBps with 2 MiB block size)</strong></th>
+<th><strong>Linux On-Demand Price*</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d2.xlarge</td>
+<td>4</td>
+<td>30.5</td>
+<td>3 x 2 TB</td>
+<td>Moderate</td>
+<td>438</td>
+<td>$0.69</td>
+</tr>
+<tr>
+<td>d2.2xlarge</td>
+<td>8</td>
+<td>61</td>
+<td>6 x 2 TB</td>
+<td>High</td>
+<td>875</td>
+<td>$1.38</td>
+</tr>
+<tr>
+<td>d2.4xlarge</td>
+<td>16</td>
+<td>122</td>
+<td>12 x 2 TB</td>
+<td>High</td>
+<td>1,750</td>
+<td>$2.76</td>
+</tr>
+<tr>
+<td>d2.8xlarge</td>
+<td>36</td>
+<td>244</td>
+<td>24 x 2 TB</td>
+<td>10 Gbps</td>
+<td>3,500</td>
+<td>$5.52</td>
+</tr>
+</tbody>
+</table>"
 `;
 
 exports[`should return a formatted html 73`] = `
@@ -1816,7 +1950,7 @@ exports[`should return a formatted html 73`] = `
 `;
 
 exports[`should return a formatted html 74`] = `
-"<p>Starting today, Amazon EC2 I4i Instances are available in additional Amazon Web Services (AWS) Regions - US West (N. California), Asia Pacific (Hong Kong, Singapore, Sydney, Tokyo), Canada (Central), Europe (Frankfurt, London, Paris). Designed for storage I/O intensive workloads, I4i instances are powered by 3rd generation Intel Xeon Scalable processors (code named Ice Lake) with an all-core turbo frequency of 3.5 GHz, offer up to 30% better compute price performance over I3 instances, and always-on memory encryption using Intel Total Memory Encryption (TME).  </p>
+"<p>Starting today, Amazon EC2 I4i Instances are available in additional Amazon Web Services (AWS) Regions - US West (N. California), Asia Pacific (Hong Kong, Singapore, Sydney, Tokyo), Canada (Central), Europe (Frankfurt, London, Paris). Designed for storage I/O intensive workloads, I4i instances are powered by 3rd generation Intel Xeon Scalable processors (code named Ice Lake) with an all-core turbo frequency of 3.5 GHz, offer up to 30% better compute price performance over I3 instances, and always-on memory encryption using Intel Total Memory Encryption (TME).   </p>
 <p>I4i instances offer up to 30 TB of NVMe storage from AWS Nitro SSDs. Nitro SSDs are NVMe-based and custom-designed by AWS to provide high I/O performance, low latency, minimal latency variability, and security with always-on encryption. I4i instances provide up to 60% lower storage I/O latency, and up to 75% lower storage I/O latency variability compared to I3 instances. These instances deliver the highest local storage performance within Amazon EC2 and are designed for databases such as MySQL, Oracle DB, and Microsoft SQL Server, and NoSQL databases such as MongoDB, Couchbase, Aerospike, and Redis where low latency local NVMe storage is needed in order to meet application service level agreements (SLAs). I4i instances are built on the AWS <a href="https://aws.amazon.com/ec2/nitro">Nitro System</a>, a combination of dedicated hardware and lightweight hypervisor, which delivers practically all of the compute and memory resources of the host hardware to your instances.  </p>
 <p>I4i metal instances will also be made available to the customers in the 9 aforementioned regions starting today. I4i bare metal instances allow EC2 customers to run applications that benefit from deep performance analysis tools, specialized workloads that require direct access to bare metal infrastructure, legacy workloads not supported in virtual environments, and licensing-restricted business critical applications. Furthermore, I4i metal instances provide your applications with direct access to the 3rd generation Intel Xeon Scalable processor and memory resources of the underlying server. Workloads on I4i metal instances will also be able to benefit from the comprehensive services and features of the AWS Cloud, such as <a href="https://aws.amazon.com/ebs">Amazon Elastic Block Store (EBS)</a>, Elastic Load Balancer (ELB), and Amazon Virtual Private Cloud (VPC). I4i metal instances will also make it possible for customers to run secured containers such as Clear Linux Containers.</p>
 <p>To meet customer demands for increased scalability, I4i instances provide a new instance size (i4.32xlarge) with 128 vCPUs and 1,024 GiB of memory, which is twice that of the largest I3 instance. I4i instances give customers up to 75 Gbps of networking speed and 40 Gbps of bandwidth to the <a href="https://aws.amazon.com/ebs">Amazon Elastic Block Store</a>. Customers can use <a href="https://aws.amazon.com/hpc/efa">Elastic Fabric Adapter</a> on the 32xlarge size, which enables low latency and highly-scalable inter-node communication. For optimal networking performance on these new instances, Elastic Network Adapter (ENA) driver update may be required. For more information on the optimal ENA driver for I4i, see <a href="https://aws.amazon.com/premiumsupport/knowledge-center/migrate-to-gen6-ec2-instance">this article</a>.</p>
@@ -1825,34 +1959,30 @@ exports[`should return a formatted html 74`] = `
 
 exports[`should return a formatted html 75`] = `
 "<p>Today at the AWS Public Sector Summit in Brussels, we announced that <a href="http://aws.amazon.com/education/edstart">AWS EdStart</a>, a program that helps startup educational technology (EdTech) companies build teaching and learning solutions on the AWS Cloud, is now available to customers in Europe, the Middle East, and Africa (EMEA)1.</p>
-<p>AWS is committed to helping entrepreneurs build the next generation of online learning, analytics, and campus management solutions on the AWS Cloud. This new global focus for AWS EdStart will enable startup EdTech companies from around the world to move faster by providing AWS Promotional Credits, community engagement, customized trainings, joint marketing opportunities, and technical support.</p>
-<p>Since launching AWS EdStart in the U.S. in early 2017, the program has issued over $2M in AWS Promotional Credits to help customers revolutionize the education industry.</p>
+<p>AWS is committed to helping entrepreneurs build the next generation of online learning, analytics, and campus management solutions on the AWS Cloud. This new global focus for AWS EdStart will enable startup EdTech companies from around the world to move faster by providing AWS Promotional Credits, community engagement, customized trainings, joint marketing opportunities, and technical support. </p>
+<p>Since launching AWS EdStart in the U.S. in early 2017, the program has issued over $2M in AWS Promotional Credits to help customers revolutionize the education industry. </p>
 <p>Learn more about <a href="http://aws.amazon.com/education/edstart">AWS EdStart</a> today.</p>
 <p>1 May not be available in all countries and certain restrictions may apply. Please see AWS EdStart Application page for details.</p>"
 `;
 
 exports[`should return a formatted html 76`] = `
-"<p>AWS CloudFormation has added support for four additional AWS services and several new features.</p>
+"<p>AWS CloudFormation has added support for four additional AWS services and several new features. </p>
 <p>You can now provision the following AWS services using CloudFormation. Visit <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html">here</a> for a full list of supported services.</p>
 <ul>
-<li><strong>Network Address Translation (NAT) Gateway:</strong> You can now provision a <a href="https://aws.amazon.com/about-aws/whats-new/2015/12/introducing-amazon-vpc-nat-gateway-a-managed-nat-service/">Network Address Translation (NAT) Gateway</a> using CloudFormation. NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-natgateway.html">Learn more</a>.</li>
-<li><strong>Amazon EC2 Container Registry (Amazon ECR):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/ecr/">Amazon ECR</a>, a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html">Learn more</a>.</li>
-<li><strong>Amazon Elastic MapReduce (Amazon EMR):</strong> You can now provision Amazon EMR using CloudFormation. Amazon EMR is a web service that makes it easy to quickly and cost-effectively process vast amounts of data using frameworks such as Hadoop, Apache Spark, and Presto.</li>
-<li><strong>Amazon Elasticsearch Service (Amazon ES):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/elasticsearch-service/">Amazon ES</a>, a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters on AWS. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html">Learn more</a>.</li>
-</ul>
-<p>You can now provision the following features using CloudFormation:</p>
-<ul>
-<li><strong>AWS CloudTrail multi-region trail creation:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-ismultiregiontrail">Specify</a> whether newly created trails apply to the region in which your stack was created or to all regions.</li>
-<li><strong>AWS Config global resource types:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configurationrecorder-recordinggroup.html">Indicate</a> whether AWS Config should automatically start recording newly added global resource types, such as IAM users, groups, roles, and customer managed policies.</li>
-<li><strong>Amazon Relational Database Service (Amazon RDS) encryption:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-storageencrypted">Encrypt</a> Amazon RDS database instances using AWS Key Management System.</li>
-<li><strong>Edit tags when updating stacks:</strong> Add, modify, or remove stack tags when you <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-stack.html">update</a> your stack. Previously, you could not make changes to tags when updating your stack.</li>
-<li><strong>Retain resources when deleting stacks:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-delete-stack-fails">Specify</a> the AWS resources you would like to retain when deleting a stack. This is useful when your stack deletion has failed because it contains a resource that cannot be deleted, such as a non-empty Amazon S3 bucket.</li>
-</ul>
-<p>Please visit our website for more information on AWS CloudFormation:</p>
-<ul>
-<li><a href="https://aws.amazon.com/cloudformation/">Product Page</a></li>
-<li><a href="https://aws.amazon.com/documentation/cloudformation/">Documentation</a></li>
-<li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html">Supported AWS Resources</a></li>
+<li><p><strong>Network Address Translation (NAT) Gateway:</strong> You can now provision a <a href="https://aws.amazon.com/about-aws/whats-new/2015/12/introducing-amazon-vpc-nat-gateway-a-managed-nat-service/">Network Address Translation (NAT) Gateway</a> using CloudFormation. NAT Gateway is a highly available AWS managed service that makes it easy to connect to the Internet from instances within a private subnet in an Amazon Virtual Private Cloud (VPC). <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-natgateway.html">Learn more</a>.</p></li>
+<li><p><strong>Amazon EC2 Container Registry (Amazon ECR):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/ecr/">Amazon ECR</a>, a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html">Learn more</a>.</p></li>
+<li><p><strong>Amazon Elastic MapReduce (Amazon EMR):</strong> You can now provision Amazon EMR using CloudFormation. Amazon EMR is a web service that makes it easy to quickly and cost-effectively process vast amounts of data using frameworks such as Hadoop, Apache Spark, and Presto.</p></li>
+<li><p><strong>Amazon Elasticsearch Service (Amazon ES):</strong> You can now use CloudFormation to provision <a href="https://aws.amazon.com/elasticsearch-service/">Amazon ES</a>, a managed service that makes it easy to deploy, operate, and scale Elasticsearch clusters on AWS. <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html">Learn more</a>.</p>
+<p>You can now provision the following features using CloudFormation: </p></li>
+<li><p><strong>AWS CloudTrail multi-region trail creation:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-ismultiregiontrail">Specify</a> whether newly created trails apply to the region in which your stack was created or to all regions.</p></li>
+<li><p><strong>AWS Config global resource types:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-config-configurationrecorder-recordinggroup.html">Indicate</a> whether AWS Config should automatically start recording newly added global resource types, such as IAM users, groups, roles, and customer managed policies.</p></li>
+<li><p><strong>Amazon Relational Database Service (Amazon RDS) encryption:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-storageencrypted">Encrypt</a> Amazon RDS database instances using AWS Key Management System.</p></li>
+<li><p><strong>Edit tags when updating stacks:</strong> Add, modify, or remove stack tags when you <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-stack.html">update</a> your stack. Previously, you could not make changes to tags when updating your stack.</p></li>
+<li><p><strong>Retain resources when deleting stacks:</strong> <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-delete-stack-fails">Specify</a> the AWS resources you would like to retain when deleting a stack. This is useful when your stack deletion has failed because it contains a resource that cannot be deleted, such as a non-empty Amazon S3 bucket.</p>
+<p>Please visit our website for more information on AWS CloudFormation:</p></li>
+<li><p><a href="https://aws.amazon.com/cloudformation/">Product Page</a></p></li>
+<li><p><a href="https://aws.amazon.com/documentation/cloudformation/">Documentation</a></p></li>
+<li><p><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-supported-resources.html">Supported AWS Resources</a></p></li>
 </ul>"
 `;
 
@@ -1867,9 +1997,21 @@ exports[`should return a formatted html 77`] = `
 exports[`should return a formatted html 78`] = `
 "<p>We are pleased to announce that Ruby 2.0 is now available on <a href="https://aws.amazon.com/">AWS Elastic Beanstalk</a>. Elastic Beanstalk already makes it easier to quickly deploy, manage and scale Java, Node.js, Python, PHP, .NET and Ruby 1.9.3 applications on AWS. Now, Elastic Beanstalk offers the same functionality for Ruby 2.0. For a complete list of supported platforms, see <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=GXSLIFTD6ZMAMNRITGLMK6KFUFQA&T=TC&U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fconcepts.platforms.html%3Fref%5F%3Dpe%5F411040%5F115389660">Supported Platforms</a>.</p>
 <p>Elastic Beanstalk for Ruby 2.0 comes with a choice of Passenger Standalone or Puma web server for Ruby with Nginx as a reverse proxy. This highly requested combination allows you to utilize all the virtual cores available on the instance type running your environment. To get started using Elastic Beanstalk for Ruby 2.0, visit the <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=QDAZ7OFCC78QZCDWJITKKNLFYN4A&T=TC&U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate%5Fdeploy%5FRuby.html%3Fref%5F%3Dpe%5F411040%5F115389660">AWS Elastic Beanstalk Developer Guide</a> or check out the walkthroughs for how to deploy <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=HCSSGDXD9JHYCEUQTSY3OL0KNDQA&T=TC&U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate%5Fdeploy%5FRuby%5Frails.html%3Fref%5F%3Dpe%5F411040%5F115389660">Rails</a> and <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=XSI14UGWGAJMLZADOKL3ET1Y4WCA&T=TC&U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Fcreate%5Fdeploy%5FRuby%5Fsinatra.html%3Fref%5F%3Dpe%5F411040%5F115389660">Sinatra</a> applications on Elastic Beanstalk.</p>
-<p>To launch a sample application click on 'Launch Now' (will present the AWS Elastic Beanstalk launch application wizard) below:<br />
-Sample Sinatra application<a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=IC5KJJTZZVUGHZ1C9SBIJRBLB6WA&T=TC&U=https%3A%2F%2Fconsole.aws.amazon.com%2Felasticbeanstalk%2F%3Fregion%3Dus-west-2%26ref%5F%3Dpe%5F411040%5F115389660%23%2FnewApplication%3FapplicationName%3DSinatraSampleApp%26solutionStackName%3DRuby">Launch Now</a>Sample Rails 4 application that creates a simple pre-launch marketing web application <em>(Note: Requires selecting the 'Create an RDS DB Instance with this environment' option on the 'Additional Resources' step of the create wizard)</em></p>
-<p><a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=LOQGPARP13LQBPNFQAX4JXXJH1OA&T=TC&U=https%3A%2F%2Fconsole.aws.amazon.com%2Felasticbeanstalk%2F%3Fregion%3Dus-west-2%26ref%5F%3Dpe%5F411040%5F115389660%23%2FnewApplication%3FapplicationName%3DRailsSampleApp%26solutionStackName%3DRuby%26sourceBundleUrl%3Dhttps%3A%2F%2Fs3.amazonaws.com%2Feb-ruby2-sample%2FRailsSample.zip">Launch Now</a></p>
+<p>To launch a sample application click on 'Launch Now' (will present the AWS Elastic Beanstalk launch application wizard) below:  </p>
+<table>
+<thead>
+<tr>
+<th>Sample Sinatra application</th>
+<th><a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=IC5KJJTZZVUGHZ1C9SBIJRBLB6WA&T=TC&U=https%3A%2F%2Fconsole.aws.amazon.com%2Felasticbeanstalk%2F%3Fregion%3Dus-west-2%26ref%5F%3Dpe%5F411040%5F115389660%23%2FnewApplication%3FapplicationName%3DSinatraSampleApp%26solutionStackName%3DRuby">Launch Now</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Rails 4 application that creates a simple pre-launch marketing web application <em>(Note: Requires selecting the 'Create an RDS DB Instance with this environment' option on the 'Additional Resources' step of the create wizard)</em></td>
+<td><a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=LOQGPARP13LQBPNFQAX4JXXJH1OA&T=TC&U=https%3A%2F%2Fconsole.aws.amazon.com%2Felasticbeanstalk%2F%3Fregion%3Dus-west-2%26ref%5F%3Dpe%5F411040%5F115389660%23%2FnewApplication%3FapplicationName%3DRailsSampleApp%26solutionStackName%3DRuby%26sourceBundleUrl%3Dhttps%3A%2F%2Fs3.amazonaws.com%2Feb-ruby2-sample%2FRailsSample.zip">Launch Now</a></td>
+</tr>
+</tbody>
+</table>
 <p>To learn more about creating your own "Launch Now" links, see <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=TXUEAILEKHPB66WKBWORCDTZGBYA&T=TC&U=http%3A%2F%2Fdocs.aws.amazon.com%2Felasticbeanstalk%2Flatest%2Fdg%2Flaunch-now-url.html%3Fref%5F%3Dpe%5F411040%5F115389660">Constructing a Launch Now URL</a>. For more information about AWS Elastic Beanstalk please visit the <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=01FEGC28ASELVOKKZ1NIJY7JO00A&T=TC&U=http%3A%2F%2Faws.amazon.com%2Felasticbeanstalk%3Fref%5F%3Dpe%5F411040%5F115389660">product page</a>, read the <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=E1UD5NGSVBTDVMN74MJJUQ5R6G0A&T=TC&U=http%3A%2F%2Faws.amazon.com%2Fdocumentation%2Felasticbeanstalk%2F%3Fref%5F%3Dpe%5F411040%5F115389660">documentation</a> or watch this introductory <a href="http://www.amazon.com/gp/r.html?R=3Q89S9WPYQKE1&C=1JOK9Z3SS71FV&H=U8RYOQZGQJRPIQZ678VXMRPHXIQA&T=TC&U=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGbkR9lFcFBY">video</a>.</p>"
 `;
 
@@ -2021,7 +2163,7 @@ exports[`should return a formatted html 88`] = `
 "<p>We have extended AWS CloudFormation support for a few additional features of Auto Scaling, AWS OpsWorks, Amazon Route 53, and Amazon CloudFront.</p>
 <p>CloudFormation now supports Auto Scaling <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html">Lifecycle Hooks</a>. Lifecycle Hooks allow you to add custom events to instances as they launch or terminate such as retrieving log files. You can also use CloudFormation to specify multiple notifications for a single Auto Scaling group, and you can enable this by configuring the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-notificationconfigurations">NotificationConfigurations</a> property. We have also added CloudFormation support for two Auto Scaling launch configuration features. CloudFormation now supports the ability to <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-classiclinkvpcid">specify the ID</a> of ClassicLink-enabled VPCs and security groups from which you can link your EC2-Classic instances, and CloudFormation supports the ability to specify the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-placementtenancy">tenancy of an instance</a>. You can also use CloudFormation to configure the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-as-scalingpolicy-minadjustmentstep">minimum number of instances</a> that are added or removed when an Auto Scaling group scales up or down.  </p>
 <p>You can now specify through CloudFormation the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-viewercertificate.html#cfn-cloudfront-distributionconfig-viewercertificate-minimumprotocolversion">minimum SSL protocol</a> that you want CloudFront to use for SSL connections. You can also use CloudFormation to specify the HTTP methods (e.g., “HEAD” or “GET”) for which CloudFront will <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-cachebehavior.html#cfn-cloudfront-cachebehavior-cachedmethods">cache responses</a>. CloudFormation also supports the ability to set the CloudFront <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-origin.html#cfn-cloudfront-origin-originpath">origin path</a>.</p>
-<p>You can now create <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-vpcs">private hosted zones</a> in Amazon VPC using CloudFormation. CloudFormation also supports the ability to tag your <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthchecktags">HealthCheck</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzonetags">HostedZone</a> resources.  </p>
+<p>You can now create <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-vpcs">private hosted zones</a> in Amazon VPC using CloudFormation. CloudFormation also supports the ability to tag your <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthchecktags">HealthCheck</a> and <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzonetags">HostedZone</a> resources.   </p>
 <p>CloudFormation now supports <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-timebasedautoscaling">time-based auto-scaling</a> for instances managed by OpsWorks, and you can also use CloudFormation to create a <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-loadbasedautoscaling">load-based auto-scaling</a> layer in OpsWorks. You can now configure the <a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html">volume type and IOPS</a> of Amazon EBS volumes used in an OpsWorks layer through CloudFormation.  </p>
 <p>For more information on AWS CloudFormation:<br />
 • <a href="https://aws.amazon.com/cloudformation">Product Page</a><br />
@@ -2032,7 +2174,7 @@ exports[`should return a formatted html 89`] = `
 "<p>Today, we are announcing the next generation storage optimized Amazon EC2 Im4gn and Is4gen instances. These instances are built on the AWS Nitro System and are powered by AWS Graviton2 processors. They feature up to 30TB of storage with the new AWS Nitro SSDs that are custom-designed by AWS to maximize the storage performance of I/O intensive workloads such as SQL/NoSQL databases, search engines, distributed file systems and data analytics which continuously read and write from the SSDs in a sustained manner. AWS Nitro SSDs enable up to 60% lower latency and up to 75% reduced latency variability in Im4gn and Is4gen instances compared to the third generation of storage optimized instances. These instances maximize the number of transactions processed per second (TPS) for I/O intensive workloads such as relational databases (e.g. MySQL, MariaDB, PostgreSQL), and NoSQL databases (KeyDB, ScyllaDB, Cassandra) which have medium-large size data sets and can benefit from high compute performance and high network throughput. They are also an ideal fit for search engines, and data analytics workloads that require very fast access to data sets on local storage.</p>
 <p>The Im4gn instances provide the best price performance for storage-intensive workloads in Amazon EC2. They offer up to 40% better price performance and up to 44% lower cost per TB of storage compared to I3 instances for running applications such as MySQL, NoSQL, and file systems, which require dense local SSD storage and higher compute performance. They also feature up to 100 Gbps networking and support for Elastic Fabric Adapter (EFA) for applications that require high levels of inter-node communication.</p>
 <p>The Is4gen instances provide the lowest cost per TB and highest density per vCPU of SSD storage in Amazon EC2 for applications such as stream processing and monitoring, real-time databases, and log analytics, that require high random I/O access to large amounts of local SSD data. These instances enable 15% lower cost per TB of storage and up to 48% better compute performance compared to I3en instances.</p>
-<p>AWS Graviton2 processors are custom-built by AWS using 64-bit Arm Neoverse N1 cores to enable the best price performance for cloud workloads running in Amazon EC2. They deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors. Amazon EC2 instances powered by the AWS Graviton2, including Im4gn and Is4gen instances, are supported by many popular Linux operating systems including Amazon Linux 2, Red Hat Enterprise Linux, SUSE, and Ubuntu. Many popular applications and services for security, monitoring and management, containers, and CI/CD from AWS and Independent Software Vendors also support AWS Graviton2-based instances. The AWS Nitro System is a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage.  </p>
+<p>AWS Graviton2 processors are custom-built by AWS using 64-bit Arm Neoverse N1 cores to enable the best price performance for cloud workloads running in Amazon EC2. They deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors. Amazon EC2 instances powered by the AWS Graviton2, including Im4gn and Is4gen instances, are supported by many popular Linux operating systems including Amazon Linux 2, Red Hat Enterprise Linux, SUSE, and Ubuntu. Many popular applications and services for security, monitoring and management, containers, and CI/CD from AWS and Independent Software Vendors also support AWS Graviton2-based instances. The AWS Nitro System is a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage.   </p>
 <p>The Im4gn instances are now available in the AWS US East (N. Virginia and Ohio), US West (Oregon), and Europe (Ireland) regions and are purchasable On-Demand, as Reserved instances, as Spot instances, or as part of Savings Plans. They are available in 6 sizes providing up to 64 vCPUs, 30 TB SSD storage, 256 GB memory, 100 Gbps of networking bandwidth, and 38 Gbps of Amazon Elastic Block Store (Amazon EBS) bandwidth. The Is4gen instances will be available soon in 6 sizes providing up to 32 vCPUs, 30 TB SSD storage, 192 GB memory, 50 Gbps of networking bandwidth, and 19 Gbps of Amazon EBS bandwidth.</p>
 <p>To get started, visit the AWS Management Console, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the Amazon EC2 Im4gn and Is4gen page or the <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton page</a>.</p>"
 `;
@@ -2064,9 +2206,9 @@ exports[`should return a formatted html 92`] = `
 "<p>Today, we are launching Amazon EMR on Amazon EKS support for Pod Templates to make it simple to run Spark jobs on shared EKS clusters. A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. Pod Templates are specifications which determine how each Pod runs. Customers often consolidate multiple applications on a shared EKS cluster to improve utilization and save costs. However, each application may have different requirements. For example, you may want to run performance intensive workloads such as ML model training jobs on SSD-backed instances for better performance, or ad-hoc workloads on Spot instances for lower cost. You can also schedule a separate logging container to forward logs to your existing monitoring application. With this release, you can use Pod Templates with EMR on EKS to configure how to run Spark jobs on shared EKS clusters.  </p>
 <p>To reduce costs, customers can schedule Spark driver pods to run on EC2 On-Demand instances while scheduling Spark executor pods to run on EC2 Spot instances. Kubernetes customers frequently use taints, tolerations and labels to ensure that pods are scheduled onto the right worker nodes. A taint is a property of a worker node that enables it to restrict what pods can run on it. Conversely, a toleration enables a pod to be scheduled over a matching taint. The label is used with <a href="https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector">nodeSelectors</a> to direct the pod to the worker. Now, Pod Templates can be used to apply tolerations to the Spark driver pod so it will run on a EC2 On-Demand instance, and a separate toleration for the Spark executor pod so they will only run on EC2 Spot instances.  </p>
 <p>To forward logs to your centralized logging application, customers can deploy a sidecar container with their Spark job. A sidecar container is deployed in the same pod as the application container but provides additional functionality. In this case, it forwards job logs. EMR on EKS provides built in log forwarding to Amazon CloudWatch and Amazon S3. However, if a customer wants to forward logs to their own log reporting application, they would deploy a log forwarder as a daemonset. Daemonsets are run directly on the kubernetes worker nodes. Now, Pod Templates can be used to deploy log forwarding as a sidecar container on a per job or per pod basis.  </p>
-<p>To increase resource utilization, customers can support multiple teams running their workloads on the same EKS cluster. Frequently, each team will get a designated EC2 node group to run their workloads on. Previously, workloads could only be directed to the right nodegroup using labels and affinity. Customers can apply taints to a team’s nodegroup and now use Pod Templates to apply a corresponding toleration to their workload. This ensures that only the designated team can schedule jobs to their nodegroup.  </p>
-<p>To implement team based nodegroup, start with creating a nodegroup that includes a label and a taint representing the team. A taint is a property of a worker node that enables it to restrict what pods can run on it. Conversely, a toleration enables a pod to be scheduled over a matching taint. The label, using affinity, directs the application to the team’s designated nodegroup and a toleration enables it to schedule over the taint. <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/pod-templates.html">Create a Pod Template</a> that includes the corresponding toleration and affinity and store it in an S3 bucket that your job can access. Pod Templates can be created for the Spark driver and executor pods to provide different deployment options and you specify the location of the templates during job submission.  </p>
-<p>For more information on Pod Templates functionality and use cases please visit our <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/pod-templates.html">documentation</a>. For more information on Amazon EMR on EKS please visit our <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks.html">Amazon EMR on EKS documentation</a> or view our <a href="https://www.youtube.com/watch?v=D3WOEhcev88">deep-dive tech talk on Amazon EMR on EKS</a>.  </p>"
+<p>To increase resource utilization, customers can support multiple teams running their workloads on the same EKS cluster. Frequently, each team will get a designated EC2 node group to run their workloads on. Previously, workloads could only be directed to the right nodegroup using labels and affinity. Customers can apply taints to a team’s nodegroup and now use Pod Templates to apply a corresponding toleration to their workload. This ensures that only the designated team can schedule jobs to their nodegroup.   </p>
+<p>To implement team based nodegroup, start with creating a nodegroup that includes a label and a taint representing the team. A taint is a property of a worker node that enables it to restrict what pods can run on it. Conversely, a toleration enables a pod to be scheduled over a matching taint. The label, using affinity, directs the application to the team’s designated nodegroup and a toleration enables it to schedule over the taint. <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/pod-templates.html">Create a Pod Template</a> that includes the corresponding toleration and affinity and store it in an S3 bucket that your job can access. Pod Templates can be created for the Spark driver and executor pods to provide different deployment options and you specify the location of the templates during job submission.   </p>
+<p>For more information on Pod Templates functionality and use cases please visit our <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/pod-templates.html">documentation</a>. For more information on Amazon EMR on EKS please visit our <a href="https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks.html">Amazon EMR on EKS documentation</a> or view our <a href="https://www.youtube.com/watch?v=D3WOEhcev88">deep-dive tech talk on Amazon EMR on EKS</a>.   </p>"
 `;
 
 exports[`should return a formatted html 93`] = `
@@ -2074,21 +2216,21 @@ exports[`should return a formatted html 93`] = `
 <p>Many camera manufacturers and security service providers offer home security solutions that include doorbells, indoor and outdoor cameras, and value-added notification services to help their users understand what is happening on their property. Cameras with built-in motion detectors are placed at entry or exit points of the home to notify users of any activity in real time, such as “Motion detected in the backyard.” However, motion detectors are noisy, can be set off by innocuous events like wind and rain, creating notification fatigue, and resulting in clunky home automation setup. Building the right user experience for smart alerts, search, or even browsing video clips requires ML and automation that is hard to get right and can be expensive.  </p>
 <p>Amazon Rekognition Streaming Video Events lowers the costs of value-added video analytics by providing a low-cost, low-latency, fully managed ML service that can detect objects (such as people, pets, and packages) in real time on video streams from connected cameras. The service starts analyzing the video clip only when a motion event is triggered by the camera and sends a notification as soon as the desired object is detected. Visit the <a href="https://docs.aws.amazon.com/rekognition/latest/dg/streaming-video-detect-labels.html">Amazon Rekognition Streaming Video Events developer guide</a> to learn more.</p>
 <p>AWS customers such as <a href="https://aws.amazon.com/blogs/machine-learning/abode-uses-amazon-rekognition-streaming-video-events-to-provide-real-time-notifications-to-their-smart-home-customers/">Abode Systems</a> and <a href="https://aws.amazon.com/blogs/machine-learning/3xlogic-uses-amazon-rekognition-streaming-video-events-to-provide-intelligent-video-analytics-on-live-video-streams-to-monitoring-agents/">3xLOGIC</a> are using Amazon Rekognition Streaming Video Events to innovate and add intelligent video analytics to their security solutions and modernize their offering without having to invest in new hardware or develop and maintain custom computer vision analytics. The proliferation of cameras and streaming video technology is just beginning, and managed computer vision services like Amazon Rekognition Streaming Video Events is paving the way for highly accurate, low cost, and scalable new smart video streaming analytics. To get started visit <a href="https://aws.amazon.com/rekognition/connected-home">Amazon Rekognition Streaming Video Events</a>. </p>
-<p>Amazon Rekognition Video Streaming Events is generally available to AWS customers in US East (Ohio), US East (N. Virginia), US West (Oregon), Asia Pacific (Mumbai), and Europe (Ireland) regions with availability in additional regions in the coming months.</p>"
+<p>Amazon Rekognition Video Streaming Events is generally available to AWS customers in US East (Ohio), US East (N. Virginia), US West (Oregon), Asia Pacific (Mumbai), and Europe (Ireland) regions with availability in additional regions in the coming months. </p>"
 `;
 
 exports[`should return a formatted html 94`] = `
 "<p>Amazon Web Services (AWS) announces the general availability of Amazon EC2 M6a and C6a bare metal instances. M6a and C6a instances are powered by 3rd generation AMD EPYC (code named Milan) processors with an all-core turbo frequency of 3.6 GHz. M6a instances deliver up to 35% better price performance compared to M5a instances, while C6a instances deliver up to 15% better price performance compared to C5a instances, and offer 10% lower cost than comparable x86-based EC2 instances. M6a and C6a instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a combination of dedicated hardware and lightweight hypervisor, which delivers practically all of the compute and memory resources of the host hardware to your instances. M6a instances are SAP-Certified and a good fit for workloads such as web and application servers, back-end servers supporting enterprise applications, web servers, micro-services, multi-player gaming servers, caching fleets, as well as for application development environments. C6a instances are well suited for compute-intensive applications like batch processing, distributed analytics, high performance computing (HPC), ad serving, highly-scalable multiplayer gaming, and video encoding.</p>
 <p>Bare metal instances allow EC2 customers to run applications that benefit from deep performance analysis tools, specialized workloads that require direct access to bare metal infrastructure, legacy workloads not supported in virtual environments, and licensing-restricted business critical applications. They provide your applications with direct access to the 3rd generation AMD EPYC processor and memory resources of the underlying server. Workloads on bare metal instances continue to take advantage of all the comprehensive services and features of the AWS Cloud, such as <a href="https://aws.amazon.com/ebs">Amazon Elastic Block Store (EBS)</a>, <a href="https://aws.amazon.com/elasticloadbalancing">Elastic Load Balancer (ELB)</a>, and <a href="https://aws.amazon.com/vpc">Amazon Virtual Private Cloud (VPC)</a>.</p>
 <p>To meet customer demands for increased scalability, M6a metal and C6a metal instances come with 192 vCPUs, and 768 GiB and 384 GiB of memory respectively. These instances also give customers up to 50 Gbps of networking speed and 40 Gbps of bandwidth to the <a href="https://aws.amazon.com/ebs">Amazon Elastic Block Store</a>, which is more than twice that of M5a and C5a instances. Customers can use <a href="https://aws.amazon.com/hpc/efa">Elastic Fabric Adapter</a> on the 48xlarge size, which enables low latency and highly-scalable inter-node communication. For optimal networking performance on these new instances, an Elastic Network Adapter (ENA) driver update may be required. For more information on optimal ENA driver for M6a and C6a, see <a href="https://aws.amazon.com/premiumsupport/knowledge-center/migrate-to-gen6-ec2-instance">this article</a>.</p>
-<p>M6a metal instances are available in the following AWS Regions: US East (Northern Virginia), US West (Oregon), Asia Pacific (Mumbai), and Europe (Ireland). C6a metal instances are available in the following AWS Regions: US East (Northern Virginia), US West (Oregon), and Europe (Ireland). These new bare metal instances can be purchased as Savings Plans, Reserved, On-Demand, and Spot instances. To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and A<a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">WS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/instance-types/m6a">M6a instances</a> and <a href="https://aws.amazon.com/ec2/instance-types/c6a">C6a instances</a> pages.</p>"
+<p>M6a metal instances are available in the following AWS Regions: US East (Northern Virginia), US West (Oregon), Asia Pacific (Mumbai), and Europe (Ireland). C6a metal instances are available in the following AWS Regions: US East (Northern Virginia), US West (Oregon), and Europe (Ireland). These new bare metal instances can be purchased as Savings Plans, Reserved, On-Demand, and Spot instances. To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli">AWS Command Line Interface (CLI)</a>, and A<a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">WS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/instance-types/m6a">M6a instances</a> and <a href="https://aws.amazon.com/ec2/instance-types/c6a">C6a instances</a> pages. </p>"
 `;
 
 exports[`should return a formatted html 95`] = `
 "<p>Amazon Timestream has added three new capabilities, namely, scheduled queries, multi-measure records, and magnetic storage writes, to make time series data processing faster, cost-effective, and therefore more accessible to many more customers. These features enable customers to write, store, and access their time series data more economically and efficiently, so they can continue to derive insights from their data and drive better data-driven business decisions.</p>
-<p>Starting today, customers can use Amazon Timestream’s Scheduled Queries for faster and more affordable time series data processing. With scheduled queries, customers simply define the queries for computing aggregates, rollups, and other real-time analytics on their data; along with the frequency at which the query must be run. Then, Amazon Timestream periodically and automatically runs the scheduled queries and reliably writes the query results into a configurable destination table, within a few minutes. Customers can then point their dashboards and reports to simply query the destination table, instead of querying the considerably larger source tables. This leads to performance and cost gains that can exceed an order of magnitude or more. This is because destination tables contain much less data than the source tables. Given destination tables contain much less data than source tables, customers can store data in the destination tables for a much longer duration at a fraction of the data storage cost of the source table. They can also choose to reduce the data retention period of their source tables and further optimize their spend.</p>
-<p>With this release, Amazon Timestream also supports multi-measure records, a new data modeling capability that enables faster data writes, efficient data storage, performant data access, and ease of use. Multi-measure records enable customers to store multiple time series measures in a single table row, instead of storing one measure per row. This optimized data layout reduces the volume of data stored in a table, which helps customers lower their data storage spend, improve query performance, and minimize the cost of analytical queries. Multi-measure records also make it easy for customers to migrate time series data and queries from existing relational databases to Amazon Timestream with minimal changes.</p>
-<p>From today, Amazon Timestream also allows customers to write their late arrival data into the magnetic store, so they can further optimize their data storage spend. Late arrival data is data with a timestamp that is in the past. Customers can now use Amazon Timestream’s existing write APIs to send late arrival data to the magnetic store by simply enabling a property on their tables. With magnetic storage writes, customers no longer have to maintain a memory store with a large data retention period for the purpose of processing late arrival data. Customers can now set their memory store data retention period to match the high throughput data ingestion and fast point-in-time query requirements of their applications. They can use the magnetic store for asynchronous processing of late arrival data, long-term data storage, and for fast analytical queries.</p>
+<p>Starting today, customers can use Amazon Timestream’s Scheduled Queries for faster and more affordable time series data processing. With scheduled queries, customers simply define the queries for computing aggregates, rollups, and other real-time analytics on their data; along with the frequency at which the query must be run. Then, Amazon Timestream periodically and automatically runs the scheduled queries and reliably writes the query results into a configurable destination table, within a few minutes. Customers can then point their dashboards and reports to simply query the destination table, instead of querying the considerably larger source tables. This leads to performance and cost gains that can exceed an order of magnitude or more. This is because destination tables contain much less data than the source tables. Given destination tables contain much less data than source tables, customers can store data in the destination tables for a much longer duration at a fraction of the data storage cost of the source table. They can also choose to reduce the data retention period of their source tables and further optimize their spend. </p>
+<p>With this release, Amazon Timestream also supports multi-measure records, a new data modeling capability that enables faster data writes, efficient data storage, performant data access, and ease of use. Multi-measure records enable customers to store multiple time series measures in a single table row, instead of storing one measure per row. This optimized data layout reduces the volume of data stored in a table, which helps customers lower their data storage spend, improve query performance, and minimize the cost of analytical queries. Multi-measure records also make it easy for customers to migrate time series data and queries from existing relational databases to Amazon Timestream with minimal changes. </p>
+<p>From today, Amazon Timestream also allows customers to write their late arrival data into the magnetic store, so they can further optimize their data storage spend. Late arrival data is data with a timestamp that is in the past. Customers can now use Amazon Timestream’s existing write APIs to send late arrival data to the magnetic store by simply enabling a property on their tables. With magnetic storage writes, customers no longer have to maintain a memory store with a large data retention period for the purpose of processing late arrival data. Customers can now set their memory store data retention period to match the high throughput data ingestion and fast point-in-time query requirements of their applications. They can use the magnetic store for asynchronous processing of late arrival data, long-term data storage, and for fast analytical queries. </p>
 <p>Scheduled Queries, multi-measure records, and magnetic storage writes are now available as part of <a href="https://docs.aws.amazon.com/timestream/latest/developerguide/API%5FReference.html">Amazon Timestream’s APIs</a> and the <a href="https://console.aws.amazon.com/timestream/home?region=us-east-1#welcome">AWS Management Console for Amazon Timestream</a>. Amazon Timestream is a fast, scalable, secure, and purpose-built time series database for Application Monitoring, edge and IoT workloads that can scale to process trillions of time series events per day up to 1,000 times faster than relational databases, and at as low as 1/10th the cost. The service is also HIPAA eligible, ISO certified, PCI DSS compliant, and in scope for AWS’s SOC reports SOC 1, SOC 2, and SOC 3. Amazon Timestream is currently available in US East (N. Virginia), US East (Ohio), US West (Oregon), Europe (Ireland), and Europe (Frankfurt). To get started, visit our <a href="https://aws.amazon.com/timestream">product page</a>.</p>"
 `;
 
@@ -2113,24 +2255,24 @@ exports[`should return a formatted html 97`] = `
 exports[`should return a formatted html 98`] = `
 "<p>Starting today, Amazon EC2 M6g, C6g, and R6g instances are available in US West (Northern California) region. Amazon EC2 M6g, C6g, and R6g instances are powered by <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton2</a> processors that are built utilizing 64-bit Arm Neoverse cores and custom silicon designed by AWS. They deliver up to 40% better price performance over comparable x86-based instances for a broad spectrum of workloads, including application servers, micro-services, high-performance computing, CPU-based machine learning inference, electronic design automation, gaming, open-source databases, and in-memory caches. AWS Graviton2 processors deliver a major leap in performance and capabilities over first-generation AWS Graviton processors, with 7x performance, 4x the number of compute cores, 2x larger caches, and 5x faster memory. AWS Graviton2 processors feature always-on 256-bit DRAM encryption and 50% faster per core encryption performance compared to the first-generation AWS Graviton processors.  </p>
 <p>Amazon EC2 M6g, C6g, and R6g instances are built on the <a href="https://aws.amazon.com/ec2/nitro">AWS Nitro System</a>, a collection of AWS-designed hardware and software innovations that enable the delivery of efficient, flexible, and secure cloud services with isolated multi-tenancy, private networking, and fast local storage. These instances provide up to 19 Gbps Elastic Block Store (EBS) bandwidth and up to 25 Gbps network bandwidth and are supported by a broad ecosystem of operating systems and services from Independent Software Vendors (ISVs) as well as AWS. These include popular Linux distributions (Amazon Linux 2, Ubuntu, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, Fedora, CentOS, and Debian), FreeBSD/NetBSD, the Amazon Corretto distribution of OpenJDK, container services (Amazon ECR, Amazon ECS, Amazon EKS, Docker, and Rancher), agents (Amazon CloudWatch, AWS Systems Manager, Amazon Inspector, Crowdstrike, Datadog, Dynatrace, Honeycomb.io, Qualys, Rapid7, and Tenable), and developer/automation tools (AWS Code Suite, Chef, GitLab, Jenkins, and TravisCI). Since launch, <a href="https://aws.amazon.com/ec2/graviton">many customers and partners</a> are realizing significant price performance benefits of AWS Graviton2 based instances with minimal effort.</p>
-<p>With this regional expansion, Amazon EC2 M6g, C6g, and R6g instances are now available across US East (N. Virginia, Ohio), US West (Northern California, Oregon), Europe (Ireland, Frankfurt), and Asia Pacific (Mumbai, Singapore, Sydney, Tokyo) regions. Additionally, we have M6gd, C6gd and R6gd instances with local NVMe-based SSD storage available in the AWS US East (N. Virginia and Ohio), US West (Oregon), and Europe (Ireland) regions. All these instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option, and are purchasable as part of Savings Plans, On-Demand, as Reserved instances, or as Spot instances.  </p>
+<p>With this regional expansion, Amazon EC2 M6g, C6g, and R6g instances are now available across US East (N. Virginia, Ohio), US West (Northern California, Oregon), Europe (Ireland, Frankfurt), and Asia Pacific (Mumbai, Singapore, Sydney, Tokyo) regions. Additionally, we have M6gd, C6gd and R6gd instances with local NVMe-based SSD storage available in the AWS US East (N. Virginia and Ohio), US West (Oregon), and Europe (Ireland) regions. All these instances are available in 8 sizes, with 1, 2, 4, 8, 16, 32, 48, and 64 vCPUs in addition to the bare metal option, and are purchasable as part of Savings Plans, On-Demand, as Reserved instances, or as Spot instances.   </p>
 <p><a href="https://youtu.be/LNqRvP6Xvrw">Watch James Hamilton</a>, VP and Distinguished Engineer at AWS, talk about AWS Graviton2, the software ecosystem, and customer stories. <a href="https://aws.amazon.com/ec2/instance-types/t4">Amazon EC2 T4g instances</a> based on AWS Graviton2 processors are also available for burstable general purpose workloads. Customers can use t4g.micro instances free for 750 hours per month until Dec 31st, 2020. To get started with AWS Graviton2-based Amazon EC2 M6g, T4g, C6g, and R6g instances, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli/">AWS Command Line Interface (CLI)</a>, and <a href="http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS SDKs</a>. To learn more, visit the <a href="https://aws.amazon.com/ec2/graviton">AWS Graviton page</a>, <a href="https://aws.amazon.com/ec2/instance-types/m6">M6g page</a>, <a href="https://aws.amazon.com/ec2/instance-types/c6">C6g page</a>, <a href="https://aws.amazon.com/ec2/instance-types/r6">R6g page</a>, or the <a href="https://github.com/aws/aws-graviton-gettting-started">Getting Started Github page</a>.</p>"
 `;
 
 exports[`should return a formatted html 99`] = `
-"<p>We are excited to announce the immediate availability of a new feature:<strong>Amazon Machine Image (AMI) Copy</strong>. AMI Copy enables you to easily copy your AMIs across AWS regions, enabling the following scenarios:</p>
+"<p>We are excited to announce the immediate availability of a new feature: <strong>Amazon Machine Image (AMI) Copy</strong>. AMI Copy enables you to easily copy your AMIs across AWS regions, enabling the following scenarios:</p>
 <p><strong>Consistent and Simple Multi-Region Deployment</strong> - You can copy an AMI from one region to another, enabling you to easily launch consistent instances based on the same AMI into different regions.</p>
-<p><strong>Scalability</strong> - You can more easily design and build world-scale applications that meet the needs of your users, regardless of their location.</p>
+<p><strong>Scalability</strong> - You can more easily design and build world-scale applications that meet the needs of your users, regardless of their location. </p>
 <p><strong>Performance</strong> - You can increase performance by distributing your application and locating critical components of your application in closer proximity to your users. You can also take advantage of region-specific features such as instance types or other AWS services.</p>
 <p><strong>Even Higher Availability</strong> - You can design and deploy applications across AWS regions, to increase availability.</p>
-<p>To use AMI Copy, simply select the AMI to be copied from within the AWS Management Console, choose the destination region, and start the copy. AMI Copy can also be accessed via the EC2 Command Line Interface or EC2 API as described in the<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html">EC2 User’s Guide.</a> Once the copy is complete, the new AMI can be used to launch new EC2 instances in the destination region.</p>
-<p>There are no additional charges for using AMI Copy, but you will be chargedto transfer the AMI out of the source region and to store the copied AMI in the destination region.</p>
-<p>We recently launched Amazon <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-copy-snapshot.html">EBS Snapshot Copy</a>, which enables you to copy EBS Snapshots across AWS regions, and last month we significantly <a href="http://aws.amazon.com/ec2/pricing/#DataTransfer">lowered the cost of transferring data between AWS Regions</a> (by 26% to 83%). Together with AMI Copy we hope that these updates make it easier for you to take advantage of the AWS global footprint.</p>"
+<p>To use AMI Copy, simply select the AMI to be copied from within the AWS Management Console, choose the destination region, and start the copy. AMI Copy can also be accessed via the EC2 Command Line Interface or EC2 API as described in the <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/CopyingAMIs.html">EC2 User’s Guide.</a> Once the copy is complete, the new AMI can be used to launch new EC2 instances in the destination region.</p>
+<p>There are no additional charges for using AMI Copy, but you will be charged to transfer the AMI out of the source region and to store the copied AMI in the destination region. </p>
+<p>We recently launched Amazon <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-copy-snapshot.html">EBS Snapshot Copy</a>, which enables you to copy EBS Snapshots across AWS regions, and last month we significantly <a href="http://aws.amazon.com/ec2/pricing/#DataTransfer">lowered the cost of transferring data between AWS Regions</a> (by 26% to 83%). Together with AMI Copy we hope that these updates make it easier for you to take advantage of the AWS global footprint. </p>"
 `;
 
 exports[`should return a formatted html 100`] = `
-"<p>Amazon Rekognition is a deep-learning-based image and video analysis service that can identify objects, text, scenes, as well as support content moderation by detecting inappropriate content. Starting today, Amazon Rekognition can analyze images to detect if persons in the images are wearing Personal Protective Equipment (PPE) such as face covers (face masks), hand covers (gloves), and head covers (helmets or hard hats).  </p>
-<p>Safety hazards can exist in every workplace in many different forms: sharp edges, falling objects, flying sparks, chemicals, noise, and a myriad of other potentially dangerous situations. Safety regulators such as <a href="https://www.osha.gov/">Occupational Safety and Health Administration (OSHA)</a> and <a href="https://ec.europa.eu/social/main.jsp?catId=148&langId=en">European Commission</a> often require that businesses protect their employees and customers from hazards that can cause injury by providing them personal protective equipment (PPE) and ensuring their use. Across several industries such as manufacturing, food processing, chemical, healthcare, energy, and logistics improving workplace safety is usually a top priority. In addition, due to the COVID-19 pandemic, wearing PPE in public places has become important to reduce the spread of the virus. However, even when people do their best to follow PPE guidelines, sometimes they can inadvertently forget to wear PPE or not realize it is required in the area they are present in. This puts their safety at potential risk and opens businesses to possible regulatory compliance issues. Today, businesses rely on site supervisors or superintendents to individually check and remind all the people present in the designated areas to wear PPE, which is not reliable, effective, or cost-efficient at scale.  </p>
+"<p>Amazon Rekognition is a deep-learning-based image and video analysis service that can identify objects, text, scenes, as well as support content moderation by detecting inappropriate content. Starting today, Amazon Rekognition can analyze images to detect if persons in the images are wearing Personal Protective Equipment (PPE) such as face covers (face masks), hand covers (gloves), and head covers (helmets or hard hats).   </p>
+<p>Safety hazards can exist in every workplace in many different forms: sharp edges, falling objects, flying sparks, chemicals, noise, and a myriad of other potentially dangerous situations. Safety regulators such as <a href="https://www.osha.gov/">Occupational Safety and Health Administration (OSHA)</a> and <a href="https://ec.europa.eu/social/main.jsp?catId=148&langId=en">European Commission</a> often require that businesses protect their employees and customers from hazards that can cause injury by providing them personal protective equipment (PPE) and ensuring their use. Across several industries such as manufacturing, food processing, chemical, healthcare, energy, and logistics improving workplace safety is usually a top priority. In addition, due to the COVID-19 pandemic, wearing PPE in public places has become important to reduce the spread of the virus. However, even when people do their best to follow PPE guidelines, sometimes they can inadvertently forget to wear PPE or not realize it is required in the area they are present in. This puts their safety at potential risk and opens businesses to possible regulatory compliance issues. Today, businesses rely on site supervisors or superintendents to individually check and remind all the people present in the designated areas to wear PPE, which is not reliable, effective, or cost-efficient at scale.   </p>
 <p>With Amazon Rekognition PPE detection, customers can analyze images from their on-premises cameras across multiple locations to automatically detect if persons in the images are wearing the required PPE. When customers analyze an image using Amazon Rekognition PPE detection, for each person detected in the image, they receive confidence scores with bounding boxes for each item of protective equipment detected (face cover, hand covers, and head cover) and Boolean responses (true or false) with confidence scores for whether each detected item of protective equipment covers the corresponding body part (nose, hands, and head). They can also supply a list of required protective equipment (such as face cover or face cover and head cover) and a minimum confidence threshold (such as 80%) to receive a consolidated per-image summary of Persons with Required PPE, Persons without Required PPE, and Persons Indeterminate. Using these PPE detection results, customers can trigger timely alarms or notifications that remind people to wear PPE before or during their presence in a hazardous area in order to help improve or maintain everyone’s safety. They can also aggregate the PPE detection results and analyze them by time and place to identify how safety warnings or training practices can be improved and generate reports for use during regulatory audits. Note that Amazon Rekognition PPE detection does not perform facial recognition or facial comparison and cannot identify the detected persons.  </p>
 <p>Amazon Rekognition PPE detection is now generally available and can be used in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services">regions</a> where Amazon Rekognition is supported. To learn more or get started, please visit the <a href="https://aws.amazon.com/rekognition/workplace-safety">product webpage</a>, read our <a href="https://aws.amazon.com/blogs/machine-learning/automatically-detecting-personal-protective-equipment-on-persons-in-images-using-amazon-rekognition/">blog</a>, refer to our <a href="https://docs.aws.amazon.com/rekognition/latest/dg/ppe-detection.html">documentation</a>, and download the latest <a href="https://aws.amazon.com/tools">AWS SDK</a>. To try the feature with your images, you can sign into the Amazon Rekognition console and use the <a href="https://console.aws.amazon.com/rekognition/home?#/ppe">Amazon Rekognition PPE detection demo</a>.  </p>"
 `;

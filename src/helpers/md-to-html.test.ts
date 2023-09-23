@@ -155,205 +155,29 @@ it('should convert complex markdown to html', () => {
 
     Configuring RHEL 8.1 for SAP workloads manually requires several additional steps compared to RHEL 7, including installation of basic OS packages, C-shell, and SAP HANA High Availability cluster configuration commands. With AWS Launch Wizard, these tasks are automated, simplifying configuration and reducing time to deployment.  
 
-    The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:  
+    The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:   
 
     AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities. 
 
     To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the [Launch Wizard page](https://aws.amazon.com/launchwizard), [FAQ](https://aws.amazon.com/launchwizard/faq), and [overview documentation](https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html).
 
-      
-    ****Operating system version**
-
-    **Single-Instance deployment**
-
-      
-    ****ASCS**
-
-      
-    ****ERS**
-
-      
-    ****PAS**
-
-      
-    ****SAP HANA database**
-
-      
-    ****SAP HANA database in HA cluster**
-
-    Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP5-For-SAP-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP5-For-SAP-BYOS-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-15-SP1-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-15-SP1-For-SAP-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-15-SP1-For-SAP-BYOS-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM
-
-    SuSE-Linux-15-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-15-For-SAP-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-15-For-SAP-BYOS-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP4-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP4-For-SAP-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP4-For-SAP-BYOS-HVM
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    ✓
-
-    SuSE-Linux-12-SP5-HVM
-
-    ✓
-
-    ✓
-
-    ✓"
+    | **Operating system version**                   | **Single-Instance deployment** | **ASCS** | **ERS** | **PAS** | **SAP HANA database** | **SAP HANA database in HA cluster** |
+    | ---------------------------------------------- | ------------------------------ | -------- | ------- | ------- | --------------------- | ----------------------------------- |
+    | Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-12-SP5-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-12-SP5-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-15-SP1-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |
+    | SuSE-Linux-15-SP1-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-15-SP1-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM |                                |          |         |         |                       |                                     |
+    | SuSE-Linux-15-HVM                              | ✓                              |          |         | ✓       | ✓                     |                                     |
+    | SuSE-Linux-15-For-SAP-HVM                      | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-15-For-SAP-BYOS-HVM                 | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-12-SP4-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |
+    | SuSE-Linux-12-SP4-For-SAP-HVM                  | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-12-SP4-For-SAP-BYOS-HVM             | ✓                              | ✓        | ✓       | ✓       | ✓                     | ✓                                   |
+    | SuSE-Linux-12-SP5-HVM                          | ✓                              |          |         | ✓       | ✓                     |                                     |"
   `);
 
   expect(htmlFromMd).toMatchInlineSnapshot(`
@@ -361,102 +185,158 @@ it('should convert complex markdown to html', () => {
     <p>AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for SAP HANA and SAP HANA-based Netweaver systems with a purpose built, easy to use wizard. </p>
     <p>On-boarding a new operating system version for an SAP application involves close collaboration between SAP and Operating System (OS) teams, who analyze SAP notes, configure the system, and test extensively before standardizing on the new OS. AWS Launch Wizard eliminates this heavy lifting. You select the OS you want to use from a dropdown menu, and it automatically creates a pre-configured environment aligned with AWS and SAP best practices. </p>
     <p>Configuring RHEL 8.1 for SAP workloads manually requires several additional steps compared to RHEL 7, including installation of basic OS packages, C-shell, and SAP HANA High Availability cluster configuration commands. With AWS Launch Wizard, these tasks are automated, simplifying configuration and reducing time to deployment.  </p>
-    <p>The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:  </p>
+    <p>The following table shows the operating systems currently supported for different SAP components by AWS Launch Wizard:   </p>
     <p>AWS Launch Wizard supports multiple deployment patterns, provides AWS resource recommendations, and is integrated with AWS compute, storage, management, logging, monitoring, and security services. It frees up employee/partner resources from undifferentiated infrastructure build activities so they can focus on differentiating business process design and implementation activities. </p>
     <p>To learn more about using AWS Launch Wizard to accelerate your SAP deployments, visit the <a href="https://aws.amazon.com/launchwizard">Launch Wizard page</a>, <a href="https://aws.amazon.com/launchwizard/faq">FAQ</a>, and <a href="https://docs.aws.amazon.com/launchwizard/latest/userguide/launch-wizard-sap.html">overview documentation</a>.</p>
-    <p><strong>**Operating system version</strong></p>
-    <p><strong>Single-Instance deployment</strong></p>
-    <p><strong>**ASCS</strong></p>
-    <p><strong>**ERS</strong></p>
-    <p><strong>**PAS</strong></p>
-    <p><strong>**SAP HANA database</strong></p>
-    <p><strong>**SAP HANA database in HA cluster</strong></p>
-    <p>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP5-For-SAP-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP5-For-SAP-BYOS-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-15-SP1-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-15-SP1-For-SAP-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-15-SP1-For-SAP-BYOS-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</p>
-    <p>SuSE-Linux-15-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-15-For-SAP-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-15-For-SAP-BYOS-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP4-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP4-For-SAP-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP4-For-SAP-BYOS-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>SuSE-Linux-12-SP5-HVM</p>
-    <p>✓</p>
-    <p>✓</p>
-    <p>✓</p>"
+    <table>
+    <thead>
+    <tr>
+    <th><strong>Operating system version</strong></th>
+    <th><strong>Single-Instance deployment</strong></th>
+    <th><strong>ASCS</strong></th>
+    <th><strong>ERS</strong></th>
+    <th><strong>PAS</strong></th>
+    <th><strong>SAP HANA database</strong></th>
+    <th><strong>SAP HANA database in HA cluster</strong></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP5-For-SAP-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP5-For-SAP-BYOS-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-SP1-HVM</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-SP1-For-SAP-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-SP1-For-SAP-BYOS-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>Red-Hat-Enterprise-Linux-7.6-For-SAP-HA-US-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>Red-Hat-Enterprise-Linux-8.1-For-SAP-HA-US-HVM</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-HVM</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-For-SAP-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-15-For-SAP-BYOS-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP4-HVM</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP4-For-SAP-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP4-For-SAP-BYOS-HVM</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    <td>✓</td>
+    </tr>
+    <tr>
+    <td>SuSE-Linux-12-SP5-HVM</td>
+    <td>✓</td>
+    <td></td>
+    <td></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td></td>
+    </tr>
+    </tbody>
+    </table>"
   `);
 });

@@ -1,38 +1,72 @@
 import {load} from 'cheerio/lib/slim';
-import {minify} from 'html-minifier';
 
 export function normalizeHTML(rawHTML: string): string {
   const $ = load(rawHTML, null, false);
 
-  $('*').each((_, element) => {
-    $(element).removeAttr('style');
-    $(element).removeAttr('class');
+  // if table has no <th>, transform all <td> in the  first <tr> into <th>
+  $('table').each((_, element) => {
+    const table = $(element);
+    const th = table.find('th');
+
+    if (th.length === 0) {
+      const firstTr = table.find('tr').first();
+      const tds = firstTr.find('td');
+
+      tds.each((_, td) => {
+        $(td).wrap(`<th></th>`);
+      });
+    }
   });
 
-  $('style').remove();
+  // if there are <th> tags but not <thead>, wrap the <tr> containing <th> into <thead>
+  // and wrap all other <tr> into <tbody>
+  $('table').each((_, element) => {
+    const table = $(element);
+    const th = table.find('th');
 
-  $('td').each((_, element) => {
-    const elTagNames = $(element)
-      .find('*')
-      .map((_, el) => el.tagName)
-      .get();
+    if (th.length > 0) {
+      const thead = table.find('thead');
+
+      if (thead.length === 0) {
+        const firstTr = table.find('tr').first();
+        const otherTr = table.find('tr').not(firstTr);
+
+        firstTr.wrap('<thead></thead>');
+        otherTr.wrapAll('<tbody></tbody>');
+      }
+    }
+  });
+
+  $('td,th').each((_, element) => {
+    const elTagNames = Array.from(
+      new Set(
+        $(element)
+          .find('*')
+          .map((_, el) => el.tagName)
+          .get()
+      )
+    );
     const elText = $(element).text();
-    console.log(elTagNames);
 
     if (elTagNames.length === 1 && elTagNames[0] === 'br') {
       $(element).html(elText);
     }
+
+    // if <td> has only <br> and <b> tags inside, remove <br> and replace <td> html with the rest of html
+    if (elTagNames.length === 2 && elTagNames.includes('br') && elTagNames.includes('b')) {
+      $(element).find('br').remove();
+    }
   });
 
   // set tables to full width
-  $('table').each((_, element) => {
-    $(element).css('width', '100%');
-  });
+  // $('table').each((_, element) => {
+  //   $(element).css('width', '100%');
+  // });
 
   // remove bgcolor from <td> and <table>
-  $('td,table').each((_, element) => {
-    $(element).removeAttr('bgcolor');
-  });
+  // $('td,table').each((_, element) => {
+  //   $(element).removeAttr('bgcolor');
+  // });
 
   // remove empty <p> and <a> blocks like "<p>&nbsp;</p>"
   $('p,a').each((_, element) => {
@@ -70,17 +104,5 @@ export function normalizeHTML(rawHTML: string): string {
     $(element).replaceWith(`<strong>${$(element).html()}</strong>`);
   });
 
-  const finalHTML = $.root().html() || '';
-
-  return minify(finalHTML, {
-    collapseBooleanAttributes: true,
-    collapseWhitespace: true,
-    decodeEntities: true,
-    minifyCSS: true,
-    removeAttributeQuotes: true,
-    removeComments: true,
-    removeEmptyAttributes: true,
-    removeOptionalTags: true,
-    removeRedundantAttributes: true,
-  });
+  return $.root().html() || '';
 }
