@@ -10,6 +10,8 @@ export default [
       'SAP application',
       'SAP deployment',
       'SAP workload',
+      'SAP business suite',
+      'SAP solution',
     ],
   },
 ];
