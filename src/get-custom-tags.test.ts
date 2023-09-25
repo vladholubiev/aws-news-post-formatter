@@ -301,6 +301,7 @@ it.each`
   ${'Amazon EMR is now available in the AWS Local Zone in Los Angeles'}                                                                                                             | ${['regional-expansion']}
   ${'Amazon EKS Available in Ireland'}                                                                                                                                              | ${['regional-expansion']}
   ${'Amazon MQ is Now Available in Mumbai and Paris'}                                                                                                                               | ${['regional-expansion']}
+  ${'AWS Elastic Disaster Recovery is now available in Israel (Tel Aviv)'}                                                                                                          | ${['regional-expansion']}
 `('returns regional-expansion tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
