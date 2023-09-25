@@ -25,6 +25,7 @@ import tagging from './tagging';
 import languageExpansion from './language-expansion';
 import bottlerocket from './bottlerocket';
 import freeRTOS from './free-rtos';
+import sap from './sap';
 
 type CustomTag = {
   tag: string;
@@ -142,6 +143,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'free-rtos',
     patterns: freeRTOS,
+  },
+  {
+    tag: 'sap',
+    patterns: sap,
   },
 ];
 

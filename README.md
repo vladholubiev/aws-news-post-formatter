@@ -69,6 +69,7 @@ Extracts tags based on the headline. Useful if you want to filter out noise. Lis
 - language-expansion
 - bottlerocket
 - free-rtos
+- sap
 
 Check out `src/custom-tags` if you want to add more tags or adjust the existing ones.
 
