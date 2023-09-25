@@ -12,6 +12,8 @@ export default [
       'SAP workload',
       'SAP business suite',
       'SAP solution',
+      'HANA database',
+      'Wizard for SAP',
     ],
   },
 ];
