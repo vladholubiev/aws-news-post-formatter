@@ -23,6 +23,7 @@ import solutionConsulting from './solution-consulting';
 import regionalExpansion from './regional-expansion';
 import tagging from './tagging';
 import languageExpansion from './language-expansion';
+import bottlerocket from './bottlerocket';
 
 type CustomTag = {
   tag: string;
@@ -132,6 +133,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'language-expansion',
     patterns: languageExpansion,
+  },
+  {
+    tag: 'bottlerocket',
+    patterns: bottlerocket,
   },
 ];
 

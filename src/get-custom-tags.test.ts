@@ -421,6 +421,17 @@ it.each`
   expect(customTags.sort()).toEqual(expectedTags.sort());
 });
 
+it.each`
+  headline                                                            | expectedTags
+  ${'Bottlerocket announces new ECS-optimized AMI'}                   | ${['bottlerocket']}
+  ${'The Bottlerocket AMI for Amazon ECS is now Generally Available'} | ${['bottlerocket']}
+  ${'Bottlerocket now supports network bonding and VLAN tagging'}     | ${['bottlerocket', 'tagging']}
+`('returns expected custom tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
 // quick start
 // solutions
 // consulting
