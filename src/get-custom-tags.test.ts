@@ -302,6 +302,9 @@ it.each`
   ${'Amazon EKS Available in Ireland'}                                                                                                                                              | ${['regional-expansion']}
   ${'Amazon MQ is Now Available in Mumbai and Paris'}                                                                                                                               | ${['regional-expansion']}
   ${'AWS Elastic Disaster Recovery is now available in Israel (Tel Aviv)'}                                                                                                          | ${['regional-expansion']}
+  ${'Announcing Amazon CodeCatalyst’s Launch in Europe (Ireland)'}                                                                                                                  | ${['regional-expansion']}
+  ${'Announcing the general availability of AWS Local Zones in Hamburg and Warsaw'}                                                                                                 | ${['regional-expansion']}
+  ${'Announcing the General Availability of AWS Local Zones in Las Vegas, New York City, and Portland'}                                                                             | ${['regional-expansion']}
 `('returns regional-expansion tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 

@@ -11,6 +11,8 @@ export default [
       /(amazon|aws).+supports.+region/i,
       /AWS launch?(es)?.+region/i,
       /AWS.+launch.+region/i,
+      /launch.+in.+Europe/i,
+      /announcing.+general.+availability.+aws.+local.+zones.+in.+/i,
       /AZ in .+ Region/i,
       /Announcing the (new)? AWS .+ Region/i,
       /Announcing the (new)? .+ Region/i,
