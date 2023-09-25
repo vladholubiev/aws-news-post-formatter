@@ -14,6 +14,7 @@ export default [
       /launch.+in.+Europe/i,
       /announcing.+general.+availability.+aws.+local.+zones.+in.+/i,
       /AZ in .+ Region/i,
+      /Announcing the general availability of.+in.+Local Zones/i,
       /Announcing the (new)? AWS .+ Region/i,
       /Announcing the (new)? .+ Region/i,
       /Announcing the AWS .+ Region/i,
