@@ -27,6 +27,7 @@ import bottlerocket from './bottlerocket';
 import freeRTOS from './free-rtos';
 import sap from './sap';
 import launchWizard from './launch-wizard';
+import deepRacer from './deep-racer';
 
 type CustomTag = {
   tag: string;
@@ -152,6 +153,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'launch-wizard',
     patterns: launchWizard,
+  },
+  {
+    tag: 'deep-racer',
+    patterns: deepRacer,
   },
 ];
 

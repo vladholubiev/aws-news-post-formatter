@@ -71,6 +71,7 @@ Extracts tags based on the headline. Useful if you want to filter out noise. Lis
 - free-rtos
 - sap
 - launch-wizard
+- deep-racer
 
 Check out `src/custom-tags` if you want to add more tags or adjust the existing ones.
 

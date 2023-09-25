@@ -472,6 +472,15 @@ it.each`
   expect(customTags.sort()).toEqual(expectedTags.sort());
 });
 
+it.each`
+  headline                                                        | expectedTags
+  ${'Announcing open source robotics projects for AWS DeepRacer'} | ${['deep-racer']}
+`('returns expected custom tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
 // quick start
 // solutions
 // consulting
