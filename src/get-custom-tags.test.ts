@@ -432,6 +432,17 @@ it.each`
   expect(customTags.sort()).toEqual(expectedTags.sort());
 });
 
+it.each`
+  headline                                                                         | expectedTags
+  ${'New FreeRTOS Long Term Support version released'}                             | ${['free-rtos']}
+  ${'Introducing more flexible AWS Device Qualification Program for FreeRTOS'}     | ${['free-rtos']}
+  ${'Announcing a simplified FreeRTOS out-of-box AWS IoT connectivity experience'} | ${['free-rtos']}
+`('returns expected custom tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
 // quick start
 // solutions
 // consulting

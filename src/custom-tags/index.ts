@@ -24,6 +24,7 @@ import regionalExpansion from './regional-expansion';
 import tagging from './tagging';
 import languageExpansion from './language-expansion';
 import bottlerocket from './bottlerocket';
+import freeRTOS from './free-rtos';
 
 type CustomTag = {
   tag: string;
@@ -137,6 +138,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'bottlerocket',
     patterns: bottlerocket,
+  },
+  {
+    tag: 'free-rtos',
+    patterns: freeRTOS,
   },
 ];
 
