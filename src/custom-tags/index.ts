@@ -26,6 +26,7 @@ import languageExpansion from './language-expansion';
 import bottlerocket from './bottlerocket';
 import freeRTOS from './free-rtos';
 import sap from './sap';
+import launchWizard from './launch-wizard';
 
 type CustomTag = {
   tag: string;
@@ -147,6 +148,10 @@ const CUSTOM_TAGS: CustomTag[] = [
   {
     tag: 'sap',
     patterns: sap,
+  },
+  {
+    tag: 'launch-wizard',
+    patterns: launchWizard,
   },
 ];
 

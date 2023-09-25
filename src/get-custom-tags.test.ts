@@ -451,11 +451,21 @@ it.each`
 it.each`
   headline                                                                                       | expectedTags
   ${'SAP Hana One Promo - $120 AWS Credit'}                                                      | ${['sap']}
-  ${'AWS Launch Wizard now supports SAP HANA backups with AWS Backint Agent'}                    | ${['sap']}
-  ${'AWS Launch Wizard now automates deployment of SAP S/4HANA Foundation and SAP S/4HANA 2022'} | ${['sap']}
-  ${'AWS Launch Wizard now supports deployment of HANA based SAP applications'}                  | ${['sap']}
+  ${'AWS Launch Wizard now supports SAP HANA backups with AWS Backint Agent'}                    | ${['launch-wizard', 'sap']}
+  ${'AWS Launch Wizard now automates deployment of SAP S/4HANA Foundation and SAP S/4HANA 2022'} | ${['launch-wizard', 'sap']}
+  ${'AWS Launch Wizard now supports deployment of HANA based SAP applications'}                  | ${['launch-wizard', 'sap']}
   ${'Monitor SAP NetWeaver Standard Deployment with CloudWatch Application Insights'}            | ${['sap']}
   ${'AWS SDK for SAP ABAP now generally available'}                                              | ${['sap']}
+`('returns expected custom tags given a headline', ({headline, expectedTags}) => {
+  const customTags = getCustomTags(headline);
+
+  expect(customTags.sort()).toEqual(expectedTags.sort());
+});
+
+it.each`
+  headline                                                                                         | expectedTags
+  ${'AWS Launch Wizard adds support for placing Microsoft SQL Server tempdb in an instance store'} | ${['launch-wizard']}
+  ${'Easily deploy SQL Server Always On solutions using the AWS Launch Wizard for SQL Server'}     | ${['launch-wizard']}
 `('returns expected custom tags given a headline', ({headline, expectedTags}) => {
   const customTags = getCustomTags(headline);
 
@@ -465,5 +475,3 @@ it.each`
 // quick start
 // solutions
 // consulting
-// sap
-// launch wizard

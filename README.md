@@ -70,6 +70,7 @@ Extracts tags based on the headline. Useful if you want to filter out noise. Lis
 - bottlerocket
 - free-rtos
 - sap
+- launch-wizard
 
 Check out `src/custom-tags` if you want to add more tags or adjust the existing ones.
 
